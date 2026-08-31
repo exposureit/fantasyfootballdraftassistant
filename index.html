@@ -518,7 +518,7 @@ const P=[
 [121,114,"De'Zhaun Stribling","WR","SF",9,"K V","Up 40 ADP spots since Pearsall's season-ender; preseason target hog."],
 [122,122,"Makai Lemon","WR","PHI",9,"K","Rd-1 rookie; crowded room."],
 [123,123,"KC Concepcion","WR","CLE",9,"K","YAC slot; QB situation caps him."],
-[124,170,"Zach Charbonnet","RB","SEA",9,"O","PUP (Jan ACL). Late-season stash only — not draft-worthy tonight."],
+[124,170,"Zach Charbonnet","RB","SEA",9,"O","On PUP (ACL) — out minimum the first 4 games. Late-season stash only."],
 [125,125,"Tyjae Spears","RB","TEN",9,"C","Pollard insurance."],
 [126,128,"Jordan Love","QB","GB",9,"","Fine QB2 — but GB OL ranks 28th; don't expect more."],
 [127,118,"Kyler Murray","QB","MIN",9,"N V","Named MIN starter — O'Connell + Jefferson ecosystem. Late-round gem."],
@@ -526,7 +526,7 @@ const P=[
 [129,129,"Alvin Kamara","RB","NO",9,"R","Knee monitor, age, Etienne arrived."],
 [130,130,"Daniel Jones","QB","IND",9,"","Streamer."],
 [131,128,"Isaiah Likely","TE","NYG",9,"N V","Sleeper lists everywhere; featured in new Giants offense."],
-[132,128,"Jalen Coker","WR","CAR",9,"V","Brazzell out for yr — WR3 role solidified."],
+[132,186,"Jalen Coker","WR","CAR",9,"O","Placed on IR (quad) after making the 53 — out min. 4 games, eligible Week 5."],
 [133,133,"Hunter Henry","TE","NE",9,"","Maye's safety valve."],
 [134,132,"Juwan Johnson","TE","NO",9,"V","Rd 7-8 TE target per strategy consensus."],
 [135,128,"Dalton Schultz","TE","HOU",9,"V","The classic 'WR2 out boosts the TE' play — Higgins' targets have to go somewhere."],
@@ -534,7 +534,7 @@ const P=[
 [137,128,"Dalton Kincaid","TE","BUF",10,"V","Led ALL TEs in yards/route run; healthy yr 4."],
 [138,138,"Mark Andrews","TE","BAL",10,"","TD-dependent."],
 [139,139,"Rashid Shaheed","WR","SEA",10,"N","Deep threat."],
-[140,185,"Jordyn Tyson","WR","NO",10,"K O","Hamstring — out ~2 months, likely IR. Stash-only, not tonight."],
+[140,185,"Jordyn Tyson","WR","NO",10,"K O","Placed on IR Aug 30 (hamstring) — out minimum 4 games. IR-stash only."],
 [141,135,"Tyler Shough","QB","NO",10,"V","ESPN's No. 1 flier; closed rookie yr with six straight 17+ pt games."],
 [142,138,"Baker Mayfield","QB","TB",10,"V","QB1 form at a rd-12 price."],
 [143,143,"Woody Marks","RB","HOU",10,"","Change of pace."],
@@ -547,7 +547,7 @@ const P=[
 [150,150,"Chimere Dike","WR","TEN",10,"","Dart."],
 [151,68,"MarShawn Lloyd","RB","GB",10,"V","STEAL ALERT: Jacobs on Exempt List (Aug 30) — Lloyd is the presumptive GB lead. Room may not know."],
 [152,140,"Braelon Allen","RB","NYJ",10,"C V","Breece groin insurance; riser."],
-[153,152,"Tank Dell","WR","HOU",10,"V R","23 PPG in last 4 healthy games; back in pads — verify he's not opening on IR."],
+[153,178,"Tank Dell","WR","HOU",10,"R","Placed on IR Aug 30 — eligible Week 5. Draft ONLY as an IR stash (23 PPG in his last 4 healthy games)."],
 [154,154,"Justice Hill","RB","BAL",10,"C","One Henry injury from a massive role."],
 [155,155,"Ray Davis","RB","BUF",10,"C","Lottery ticket behind Cook."],
 [156,156,"Jaylen Wright","RB","MIA",10,"C","Workhorse if Achane (popular fade) misses time."],
@@ -578,11 +578,13 @@ const P=[
 [183,183,"Jason Myers","K","SEA",11,"",""],
 [184,184,"Chris Boswell","K","PIT",11,"",""],
 [185,185,"Jake Bates","K","DET",11,"",""],
-[186,186,"Blake Grupe","K","IND",11,"",""],
+[186,186,"Spencer Shrader","K","IND",11,"","Won the Colts job at final cuts (Blake Grupe released to practice squad)."],
 [187,187,"Cairo Santos","K","CHI",11,"",""],
 [188,188,"Harrison Mevis","K","LAR",11,"",""],
 [189,189,"Chase McLaughlin","K","TB",11,"",""],
 [190,190,"Will Reichard","K","MIN",11,"",""],
+[193,193,"Evan McPherson","K","CIN",11,"",""],
+[194,194,"Harrison Butker","K","KC",11,"",""],
 [191,191,"Browns D/ST","DST","CLE",11,"",""],
 [192,192,"Chiefs D/ST","DST","KC",11,"",""]
 ].map((a,i)=>({id:i,m:a[0],b:a[1],n:a[2],p:a[3],t:a[4],tier:a[5],f:a[6],note:a[7]}));
@@ -594,7 +596,7 @@ const PROJ={"Josh Allen":361.8,"Jayden Daniels":317.3,"Jalen Hurts":316.1,"Lamar
 "Jahmyr Gibbs":387.5,"Bijan Robinson":355.1,"Jonathan Taylor":330.4,"De'Von Achane":317.6,"Christian McCaffrey":316.6,"Chase Brown":300.2,"Derrick Henry":290.9,"James Cook":262,"Saquon Barkley":258.6,"Kenneth Walker III":244.3,"Kyren Williams":242.3,"Ashton Jeanty":240.6,"Travis Etienne":239.3,"Cam Skattebo":239.1,"Bucky Irving":237.1,"D'Andre Swift":236.8,"Omarion Hampton":234.3,"Jeremiyah Love":233,"Josh Jacobs":226.1,"Breece Hall":220,"Quinshon Judkins":215.7,"Javonte Williams":213.5,"David Montgomery":197.7,"Bhayshul Tuten":194.5,"Jadarian Price":194,"Kenneth Gainwell":189.2,"Rico Dowdle":189.1,"RJ Harvey":188,"Jaylen Warren":187.9,"TreVeyon Henderson":187.8,"Tony Pollard":183,"Rhamondre Stevenson":181.3,"J.K. Dobbins":181.1,"Jonathon Brooks":173.4,"Chuba Hubbard":170.1,"Aaron Jones":159.5,"Kyle Monangai":156.4,"Jordan Mason":156,"Rachaad White":150,"Jacory Croskey-Merritt":145.9,"Tyjae Spears":144.3,"Tyrone Tracy":138.9,"Mike Washington":136.3,"MarShawn Lloyd":133.7,"Blake Corum":127,"Woody Marks":126.4,"Zach Charbonnet":124.6,"Isiah Pacheco":124.5,"Chris Rodriguez":120.3,"Braelon Allen":116,"Alvin Kamara":112.6,"Kaleb Johnson":110,"Justice Hill":108,"Ray Davis":106,"Jaylen Wright":112,"Keaton Mitchell":100,
 "Puka Nacua":371.9,"Jaxon Smith-Njigba":347.9,"Ja'Marr Chase":345,"Amon-Ra St. Brown":320.3,"Rashee Rice":304.1,"George Pickens":291.7,"Drake London":288.1,"Chris Olave":283.1,"A.J. Brown":275.9,"CeeDee Lamb":274.9,"Justin Jefferson":262.1,"Nico Collins":259.7,"Zay Flowers":256.9,"Malik Nabers":250,"Tetairoa McMillan":245.3,"Tee Higgins":242,"DeVonta Smith":239.9,"Garrett Wilson":239.5,"Emeka Egbuka":233.8,"Ladd McConkey":232,"Jameson Williams":223.5,"Mike Evans":222.6,"Terry McLaurin":220.1,"Luther Burden":218.7,"Davante Adams":213,"Jaylen Waddle":212.9,"DJ Moore":209.8,"Marvin Harrison":209.6,"Alec Pierce":208.4,"Rome Odunze":204.4,"Courtland Sutton":202.1,"Brian Thomas":200.8,"Parker Washington":199.1,"Chris Godwin":197.6,"DK Metcalf":194.7,"Christian Watson":192.7,"Quentin Johnston":191.5,"Wan'Dale Robinson":189.5,"Michael Wilson":188.6,"KC Concepcion":187,"Jakobi Meyers":180.2,"Michael Pittman":179.3,"Romeo Doubs":176.9,"Deebo Samuel":176.2,"Denzel Boston":175.6,"Josh Downs":175,"De'Zhaun Stribling":173.3,"Rashid Shaheed":173.2,"Jordan Addison":173,"Jerry Jeudy":172.9,"Jayden Reed":170.7,"Stefon Diggs":170.1,"Jalen Coker":167.1,"Calvin Ridley":161.6,"Xavier Worthy":159.6,"Keenan Allen":158.3,"Khalil Shakir":156.9,"Carnell Tate":155.8,"Ja'Kobi Lane":152.9,"Makai Lemon":149.4,"Tre Tucker":148.1,"Jalen McMillan":145,"Tank Dell":150,"Pat Bryant":130,"Skyler Bell":125,"Xavier Hutchinson":135,"Jaylin Noel":128,"Chimere Dike":120,"Jordyn Tyson":95,
 "Trey McBride":278.5,"Brock Bowers":242.2,"Harold Fannin":235,"Colston Loveland":234,"Dallas Goedert":214.7,"George Kittle":213.4,"Tyler Warren":209.4,"Travis Kelce":198.2,"Sam LaPorta":198.1,"Isaiah Likely":196.4,"Tucker Kraft":193.8,"Kyle Pitts":192.6,"Mark Andrews":189.2,"Jake Ferguson":182.2,"Dalton Kincaid":178.5,"Juwan Johnson":177.7,"Dalton Schultz":163,"Hunter Henry":161.7,"Mason Taylor":140,
-"Jason Myers":167,"Ka'imi Fairbairn":156,"Brandon Aubrey":154,"Blake Grupe":153,"Jake Bates":146,"Cairo Santos":143,"Cameron Dicker":143,"Harrison Mevis":142,"Chase McLaughlin":141,"Will Reichard":141,"Chris Boswell":138};
+"Jason Myers":167,"Ka'imi Fairbairn":156,"Brandon Aubrey":154,"Jake Bates":146,"Spencer Shrader":145,"Evan McPherson":144,"Harrison Butker":144,"Cairo Santos":143,"Cameron Dicker":143,"Harrison Mevis":142,"Chase McLaughlin":141,"Will Reichard":141,"Chris Boswell":138};
 const DSTPROJ={DEN:276,MIN:240,HOU:238,SEA:228,LAR:225,PHI:222,NO:189,NE:187,CLE:184,BAL:182,PIT:178,KC:172};
 const nk=s=>s.toLowerCase().replace(/[.'’]/g,"").replace(/\b(jr|sr|ii|iii|iv)\b/g,"").replace(/\s+/g," ").trim();
 const PROJN={};Object.keys(PROJ).forEach(k=>PROJN[nk(k)]=PROJ[k]);
