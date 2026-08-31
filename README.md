@@ -1,6 +1,6 @@
 # War Room '26 — Fantasy Football Draft Assistant
 
-A single-file, offline-capable draft war room for a 10-team, full-PPR ESPN league (2026 season). Open `index.html` in any browser — no build, no dependencies.
+A single-file, offline-capable draft war room supporting multiple leagues and draft types — standard snake and keeper formats (10-team, full-PPR ESPN, 2026 season) — with a league switcher, per-league state, keeper pre-rostering, and keeper class grades. Open `index.html` in any browser — no build, no dependencies.
 
 ## Features
 

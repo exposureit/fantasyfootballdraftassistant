@@ -221,7 +221,8 @@
 
 <header>
   <div class="hrow">
-    <div class="brand">WAR ROOM ’26<small>10-team · Full PPR · ESPN</small></div>
+    <div class="brand">WAR ROOM ’26<small id="subTitle">10-team · Full PPR · ESPN</small></div>
+    <label style="font-size:13px;color:var(--muted)">League <select id="leagueSel"></select></label>
     <div class="clock" id="clock"><div><div class="pick num" id="clockPick">1.01</div><div class="who" id="clockWho">On the clock</div></div></div>
     <div class="logwrap">
       <input id="logInput" placeholder="Log a pick — type a player’s name, Enter to confirm" autocomplete="off">
@@ -271,6 +272,7 @@
     <div class="gbar">
       <span>Click a team header to rename it. Use the <b>Log a pick</b> box above to fill the board in order.</span>
       <button id="orderBtn" style="color:var(--gold);border-color:var(--gold-dim)">⚡ Set draft order</button>
+      <button id="kEditBtn" hidden style="color:var(--warn);border-color:var(--warn)">🔒 Edit keepers</button>
       <button id="unkBtn">Log unknown pick</button>
       <button id="mockBtn" title="Practice mode: auto-drafts for the other 9 teams (ADP + need + a little randomness) until you're on the clock. Reset draft before the real thing.">🎮 Mock: sim to my pick</button>
       <button id="resetBtn" style="color:var(--bad)">Reset draft</button>
@@ -299,7 +301,20 @@
         <div class="scriptgrid" id="scriptBox"></div>
         <p style="font-size:11px;color:var(--dim);margin-top:8px">Regenerates live from your slot, the picks already made, and a simulation of the room. Bold = the target; grey = fallbacks if he's gone.</p>
       </div>
-      <div class="card wide"><h3>Tonight’s game plan — 10-team full PPR</h3>
+      <div class="card wide" id="kStrat" hidden><h3>Keeper game plan — League Of Shadows (pick 9, drafts Sep 7)</h3>
+        <p><b style="color:var(--text)">Your hand is the best in the league:</b> keeping Jonathan Taylor, James Cook, and Saquon Barkley gives you three locked RB1/RB2s while <i>RB is the most-kept position league-wide</i> — everyone else fights over scraps. Your entire 13-round draft is about WR volume, one TE, one QB, and 2027 keeper equity.</p>
+        <ul>
+          <li><b>Forget redraft ADP — it lies here.</b> With 30 players gone, your 1.09 is roughly a redraft round-3/4 pick. The board's live tiers and VORP already account for it; trust them over any magazine list.</li>
+          <li><b>The new round 1</b> is the un-kept veterans: McCaffrey, Henry, Chase Brown, Kenneth Walker, Rashee Rice, Malik Nabers, Josh Allen. At the 1.09/2.02 turn, take two of the WR/QB studs — you do NOT need a RB.</li>
+          <li><b>QB is the keeper-pool cheat code:</b> nobody keeps QBs (only Drake Maye is gone), so Josh Allen is arguably a top-5 asset in this draft. If he's there at 1.09, that's a real pick. Lamar/Daniels/Burrow are the fallbacks rounds 2-4.</li>
+          <li><b>TE cliff is REAL here:</b> McBride, Bowers, and Loveland are all kept. Kyle Pitts, Tyler Warren, and Fannin are the entire startable market — solve TE by round 4-5 or punt hard.</li>
+          <li><b>Rounds 3-6 veteran WR glut</b> is your volume pocket: Higgins, Egbuka, McLaurin-tier, then Godwin, DJ Moore, Diggs. Stack 4-5 WRs — your FLEX and R/W slots will eat.</li>
+          <li><b>Late rounds = 2027 keeper equity:</b> spend the last 3-4 picks on rookies/sophomores with starting paths (Stribling, Denzel Boston, Ja'Kobi Lane, Jadarian Price if he slides, Skyler Bell). A hit is next year's free keeper.</li>
+          <li><b>Exploit the bad keeper hands:</b> Bishop Sycamore burned a keeper on Josh Jacobs (Commissioner Exempt List!) and kept two Questionable players — they'll panic-draft RBs early. WhatDat kept Judkins + Achane (both environment-flagged). Watch their reaches and take what falls.</li>
+        </ul>
+      </div>
+      <div class="card wide" id="kgCard" hidden><h3>Keeper class grades — projected points kept</h3><div id="kgBox"></div><p style="font-size:11px;color:var(--dim);margin-top:6px">Sum of 2026 projections for each team's keepers. Edit keepers any time before the Sep 7, 8:00 PM ET lock.</p></div>
+      <div class="card wide" id="planSnake"><h3>Tonight’s game plan — 10-team full PPR</h3>
         <p><b style="color:var(--text)">The 2026 meta in one line:</b> anchor with an elite RB or WR early, hammer WR (they dry up fast this year), grab one of the two elite TEs if the price is right, mine the deep <b style="color:var(--text)">round 4–8 RB cluster</b>, and wait on QB until round 9–11 — QB is the deepest it’s been in years and your league only needs 10 starters.</p>
         <ul>
           <li><b>Rounds 1–3:</b> Best available from the elite pool (Gibbs, Bijan, Chase, Nacua*, JSN, ARSB, Taylor, Cook, Chase Brown). WR tiers break <i>early</i> in 2026 — don’t assume round 4–6 WR value. Bowers late-2nd is justified; he has WR1-level upside at TE.</li>
@@ -310,7 +325,7 @@
           <li><b>Bye &amp; playoffs:</b> heaviest bye is week 11 (ATL, CLE, GB, LAR, NE, SEA — don't stack it; the roster panel warns you). Fantasy-playoff schedules (wks 15–17): softest for WSH/NO/ARI offenses, hardest for PHI/SEA/SF — a tiebreaker between equals, nothing more.</li>
         </ul>
       </div>
-      <div class="card"><h3>By draft slot</h3><ul>
+      <div class="card" id="slotSnake"><h3>By draft slot</h3><ul>
         <li><b>Picks 1–4:</b> Gibbs or Bijan, no overthinking. Then WR/WR or WR + Bowers at the 2/3 turn. Hero-RB build.</li>
         <li><b>Picks 5–8:</b> Last elite WR (JSN/ARSB) or best RB (Taylor, Cook, Chase Brown — CMC only with eyes open). RB–WR balance through 3.</li>
         <li><b>Picks 9–10:</b> Elite WRs go in a run at 3–6, so likely WR-WR or WR-RB at the turn; Bowers at the 2/3 turn is a strong play; then attack the rd 4–8 RB cluster.</li>
@@ -630,28 +645,68 @@ const NEWS=[
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
 
-const TEAMS=10, ROUNDS=16;
+const TEAMS=10;
 const TIERNAMES={1:"Tier 1 — The elites",2:"Tier 2 — Round 1",3:"Tier 3 — Round 2",4:"Tier 4 — Round 3",5:"Tier 5 — Rounds 4–5",6:"Tier 6 — Rounds 5–6",7:"Tier 7 — Rounds 6–8",8:"Tier 8 — Rounds 8–10",9:"Tier 9 — Rounds 10–12",10:"Tier 10 — Late fliers & handcuffs",11:"K / D-ST — final two rounds only"};
 const FLAGNAMES={V:"Value",R:"Risk",O:"Avoid",K:"Rookie",C:"Handcuff",N:"New team"};
 
+/* ================= LEAGUES ================= */
+const LEAGUES={
+ shadows:{
+  label:"League Of Shadows",sub:"10-team · Full PPR · 3-keeper · drafts Sep 7",type:"keeper",rounds:13,defSlot:9,myTeam:"Bootleg Brigade",preOrdered:true,
+  teams:["WhatDat SmellLike","GI3 Cartel","Betterlucknextyear","Sunday Scaries","G4orce","STREET SHARKS","Bishop Sycamore","Jay's Scary Team","Bootleg Brigade","Party Wright"],
+  slots:["QB","RB","R/W","WR","WR","TE","FLX","DST","K","BN","BN","BN","BN","BN","BN","BN"],
+  keepers:{1:["Puka Nacua","De'Von Achane","Quinshon Judkins"],2:["Drake London","Tetairoa McMillan","Garrett Wilson"],3:["Drake Maye","Bijan Robinson","A.J. Brown"],4:["Amon-Ra St. Brown","Nico Collins","Brock Bowers"],5:["Bucky Irving","TreVeyon Henderson","Davante Adams"],6:["Omarion Hampton","Jahmyr Gibbs","Ja'Marr Chase"],7:["Ashton Jeanty","Josh Jacobs","DK Metcalf"],8:["Kyren Williams","CeeDee Lamb","Trey McBride"],9:["Jonathan Taylor","James Cook III","Saquon Barkley"],10:["Justin Jefferson","Jaxon Smith-Njigba","Colston Loveland"]}
+ },
+ sunday:{
+  label:"Sunday League",sub:"10-team · Full PPR · snake",type:"snake",rounds:16,defSlot:5,myTeam:"Double D Kupps",preOrdered:false,
+  teams:["Double D Kupps","Neuherz Ninjas","Charlie Kirk's Perfect Team","Hangin with Hernandez","Wood Is Good","Washington 4Skins","Gronkey Tonk Badonkadonk","Mr. Auto Spa","Judkins' Punch","Epsteins Children"],
+  slots:["QB","RB","RB","WR","WR","TE","FLX","K","DST","BN","BN","BN","BN","BN","BN","BN"],
+  keepers:null
+ }
+};
+let LID="shadows";
+try{const a=localStorage.getItem("warroom26:active");if(a&&LEAGUES[a])LID=a}catch(e){}
+function LG(){return LEAGUES[LID]}
+let LEAGUE=LG().teams,ROUNDS=LG().rounds;
+const byName={};P.forEach(p=>{byName[nk(p.n)]=p});
+function findP(n){return byName[nk(n)]}
+
 /* ================= STATE ================= */
-let S={slot:5,picks:[],names:{},stars:[]};
-try{const raw=localStorage.getItem("warroom26");if(raw)S=Object.assign(S,JSON.parse(raw))}catch(e){}
-S.stars=S.stars||[];
+function defaultState(){
+  const st={slot:LG().defSlot,picks:[],names:{},stars:[],keepers:null};
+  if(LG().preOrdered)LG().teams.forEach((n,i)=>st.names[i+1]=n);
+  return st;
+}
+function loadStateFor(){
+  let st=defaultState();
+  try{const raw=localStorage.getItem("warroom26:"+LID);if(raw)st=Object.assign(defaultState(),JSON.parse(raw))}catch(e){}
+  st.stars=st.stars||[];return st;
+}
+try{const legacy=localStorage.getItem("warroom26");if(legacy&&!localStorage.getItem("warroom26:sunday"))localStorage.setItem("warroom26:sunday",legacy)}catch(e){}
+let S=loadStateFor();
 let fixTarget=null;
-function save(){try{localStorage.setItem("warroom26",JSON.stringify(S))}catch(e){}}
+function save(){try{localStorage.setItem("warroom26:"+LID,JSON.stringify(S))}catch(e){}}
+/* keepers: S.keepers (editable override, names by slot) falls back to league config */
+function curKeepers(){
+  const src=S.keepers||LG().keepers||{};const out={};
+  Object.keys(src).forEach(t=>{out[t]=src[t].map(findP).filter(Boolean)});
+  return out;
+}
+function ensureKeepers(){if(!S.keepers){S.keepers={};const src=LG().keepers||{};Object.keys(src).forEach(t=>S.keepers[t]=src[t].slice())}}
+function keeperIdSet(){const s=new Set(),k=curKeepers();Object.keys(k).forEach(t=>k[t].forEach(p=>s.add(p.id)));return s}
+function keptByMap(){const m={},k=curKeepers();Object.keys(k).forEach(t=>k[t].forEach(p=>m[p.id]=+t));return m}
 
 const byId=id=>P[id];
-const drafted=()=>new Set(S.picks.filter(x=>x>=0));
+const drafted=()=>{const s=new Set(S.picks.filter(x=>x>=0));keeperIdSet().forEach(id=>s.add(id));return s};
 const isMine=o=>teamOf(o)===S.slot;                 // o = overall pick 1-based
 function teamOf(o){const r=Math.ceil(o/TEAMS),i=(o-1)%TEAMS;return r%2?i+1:TEAMS-i}
 function myPickOveralls(){const a=[];for(let r=1;r<=ROUNDS;r++)a.push((r-1)*TEAMS+(r%2?S.slot:TEAMS+1-S.slot));return a}
 function curPick(){return S.picks.length+1}
 function nextMyPick(from){return myPickOveralls().find(o=>o>=from)||999}
 function fmtPick(o){return Math.ceil(o/TEAMS)+"."+String((o-1)%TEAMS+1).padStart(2,"0")}
-function teamName(t){return S.names[t]||(t===S.slot?"Double D Kupps":"Team "+t)}
-function myPlayers(){const out=[];S.picks.forEach((pid,idx)=>{if(pid>=0&&isMine(idx+1))out.push(byId(pid))});return out}
-function teamPicks(t){const out=[];S.picks.forEach((pid,idx)=>{if(pid>=0&&teamOf(idx+1)===t)out.push({pl:byId(pid),o:idx+1})});return out}
+function teamName(t){return S.names[t]||(t===S.slot?LG().myTeam:"Team "+t)}
+function teamPicks(t){const out=(curKeepers()[t]||[]).map(pl=>({pl,o:0,k:true}));S.picks.forEach((pid,idx)=>{if(pid>=0&&teamOf(idx+1)===t)out.push({pl:byId(pid),o:idx+1})});return out}
+function myPlayers(){return teamPicks(S.slot).map(x=>x.pl)}
 function teamCounts(t){const c={QB:0,RB:0,WR:0,TE:0,K:0,DST:0};teamPicks(t).forEach(x=>c[x.pl.p]++);return c}
 // does team t plausibly want position pos right now?
 function teamWants(t,pos,rd){
@@ -664,7 +719,7 @@ function teamWants(t,pos,rd){
 }
 // avg (market rank − overall) for a team's known picks: + = reaches, − = takes fallers
 function teamTendency(t){
-  const ps=teamPicks(t).filter(x=>x.pl.m<180);
+  const ps=teamPicks(t).filter(x=>x.pl.m<180&&!x.k);
   if(ps.length<2)return null;
   const avg=ps.reduce((a,x)=>a+(x.pl.m-x.o),0)/ps.length;
   const worst=ps.reduce((a,x)=>(x.pl.m-x.o)>(a?a.pl.m-a.o:-99)?x:a,null);
@@ -675,9 +730,9 @@ function teamsBetween(cp,nxt){const s=new Set();for(let o=cp;o<nxt;o++){const t=
 /* ---- forward simulation: predict who's on the board at your future picks ---- */
 function wantsSim(c,pos,rd){
   // final two rounds: an unfilled K/DST slot takes absolute priority
-  if(rd>=15&&(c.K===0||c.DST===0))return (pos==="K"&&c.K===0)||(pos==="DST"&&c.DST===0);
+  if(rd>=ROUNDS-1&&(c.K===0||c.DST===0))return (pos==="K"&&c.K===0)||(pos==="DST"&&c.DST===0);
   if(pos==="K"||pos==="DST")return false;
-  if(pos==="QB")return c.QB===0&&rd>=4;
+  if(pos==="QB")return c.QB===0&&rd>=(ROUNDS>=16?4:2);
   if(pos==="TE")return c.TE===0;
   if(pos==="RB")return c.RB<6;
   if(pos==="WR")return c.WR<7;
@@ -737,9 +792,9 @@ function survivalPct(id,n){
 }
 /* ---- personalized full-draft script ---- */
 function wantsMine(c,pos,rd){
-  if(rd>=15&&(c.K===0||c.DST===0))return (pos==="K"&&c.K===0)||(pos==="DST"&&c.DST===0);
+  if(rd>=ROUNDS-1&&(c.K===0||c.DST===0))return (pos==="K"&&c.K===0)||(pos==="DST"&&c.DST===0);
   if(pos==="K"||pos==="DST")return false;
-  if(pos==="QB")return c.QB===0&&rd>=8;
+  if(pos==="QB")return c.QB===0&&rd>=(ROUNDS>=16?8:5);
   if(pos==="TE")return c.TE===0;
   if(pos==="RB")return c.RB<6;
   if(pos==="WR")return c.WR<7;
@@ -817,7 +872,7 @@ if(window.claude&&window.claude.use){
   }).catch(()=>{});
   // offer to restore synced state from a previous device
   (async()=>{try{
-    const r=await fetch("state.json",{cache:"no-store"});
+    const r=await fetch("state-"+LID+".json",{cache:"no-store"});
     if(r.ok){const cs=await r.json();
       if(cs&&Array.isArray(cs.picks)&&cs.picks.length>(S.picks||[]).length){
         openModal(`<h3>Synced draft found</h3><p class="mhint">${cs.picks.length} picks were synced from another device. Load them here? (This device has ${(S.picks||[]).length}.)</p>
@@ -853,23 +908,27 @@ function scorePlayer(pl,cp){
   if(pl.m<=nxt-2&&gap>3&&wanters>0){s+=6;reasons.push(["+","Unlikely to survive to "+fmtPick(nxt)+" — "+wanters+" of "+btw.length+" teams picking before you still want a "+pl.p])}
   else if((pl.m>nxt+8||wanters===0)&&rd<14&&gap>2){s-=7;reasons.push(["-",wanters===0?"No team picking before "+fmtPick(nxt)+" needs a "+pl.p+" — you can likely wait":"Likely still there at your next pick ("+fmtPick(nxt)+") — you can wait"])}
   // roster need / round context
+  const kpr=LG().type==="keeper", qbEarly=kpr?3:6, qbMid=kpr?5:8, qbGo=kpr?5:9, teWin=kpr?4:7;
   if(pl.p==="QB"){
     if(c.QB>=1){s-=22;reasons.push(["-","You already have a QB — 10-team, no reason for two"])}
-    else if(rd<6&&pl.n!=="Josh Allen"){s-=14;reasons.push(["-","QB is the deepest position in 2026 — way too early"])}
-    else if(rd<8){s-=6;reasons.push(["-","QB this early costs you a starter; the value window is rd 8+"])}
-    else if(rd>=9){s+=8;reasons.push(["+","Right window for QB in a 10-teamer"])}
+    else if(rd<qbEarly&&pl.n!=="Josh Allen"){s-=14;reasons.push(["-","QB is the deepest position in 2026 — way too early"])}
+    else if(rd<qbMid){s-=6;reasons.push(["-","QB this early costs you a starter; the value window is rd "+qbMid+"+"])}
+    else if(rd>=qbGo){s+=8;reasons.push(["+","Right window for QB in a 10-teamer"])}
+    if(kpr&&c.QB===0&&pl.b<=53){s+=6;reasons.push(["+","Keeper pool: elite QBs are rarely kept — the best one left is real round-1/2 value here"])}
   }
   if(pl.p==="TE"){
     if(c.TE>=1){s-=20;reasons.push(["-","TE already filled — no need for two"])}
     else if(pl.tier<=4){s+=5;reasons.push(["+","Elite-TE tier — worth early capital (only 2 exist)"])}
-    else if(rd<7){s-=8;reasons.push(["-","Mid-tier TE early — the next usable tier lasts to rd 7-8"])}
+    else if(rd<teWin){s-=8;reasons.push(["-","Mid-tier TE early — the next usable tier lasts a while yet"])}
     else {s+=5;reasons.push(["+","Right window to solve TE"])}
+    if(kpr&&c.TE===0){const left=P.filter(x=>x.p==="TE"&&!d.has(x.id)&&x.b<100).length;
+      if(left<=3){s+=6;reasons.push(["+","Keeper pool: only "+left+" startable TEs left — the cliff is closer than ADP says"])}}
   }
   if(pl.p==="RB"){
     const need=Math.max(0,2-c.RB); s+=need*7;
     if(need>0)reasons.push(["+", need===2?"You need both starting RBs":"Fills your RB2"]);
     else if(c.RB>=6){s-=10;reasons.push(["-","RB room already deep"])}
-    else if(rd>=10&&pl.f.includes("C")){s+=4;reasons.push(["+","Handcuff-shelf round — right time for contingency RBs"])}
+    else if(rd>=ROUNDS-6&&pl.f.includes("C")){s+=4;reasons.push(["+","Handcuff-shelf round — right time for contingency RBs"])}
   }
   if(pl.p==="WR"){
     const need=Math.max(0,2-c.WR); s+=need*7;
@@ -878,14 +937,14 @@ function scorePlayer(pl,cp){
     else if(c.WR>=7){s-=10;reasons.push(["-","WR room already deep"])}
   }
   if(pl.p==="K"||pl.p==="DST"){
-    if(rd<15){s-=40;reasons.push(["-","Never before the last two rounds"])}
+    if(rd<ROUNDS-1){s-=40;reasons.push(["-","Never before the last two rounds"])}
     else if((pl.p==="K"&&c.K===0)||(pl.p==="DST"&&c.DST===0)){s+=15;reasons.push(["+","Time to fill it"])}
     else {s-=30;reasons.push(["-","Already filled"])}
   }
   if((c.RB>=2&&c.WR>=2)&&(pl.p==="RB"||pl.p==="WR")&&c.RB+c.WR===4){s+=3;reasons.push(["+","Best-available for your FLEX"])}
   // projections: value over replacement
   if(pl.vorp>=30){s+=Math.min(15,pl.vorp*0.15);reasons.push(["+","Projects "+pl.vorp+" pts above a replacement "+pl.p+" this season"])}
-  else if(pl.vorp<=5&&rd<=11&&pl.p!=="K"&&pl.p!=="DST"){s-=5;reasons.push(["-","Projects barely above replacement level at "+pl.p+" ("+(pl.vorp>0?"+":"")+pl.vorp+")"])}
+  else if(pl.vorp<=5&&rd<=ROUNDS-5&&pl.p!=="K"&&pl.p!=="DST"){s-=5;reasons.push(["-","Projects barely above replacement level at "+pl.p+" ("+(pl.vorp>0?"+":"")+pl.vorp+")"])}
   // bye-week stacking
   if(pl.bye){const byeCt=myPlayers().filter(x=>x.bye===pl.bye).length;
     if(byeCt>=3){s-=4;reasons.push(["-","Week "+pl.bye+" bye — that would be "+(byeCt+1)+" of your players out the same week"])}}
@@ -911,7 +970,7 @@ let posFilter="ALL",findQ="";
 function flagsHtml(pl){return pl.f?pl.f.split(" ").join("").split("").map(ch=>FLAGNAMES[ch]?`<span class="tag ${ch}">${FLAGNAMES[ch]}</span>`:"").join(" "):""}
 
 function renderList(){
-  const d=drafted(),hide=$("#hideGone").checked,box=$("#playerList");
+  const d=drafted(),hide=$("#hideGone").checked,box=$("#playerList"),km=keptByMap();
   const mineIds=new Set(myPlayers().map(p=>p.id));
   let html="",lastTier=0;
   P.slice().sort((a,b)=>a.tier-b.tier||a.b-b.b).forEach(pl=>{
@@ -928,7 +987,7 @@ function renderList(){
       <span class="num" title="Projected 2026 PPR points · value over a replacement ${pl.p}" style="color:var(--dim);font-size:11.5px;min-width:78px;text-align:right">${Math.round(pl.proj)}p · ${pl.vorp>0?"+":""}${pl.vorp}</span>
       ${delta}${flagsHtml(pl)}
       <span class="note" title="${pl.note.replace(/"/g,"&quot;")}">${pl.note}</span>
-      <span class="act">${gone?"":`<button data-draft="${pl.id}">Drafted ${fmtPick(curPick())}</button>`}</span>
+      <span class="act">${gone?(km[pl.id]?`<span style="font-size:10.5px;color:var(--warn);white-space:nowrap">KEPT · ${teamName(km[pl.id])}</span>`:""):`<button data-draft="${pl.id}">Drafted ${fmtPick(curPick())}</button>`}</span>
     </div>`;
   });
   box.innerHTML=html;
@@ -985,15 +1044,16 @@ function renderIntel(){
 }
 
 function renderRoster(){
-  const slots=["QB","RB","RB","WR","WR","TE","FLX","K","DST","BN","BN","BN","BN","BN","BN","BN"];
+  const slots=LG().slots.slice(),kset=keeperIdSet();
   const mine=myPlayers().slice(),fill=slots.map(()=>null);
   mine.forEach(p=>{
     let idx=slots.findIndex((s,i)=>!fill[i]&&(s===p.p));
+    if(idx<0&&(p.p==="RB"||p.p==="WR"))idx=slots.findIndex((s,i)=>!fill[i]&&s==="R/W");
     if(idx<0&&["RB","WR","TE"].includes(p.p))idx=slots.findIndex((s,i)=>!fill[i]&&s==="FLX");
     if(idx<0)idx=slots.findIndex((s,i)=>!fill[i]&&s==="BN");
     if(idx>=0)fill[idx]=p;
   });
-  let html=slots.map((s,i)=>`<span class="slot">${s}</span><span class="${fill[i]?"":"empty"}">${fill[i]?fill[i].n+" · "+fill[i].t+" · bye "+(fill[i].bye||"–"):"—"}</span>`).join("");
+  let html=slots.map((s,i)=>`<span class="slot">${s}</span><span class="${fill[i]?"":"empty"}">${fill[i]?fill[i].n+" · "+fill[i].t+" · bye "+(fill[i].bye||"–")+(kset.has(fill[i].id)?" · 🔒K":""):"—"}</span>`).join("");
   const bc={};mine.forEach(p=>{if(p.bye)bc[p.bye]=(bc[p.bye]||0)+1});
   const clash=Object.entries(bc).filter(([w,n])=>n>=3).map(([w,n])=>"Week "+w+": "+n+" players out").join(" · ");
   if(clash)html+=`<span style="grid-column:1/-1;color:var(--warn);font-size:12px;padding-top:4px">⚠ Bye pile-up — ${clash}</span>`;
@@ -1004,6 +1064,17 @@ function renderGrid(){
   const tbl=$("#gridTable");let h="<tr><th></th>";
   for(let t=1;t<=TEAMS;t++)h+=`<th data-t="${t}" class="${t===S.slot?"me":""}">${teamName(t)}</th>`;
   h+="</tr>";
+  if(LG().type==="keeper"){
+    const kk=curKeepers();
+    for(let r=0;r<3;r++){
+      h+=`<tr><td class="rdlab" style="color:var(--warn)">K${r+1}</td>`;
+      for(let t=1;t<=TEAMS;t++){
+        const pl=(kk[t]||[])[r];
+        h+=`<td class="${pl?pl.p:""} ${t===S.slot?"mycol":""}" style="opacity:.8"><div class="cell">${pl?`<span>${pl.n}</span><small>${pl.p} · ${pl.t} · KEEPER</small>`:""}</div></td>`;
+      }
+      h+="</tr>";
+    }
+  }
   const cp=curPick();
   for(let r=1;r<=ROUNDS;r++){
     h+=`<tr><td class="rdlab num">${r}</td>`;
@@ -1033,7 +1104,38 @@ function renderQueue(){
   box.innerHTML=q.length?q.map(p=>`<div style="display:flex;gap:8px;align-items:center;padding:3px 0;border-bottom:1px solid var(--line)"><span class="pos ${p.p}">${p.p}</span><span style="flex:1">${p.n} <span class="tm" style="color:var(--muted);font-size:11.5px">#${p.b<180?p.b:"NR"}</span></span><button data-draft="${p.id}" style="border:1px solid var(--line2);border-radius:5px;padding:1px 8px;font-size:11.5px">Draft</button></div>`).join(""):"<span style='color:var(--dim)'>Star players on the Big Board (☆) to build your watchlist.</span>";
 }
 
-function renderAll(){renderClock();renderTiers();renderList();renderBest();renderIntel();renderPlan();renderRoster();renderQueue();renderGrid();renderScore();renderScript();renderVerdict()}
+function renderKeeperGrades(){
+  const box=$("#kgBox");if(!box||LG().type!=="keeper")return;
+  const k=curKeepers(),rows=[];
+  for(let t=1;t<=TEAMS;t++){const ps=k[t]||[];rows.push({t,ps,pts:Math.round(ps.reduce((s,p)=>s+p.proj,0))})}
+  rows.sort((a,b)=>b.pts-a.pts);
+  box.innerHTML=rows.map((r,i)=>`<div class="scorerow ${r.t===S.slot?"me":""}"><span class="num" style="color:var(--dim)">${i+1}.</span><span>${teamName(r.t)}</span><span style="font-size:12px;color:var(--muted)">${r.ps.map(p=>p.n).join(" · ")||"—"}</span><span class="num" style="text-align:right">${r.pts}</span></div>`).join("");
+}
+function openKeeperModal(){
+  ensureKeepers();
+  const k=curKeepers();
+  let rows="";
+  for(let t=1;t<=TEAMS;t++){
+    rows+=`<div style="margin-bottom:7px"><b style="font-size:12.5px;color:var(--gold)">${teamName(t)}</b><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:2px">${(k[t]||[]).map(p=>`<span class="chip" style="font-size:12px;padding:2px 8px"><span class="pos ${p.p}" style="font-size:10px;min-width:22px;padding:0 3px">${p.p}</span>${p.n}<button data-krm="${t}|${p.id}" aria-label="remove">✕</button></span>`).join("")||'<span style="color:var(--dim);font-size:12px">none</span>'}</div></div>`;
+  }
+  openModal(`<h3>Edit keepers</h3><p class="mhint">Keepers lock Sep 7 at 8:00 PM ET — update here if anyone changes theirs. Removing a keeper puts that player back in the draft pool.</p>${rows}
+    <div style="display:flex;gap:8px;margin-top:10px;align-items:center;flex-wrap:wrap"><select id="kTeam">${Array.from({length:TEAMS},(_,i)=>`<option value="${i+1}">${teamName(i+1)}</option>`).join("")}</select><div class="logwrap" style="flex:1;min-width:170px"><input id="kAdd" placeholder="Add a keeper…" autocomplete="off"><div class="sugg" id="kSugg"></div></div></div>
+    <div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="mbtn gold" id="kClose">Done</button></div>`);
+  document.querySelectorAll("#modalBox [data-krm]").forEach(b=>b.onclick=e=>{
+    e.stopPropagation();
+    const [t,id]=b.dataset.krm.split("|");ensureKeepers();
+    const nm=byId(+id).n;
+    S.keepers[t]=(S.keepers[t]||[]).filter(x=>nk(x)!==nk(nm));
+    save();renderAll();openKeeperModal();
+  });
+  attachSearch($("#kAdd"),$("#kSugg"),id=>{
+    ensureKeepers();const t=$("#kTeam").value;
+    S.keepers[t]=S.keepers[t]||[];
+    if(S.keepers[t].length<3){S.keepers[t].push(byId(id).n);save();renderAll();openKeeperModal()}
+  });
+  $("#kClose").onclick=closeModal;
+}
+function renderAll(){renderClock();renderTiers();renderList();renderBest();renderIntel();renderPlan();renderRoster();renderQueue();renderGrid();renderScore();renderScript();renderKeeperGrades();renderVerdict()}
 
 /* ================= LOGGING PICKS ================= */
 function draftPlayer(id){
@@ -1102,7 +1204,6 @@ for(let i=1;i<=TEAMS;i++){const o=document.createElement("option");o.value=i;o.t
 slotSel.value=S.slot;
 slotSel.onchange=()=>{S.slot=+slotSel.value;save();renderAll()};
 $("#undoBtn").onclick=()=>{if(S.picks.length){S.picks.pop();save();renderAll()}};
-const LEAGUE=["Double D Kupps","Neuherz Ninjas","Charlie Kirk's Perfect Team","Hangin with Hernandez","Wood Is Good","Washington 4Skins","Gronkey Tonk Badonkadonk","Mr. Auto Spa","Judkins' Punch","Epsteins Children"];
 function openModal(html){$("#modalBox").innerHTML=html;$("#overlay").hidden=false}
 function closeModal(){$("#overlay").hidden=true}
 $("#overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeModal()});
@@ -1128,8 +1229,7 @@ function openOrderModal(){
     if(vals.some(v=>!v)){$("#orderErr").textContent="Every slot needs a team.";return}
     if(new Set(vals).size!==TEAMS){$("#orderErr").textContent="Each team can only appear once — check for duplicates.";return}
     vals.forEach((v,i)=>S.names[i+1]=v);
-    S.slot=vals.indexOf(LEAGUE[0])+1;
-    slotSel.value=S.slot;
+    const ms=vals.indexOf(LG().myTeam);if(ms>=0){S.slot=ms+1;slotSel.value=S.slot}
     save();renderAll();closeModal();
   };
 }
@@ -1141,7 +1241,7 @@ function openRenameModal(t){
     <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px"><button class="mbtn" id="rnCancel">Cancel</button><button class="mbtn gold" id="rnApply">Save custom</button></div>`);
   document.querySelectorAll("#modalBox .opt").forEach(b=>b.onclick=()=>{
     S.names[t]=b.dataset.nm;
-    if(b.dataset.nm===LEAGUE[0]){S.slot=t;slotSel.value=t}
+    if(b.dataset.nm===LG().myTeam){S.slot=t;slotSel.value=t}
     save();renderAll();closeModal();
   });
   $("#rnCancel").onclick=closeModal;
@@ -1158,7 +1258,7 @@ $("#syncBtn").onclick=async()=>{
   if(!artifactNS)return;
   const b=$("#syncBtn");b.textContent="Syncing…";
   try{
-    await artifactNS.publish({"state.json":JSON.stringify(S)});
+    await artifactNS.publish({["state-"+LID+".json"]:JSON.stringify(S)});
     b.textContent="Synced ✓";
   }catch(err){
     if(err&&(err.code==="not_granted"||err.code==="not_writer"||err.code==="capability_disabled"||err.code==="not_declared")){b.style.display="none";return}
@@ -1181,8 +1281,10 @@ document.addEventListener("click",e=>{
     save();renderList();renderQueue();}
 });
 $("#copyRoster").onclick=()=>{
-  const lines=[];S.picks.forEach((pid,i)=>{if(pid>=0&&isMine(i+1)){const p=byId(pid);lines.push(fmtPick(i+1)+"  "+p.n+" ("+p.p+", "+p.t+")")}});
-  const txt="Double D Kupps — 2026 draft\n"+(lines.join("\n")||"(no picks yet)");
+  const lines=[];
+  (curKeepers()[S.slot]||[]).forEach(p=>lines.push("KEEP  "+p.n+" ("+p.p+", "+p.t+")"));
+  S.picks.forEach((pid,i)=>{if(pid>=0&&isMine(i+1)){const p=byId(pid);lines.push(fmtPick(i+1)+"  "+p.n+" ("+p.p+", "+p.t+")")}});
+  const txt=LG().myTeam+" — 2026 draft ("+LG().label+")\n"+(lines.join("\n")||"(no picks yet)");
   const done=()=>{const b=$("#copyRoster");b.textContent="copied ✓";setTimeout(()=>b.textContent="copy",1500)};
   const fallback=()=>{openModal(`<h3>Your roster</h3><textarea style="width:100%;height:220px;background:var(--panel2);color:var(--text);border:1px solid var(--line2);border-radius:6px;padding:8px;font:12.5px/1.5 Barlow,monospace">${txt}</textarea><p class="mhint">Select all + copy.</p><div style="display:flex;justify-content:flex-end"><button class="mbtn" id="cpClose">Close</button></div>`);$("#cpClose").onclick=closeModal;$("#modalBox textarea").select()};
   if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(done,fallback);
@@ -1193,5 +1295,26 @@ attachSearch($("#cmpInput"),$("#cmpSugg"),id=>{
   if(!cmpIds.includes(id)&&cmpIds.length<4)cmpIds.push(id);
   $("#cmpInput").value="";closeSugg($("#cmpSugg"));renderChips();renderVerdict();
 });
+/* ---- league switcher ---- */
+const leagueSel=$("#leagueSel");
+Object.keys(LEAGUES).forEach(id=>{const o=document.createElement("option");o.value=id;o.textContent=LEAGUES[id].label+" — "+LEAGUES[id].type;leagueSel.appendChild(o)});
+leagueSel.value=LID;
+function applyLeague(){
+  LEAGUE=LG().teams;ROUNDS=LG().rounds;
+  $("#subTitle").textContent=LG().sub;
+  slotSel.value=S.slot;
+  const kpr=LG().type==="keeper";
+  $("#kEditBtn").hidden=!kpr;$("#kgCard").hidden=!kpr;$("#kStrat").hidden=!kpr;
+  $("#planSnake").hidden=kpr;$("#slotSnake").hidden=kpr;
+}
+leagueSel.onchange=()=>{
+  save();
+  LID=leagueSel.value;
+  try{localStorage.setItem("warroom26:active",LID)}catch(e){}
+  S=loadStateFor();fixTarget=null;cmpIds=[];
+  applyLeague();renderAll();
+};
+$("#kEditBtn").onclick=openKeeperModal;
+applyLeague();
 renderAll();
 </script>
