@@ -398,7 +398,7 @@ const P=[
 [1,1,"Jahmyr Gibbs","RB","DET",1,"","Extension signed. The 1.01."],
 [2,2,"Bijan Robinson","RB","ATL",1,"","Signed ext; Stefanski scheme = 300-carry, 70-catch upside. A real case for 1.01."],
 [3,3,"Ja'Marr Chase","WR","CIN",1,"","Knee day-to-day, no panic reported."],
-[4,6,"Puka Nacua","WR","LAR",1,"R","Groin + NFL suspension ruling PENDING as of Aug 30. Top-3 talent, real Wk1 risk."],
+[4,5,"Puka Nacua","WR","LAR",1,"R","Expected to AVOID Wk1 exempt list (Aug 31) — full practice, groin fine. League review of other discipline continues; still a touch of risk."],
 [5,8,"Christian McCaffrey","RB","SF",1,"R","Age 30, league-high 450 touches last yr; camp 'load mgmt'. Handcuff if drafted."],
 [6,4,"Jaxon Smith-Njigba","WR","SEA",1,"","Target monster in champ offense."],
 [7,7,"Jonathan Taylor","RB","IND",2,"","Bell-cow, improved QB play."],
@@ -539,7 +539,7 @@ const P=[
 [142,138,"Baker Mayfield","QB","TB",10,"V","QB1 form at a rd-12 price."],
 [143,143,"Woody Marks","RB","HOU",10,"","Change of pace."],
 [144,144,"Tre Tucker","WR","LV",10,"","Field stretcher."],
-[145,190,"Keenan Allen","WR","IND",10,"O","DUI arrest Aug 29-30; availability unknown. Avoid."],
+[145,190,"Keenan Allen","WR","IND",10,"O","DUI arrest Aug 29-30, court date Sept 16 — likely plays early, but 3-game suspension is the historical precedent. Avoid."],
 [146,146,"Calvin Ridley","WR","TEN",10,"","Crowded now."],
 [147,120,"Mike Washington Jr.","RB","LV",10,"C V","Biggest ADP riser; Jeanty's ankle could make him the Wk1 starter."],
 [148,135,"Tyler Allgeier","RB","ARI",10,"N C V","Leading first-team camp reps over Love. Cheap piece of that backfield."],
@@ -607,11 +607,11 @@ P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
 /* news ticker — all fantasy-relevant items as of Aug 30, 2026 */
 const NEWS=[
+["UPGRADE","Puka Nacua expected to AVOID the Commissioner Exempt List for Week 1 (Pelissero/Schefter, Aug 31) — back at full practice; league review of other discipline continues"],
 ["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30) — do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
 ["INJURY","Laremy Tunsil (triceps) out ~5.5 months — Commanders O-line now ranked dead last; Jayden Daniels & McLaurin downgraded"],
-["SUSPENSION WATCH","Puka Nacua's Week 1 suspension decision still pending — Schefter says it can't be ruled out"],
 ["INJURY","Ashton Jeanty (low ankle sprain) questionable for Week 1 — pair him with Mike Washington Jr."],
-["ARREST","Keenan Allen arrested on DUI charges Aug 29-30 — availability unknown, avoid"],
+["ARREST","Keenan Allen (DUI, Aug 29-30) has a Sept 16 court date — expected to play early, but a 3-game suspension is the historical precedent; still avoid at cost"],
 ["OUT FOR SEASON","Jayden Higgins (ACL), Ricky Pearsall (PCL), Trey Benson (knee), Chris Brazzell (LCL) all done for 2026"],
 ["INJURY","Zach Charbonnet (ACL) on PUP — out at least half the season; rookie Jadarian Price leads Seattle's backfield"],
 ["INJURY","Jordyn Tyson (hamstring) out ~2 months, likely opens on IR — late-stash only"],
@@ -640,7 +640,7 @@ const NEWS=[
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · AUG 30</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · AUG 31</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
