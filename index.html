@@ -416,7 +416,7 @@ const P=[
 [19,19,"A.J. Brown","WR","NE",3,"N","Traded to NE — Drake Maye's WR1."],
 [20,24,"Ashton Jeanty","RB","LV",3,"R","Low ankle sprain Aug 23, Wk1 far from certain. Draft WITH Mike Washington Jr."],
 [21,19,"Omarion Hampton","RB","LAC",3,"V","Top breakout pick; 'rotation' talk created the discount. Watch: Biadasz (C) on IR dents run blocking."],
-[22,30,"Jeremiyah Love","RB","ARI",3,"K R","No. 3 overall pick, but high-ankle sprain + Conner/Allgeier committee. Pass at cost."],
+[22,26,"Jeremiyah Love","RB","ARI",3,"K R","Conner (foot) opens the season on IR, out min. 4 games — clears his path. Love trending positive for Wk1 off his high-ankle sprain; 1A/1B with Allgeier if he sits."],
 [23,23,"George Pickens","WR","DAL",3,"R","CBS bust flag at this price; talent real."],
 [24,22,"Chris Olave","WR","NO",3,"","Target share elite when upright."],
 [25,21,"Malik Nabers","WR","NYG",3,"V","Knee CLEARED, full Wk1 expected. WR1 talent at early-3rd price."],
@@ -542,7 +542,7 @@ const P=[
 [145,190,"Keenan Allen","WR","IND",10,"O","DUI arrest Aug 29-30, court date Sept 16 — likely plays early, but 3-game suspension is the historical precedent. Avoid."],
 [146,146,"Calvin Ridley","WR","TEN",10,"","Crowded now."],
 [147,120,"Mike Washington Jr.","RB","LV",10,"C V","Biggest ADP riser; Jeanty's ankle could make him the Wk1 starter."],
-[148,135,"Tyler Allgeier","RB","ARI",10,"N C V","Leading first-team camp reps over Love. Cheap piece of that backfield."],
+[148,116,"Tyler Allgeier","RB","ARI",9,"N C V","Conner (foot) on IR out min. 4 games — Allgeier is the clear early-season 1A/1B with Love, and the Wk1 starter outright if Love's ankle isn't ready."],
 [149,142,"Jalen McMillan","WR","TB",10,"V","8 TDs as rookie; Evans vacuum."],
 [150,150,"Chimere Dike","WR","TEN",10,"","Dart."],
 [151,68,"MarShawn Lloyd","RB","GB",10,"V","STEAL ALERT: Jacobs on Exempt List (Aug 30) — Lloyd is the presumptive GB lead. Room may not know."],
@@ -609,6 +609,7 @@ P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
 /* news ticker — all fantasy-relevant items as of Aug 30, 2026 */
 const NEWS=[
+["INJURY","James Conner (foot) opens the season on injured reserve, out minimum 4 games (earliest return Wk5 at DET) — Jeremiyah Love and Tyler Allgeier now a clear 1A/1B in Arizona"],
 ["UPGRADE","Puka Nacua expected to AVOID the Commissioner Exempt List for Week 1 (Pelissero/Schefter, Aug 31) — back at full practice; league review of other discipline continues"],
 ["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30) — do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
 ["INJURY","Laremy Tunsil (triceps) out ~5.5 months — Commanders O-line now ranked dead last; Jayden Daniels & McLaurin downgraded"],
@@ -642,7 +643,7 @@ const NEWS=[
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · AUG 31</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · SEP 1</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
