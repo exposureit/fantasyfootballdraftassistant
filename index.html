@@ -176,6 +176,8 @@
   .runalert{background:rgba(224,161,69,.1);border:1px solid var(--warn);border-radius:8px;padding:8px 10px;font-size:12.5px;color:var(--warn);margin-bottom:8px;display:none}
   .runalert.on{display:block}
   .runalert.gold{background:rgba(232,193,90,.09);border-color:var(--gold);color:var(--gold)}
+  .runalert.red{background:rgba(224,96,96,.12);border-color:var(--bad);color:var(--bad);font-weight:600}
+  .roster .slot.needred{color:var(--bad)}
 
   /* ---------- tier pulse ---------- */
   .tierpulse{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
@@ -257,7 +259,7 @@
         <div id="playerList"></div>
       </div>
       <aside class="side">
-        <div class="card"><div class="runalert gold" id="valAlert"></div><div class="runalert" id="runAlert"></div><h3 id="bestTitle">Best available</h3><div class="best" id="bestBox"></div></div>
+        <div class="card"><div class="runalert red" id="needAlert"></div><div class="runalert gold" id="valAlert"></div><div class="runalert" id="runAlert"></div><h3 id="bestTitle">Best available</h3><div class="best" id="bestBox"></div></div>
         <div class="card"><h3 style="display:flex;justify-content:space-between;align-items:baseline">My roster <button id="copyRoster" style="font-size:11px;color:var(--muted);border:1px solid var(--line2);border-radius:4px;padding:1px 8px;text-transform:none;letter-spacing:0">copy</button></h3><div class="roster" id="rosterBox"></div></div>
         <div class="card"><h3>My queue</h3><div id="queueBox" style="font-size:13px"></div></div>
         <div class="card"><h3>Gone before your next pick?</h3><ul class="danger" id="dangerBox"></ul></div>
@@ -320,7 +322,7 @@
           <li><b>Rounds 1–3:</b> Best available from the elite pool (Gibbs, Bijan, Chase, Nacua*, JSN, ARSB, Taylor, Cook, Chase Brown). WR tiers break <i>early</i> in 2026 — don’t assume round 4–6 WR value. Bowers late-2nd is justified; he has WR1-level upside at TE.</li>
           <li><b>Rounds 4–6:</b> The RB honey pot — Judkins, Skattebo, Irving, Tuten, Swift, Hampton if he slid. Last call for McBride/Bowers-tier TE. Take Josh Allen only if he inexplicably falls to round 5.</li>
           <li><b>Rounds 7–10:</b> QB window (Herbert rd 8 is the value line; the room’s QB run usually ignites rd 8 — in a 10-teamer you can outwait it). TE if you punted (Kittle, Schultz, Juwan Johnson). Upside WRs + MarShawn Lloyd if he’s somehow still around.</li>
-          <li><b>Rounds 11–14:</b> 4–5 lottery RBs one injury from lead roles (Brooks, Washington Jr., Corum, Braelon Allen, Justice Hill, Wright), late TE value (Kincaid), QB2 only if streaming.</li>
+          <li><b>Rounds 11–14:</b> 4–5 lottery RBs one injury from lead roles (Brooks, Washington Jr., Corum, Braelon Allen, Justice Hill, Wright), late TE value (Kincaid). A <b>backup QB in rounds 13–14</b> is smart insurance once your starters are set and your K/DST picks are safe — the engine now suggests one in that window.</li>
           <li><b>Rounds 15–16:</b> K + DST, never earlier. Denver/Minnesota/Houston/Seattle DST; Myers/Fairbairn/Aubrey K.</li>
           <li><b>Bye &amp; playoffs:</b> heaviest bye is week 11 (ATL, CLE, GB, LAR, NE, SEA — don't stack it; the roster panel warns you). Fantasy-playoff schedules (wks 15–17): softest for WSH/NO/ARI offenses, hardest for PHI/SEA/SF — a tiebreaker between equals, nothing more.</li>
         </ul>
@@ -572,7 +574,7 @@ const P=[
 [177,177,"Eagles D/ST","DST","PHI",11,"",""],
 [178,178,"Ravens D/ST","DST","BAL",11,"",""],
 [179,179,"Saints D/ST","DST","NO",11,"",""],
-[180,180,"Brandon Aubrey","K","DAL",11,"","K1, 60-yd range."],
+[180,180,"Brandon Aubrey","K","DAL",11,"V","K1 with a 60-yard leg — extra valuable in leagues paying 5-6 pts for 50/60-yard FGs (AOF does)."],
 [181,181,"Cameron Dicker","K","LAC",11,"",""],
 [182,182,"Ka'imi Fairbairn","K","HOU",11,"",""],
 [183,183,"Jason Myers","K","SEA",11,"",""],
@@ -661,9 +663,9 @@ const LEAGUES={
   slots:["QB","RB","R/W","WR","WR","TE","FLX","DST","K","BN","BN","BN","BN","BN","BN","BN"],
   keepers:{1:["Puka Nacua","De'Von Achane","Quinshon Judkins"],2:["Drake London","Tetairoa McMillan","Garrett Wilson"],3:["Drake Maye","Bijan Robinson","A.J. Brown"],4:["Amon-Ra St. Brown","Nico Collins","Brock Bowers"],5:["Bucky Irving","TreVeyon Henderson","Davante Adams"],6:["Omarion Hampton","Jahmyr Gibbs","Ja'Marr Chase"],7:["Ashton Jeanty","Josh Jacobs","DK Metcalf"],8:["Kyren Williams","CeeDee Lamb","Trey McBride"],9:["Jonathan Taylor","James Cook III","Saquon Barkley"],10:["Justin Jefferson","Jaxon Smith-Njigba","Colston Loveland"]}
  },
- skins:{
-  label:"4Skins League",sub:"10-team · Full PPR · snake · drafts Sep 2, 8 PM",type:"snake",rounds:16,defSlot:5,myTeam:"Washington 4Skins",preOrdered:false,
-  teams:["Washington 4Skins","Tj Watch Me Win","Team 3","Alex's Astounding","Slick Nick","Dustin's Daring","Enscoe","Step Burrow","Aidan's Awesome","George's Great"],
+ aof:{
+  label:"AOF 2026 ♠️",sub:"10-team · Full PPR · snake · drafts Sep 2, 8 PM · you pick 8",type:"snake",rounds:16,defSlot:8,myTeam:"Washington 4Skins",preOrdered:true,
+  teams:["Tj Watch Me Win","Step burrow im stuck","george's Great Team","Slick Nick","Dustin's Daring Team","Enscoe","Austin's Angry Team","Washington 4Skins","Aidan's Awesome Team","Alex's Astounding Team"],
   slots:["QB","RB","RB","WR","WR","TE","FLX","K","DST","BN","BN","BN","BN","BN","BN","BN"],
   keepers:null
  },
@@ -899,10 +901,25 @@ function rosterNeeds(){
   mine.forEach(p=>c[p.p]++);
   return c;
 }
+/* required-starter accounting: how many of my remaining picks are spoken for */
+function needsState(cp){
+  const c=rosterNeeds();
+  const needMap={QB:Math.max(0,1-c.QB),RB:Math.max(0,2-c.RB),WR:Math.max(0,2-c.WR),TE:Math.max(0,1-c.TE),K:Math.max(0,1-c.K),DST:Math.max(0,1-c.DST)};
+  const skillTotal=c.RB+c.WR+c.TE, indivSkill=needMap.RB+needMap.WR+needMap.TE;
+  const flexNeed=Math.max(0,(6-skillTotal)-indivSkill);
+  const totalNeeds=needMap.QB+needMap.RB+needMap.WR+needMap.TE+needMap.K+needMap.DST+flexNeed;
+  const picksLeft=myPickOveralls().filter(o=>o>=cp).length;
+  const list=Object.keys(needMap).filter(p=>needMap[p]>0).map(p=>needMap[p]>1?p+"×"+needMap[p]:p);
+  if(flexNeed>0)list.push("FLEX");
+  return {c,needMap,flexNeed,totalNeeds,picksLeft,slack:picksLeft-totalNeeds,list};
+}
 function scorePlayer(pl,cp){
   const d=drafted(); if(d.has(pl.id))return null;
   const rd=Math.ceil(cp/TEAMS), nxt=nextMyPick(cp+1), gap=nxt-cp;
   const c=rosterNeeds(); const reasons=[]; let s=50;
+  const ns=needsState(cp);
+  const mustFill=ns.slack<=1&&ns.totalNeeds>0;
+  const plNeeded=ns.needMap[pl.p]>0||(ns.flexNeed>0&&["RB","WR","TE"].includes(pl.p));
   // board value
   const val=cp-pl.b; s+=Math.max(-25,Math.min(30,val))*1.1;
   if(val>=8)reasons.push(["+","Falling well past his value — "+val+" picks below our board"]);
@@ -920,7 +937,11 @@ function scorePlayer(pl,cp){
   // roster need / round context
   const kpr=LG().type==="keeper", qbEarly=kpr?3:6, qbMid=kpr?5:8, qbGo=kpr?5:9, teWin=kpr?4:7;
   if(pl.p==="QB"){
-    if(c.QB>=1){s-=22;reasons.push(["-","You already have a QB — 10-team, no reason for two"])}
+    if(c.QB>=1){
+      if(c.QB===1&&rd>=ROUNDS-3&&ns.slack>=2){const q1=myPlayers().find(x=>x.p==="QB");
+        s+=4;reasons.push(["+","Backup-QB window — starters are covered; cheap insurance"+(q1&&q1.bye?" (your QB1's bye is week "+q1.bye+")":"")])}
+      else{s-=22;reasons.push(["-","You already have a QB — too early to spend a pick on a backup"])}
+    }
     else if(rd<qbEarly&&pl.n!=="Josh Allen"){s-=14;reasons.push(["-","QB is the deepest position in 2026 — way too early"])}
     else if(rd<qbMid){s-=6;reasons.push(["-","QB this early costs you a starter; the value window is rd "+qbMid+"+"])}
     else if(rd>=qbGo){s+=8;reasons.push(["+","Right window for QB in a 10-teamer"])}
@@ -947,7 +968,7 @@ function scorePlayer(pl,cp){
     else if(c.WR>=7){s-=10;reasons.push(["-","WR room already deep"])}
   }
   if(pl.p==="K"||pl.p==="DST"){
-    if(rd<ROUNDS-1){s-=40;reasons.push(["-","Never before the last two rounds"])}
+    if(rd<ROUNDS-1&&!(mustFill&&ns.needMap[pl.p]>0)){s-=40;reasons.push(["-","Never before the last two rounds"])}
     else if((pl.p==="K"&&c.K===0)||(pl.p==="DST"&&c.DST===0)){s+=15;reasons.push(["+","Time to fill it"])}
     else {s-=30;reasons.push(["-","Already filled"])}
   }
@@ -970,6 +991,11 @@ function scorePlayer(pl,cp){
   if(pl.f.includes("O")){s-=60;reasons.push(["-","AVOID: "+pl.note])}
   if(pl.f.includes("R")){s-=6;reasons.push(["-","Risk: "+pl.note])}
   if(pl.f.includes("V")){s+=5;reasons.push(["+",pl.note])}
+  // roster-completion guard: never leave the draft without required starters
+  if(mustFill){
+    if(plNeeded){s+=45;reasons.push(["+","🚨 MUST-FILL: only "+ns.picksLeft+" pick"+(ns.picksLeft===1?"":"s")+" left for "+ns.totalNeeds+" required slot"+(ns.totalNeeds===1?"":"s")+" ("+ns.list.join(", ")+")"])}
+    else{s-=30;reasons.push(["-","Can't afford this — your remaining picks are spoken for: "+ns.list.join(", ")])}
+  }
   return {s:Math.round(Math.max(0,Math.min(99,s))),reasons,pl};
 }
 
@@ -1027,6 +1053,11 @@ function renderBest(){
   const ra=$("#runAlert");
   if(run){ra.textContent="⚠ "+run[0]+" RUN in progress — "+run[1]+" of the last 5 picks. Jump the tier or let it push value to you.";ra.classList.add("on")}
   else ra.classList.remove("on");
+  // roster-completion alarm
+  const nst=needsState(cp),na=$("#needAlert");
+  if(nst.totalNeeds>0&&nst.slack<=1){na.textContent="🚨 ROSTER ALARM: "+nst.picksLeft+" pick"+(nst.picksLeft===1?"":"s")+" left and you still need "+nst.list.join(", ")+" — fill these NOW.";na.classList.add("on")}
+  else if(nst.totalNeeds>0&&nst.slack<=3&&Math.ceil(cp/TEAMS)>=ROUNDS-5){na.textContent="⏰ Plan your endgame: "+nst.picksLeft+" picks left, still need "+nst.list.join(", ")+" ("+nst.slack+" free pick"+(nst.slack===1?"":"s")+" of slack).";na.classList.add("on")}
+  else na.classList.remove("on");
   // falling-value alarm
   const dv=drafted(),va=$("#valAlert");
   const faller=P.filter(pl=>!dv.has(pl.id)&&!pl.f.includes("O")&&pl.b<180&&cp-pl.m>=8).sort((a,b)=>(cp-b.m)-(cp-a.m))[0];
@@ -1063,7 +1094,8 @@ function renderRoster(){
     if(idx<0)idx=slots.findIndex((s,i)=>!fill[i]&&s==="BN");
     if(idx>=0)fill[idx]=p;
   });
-  let html=slots.map((s,i)=>`<span class="slot">${s}</span><span class="${fill[i]?"":"empty"}">${fill[i]?fill[i].n+" · "+fill[i].t+" · bye "+(fill[i].bye||"–")+(kset.has(fill[i].id)?" · 🔒K":""):"—"}</span>`).join("");
+  const nst=needsState(curPick()),tight=nst.totalNeeds>0&&nst.slack<=3;
+  let html=slots.map((s,i)=>`<span class="slot ${tight&&!fill[i]&&s!=="BN"?"needred":""}">${s}</span><span class="${fill[i]?"":"empty"}">${fill[i]?fill[i].n+" · "+fill[i].t+" · bye "+(fill[i].bye||"–")+(kset.has(fill[i].id)?" · 🔒K":""):"—"}</span>`).join("");
   const bc={};mine.forEach(p=>{if(p.bye)bc[p.bye]=(bc[p.bye]||0)+1});
   const clash=Object.entries(bc).filter(([w,n])=>n>=3).map(([w,n])=>"Week "+w+": "+n+" players out").join(" · ");
   if(clash)html+=`<span style="grid-column:1/-1;color:var(--warn);font-size:12px;padding-top:4px">⚠ Bye pile-up — ${clash}</span>`;
