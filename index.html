@@ -523,7 +523,7 @@ const P=[
 [126,128,"Jordan Love","QB","GB",9,"","Fine QB2 — but GB OL ranks 28th; don't expect more."],
 [127,118,"Kyler Murray","QB","MIN",9,"N V","Named MIN starter — O'Connell + Jefferson ecosystem. Late-round gem."],
 [128,128,"Isiah Pacheco","RB","DET",9,"N R","MCL sprain; missing his shot at the Montgomery role."],
-[129,129,"Alvin Kamara","RB","NO",9,"R","Knee monitor, age, Etienne arrived."],
+[129,165,"Alvin Kamara","RB","NO",9,"O","Sprained MCL (Aug joint practice) — out AT LEAST a month. Etienne is the unquestioned NO workhorse; Kamara undraftable at cost."],
 [130,130,"Daniel Jones","QB","IND",9,"","Streamer."],
 [131,128,"Isaiah Likely","TE","NYG",9,"N V","Sleeper lists everywhere; featured in new Giants offense."],
 [132,186,"Jalen Coker","WR","CAR",9,"O","Placed on IR (quad) after making the 53 — out min. 4 games, eligible Week 5."],
@@ -609,6 +609,7 @@ P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
 /* news ticker — all fantasy-relevant items as of Aug 30, 2026 */
 const NEWS=[
+["INJURY","Alvin Kamara (MCL sprain) out AT LEAST a month — Travis Etienne is the unquestioned NO workhorse; Kamara undraftable at cost"],
 ["INJURY","James Conner (foot) opens the season on injured reserve, out minimum 4 games (earliest return Wk5 at DET) — Jeremiyah Love and Tyler Allgeier now a clear 1A/1B in Arizona"],
 ["UPGRADE","Puka Nacua expected to AVOID the Commissioner Exempt List for Week 1 (Pelissero/Schefter, Aug 31) — back at full practice; league review of other discipline continues"],
 ["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30) — do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
@@ -634,7 +635,7 @@ const NEWS=[
 ["INJURY","Mahomes back from torn ACL/LCL — expected Week 1 but the rushing upside is gone"],
 ["TRADE","Kaleb Johnson dealt to Green Bay on cut day — Jacobs-fallout dart"],
 ["CUT","Will Levis waived; Cedric Tillman, Mecole Hardman also out in final cuts"],
-["FA","Tyreek Hill still unsigned (knee rehab) — do not draft; J.J. McCarthy may not make the Vikings roster"],
+["FA","Tyreek Hill still unsigned (knee rehab) — agent says no deal before Week 1; do not draft"],
 ["INJURY","Alec Pierce activated off PUP (ankle) targeting Week 1 — volatile with the Allen mess in Indy"],
 ["UPGRADE","Jaylen Waddle (now DEN) back at practice, caught a 60-yd TD — buy behind the NFL's best O-line"],
 ["INJURY","Mike Evans (now SF) managing groin/quad — plans to play Week 1, soft-tissue history says fade at cost"],
@@ -643,7 +644,7 @@ const NEWS=[
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · SEP 1</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · SEP 2</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
