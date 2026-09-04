@@ -609,15 +609,17 @@ const REPL={};[["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forE
   const arr=P.filter(x=>x.p===pos).map(x=>x.proj).sort((a,b)=>b-a);REPL[pos]=arr[Math.min(n-1,arr.length-1)]||100});
 P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
-/* news ticker — all fantasy-relevant items as of Sep 3, 2026 */
+/* news ticker — all fantasy-relevant items as of Sep 4, 2026 */
 const NEWS=[
+["WATCH","Rome Odunze (right leg) and D'Andre Swift (midsection/cramp) both left Thursday's Bears practice early — Schefter says Swift's issue looked like just a cramp, no word yet on Odunze; nothing confirmed serious but monitor before Sunday's draft"],
+["UPGRADE","Zay Flowers (quad contusion) returned to practice Thursday for the first time in two weeks — Ravens called it minor throughout and expect him full-go for the Sept 13 opener vs Indy"],
 ["BREAKING","Isiah Pacheco placed on IR Sept 1 with a separate back injury (in addition to the MCL) — out at least 4 games; Jahmyr Gibbs now has zero competition for a true workhorse role in Detroit"],
 ["INJURY","Alvin Kamara (MCL sprain) out AT LEAST a month — Travis Etienne is the unquestioned NO workhorse; Kamara undraftable at cost"],
 ["INJURY","James Conner (foot) opens the season on injured reserve, out minimum 4 games (earliest return Wk5 at DET) — Jeremiyah Love and Tyler Allgeier now a clear 1A/1B in Arizona"],
 ["INJURY","Puka Nacua confirmed OFF the Commissioner Exempt List, but a groin injury (still under NFL review) is now the real Week 1 question — monitor closely"],
 ["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30) — do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
 ["INJURY","Laremy Tunsil (triceps) out ~5.5 months — Commanders O-line now ranked dead last; Jayden Daniels & McLaurin downgraded"],
-["UPGRADE","Ashton Jeanty's ankle sprain is 'not nearly as bad as they thought' (Schefter, Sept 2) — real chance to play Week 1 vs MIA; still pair with Mike Washington Jr."],
+["UPGRADE","Ashton Jeanty's ankle sprain is 'not nearly as bad as they thought' (Schefter, Sept 2) — real chance to play Week 1 vs MIA, though he still hadn't practiced as of Wednesday; still pair with Mike Washington Jr."],
 ["ARREST","Keenan Allen (DUI, Aug 29-30) has a Sept 16 court date — expected to play early, but a 3-game suspension is the historical precedent; still avoid at cost"],
 ["OUT FOR SEASON","Jayden Higgins (ACL), Ricky Pearsall (PCL), Trey Benson (knee), Chris Brazzell (LCL) all done for 2026"],
 ["INJURY","Zach Charbonnet (ACL) on PUP — out at least half the season; rookie Jadarian Price leads Seattle's backfield"],
@@ -637,15 +639,14 @@ const NEWS=[
 ["INJURY","Mahomes back from torn ACL/LCL — expected Week 1 but the rushing upside is gone"],
 ["TRADE","Kaleb Johnson dealt to Green Bay on cut day — Jacobs-fallout dart"],
 ["FA","Tyreek Hill still unsigned (knee rehab) — Rosenhaus confirms no deal before Week 1, waiting for the 'right team' (KC, BAL floated); do not draft"],
-["INJURY","Alec Pierce activated off PUP (ankle) targeting Week 1 — volatile with the Allen mess in Indy"],
+["UPGRADE","Alec Pierce (ankle, off PUP) was a full practice participant Thursday and looks good to go for Week 1 — still tangled in a crowded Colts WR room with the Keenan Allen mess"],
 ["UPGRADE","Jaylen Waddle (now DEN) back at practice, caught a 60-yd TD — buy behind the NFL's best O-line"],
 ["INJURY","Mike Evans (now SF) managing groin/quad — plans to play Week 1, soft-tissue history says fade at cost"],
-["WATCH","Lamar Jackson enters a lame-duck contract year — noise only, still an elite QB1"],
 ["INJURY","Sam LaPorta's disc-surgery discount is real value — market has him rounds too late"]
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · SEP 3</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · SEP 4</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
