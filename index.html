@@ -400,7 +400,7 @@ const P=[
 [1,1,"Jahmyr Gibbs","RB","DET",1,"","Extension signed. The 1.01."],
 [2,2,"Bijan Robinson","RB","ATL",1,"","Signed ext; Stefanski scheme = 300-carry, 70-catch upside. A real case for 1.01."],
 [3,3,"Ja'Marr Chase","WR","CIN",1,"","Knee day-to-day, no panic reported."],
-[4,6,"Puka Nacua","WR","LAR",1,"R","Confirmed OFF the exempt list, but a groin injury (still under NFL review) is now the real Wk1 question — monitor closely."],
+[4,6,"Puka Nacua","WR","LAR",1,"R","Groin/psoas soreness is minor — full practice, expected ready for the Wk1 opener at SF. Separate personal-conduct review (civil lawsuit, no criminal charges, trial not set until 2028) stays open but no discipline expected before Wk1."],
 [5,7,"Christian McCaffrey","RB","SF",1,"R","Camp absence clarified as planned calf/load mgmt, not a new injury — back to full practice, expected Wk1. Age 30 off 450 touches; handcuff if drafted."],
 [6,4,"Jaxon Smith-Njigba","WR","SEA",1,"","Target monster in champ offense."],
 [7,7,"Jonathan Taylor","RB","IND",2,"","Bell-cow, improved QB play."],
@@ -609,14 +609,14 @@ const REPL={};[["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forE
   const arr=P.filter(x=>x.p===pos).map(x=>x.proj).sort((a,b)=>b-a);REPL[pos]=arr[Math.min(n-1,arr.length-1)]||100});
 P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
-/* news ticker — all fantasy-relevant items as of Sep 4, 2026 */
+/* news ticker — all fantasy-relevant items as of Sep 5, 2026 */
 const NEWS=[
+["TRADE","Dolphins trade WR Tutu Atwell to the Rams for RB Jarquez Hunter (Schefter, Sept 4) — Hunter barely played as a rookie so this doesn't dent Kyren Williams/Blake Corum in LA; Atwell is a depth-only add in Miami behind Achane's passing-game work"],
 ["WATCH","Rome Odunze (right leg) and D'Andre Swift (midsection/cramp) both left Thursday's Bears practice early — Schefter says Swift's issue looked like just a cramp, no word yet on Odunze; nothing confirmed serious but monitor before Sunday's draft"],
-["UPGRADE","Zay Flowers (quad contusion) returned to practice Thursday for the first time in two weeks — Ravens called it minor throughout and expect him full-go for the Sept 13 opener vs Indy"],
 ["BREAKING","Isiah Pacheco placed on IR Sept 1 with a separate back injury (in addition to the MCL) — out at least 4 games; Jahmyr Gibbs now has zero competition for a true workhorse role in Detroit"],
 ["INJURY","Alvin Kamara (MCL sprain) out AT LEAST a month — Travis Etienne is the unquestioned NO workhorse; Kamara undraftable at cost"],
 ["INJURY","James Conner (foot) opens the season on injured reserve, out minimum 4 games (earliest return Wk5 at DET) — Jeremiyah Love and Tyler Allgeier now a clear 1A/1B in Arizona"],
-["INJURY","Puka Nacua confirmed OFF the Commissioner Exempt List, but a groin injury (still under NFL review) is now the real Week 1 question — monitor closely"],
+["WATCH","Puka Nacua's groin/psoas soreness is minor — full practice, 'ready to roll' for Wk1 at SF; separately, new photos of the alleged bite mark surfaced in his civil lawsuit, but no criminal charges and the trial isn't until March 2028, so no suspension expected before the opener"],
 ["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30) — do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
 ["INJURY","Laremy Tunsil (triceps) out ~5.5 months — Commanders O-line now ranked dead last; Jayden Daniels & McLaurin downgraded"],
 ["UPGRADE","Ashton Jeanty's ankle sprain is 'not nearly as bad as they thought' (Schefter, Sept 2) — real chance to play Week 1 vs MIA, though he still hadn't practiced as of Wednesday; still pair with Mike Washington Jr."],
@@ -646,7 +646,7 @@ const NEWS=[
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · SEP 4</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · SEP 5</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
