@@ -429,7 +429,7 @@ const P=[
 [30,30,"Garrett Wilson","WR","NYJ",4,"","Volume locked."],
 [31,32,"Breece Hall","RB","NYJ",4,"R","Groin, expected Wk1 but no runway. Cuff: Braelon Allen."],
 [32,33,"Kyren Williams","RB","LAR",4,"R","Rams alternating drives with Corum caps ceiling."],
-[33,200,"Josh Jacobs","RB","GB",4,"O","COMMISSIONER EXEMPT LIST Aug 30. Suspension likely. DO NOT DRAFT."],
+[33,200,"Josh Jacobs","RB","GB",4,"O","COMMISSIONER EXEMPT LIST Aug 30; misdemeanor battery/property-damage charges now formally filed, first court appearance not until Nov 17. No return timeline. DO NOT DRAFT."],
 [34,34,"Javonte Williams","RB","DAL",4,"","ESPN much higher than market."],
 [35,35,"DeVonta Smith","WR","PHI",4,"","AJB gone — target bump."],
 [36,33,"Emeka Egbuka","WR","TB",4,"V","Evans left; WR1 role. Toe is minor."],
@@ -457,8 +457,8 @@ const P=[
 [58,58,"Christian Watson","WR","GB",6,"","Boom/bust vertical."],
 [59,56,"Rome Odunze","WR","CHI",6,"V","Breakout lists everywhere; Eisenberg's Evans alternative."],
 [60,78,"Jayden Daniels","QB","WSH",6,"R","RIPPLE: Tunsil (triceps) out ~5.5 mo — WAS OL now ranked DEAD LAST. Sack/injury risk; only his legs save it."],
-[61,61,"Rhamondre Stevenson","RB","NE",6,"","Leads NE snaps now."],
-[62,64,"TreVeyon Henderson","RB","NE",6,"R","Ceiling pick; Stevenson out-snapped him 15 of 18 games."],
+[61,54,"Rhamondre Stevenson","RB","NE",6,"V","Leads NE snaps now — Henderson (ankle) hasn't practiced since Aug 24 and sat out again Saturday, so Stevenson's early-season workload looks safe."],
+[62,72,"TreVeyon Henderson","RB","NE",6,"R","Ankle: hasn't practiced since Aug 24, in street clothes again Saturday. Source says he avoided a serious sprain, but Wk1 vs SEA is now in real doubt with only two practice windows left. Stevenson out-snapped him 15 of 18 games even when healthy."],
 [63,57,"Jadarian Price","RB","SEA",6,"K V","Rd-1 rookie; Charbonnet (ACL) out — unambiguous lead behind the NFL's best defense. League-winner profile."],
 [64,64,"Carnell Tate","WR","TEN",6,"K","Most pro-ready WR in class; Cam Ward's new weapon."],
 [65,65,"Tyler Warren","TE","IND",6,"","Groin minor, expected Wk1."],
@@ -609,18 +609,18 @@ const REPL={};[["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forE
   const arr=P.filter(x=>x.p===pos).map(x=>x.proj).sort((a,b)=>b-a);REPL[pos]=arr[Math.min(n-1,arr.length-1)]||100});
 P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
-/* news ticker — all fantasy-relevant items as of Sep 5, 2026 */
+/* news ticker — all fantasy-relevant items as of Sep 6, 2026 */
 const NEWS=[
+["WATCH","TreVeyon Henderson (ankle) hasn't practiced since Aug 24 and was in street clothes again Saturday — a league source says he avoided a serious sprain, but with only two practice windows left before Wednesday's opener at SEA his Wk1 status is genuinely in doubt; Rhamondre Stevenson is the safe floor play in NE"],
 ["TRADE","Dolphins trade WR Tutu Atwell to the Rams for RB Jarquez Hunter (Schefter, Sept 4) — Hunter barely played as a rookie so this doesn't dent Kyren Williams/Blake Corum in LA; Atwell is a depth-only add in Miami behind Achane's passing-game work"],
-["WATCH","Rome Odunze (right leg) and D'Andre Swift (midsection/cramp) both left Thursday's Bears practice early — Schefter says Swift's issue looked like just a cramp, no word yet on Odunze; nothing confirmed serious but monitor before Sunday's draft"],
 ["BREAKING","Isiah Pacheco placed on IR Sept 1 with a separate back injury (in addition to the MCL) — out at least 4 games; Jahmyr Gibbs now has zero competition for a true workhorse role in Detroit"],
 ["INJURY","Alvin Kamara (MCL sprain) out AT LEAST a month — Travis Etienne is the unquestioned NO workhorse; Kamara undraftable at cost"],
 ["INJURY","James Conner (foot) opens the season on injured reserve, out minimum 4 games (earliest return Wk5 at DET) — Jeremiyah Love and Tyler Allgeier now a clear 1A/1B in Arizona"],
-["WATCH","Puka Nacua's groin/psoas soreness is minor — full practice, 'ready to roll' for Wk1 at SF; separately, new photos of the alleged bite mark surfaced in his civil lawsuit, but no criminal charges and the trial isn't until March 2028, so no suspension expected before the opener"],
-["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30) — do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
+["UPGRADE","Puka Nacua returned to full practice Sunday, ramping back up 10 days out from the Wk1 opener at SF in Melbourne — groin/psoas soreness a non-issue now; the civil-lawsuit matter stays open (trial not until 2028) but no discipline expected before Wk1"],
+["BREAKING","Josh Jacobs placed on Commissioner Exempt List (Aug 30); misdemeanor battery/property-damage charges are now formally filed with his first court appearance not until Nov 17 — no return timeline, do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
 ["INJURY","Laremy Tunsil (triceps) out ~5.5 months — Commanders O-line now ranked dead last; Jayden Daniels & McLaurin downgraded"],
-["UPGRADE","Ashton Jeanty's ankle sprain is 'not nearly as bad as they thought' (Schefter, Sept 2) — real chance to play Week 1 vs MIA, though he still hadn't practiced as of Wednesday; still pair with Mike Washington Jr."],
-["ARREST","Keenan Allen (DUI, Aug 29-30) has a Sept 16 court date — expected to play early, but a 3-game suspension is the historical precedent; still avoid at cost"],
+["UPGRADE","Ashton Jeanty (ankle) was out working with trainers on the field Saturday for the first time since his injury — Raiders now talking about how MUCH he can play Wk1 vs MIA rather than whether; still pair with Mike Washington Jr."],
+["ARREST","Keenan Allen (DUI, Aug 29-30) has a Sept 16 court date — Colts HC Steichen and GM Ballard have confirmed he WILL play the Sept 13 opener vs BAL; a 3-game suspension is still the historical precedent once the legal process resolves, so avoid at cost"],
 ["OUT FOR SEASON","Jayden Higgins (ACL), Ricky Pearsall (PCL), Trey Benson (knee), Chris Brazzell (LCL) all done for 2026"],
 ["INJURY","Zach Charbonnet (ACL) on PUP — out at least half the season; rookie Jadarian Price leads Seattle's backfield"],
 ["INJURY","Jordyn Tyson (hamstring) out ~2 months, likely opens on IR — late-stash only"],
@@ -646,7 +646,7 @@ const NEWS=[
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · SEP 5</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · SEP 6</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
