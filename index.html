@@ -317,6 +317,16 @@
         </ul>
       </div>
       <div class="card wide" id="kgCard" hidden><h3>Keeper class grades — projected points kept</h3><div id="kgBox"></div><p style="font-size:11px;color:var(--dim);margin-top:6px">Sum of 2026 projections for each team's keepers. Edit keepers any time before the Sep 7, 8:00 PM ET lock.</p></div>
+      <div class="card wide" id="stdStrat" hidden><h3>Standard-scoring game plan — no points for receptions</h3>
+        <p><b style="color:var(--text)">Zero-PPR changes the math:</b> a catch is worth nothing by itself, so yards and touchdowns are everything. The board's projections and VORP are already converted (full-PPR minus projected receptions), so trust the numbers — but know the doctrine behind them:</p>
+        <ul>
+          <li><b>RB-heavy early.</b> Without reception points the RB-vs-WR gap widens: volume rushers jump a full tier. <b>Derrick Henry (only ~17 catches) is a top-5 overall pick here</b>; Taylor, Cook, and Javonte all rise a round. Two RBs in the first three rounds is the default; three in five is defensible. Zero-RB is a PPR strategy — don't run it tonight.</li>
+          <li><b>TD equity over target hogs.</b> Big-play and red-zone WRs (Pickens, Jameson Williams, Christian Watson, Alec Pierce) hold value; possession/slot receivers crash — <b>Wan'Dale Robinson (84 catches, few TDs) is the canonical trap</b>, and Godwin, Downs, Shakir, Pittman, Meyers all fall 2-3 rounds.</li>
+          <li><b>Satellite/passing-down RBs crater.</b> Gainwell (60 catches) and Tyjae Spears (50) go from PPR flex to near-undraftable. Prioritize early-down and goal-line roles in committees — Blake Corum (6 catches) and Croskey-Merritt lose almost nothing.</li>
+          <li><b>TEs fall furthest as a class</b> — most TE value is receptions. Don't reach; a TD-dependent TE late is fine in standard.</li>
+          <li><b>QB math is unchanged</b> — still deep, still wait (round 7+ in this 15-rounder), and the roster alarm still guarantees your K/DEF/backup slots.</li>
+        </ul>
+      </div>
       <div class="card wide" id="planSnake"><h3>Tonight’s game plan — 10-team full PPR</h3>
         <p><b style="color:var(--text)">The 2026 meta in one line:</b> anchor with an elite RB or WR early, hammer WR (they dry up fast this year), grab one of the two elite TEs if the price is right, mine the deep <b style="color:var(--text)">round 4–8 RB cluster</b>, and wait on QB until round 9–11 — QB is the deepest it’s been in years and your league only needs 10 starters.</p>
         <ul>
@@ -611,9 +621,23 @@ const REPL={};[["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forE
 P.forEach(p=>{p.proj0=p.proj});
 /* scoring-format adjustment: projections are full-PPR; scale per position for half/standard leagues */
 const PPRADJ={half:{RB:.91,WR:.86,TE:.85},std:{RB:.82,WR:.72,TE:.71}};
+/* projected 2026 receptions (for exact PPR→standard/half conversion: std = PPR − rec) */
+const REC={"Puka Nacua":130,"Jaxon Smith-Njigba":111,"Ja'Marr Chase":128,"Amon-Ra St. Brown":115,"Rashee Rice":105,"George Pickens":93,"Chris Olave":100,"Drake London":94,"A.J. Brown":91,"CeeDee Lamb":101,"Nico Collins":82,"Justin Jefferson":91,"Zay Flowers":83,"Malik Nabers":80,"Tetairoa McMillan":82,"Tee Higgins":74,"DeVonta Smith":90,"Garrett Wilson":89,"Emeka Egbuka":72,"Ladd McConkey":82,"Jameson Williams":63,"Luther Burden III":75,"Terry McLaurin":64,"Jaylen Waddle":75,"Alec Pierce":51,"Davante Adams":69,"DJ Moore":69,"Rome Odunze":62,"Marvin Harrison Jr.":66,"Courtland Sutton":70,"Brian Thomas Jr.":61,"Christian Watson":53,"Parker Washington":62,"Mike Evans":68,"Chris Godwin":75,"DK Metcalf":61,"Quentin Johnston":58,"Wan'Dale Robinson":84,"Michael Wilson":66,"Jakobi Meyers":69,"Michael Pittman":77,"Romeo Doubs":61,"Josh Downs":68,"Deebo Samuel":65,"KC Concepcion":69,"De'Zhaun Stribling":59,"Rashid Shaheed":57,"Jordan Addison":50,"Jerry Jeudy":66,"Jayden Reed":59,"Stefon Diggs":68,"Jalen Coker":59,"Denzel Boston":64,"Calvin Ridley":50,"Xavier Worthy":53,"Keenan Allen":62,"Matthew Golden":52,"Khalil Shakir":67,"Carnell Tate":56,"Ja'Kobi Lane":44,"Makai Lemon":54,"Tre Tucker":52,"Jalen McMillan":46,
+"Jahmyr Gibbs":75,"Bijan Robinson":71,"Jonathan Taylor":42,"De'Von Achane":76,"Christian McCaffrey":74,"Chase Brown":73,"Derrick Henry":17,"James Cook":32,"Saquon Barkley":41,"Kenneth Walker III":47,"Ashton Jeanty":49,"Travis Etienne":48,"Bucky Irving":44,"Cam Skattebo":43,"D'Andre Swift":36,"Omarion Hampton":46,"Javonte Williams":31,"Breece Hall":41,"Kyren Williams":33,"Jeremiyah Love":43,"Quinshon Judkins":37,"Bhayshul Tuten":16,"David Montgomery":27,"Jaylen Warren":40,"Kenneth Gainwell":60,"Rico Dowdle":36,"RJ Harvey":45,"Jadarian Price":20,"Rhamondre Stevenson":34,"Tony Pollard":34,"J.K. Dobbins":21,"Chuba Hubbard":34,"TreVeyon Henderson":32,"MarShawn Lloyd":13,"Jonathon Brooks":23,"Aaron Jones":38,"Kyle Monangai":23,"Jordan Mason":18,"Rachaad White":25,"Jacory Croskey-Merritt":9,"Tyjae Spears":50,"Mike Washington":27,"Blake Corum":6,"Woody Marks":21,"Josh Jacobs":21,"Alvin Kamara":28,
+"Trey McBride":115,"Brock Bowers":88,"Harold Fannin":87,"Colston Loveland":83,"George Kittle":81,"Dallas Goedert":68,"Tyler Warren":74,"Travis Kelce":79,"Sam LaPorta":72,"Tucker Kraft":55,"Isaiah Likely":67,"Kyle Pitts":74,"Mark Andrews":60,"Jake Ferguson":77,"Juwan Johnson":72,"Dalton Kincaid":59,"Dalton Schultz":71,"Hunter Henry":57,"Mason Taylor":47};
+const RECN={};Object.keys(REC).forEach(k=>RECN[nk(k)]=REC[k]);
 function applyScoring(){
-  const adj=PPRADJ[(typeof LG==="function"&&LG().ppr)||"full"]||null;
-  P.forEach(p=>{p.proj=+(p.proj0*(adj?(adj[p.p]||1):1)).toFixed(1)});
+  const mode=(typeof LG==="function"&&LG().ppr)||"full";
+  const adj=PPRADJ[mode]||null;
+  P.forEach(p=>{
+    let v=p.proj0;
+    if(mode!=="full"&&p.p!=="K"&&p.p!=="DST"&&p.p!=="QB"){
+      const rec=RECN[nk(p.n)];
+      if(rec!=null)v=p.proj0-(mode==="std"?1:0.5)*rec;
+      else if(adj)v=p.proj0*(adj[p.p]||1);
+    }
+    p.proj=+Math.max(0,v).toFixed(1);
+  });
   [["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forEach(([pos,n])=>{
     const arr=P.filter(x=>x.p===pos).map(x=>x.proj).sort((a,b)=>b-a);REPL[pos]=arr[Math.min(n-1,arr.length-1)]||100});
   P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
@@ -1366,9 +1390,10 @@ function applyLeague(){
   const ts=$("#teamSel");
   ts.innerHTML=LEAGUE.map(n=>`<option value="${n.replace(/"/g,"&quot;")}" ${n===myName()?"selected":""}>${n}</option>`).join("");
   if(!LEAGUE.includes(myName()))ts.insertAdjacentHTML("afterbegin",`<option value="" selected>— pick your team —</option>`);
-  const kpr=LG().type==="keeper";
+  const kpr=LG().type==="keeper",std=LG().ppr==="std";
   $("#kEditBtn").hidden=!kpr;$("#kgCard").hidden=!kpr;$("#kStrat").hidden=!kpr;
-  $("#planSnake").hidden=kpr;$("#slotSnake").hidden=kpr;
+  $("#planSnake").hidden=kpr||std;$("#slotSnake").hidden=kpr||std;
+  $("#stdStrat").hidden=!std;
 }
 $("#teamSel").onchange=()=>{
   const v=$("#teamSel").value;if(!v)return;
