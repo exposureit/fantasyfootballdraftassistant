@@ -231,6 +231,7 @@
       <div class="sugg" id="suggBox"></div>
     </div>
     <div class="setup">
+      <label>My team <select id="teamSel"></select></label>
       <label>My slot <select id="slotSel"></select></label>
       <button id="undoBtn" title="Undo last pick" style="border:1px solid var(--line2);border-radius:6px;padding:6px 10px">↩ Undo</button>
       <button id="syncBtn" title="Save draft progress to the artifact so your other devices can load it" style="border:1px solid var(--line2);border-radius:6px;padding:6px 10px;display:none">☁ Sync</button>
@@ -607,6 +608,16 @@ P.forEach(p=>{p.bye=BYES[p.t]||null;p.proj=p.p==="DST"?(DSTPROJ[p.t]||175):(PROJ
 /* VORP: points above the last starter-quality player at the position in a 10-team league */
 const REPL={};[["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forEach(([pos,n])=>{
   const arr=P.filter(x=>x.p===pos).map(x=>x.proj).sort((a,b)=>b-a);REPL[pos]=arr[Math.min(n-1,arr.length-1)]||100});
+P.forEach(p=>{p.proj0=p.proj});
+/* scoring-format adjustment: projections are full-PPR; scale per position for half/standard leagues */
+const PPRADJ={half:{RB:.91,WR:.86,TE:.85},std:{RB:.82,WR:.72,TE:.71}};
+function applyScoring(){
+  const adj=PPRADJ[(typeof LG==="function"&&LG().ppr)||"full"]||null;
+  P.forEach(p=>{p.proj=+(p.proj0*(adj?(adj[p.p]||1):1)).toFixed(1)});
+  [["QB",11],["RB",24],["WR",27],["TE",11],["K",10],["DST",10]].forEach(([pos,n])=>{
+    const arr=P.filter(x=>x.p===pos).map(x=>x.proj).sort((a,b)=>b-a);REPL[pos]=arr[Math.min(n-1,arr.length-1)]||100});
+  P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
+}
 P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
 /* news ticker — all fantasy-relevant items as of Sep 6, 2026 */
@@ -668,6 +679,12 @@ const LEAGUES={
   slots:["QB","RB","RB","WR","WR","TE","FLX","K","DST","BN","BN","BN","BN","BN","BN","BN"],
   keepers:null
  },
+ duck:{
+  label:"Duck Butter (James)",sub:"10-team · STANDARD scoring (no PPR) · Yahoo · drafts Sep 8, 8 PM · pick your team →",type:"snake",rounds:15,defSlot:5,myTeam:"James",preOrdered:false,ppr:"std",
+  teams:["We Do Big Jobs","Backdoor Clappers 👏","CARDBOARD ENGINEER","Jimbos jumbos","Friday beers","Crimpin' ain't easy","Strippin' for a Livin'","Scratch N Sniff","The Notorius P.M.E","Zack Lambert"],
+  slots:["QB","RB","RB","WR","WR","TE","FLX","K","DST","BN","BN","BN","BN","BN","BN"],
+  keepers:null
+ },
  sunday:{
   label:"Sunday League",sub:"10-team · Full PPR · snake",type:"snake",rounds:16,defSlot:5,myTeam:"Double D Kupps",preOrdered:false,
   teams:["Double D Kupps","Neuherz Ninjas","Charlie Kirk's Perfect Team","Hangin with Hernandez","Wood Is Good","Washington 4Skins","Gronkey Tonk Badonkadonk","Mr. Auto Spa","Judkins' Punch","Epsteins Children"],
@@ -715,7 +732,8 @@ function myPickOveralls(){const a=[];for(let r=1;r<=ROUNDS;r++)a.push((r-1)*TEAM
 function curPick(){return S.picks.length+1}
 function nextMyPick(from){return myPickOveralls().find(o=>o>=from)||999}
 function fmtPick(o){return Math.ceil(o/TEAMS)+"."+String((o-1)%TEAMS+1).padStart(2,"0")}
-function teamName(t){return S.names[t]||(t===S.slot?LG().myTeam:"Team "+t)}
+function myName(){return S.myTeamName||LG().myTeam}
+function teamName(t){return S.names[t]||(t===S.slot?myName():"Team "+t)}
 function teamPicks(t){const out=(curKeepers()[t]||[]).map(pl=>({pl,o:0,k:true}));S.picks.forEach((pid,idx)=>{if(pid>=0&&teamOf(idx+1)===t)out.push({pl:byId(pid),o:idx+1})});return out}
 function myPlayers(){return teamPicks(S.slot).map(x=>x.pl)}
 function teamCounts(t){const c={QB:0,RB:0,WR:0,TE:0,K:0,DST:0};teamPicks(t).forEach(x=>c[x.pl.p]++);return c}
@@ -743,7 +761,7 @@ function wantsSim(c,pos,rd){
   // final two rounds: an unfilled K/DST slot takes absolute priority
   if(rd>=ROUNDS-1&&(c.K===0||c.DST===0))return (pos==="K"&&c.K===0)||(pos==="DST"&&c.DST===0);
   if(pos==="K"||pos==="DST")return false;
-  if(pos==="QB")return c.QB===0&&rd>=(ROUNDS>=16?4:2);
+  if(pos==="QB")return c.QB===0&&rd>=(LG().type==="keeper"?2:4);
   if(pos==="TE")return c.TE===0;
   if(pos==="RB")return c.RB<6;
   if(pos==="WR")return c.WR<7;
@@ -805,7 +823,7 @@ function survivalPct(id,n){
 function wantsMine(c,pos,rd){
   if(rd>=ROUNDS-1&&(c.K===0||c.DST===0))return (pos==="K"&&c.K===0)||(pos==="DST"&&c.DST===0);
   if(pos==="K"||pos==="DST")return false;
-  if(pos==="QB")return c.QB===0&&rd>=(ROUNDS>=16?8:5);
+  if(pos==="QB")return c.QB===0&&rd>=(LG().type==="keeper"?5:(ROUNDS<=15?7:8));
   if(pos==="TE")return c.TE===0;
   if(pos==="RB")return c.RB<6;
   if(pos==="WR")return c.WR<7;
@@ -1270,7 +1288,7 @@ function openOrderModal(){
     if(vals.some(v=>!v)){$("#orderErr").textContent="Every slot needs a team.";return}
     if(new Set(vals).size!==TEAMS){$("#orderErr").textContent="Each team can only appear once — check for duplicates.";return}
     vals.forEach((v,i)=>S.names[i+1]=v);
-    const ms=vals.indexOf(LG().myTeam);if(ms>=0){S.slot=ms+1;slotSel.value=S.slot}
+    const ms=vals.indexOf(myName());if(ms>=0){S.slot=ms+1;slotSel.value=S.slot}
     save();renderAll();closeModal();
   };
 }
@@ -1282,7 +1300,7 @@ function openRenameModal(t){
     <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px"><button class="mbtn" id="rnCancel">Cancel</button><button class="mbtn gold" id="rnApply">Save custom</button></div>`);
   document.querySelectorAll("#modalBox .opt").forEach(b=>b.onclick=()=>{
     S.names[t]=b.dataset.nm;
-    if(b.dataset.nm===LG().myTeam){S.slot=t;slotSel.value=t}
+    if(b.dataset.nm===myName()){S.slot=t;slotSel.value=t}
     save();renderAll();closeModal();
   });
   $("#rnCancel").onclick=closeModal;
@@ -1325,7 +1343,7 @@ $("#copyRoster").onclick=()=>{
   const lines=[];
   (curKeepers()[S.slot]||[]).forEach(p=>lines.push("KEEP  "+p.n+" ("+p.p+", "+p.t+")"));
   S.picks.forEach((pid,i)=>{if(pid>=0&&isMine(i+1)){const p=byId(pid);lines.push(fmtPick(i+1)+"  "+p.n+" ("+p.p+", "+p.t+")")}});
-  const txt=LG().myTeam+" — 2026 draft ("+LG().label+")\n"+(lines.join("\n")||"(no picks yet)");
+  const txt=myName()+" — 2026 draft ("+LG().label+")\n"+(lines.join("\n")||"(no picks yet)");
   const done=()=>{const b=$("#copyRoster");b.textContent="copied ✓";setTimeout(()=>b.textContent="copy",1500)};
   const fallback=()=>{openModal(`<h3>Your roster</h3><textarea style="width:100%;height:220px;background:var(--panel2);color:var(--text);border:1px solid var(--line2);border-radius:6px;padding:8px;font:12.5px/1.5 Barlow,monospace">${txt}</textarea><p class="mhint">Select all + copy.</p><div style="display:flex;justify-content:flex-end"><button class="mbtn" id="cpClose">Close</button></div>`);$("#cpClose").onclick=closeModal;$("#modalBox textarea").select()};
   if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(done,fallback);
@@ -1342,12 +1360,23 @@ Object.keys(LEAGUES).forEach(id=>{const o=document.createElement("option");o.val
 leagueSel.value=LID;
 function applyLeague(){
   LEAGUE=LG().teams;ROUNDS=LG().rounds;
+  applyScoring();
   $("#subTitle").textContent=LG().sub;
   slotSel.value=S.slot;
+  const ts=$("#teamSel");
+  ts.innerHTML=LEAGUE.map(n=>`<option value="${n.replace(/"/g,"&quot;")}" ${n===myName()?"selected":""}>${n}</option>`).join("");
+  if(!LEAGUE.includes(myName()))ts.insertAdjacentHTML("afterbegin",`<option value="" selected>— pick your team —</option>`);
   const kpr=LG().type==="keeper";
   $("#kEditBtn").hidden=!kpr;$("#kgCard").hidden=!kpr;$("#kStrat").hidden=!kpr;
   $("#planSnake").hidden=kpr;$("#slotSnake").hidden=kpr;
 }
+$("#teamSel").onchange=()=>{
+  const v=$("#teamSel").value;if(!v)return;
+  S.myTeamName=v;
+  const owned=Object.keys(S.names).find(t=>S.names[t]===v);
+  if(owned){S.slot=+owned;slotSel.value=S.slot}
+  save();applyLeague();renderAll();
+};
 leagueSel.onchange=()=>{
   save();
   LID=leagueSel.value;
