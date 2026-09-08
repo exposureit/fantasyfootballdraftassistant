@@ -438,7 +438,7 @@ const P=[
 [39,39,"Travis Etienne Jr.","RB","NO",5,"N","Lead role in New Orleans."],
 [40,39,"Ladd McConkey","WR","LAC",5,"","PPR machine; new OC McDaniel designs touches for slot weapons."],
 [41,41,"Tee Higgins","WR","CIN",5,"","Market higher than ESPN — fine either way."],
-[42,42,"Cam Skattebo","RB","NYG",5,"","Harbaugh/Nagy run-heavy identity; RB9 in PPR PPG last yr — but the Tracy committee is real."],
+[42,36,"Cam Skattebo","RB","NYG",5,"V","Has clearly separated as the unquestioned Wk1 starter on the unofficial depth chart — Giants added Najee Harris (Achilles, not full speed) for depth Sept 8, but he and Tracy are grouped behind Skattebo now. Lead role safer than the old 'committee' price."],
 [43,39,"D'Andre Swift","RB","CHI",5,"V","Monangai (knee) out weeks — locked-in early-season RB2."],
 [44,50,"Quinshon Judkins","RB","CLE",5,"R","Volume real, but CLE OL 31st, Watson at QB, negative scripts, Sampson takes passing downs."],
 [45,45,"Davante Adams","WR","LAR",5,"","Aging but WR2 floor with Stafford."],
@@ -457,8 +457,8 @@ const P=[
 [58,58,"Christian Watson","WR","GB",6,"","Boom/bust vertical."],
 [59,56,"Rome Odunze","WR","CHI",6,"V","Breakout lists everywhere; Eisenberg's Evans alternative."],
 [60,78,"Jayden Daniels","QB","WSH",6,"R","RIPPLE: Tunsil (triceps) out ~5.5 mo — WAS OL now ranked DEAD LAST. Sack/injury risk; only his legs save it."],
-[61,54,"Rhamondre Stevenson","RB","NE",6,"V","Leads NE snaps now — Henderson (ankle) hasn't practiced since Aug 24 and sat out again Saturday, so Stevenson's early-season workload looks safe."],
-[62,72,"TreVeyon Henderson","RB","NE",6,"R","Ankle: hasn't practiced since Aug 24, in street clothes again Saturday. Source says he avoided a serious sprain, but Wk1 vs SEA is now in real doubt with only two practice windows left. Stevenson out-snapped him 15 of 18 games even when healthy."],
+[61,54,"Rhamondre Stevenson","RB","NE",6,"V","Leads NE snaps now — Henderson (ankle) remains a DNP through Monday and stayed noncommittal for the opener, so Stevenson's early-season workload looks safe."],
+[62,80,"TreVeyon Henderson","RB","NE",6,"R","Ankle: still a DNP through Monday; Vrabel noncommittal ('We'll see how he feels'). He traveled with the team to Seattle and has avoided being ruled out, but Wk1 vs SEA looks unlikely. Stevenson out-snapped him 15 of 18 games even when healthy."],
 [63,57,"Jadarian Price","RB","SEA",6,"K V","Rd-1 rookie; Charbonnet (ACL) out — unambiguous lead behind the NFL's best defense. League-winner profile."],
 [64,64,"Carnell Tate","WR","TEN",6,"K","Most pro-ready WR in class; Cam Ward's new weapon."],
 [65,65,"Tyler Warren","TE","IND",6,"","Groin minor, expected Wk1."],
@@ -541,7 +541,7 @@ const P=[
 [142,138,"Baker Mayfield","QB","TB",10,"V","QB1 form at a rd-12 price."],
 [143,143,"Woody Marks","RB","HOU",10,"","Change of pace."],
 [144,144,"Tre Tucker","WR","LV",10,"","Field stretcher."],
-[145,190,"Keenan Allen","WR","IND",10,"O","DUI arrest Aug 29-30, court date Sept 16 — likely plays early, but 3-game suspension is the historical precedent. Avoid."],
+[145,190,"Keenan Allen","WR","IND",10,"O","DUI arrest Aug 29-30, court date Sept 16 — Colts imposed internal discipline but confirm he plays the opener; NFL suspension typically waits for the legal process, so it may not land until later in the season. Avoid."],
 [146,146,"Calvin Ridley","WR","TEN",10,"","Crowded now."],
 [147,120,"Mike Washington Jr.","RB","LV",10,"C V","Biggest ADP riser; Jeanty's ankle could make him the Wk1 starter."],
 [148,116,"Tyler Allgeier","RB","ARI",9,"N C V","Conner (foot) on IR out min. 4 games — Allgeier is the clear early-season 1A/1B with Love, and the Wk1 starter outright if Love's ankle isn't ready."],
@@ -559,7 +559,7 @@ const P=[
 [160,160,"Pat Bryant","WR","DEN",10,"K","Stealing target buzz in Denver."],
 [161,161,"Skyler Bell","WR","BUF",10,"K","'Dominated' preseason, beat out Hardman."],
 [162,162,"Kaleb Johnson","RB","GB",10,"N C","Traded to GB during cut week — Jacobs-fallout dart."],
-[163,163,"Tyrone Tracy Jr.","RB","NYG",10,"V","Co-No.1 with Skattebo, priced 26 RB spots later."],
+[163,185,"Tyrone Tracy Jr.","RB","NYG",10,"R","Slipped behind Skattebo on the unofficial depth chart and now grouped with newly signed Najee Harris (Achilles) as backups — no longer a co-starter case; touches here are murky."],
 [164,164,"Keaton Mitchell","RB","LAC",10,"N","Speed dart."],
 [165,165,"Xavier Hutchinson","WR","HOU",10,"","Higgins-out beneficiary."],
 [166,166,"Jaylin Noel","WR","HOU",10,"K","Higgins-out beneficiary."],
@@ -611,7 +611,8 @@ P.forEach(p=>p.vorp=Math.round(p.proj-REPL[p.p]));
 
 /* news ticker — all fantasy-relevant items as of Sep 6, 2026 */
 const NEWS=[
-["WATCH","TreVeyon Henderson (ankle) hasn't practiced since Aug 24 and was in street clothes again Saturday — a league source says he avoided a serious sprain, but with only two practice windows left before Wednesday's opener at SEA his Wk1 status is genuinely in doubt; Rhamondre Stevenson is the safe floor play in NE"],
+["BREAKING","Giants sign free agent RB Najee Harris (Achilles, not yet full speed) to a 1-year deal Tuesday (Rapoport/Garafolo) — but Cam Skattebo has clearly separated as the unquestioned Wk1 starter on the unofficial depth chart, with Tyrone Tracy Jr. and Harris now grouped together as backups; fade Tracy, Skattebo's lead role is safer than the 'committee' price suggests"],
+["WATCH","TreVeyon Henderson (ankle) remains a DNP through Monday and stayed noncommittal for Wednesday night's opener at SEA — Vrabel: 'We'll see how he feels.' He did travel with the team and has avoided being ruled out, but Wk1 looks unlikely; Rhamondre Stevenson is the safe floor play in NE"],
 ["TRADE","Dolphins trade WR Tutu Atwell to the Rams for RB Jarquez Hunter (Schefter, Sept 4) — Hunter barely played as a rookie so this doesn't dent Kyren Williams/Blake Corum in LA; Atwell is a depth-only add in Miami behind Achane's passing-game work"],
 ["BREAKING","Isiah Pacheco placed on IR Sept 1 with a separate back injury (in addition to the MCL) — out at least 4 games; Jahmyr Gibbs now has zero competition for a true workhorse role in Detroit"],
 ["INJURY","Alvin Kamara (MCL sprain) out AT LEAST a month — Travis Etienne is the unquestioned NO workhorse; Kamara undraftable at cost"],
@@ -620,7 +621,7 @@ const NEWS=[
 ["BREAKING","Josh Jacobs' initial court hearing on his misdemeanor battery/property-damage charges has been moved UP from Nov 17 to this Thursday, Sept 10 — his attorney appears without him, but the accelerated timeline means the exempt-list saga could resolve faster than the room expects; still no return date, do NOT draft at ADP; MarShawn Lloyd is the GB lead"],
 ["INJURY","Laremy Tunsil (triceps) out ~5.5 months — Commanders O-line now ranked dead last; Jayden Daniels & McLaurin downgraded"],
 ["UPGRADE","Ashton Jeanty (ankle) was out working with trainers on the field Saturday for the first time since his injury — Raiders now talking about how MUCH he can play Wk1 vs MIA rather than whether; still pair with Mike Washington Jr."],
-["ARREST","Keenan Allen (DUI, Aug 29-30) has a Sept 16 court date — Colts HC Steichen and GM Ballard have confirmed he WILL play the Sept 13 opener vs BAL; a 3-game suspension is still the historical precedent once the legal process resolves, so avoid at cost"],
+["ARREST","Keenan Allen (DUI, Aug 29-30) has a Sept 16 court date — Colts imposed internal discipline and HC Steichen/GM Ballard confirm he WILL play the Sept 13 opener vs BAL; the NFL typically waits for the legal process to conclude before any suspension, so a ban may not land until later in 2026 — still avoid at cost given the cloud"],
 ["OUT FOR SEASON","Jayden Higgins (ACL), Ricky Pearsall (PCL), Trey Benson (knee), Chris Brazzell (LCL) all done for 2026"],
 ["INJURY","Zach Charbonnet (ACL) on PUP — out at least half the season; rookie Jadarian Price leads Seattle's backfield"],
 ["INJURY","Jordyn Tyson (hamstring) out ~2 months, likely opens on IR — late-stash only"],
@@ -644,7 +645,7 @@ const NEWS=[
 ];
 (function buildTicker(){
   const tr=document.getElementById("tickerTrack");if(!tr)return;
-  const one=`<span class="ti"><b>LATE-BREAKING · SEP 7</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
+  const one=`<span class="ti"><b>LATE-BREAKING · SEP 8</b></span>`+NEWS.map(([tag,txt])=>`<span class="ti ${/UPGRADE/.test(tag)?"up":""}"><b>${tag}</b>${txt}</span>`).join("");
   tr.innerHTML=one+one;
   document.getElementById("ticker").style.setProperty("--tickdur",Math.round(NEWS.length*6.5)+"s");
 })();
