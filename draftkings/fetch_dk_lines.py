@@ -30,7 +30,8 @@ try:
         data = json.loads(r.read().decode())
         remaining = r.headers.get("x-requests-remaining")
 except Exception as e:
-    print(f"UNVERIFIED: fetch failed ({e}). Fall back to screenshot protocol.")
+    msg = str(e).replace(key, "REDACTED")
+    print(f"UNVERIFIED: fetch failed ({msg}). Fall back to screenshot protocol.")
     sys.exit(1)
 
 fetched = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
