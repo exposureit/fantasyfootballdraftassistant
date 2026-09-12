@@ -31,7 +31,9 @@ weather, and betting splits, then rewrites the week's file and pushes it here.
 
 ## Unit sizing
 
-- 1u = a fixed amount Luke sets (recommend 1 to 2 percent of the season bankroll).
+- 1u = 2 percent of the season bankroll. Default assumption until Luke sets a number: $1,000 bankroll, 1u = $20.
+- Every card shows dollar stakes at the default and scaled columns for $500 / $2,500 / $5,000 bankrolls.
+- Everything is structured for DraftKings only: DK lines, DK parlay and Same Game Parlay mechanics, DK promos.
 - Core plays: 1u. Parlays: 0.5u. Long shots and TD ladders: 0.25u.
 - Weekly cap: 5u across everything. No chasing after a losing Sunday.
 
