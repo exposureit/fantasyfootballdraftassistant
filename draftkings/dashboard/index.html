@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E1512">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="DK Card">
+<title>DK Weekly Card</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{--ground:#0E1512;--surface:#171F1B;--surface2:#1E2925;--ink:#E7ECE9;--muted:#93A39C;--rule:#2A3631;--accent:#F0B23E;--core:#4FC48A;--core-bg:#1A2F25;--parlay:#8FB3FF;--parlay-bg:#1B2436;--sgp:#A2A6F0;--sgp-bg:#22243A;--warn:#F08A72;--warn-bg:#3A2420;--win:#4FC48A;--loss:#F08A72}
+@media (prefers-color-scheme: light){:root{--ground:#EEF1EF;--surface:#FFFFFF;--surface2:#F6F8F7;--ink:#15201B;--muted:#5E6E68;--rule:#CBD4CF;--accent:#8A5A0C;--core:#1E7F55;--core-bg:#E3F2EA;--parlay:#2A55B8;--parlay-bg:#E6EDFB;--sgp:#5B5FA8;--sgp-bg:#E9E9F7;--warn:#B6432B;--warn-bg:#F9E8E3;--win:#1E7F55;--loss:#B6432B}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"Barlow",system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45;padding-inline:14px;padding-block:calc(14px + env(safe-area-inset-top)) 60px}
+.wrap{max-width:720px;margin:0 auto;display:grid;gap:18px}
+h1,h2,h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;margin:0;line-height:1.05;text-wrap:balance}
+h1{font-size:40px;font-weight:700}
+h2{font-size:22px;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+h3{font-size:20px;font-weight:600}
+.mono{font-family:"IBM Plex Mono",Menlo,monospace;font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.hdr{display:grid;gap:8px;border-bottom:2px solid var(--ink);padding-bottom:14px}
+.hdr .meta{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--muted);font-size:14px}
+.hdr .meta b{color:var(--ink);font-weight:600}
+.pill{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:3px 9px;border-radius:999px}
+.pill.ok{background:var(--core-bg);color:var(--core)}
+.pill.warn{background:var(--warn-bg);color:var(--warn)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.tiles div{background:var(--surface);padding:12px 12px;display:grid;gap:2px}
+.tiles .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:600}
+.tiles .v{font-size:24px;font-weight:600}
+.tiles .v.pos{color:var(--win)}.tiles .v.neg{color:var(--loss)}
+section{display:grid;gap:10px}
+.sub{color:var(--muted);font-size:14px}
+.slip{background:var(--surface);border:1px solid var(--rule);border-top:3px dashed var(--rule);border-radius:0 0 10px 10px}
+.slip-h{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;padding:12px 14px 8px}
+.slip-h .l{display:grid;gap:4px;min-width:0}
+.slip-h .r{text-align:right;flex-shrink:0}
+.tag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;padding:2px 7px;border-radius:3px;display:inline-block}
+.tag.single{background:var(--core-bg);color:var(--core)}
+.tag.parlay{background:var(--parlay-bg);color:var(--parlay)}
+.tag.sgp{background:var(--sgp-bg);color:var(--sgp)}
+.tag.res-win{background:var(--core-bg);color:var(--win)}
+.tag.res-loss{background:var(--warn-bg);color:var(--loss)}
+.tag.res-push{background:var(--surface2);color:var(--muted)}
+.stake{font-size:26px;font-weight:700;line-height:1}
+.price{font-size:13px;color:var(--muted);margin-top:3px}
+.game{font-size:13px;color:var(--muted)}
+.legs{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.legs li{display:grid;grid-template-columns:22px 1fr;gap:2px 10px;padding:10px 14px;border-bottom:1px solid var(--rule)}
+.legs li:last-child{border-bottom:0}
+.legs .n{color:var(--muted);font-size:12px;padding-top:3px}
+.legs .pick{font-weight:600;font-size:16px}
+.legs .why{grid-column:2;color:var(--muted);font-size:13.5px}
+.why-block{padding:8px 14px 10px;color:var(--muted);font-size:14px;border-top:1px solid var(--rule)}
+.foot{padding:9px 14px 12px;font-size:13.5px;border-top:1px solid var(--rule);background:var(--surface2);border-radius:0 0 10px 10px;display:grid;gap:4px}
+.foot b{color:var(--warn);font-weight:600}
+.edge{display:flex;gap:14px;font-size:13px;color:var(--muted)}
+.edge b{color:var(--ink);font-weight:600}
+.bar{height:6px;background:var(--surface2);border-radius:3px;overflow:hidden;position:relative;margin-top:6px}
+.bar i{position:absolute;left:0;top:0;bottom:0;background:var(--core);border-radius:3px}
+.bar u{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--accent)}
+ol.watch{margin:0;padding-left:20px;display:grid;gap:6px;font-size:15px}
+.board{overflow-x:auto;border:1px solid var(--rule);background:var(--surface);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:13.5px}
+th{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:8px 10px;border-bottom:1px solid var(--rule);background:var(--surface2)}
+td{padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.g{font-weight:600}
+.day{display:flex;align-items:center;gap:10px}
+.day .sum{margin-left:auto;font-size:14px;color:var(--muted)}
+.empty{padding:18px;border:1px dashed var(--rule);border-radius:8px;color:var(--muted);text-align:center}
+.honest{border-top:1px solid var(--rule);padding-top:12px;color:var(--muted);font-size:13.5px}
+.src{font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><div class="empty">Loading the card…</div></div>
+<script>
+// Data source: the picks branch in the repo. Change BRANCH if the routines move.
+const OWNER="exposureit", REPO="fantasyfootballdraftassistant", BRANCH="claude/draftkings-nfl-picks-4aiuoj";
+const RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/draftkings/card.json`;
+const money=n=>(n<0?"-":"")+"$"+Math.abs(n).toFixed(2).replace(/\.00$/,"");
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtET=iso=>{try{return new Date(iso).toLocaleString("en-US",{timeZone:"America/New_York",weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET"}catch(e){return iso}};
+function ticket(t){
+  const type=t.type||"single";
+  const typeLabel=type==="single"?"Single":type==="parlay"?"Parlay":"Same game parlay";
+  const res=t.result?`<span class="tag res-${esc(t.result)}">${esc(t.result)}${t.net!=null?" "+money(t.net):""}</span>`:"";
+  const legs=(t.legs||[]).map((l,i)=>`<li><span class="n mono">${i+1}</span><span class="pick">${esc(l.pick)}</span><span class="why">${esc(l.game?l.game+". ":"")}${esc(l.why||"")}</span></li>`).join("");
+  const edgePct=Math.max(0,Math.min(100,t.estimate||0)), bePct=Math.max(0,Math.min(100,t.breakeven||0));
+  return `<div class="slip">
+    <div class="slip-h"><div class="l"><div><span class="tag ${type}">${typeLabel}</span> ${res}</div><h3>${esc(t.name)}</h3>${t.game?`<div class="game">${esc(t.game)}${t.kickoff?" · "+esc(t.kickoff):""}</div>`:""}</div>
+    <div class="r"><div class="stake mono">${money(t.stake)}</div><div class="price mono">${esc(t.price)} · wins ${money(t.payout)}</div></div></div>
+    ${legs?`<ol class="legs">${legs}</ol>`:""}
+    ${t.why?`<div class="why-block">${esc(t.why)}</div>`:""}
+    <div class="foot"><div class="edge"><span>My estimate <b>${t.estimate}%</b></span><span>Breakeven <b>${t.breakeven}%</b></span></div><div class="bar"><i style="width:${edgePct}%"></i><u style="left:${bePct}%"></u></div>${t.kill_switch?`<div><b>Kill switch.</b> ${esc(t.kill_switch)}</div>`:""}</div>
+  </div>`;
+}
+function render(d,srcNote){
+  const days=[["thursday","Thursday"],["sunday","Sunday"],["monday","Monday"]];
+  const total=d.tickets.reduce((a,t)=>a+(t.stake||0),0);
+  const graded=d.tickets.filter(t=>t.result);
+  const net=graded.reduce((a,t)=>a+(t.net||0),0);
+  const rec=`${graded.filter(t=>t.result==="win").length}-${graded.filter(t=>t.result==="loss").length}`;
+  const ok=d.verification==="verified";
+  let html=`<header class="hdr"><span class="eyebrow">DraftKings NFL · ${esc(d.season||"")} season</span><h1>${esc(d.title||"Weekly card")}</h1>
+    <div class="meta"><span class="pill ${ok?"ok":"warn"}">${ok?"Lines verified":"Lines unverified"}</span><span>Fetched <b>${fmtET(d.lines_verified_at)}</b></span><span>Card built <b>${fmtET(d.built_at)}</b></span></div>
+    <div class="sub">${esc(d.verification_note||"")}</div></header>`;
+  html+=`<div class="tiles"><div><span class="k">In play</span><span class="v mono">${money(total)}</span></div><div><span class="k">This week</span><span class="v mono ${net>0?"pos":net<0?"neg":""}">${graded.length?money(net):"—"}</span></div><div><span class="k">Record</span><span class="v mono">${graded.length?rec:"—"}</span></div></div>`;
+  if(d.season&&d.season.weeks&&d.season.weeks.length){
+    const sn=d.season.net||0;
+    html+=`<div class="tiles"><div><span class="k">Season record</span><span class="v mono">${esc(d.season.record||"")}</span></div><div><span class="k">Season net</span><span class="v mono ${sn>0?"pos":sn<0?"neg":""}">${money(sn)}</span></div><div><span class="k">Weeks</span><span class="v mono">${d.season.weeks.length}</span></div></div>`;
+  }
+  for(const [key,label] of days){
+    const ts=d.tickets.filter(t=>(t.day||"sunday")===key);
+    if(!ts.length) continue;
+    const sum=ts.reduce((a,t)=>a+(t.stake||0),0);
+    html+=`<section><div class="day"><h2>${label}</h2><span class="sum mono">${money(sum)} · ${ts.length} ticket${ts.length>1?"s":""}</span></div>${ts.map(ticket).join("")}</section>`;
+  }
+  if(d.watch&&d.watch.length) html+=`<section><h2>Before kickoff</h2><ol class="watch">${d.watch.map(w=>`<li>${esc(w)}</li>`).join("")}</ol></section>`;
+  if(d.board&&d.board.length) html+=`<section><h2>DraftKings board</h2><div class="sub">Every game, DraftKings' number, and the read. Scroll sideways.</div><div class="board"><table><thead><tr><th>Kick (ET)</th><th>Game</th><th>Spread</th><th>Total</th><th>ML</th><th>Read</th></tr></thead><tbody>${d.board.map(r=>`<tr><td class="mono">${esc(r.kickoff)}</td><td class="g">${esc(r.game)}</td><td class="mono">${esc(r.spread)}</td><td class="mono">${esc(r.total)}</td><td class="mono">${esc(r.ml)}</td><td>${esc(r.read)}</td></tr>`).join("")}</tbody></table></div></section>`;
+  html+=`<p class="honest">Nothing here is guaranteed. Estimates are judgments. Every leg has a stated edge against its price, the money sits where DraftKings' hold is lowest, and the weekly budget is the cap.</p><p class="src">${esc(srcNote)}</p>`;
+  document.getElementById("app").innerHTML=html;
+  document.title=`DK ${d.title||"Card"}`;
+}
+(async()=>{
+  try{
+    const r=await fetch(RAW+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    render(await r.json(),"Live from the picks branch.");
+  }catch(e){
+    const fb=document.getElementById("fallback");
+    if(fb){ try{ render(JSON.parse(fb.textContent),"Showing the last card bundled with this page (live fetch failed: "+e.message+")."); return;}catch(_){} }
+    document.getElementById("app").innerHTML=`<div class="empty">Could not load the card (${esc(e.message)}).</div>`;
+  }
+})();
+</script>
+<script type="application/json" id="fallback">
+{
+  "week": 1,
+  "title": "Week 1",
+  "season": "2026",
+  "built_at": "2026-09-12T13:45:00Z",
+  "lines_verified_at": "2026-09-12T13:43:00Z",
+  "verification": "verified",
+  "verification_note": "Every line is DraftKings' own number, pulled through The Odds API.",
+  "budget": {"total": 100, "sunday": 90, "monday": 10, "thursday": 0},
+  "tickets": [
+    {"id": "C1", "type": "single", "day": "sunday", "name": "Cardinals +9.5", "game": "Cardinals at Chargers", "kickoff": "Sun 4:25 PM", "stake": 15, "price": "-105", "payout": 14.29, "estimate": 54, "breakeven": 51.2,
+     "why": "Sharp money on Arizona (36% of tickets, 62% of handle). My number LAC -8.5. Week 1 dogs of 6.5+ are 32-13-1 ATS since 2013.",
+     "kill_switch": "At +9 or lower, or if Jeremiyah Love is inactive, cut to $7.50 and move the rest to Under 41.5.", "result": null, "net": null},
+    {"id": "C2", "type": "single", "day": "sunday", "name": "Under 41.5", "game": "Falcons at Steelers", "kickoff": "Sun 1:00 PM", "stake": 20, "price": "-115", "payout": 17.39, "estimate": 56, "breakeven": 53.5,
+     "why": "Spread moved two points to Pittsburgh, total did not move. A third-string QB lowers both team totals. My number 39.5.",
+     "kill_switch": "Pass at 40.5 or lower.", "result": null, "net": null},
+    {"id": "C3", "type": "single", "day": "sunday", "name": "Vikings -1.5", "game": "Packers at Vikings", "kickoff": "Sun 4:25 PM", "stake": 10, "price": "-112", "payout": 8.93, "estimate": 56, "breakeven": 52.8,
+     "why": "Green Bay without Josh Jacobs, Micah Parsons, and two linemen who missed all preseason. Murray at home in a dome. My number MIN -3.",
+     "kill_switch": "Pass at -2.5 or worse.", "result": null, "net": null},
+    {"id": "C4", "type": "single", "day": "sunday", "name": "Dolphins +3", "game": "Dolphins at Raiders", "kickoff": "Sun 4:25 PM", "stake": 10, "price": "-108", "payout": 9.26, "estimate": 55, "breakeven": 51.9,
+     "why": "On the key number. My number LV -2. Brock Bowers out for Las Vegas, Miami has no designations.",
+     "kill_switch": "Pass at +2.5.", "result": null, "net": null},
+    {"id": "C5", "type": "single", "day": "sunday", "name": "Panthers +3", "game": "Bears at Panthers", "kickoff": "Sun 1:00 PM", "stake": 5, "price": "-102", "payout": 4.90, "estimate": 56, "breakeven": 50.5,
+     "why": "93% of tickets on a road favorite in its first road game of a second-year system. My number CHI -1.5. Carolina's line is banged up, hence $5.",
+     "kill_switch": "Pass if the price is worse than -110.", "result": null, "net": null},
+    {"id": "P1", "type": "parlay", "day": "sunday", "name": "Week 1 dog stack", "stake": 10, "price": "+618", "payout": 61.80, "estimate": 18, "breakeven": 13.9,
+     "legs": [
+       {"pick": "Cardinals +9.5 (-105)", "game": "ARI at LAC", "why": "Core play."},
+       {"pick": "Browns +8.5 (-108)", "game": "CLE at JAX", "why": "35% storm chance, Watson's first start since the Achilles, and a 39.5 total where 8.5 points is a lot of room."},
+       {"pick": "Saints +7 (-110)", "game": "NO at DET", "why": "Seven is the number. If DK shows +6.5, swap to Falcons +6."}
+     ],
+     "kill_switch": "Standard cross-game parlay. Do not toggle Same Game Parlay. If the slip is more than 10% below +618, a leg moved.", "result": null, "net": null},
+    {"id": "P2", "type": "parlay", "day": "sunday", "name": "Slow-start unders", "stake": 10, "price": "+607", "payout": 60.70, "estimate": 17, "breakeven": 14.1,
+     "legs": [
+       {"pick": "Under 41.5 (-115)", "game": "ATL at PIT", "why": "Core play."},
+       {"pick": "Under 39.5 (-102)", "game": "CLE at JAX", "why": "Run-first Cleveland into the top run defense, weather in the forecast."},
+       {"pick": "Under 44.5 (-110)", "game": "BUF at HOU", "why": "Houston finished second in EPA allowed and sacked Allen eight times in November."}
+     ],
+     "kill_switch": "Standard cross-game parlay.", "result": null, "net": null},
+    {"id": "P3", "type": "parlay", "day": "sunday", "name": "Value moneylines", "stake": 10, "price": "+850", "payout": 85.00, "estimate": 14, "breakeven": 10.5,
+     "legs": [
+       {"pick": "Vikings ML (-125)", "game": "GB at MIN", "why": "My 58% against a 55.6 breakeven."},
+       {"pick": "Broncos ML (+120)", "game": "DEN at KC", "why": "Healthy 14-3 team against a Chiefs team missing its left tackle and starting safety, Mahomes off an ACL. My 55% against 45.5."},
+       {"pick": "Panthers ML (+140)", "game": "CHI at CAR", "why": "My 45% against 41.7."}
+     ],
+     "kill_switch": "Highest-edge ticket. Put a Profit Boost token here if DK offers one.", "result": null, "net": null},
+    {"id": "P4", "type": "sgp", "day": "monday", "name": "Broncos +2.5 and Under 43.5", "game": "Broncos at Chiefs", "kickoff": "Mon 8:15 PM", "stake": 10, "price": "+200 min", "payout": 20.00, "estimate": 34, "breakeven": 33.3,
+     "legs": [
+       {"pick": "Broncos +2.5 (-105)", "game": "DEN at KC", "why": "Take +3 if it appears."},
+       {"pick": "Under 43.5 (-105)", "game": "DEN at KC", "why": "Dog plus under, positively correlated."}
+     ],
+     "kill_switch": "DK converts this to a Same Game Parlay. Accept at +200 or better. Below that, two $5 straight bets. Re-checked at the Monday 5:00 PM update.", "result": null, "net": null}
+  ],
+  "watch": [
+    "Jeremiyah Love (ARI). Inactive means the Cardinals stake drops to $7.50.",
+    "Chris Jones (KC). Out on Monday means add $5 to Broncos ML.",
+    "Kamara (NO) and Nabers (NYG). No change to any ticket.",
+    "Line checks: Steelers total 41.5+, Cardinals +9.5, Vikings -1.5, Dolphins +3, Panthers +3, Saints +7, Browns +8.5, Broncos +2.5."
+  ],
+  "board": [
+    {"kickoff": "Sun 1:00", "game": "Falcons at Steelers", "spread": "PIT -6 (-110)", "total": "41.5", "ml": "PIT -270", "read": "Under 41.5, $20"},
+    {"kickoff": "Sun 1:00", "game": "Ravens at Colts", "spread": "BAL -3.5 (-105)", "total": "47.5", "ml": "BAL -175", "read": "Pass"},
+    {"kickoff": "Sun 1:00", "game": "Bills at Texans", "spread": "BUF -1.5 (-108)", "total": "44.5", "ml": "HOU -102", "read": "Under in P2"},
+    {"kickoff": "Sun 1:00", "game": "Bears at Panthers", "spread": "CAR +3 (-102)", "total": "47.5", "ml": "CAR +140", "read": "Panthers +3, $5"},
+    {"kickoff": "Sun 1:00", "game": "Buccaneers at Bengals", "spread": "CIN -3.5 (-112)", "total": "50.5", "ml": "CIN -205", "read": "Pass"},
+    {"kickoff": "Sun 1:00", "game": "Browns at Jaguars", "spread": "CLE +8.5 (-108)", "total": "39.5", "ml": "JAX -455", "read": "P1 and P2 legs"},
+    {"kickoff": "Sun 1:00", "game": "Saints at Lions", "spread": "NO +7 (-110)", "total": "49.5", "ml": "DET -340", "read": "P1 leg"},
+    {"kickoff": "Sun 1:00", "game": "Jets at Titans", "spread": "TEN -1.5 (-110)", "total": "38.5", "ml": "TEN -122", "read": "Pass"},
+    {"kickoff": "Sun 4:25", "game": "Cardinals at Chargers", "spread": "ARI +9.5 (-105)", "total": "47.5", "ml": "LAC -500", "read": "Cardinals +9.5, $15"},
+    {"kickoff": "Sun 4:25", "game": "Packers at Vikings", "spread": "MIN -1.5 (-112)", "total": "46.5", "ml": "MIN -125", "read": "Vikings -1.5, $10"},
+    {"kickoff": "Sun 4:25", "game": "Dolphins at Raiders", "spread": "MIA +3 (-108)", "total": "40.5", "ml": "MIA +142", "read": "Dolphins +3, $10"},
+    {"kickoff": "Sun 4:25", "game": "Commanders at Eagles", "spread": "PHI -6 (-108)", "total": "44.5", "ml": "PHI -250", "read": "Pass at -6"},
+    {"kickoff": "Sun 8:20", "game": "Cowboys at Giants", "spread": "DAL -3 (-105)", "total": "48.5", "ml": "DAL -162", "read": "Pass"},
+    {"kickoff": "Mon 8:15", "game": "Broncos at Chiefs", "spread": "DEN +2.5 (-105)", "total": "43.5", "ml": "DEN +120", "read": "P4 and P3 leg"}
+  ],
+  "season": {"record": "0-0", "net": 0, "weeks": []}
+}
+
+</script>
+</body>
+</html>

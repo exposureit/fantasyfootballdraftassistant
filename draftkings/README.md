@@ -74,3 +74,16 @@ pushes the current branch using a `GITHUB_TOKEN` environment variable when one i
 personal access token, Contents: read and write, this repo only), and falls back to a plain push otherwise.
 Setup (Luke): create the token at github.com > Settings > Developer settings > Fine-grained tokens, then add
 it in the Claude Code environment settings as an environment variable named GITHUB_TOKEN.
+
+## Dashboard (phone view)
+
+`draftkings/dashboard/index.html` is a mobile-first page that renders `draftkings/card.json` (fetched live from the
+picks branch, with the last card bundled as a fallback). Every routine writes `card.json` alongside the week's
+markdown, so the dashboard updates itself on every run. Hosted through GitHub Pages at
+`/draftkings/dashboard/` once that folder is on the Pages branch. Add it to the phone home screen for an app icon.
+
+`card.json` shape: week, title, season, built_at, lines_verified_at, verification (verified|unverified),
+verification_note, budget {total, sunday, monday, thursday}, tickets [ {id, type (single|parlay|sgp), day,
+name, game, kickoff, stake, price, payout, estimate, breakeven, legs [{pick, game, why}], why, kill_switch,
+result (null|win|loss|push), net} ], watch [strings], board [{kickoff, game, spread, total, ml, read}],
+season {record, net, weeks [{week, net}]}. Stakes must sum to the day's budget.
