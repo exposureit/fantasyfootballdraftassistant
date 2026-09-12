@@ -45,7 +45,8 @@ def fmt(p):
 print(f"VERIFIED {book.upper()} NFL lines via The Odds API, fetched {fetched}. Requests remaining this month: {remaining}\n")
 print("| Kickoff (ET) | Game | Spread | Total | Moneyline |")
 print("|---|---|---|---|---|")
-et = datetime.timezone(datetime.timedelta(hours=-4))  # EDT; switch to -5 after Nov 1
+from zoneinfo import ZoneInfo
+et = ZoneInfo("America/New_York")  # handles daylight saving automatically
 for ev in data:
     home, away = ev["home_team"], ev["away_team"]
     ko = datetime.datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00")).astimezone(et).strftime("%a %m/%d %I:%M %p")
