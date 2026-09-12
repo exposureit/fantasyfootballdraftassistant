@@ -66,3 +66,11 @@ One-time setup (Luke):
 2. In the Claude Code environment settings: add `api.the-odds-api.com` to Allowed domains, and add an
    environment variable `ODDS_API_KEY` with the key.
 3. Start a new session or wait for the next routine. Running sessions do not pick up the change.
+
+## Pushing from routine sessions
+
+Routine-fired sessions can read the repo but have no push credential of their own. `draftkings/push.sh`
+pushes the current branch using a `GITHUB_TOKEN` environment variable when one is set (fine-grained
+personal access token, Contents: read and write, this repo only), and falls back to a plain push otherwise.
+Setup (Luke): create the token at github.com > Settings > Developer settings > Fine-grained tokens, then add
+it in the Claude Code environment settings as an environment variable named GITHUB_TOKEN.
