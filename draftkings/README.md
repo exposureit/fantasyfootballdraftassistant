@@ -15,6 +15,20 @@ and a **Results** section filled in after the games.
 Each update is produced by a scheduled Claude routine that researches lines, injuries,
 weather, and betting splits, then rewrites the week's file and pushes it here.
 
+## Method (Luke's standing instruction: own analysis, not consensus)
+
+1. Price the leg, not the story. A leg makes the card only if the estimated win rate beats the
+   breakeven implied by the price (52.4 percent at -110). State the estimate on every ticket.
+2. Shop the number. Compare DraftKings to the market. A point off consensus through a key number
+   (3, 7, 10) is the edge.
+3. Respect situational history (early-season big dogs, big favorites covering under 50 percent,
+   unders with backup QBs and weather, short-week unders) but regress it.
+4. Put parlay money where DK's hold is smallest: spreads, totals, moneylines in cross-game parlays.
+   Props and same game parlays get at most one quarter-unit ticket per card.
+5. Correlate on purpose (dog plus under, favorite plus over).
+6. Fade the crowd where it is loudest (80 percent plus of tickets on one side).
+7. Every ticket gets a kill switch: the line or inactive that turns it off.
+
 ## Unit sizing
 
 - 1u = a fixed amount Luke sets (recommend 1 to 2 percent of the season bankroll).
