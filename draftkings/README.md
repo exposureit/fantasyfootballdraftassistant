@@ -43,3 +43,14 @@ weather, and betting splits, then rewrites the week's file and pushes it here.
 
 Results are graded against the line at the time the card was written.
 Track: record by ticket type (core, parlay, long shot) and net units.
+
+## Line verification (added after the Week 1 screenshot check)
+
+This environment cannot reach DraftKings or any live odds site. Search-engine summaries are hours to days
+stale and were wrong by a full point on two Week 1 games. Rules:
+1. A line is VERIFIED only if it comes from a DraftKings screenshot Luke sent, or from a live odds source the
+   environment can actually fetch (none as of Sep 12, 2026).
+2. Every other line is labeled UNVERIFIED and must carry the threshold Luke applies in the app before placing.
+3. Never present a search-sourced line as DK's line. Say "DK line as of <source time>, verify in app".
+4. Durable fix: allow sportsbook.draftkings.com (or site.api.espn.com) in the environment's network policy at
+   claude.ai/code environment settings. Then the routines can pull live lines.
