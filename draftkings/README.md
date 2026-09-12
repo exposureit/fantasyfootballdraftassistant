@@ -82,7 +82,7 @@ picks branch, with the last card bundled as a fallback). Every routine writes `c
 markdown, so the dashboard updates itself on every run. Hosted through GitHub Pages at
 `/draftkings/dashboard/` once that folder is on the Pages branch. Add it to the phone home screen for an app icon.
 
-`card.json` shape: week, title, season, built_at, lines_verified_at, verification (verified|unverified),
+`card.json` shape: week, title, year, built_at, lines_verified_at, verification (verified|unverified),
 verification_note, budget {total, sunday, monday, thursday}, tickets [ {id, type (single|parlay|sgp), day,
 name, game, kickoff, stake, price, payout, estimate, breakeven, legs [{pick, game, why}], why, kill_switch,
 result (null|win|loss|push), net} ], watch [strings], board [{kickoff, game, spread, total, ml, read}],

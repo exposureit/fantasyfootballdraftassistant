@@ -106,7 +106,7 @@ function render(d,srcNote){
   const net=graded.reduce((a,t)=>a+(t.net||0),0);
   const rec=`${graded.filter(t=>t.result==="win").length}-${graded.filter(t=>t.result==="loss").length}`;
   const ok=d.verification==="verified";
-  let html=`<header class="hdr"><span class="eyebrow">DraftKings NFL · ${esc(d.season||"")} season</span><h1>${esc(d.title||"Weekly card")}</h1>
+  let html=`<header class="hdr"><span class="eyebrow">DraftKings NFL · ${esc(d.year||"")} season</span><h1>${esc(d.title||"Weekly card")}</h1>
     <div class="meta"><span class="pill ${ok?"ok":"warn"}">${ok?"Lines verified":"Lines unverified"}</span><span>Fetched <b>${fmtET(d.lines_verified_at)}</b></span><span>Card built <b>${fmtET(d.built_at)}</b></span></div>
     <div class="sub">${esc(d.verification_note||"")}</div></header>`;
   html+=`<div class="tiles"><div><span class="k">In play</span><span class="v mono">${money(total)}</span></div><div><span class="k">This week</span><span class="v mono ${net>0?"pos":net<0?"neg":""}">${graded.length?money(net):"—"}</span></div><div><span class="k">Record</span><span class="v mono">${graded.length?rec:"—"}</span></div></div>`;
@@ -142,7 +142,7 @@ function render(d,srcNote){
 {
   "week": 1,
   "title": "Week 1",
-  "season": "2026",
+  "year": "2026",
   "built_at": "2026-09-12T13:45:00Z",
   "lines_verified_at": "2026-09-12T13:43:00Z",
   "verification": "verified",
