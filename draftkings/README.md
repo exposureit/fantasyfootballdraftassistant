@@ -54,3 +54,15 @@ stale and were wrong by a full point on two Week 1 games. Rules:
 3. Never present a search-sourced line as DK's line. Say "DK line as of <source time>, verify in app".
 4. Durable fix: allow sportsbook.draftkings.com (or site.api.espn.com) in the environment's network policy at
    claude.ai/code environment settings. Then the routines can pull live lines.
+
+## Live DraftKings lines (The Odds API)
+
+`draftkings/fetch_dk_lines.py` pulls DraftKings' exact NFL spreads, totals, and moneylines from The Odds API
+(licensed aggregator, free tier 500 requests per month, bookmaker key `draftkings`). Every routine runs it first.
+If it prints VERIFIED, those lines are the source of truth. If it prints UNVERIFIED, fall back to Luke's screenshots.
+
+One-time setup (Luke):
+1. Create a free account at https://the-odds-api.com and copy the API key.
+2. In the Claude Code environment settings: add `api.the-odds-api.com` to Allowed domains, and add an
+   environment variable `ODDS_API_KEY` with the key.
+3. Start a new session or wait for the next routine. Running sessions do not pick up the change.
