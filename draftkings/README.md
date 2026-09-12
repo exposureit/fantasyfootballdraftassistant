@@ -31,11 +31,13 @@ weather, and betting splits, then rewrites the week's file and pushes it here.
 
 ## Unit sizing
 
-- 1u = 2 percent of the season bankroll. Default assumption until Luke sets a number: $1,000 bankroll, 1u = $20.
-- Every card shows dollar stakes at the default and scaled columns for $500 / $2,500 / $5,000 bankrolls.
+- Luke's weekly budget is exactly $100, spent in full every week. 1u = $20.
+- Standing split: Thursday $15, Sunday $70, Monday $15. If a kill switch removes a ticket, move that money
+  to the next-best ticket on the same day so the week still spends $100. Never carry forward, never add after a loss.
+- Every card shows one dollar amount per ticket, not columns.
 - Everything is structured for DraftKings only: DK lines, DK parlay and Same Game Parlay mechanics, DK promos.
 - Core plays: 1u. Parlays: 0.5u. Long shots and TD ladders: 0.25u.
-- Weekly cap: 5u across everything. No chasing after a losing Sunday.
+- Weekly total: $100 exactly. No chasing after a losing Sunday.
 
 ## Grading
 
