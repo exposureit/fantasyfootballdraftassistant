@@ -49,7 +49,7 @@ Track: record by ticket type (core, parlay, long shot) and net units.
 This environment cannot reach DraftKings or any live odds site. Search-engine summaries are hours to days
 stale and were wrong by a full point on two Week 1 games. Rules:
 1. A line is VERIFIED only if it comes from a DraftKings screenshot Luke sent, or from a live odds source the
-   environment can actually fetch (none as of Sep 12, 2026).
+   environment can actually fetch (The Odds API since Sep 12, 2026; see below).
 2. Every other line is labeled UNVERIFIED and must carry the threshold Luke applies in the app before placing.
 3. Never present a search-sourced line as DK's line. Say "DK line as of <source time>, verify in app".
 4. Durable fix: allow sportsbook.draftkings.com (or site.api.espn.com) in the environment's network policy at
@@ -84,6 +84,58 @@ markdown, so the dashboard updates itself on every run. Hosted through GitHub Pa
 
 `card.json` shape: week, title, year, built_at, lines_verified_at, verification (verified|unverified),
 verification_note, budget {total, sunday, monday, thursday}, tickets [ {id, type (single|parlay|sgp), day,
-name, game, kickoff, stake, price, payout, estimate, breakeven, legs [{pick, game, why}], why, kill_switch,
-result (null|win|loss|push), net} ], watch [strings], board [{kickoff, game, spread, total, ml, read}],
-season {record, net, weeks [{week, net}]}. Stakes must sum to the day's budget.
+name, game, kickoff, stake, price, payout, estimate, breakeven, placed (bool), legs [...], why, kill_switch,
+result (null|win|loss|push), net, clv} ], watch [strings], board [{kickoff, game, spread, total, ml, read}],
+season {record, net, weeks [{week, net}], clv_week, clv_season}, clv_updated_at. Stakes must sum to the day's budget.
+
+Every leg is structured so `clv.py` can grade it: {label, pick, game, away, home, commence_time, market
+(spreads|totals|h2h), side (the team name exactly as The Odds API prints it, or Over|Under for totals), point
+(null for h2h), price (American, integer), why}. `away`, `home`, and `commence_time` are copied from
+`draftkings/lines/latest.json`. After the close routine runs, a leg also carries close {point, price,
+pin_fair_prob, at}, point_clv, price_clv, clv, and pin_clv.
+
+## Level 1 rules (added Sep 12, 2026)
+
+### Pinnacle fair-price rule
+`fetch_dk_lines.py` pulls Pinnacle next to DraftKings and strips Pinnacle's vig to a fair probability for every
+side. It prints an EDGE VS PINNACLE table: prob_edge = Pinnacle fair probability minus DK implied probability;
+point_gap = points DK gives beyond Pinnacle (positive is good for us); combined_edge = prob_edge + 0.04 x point_gap.
+1. Rule A. A leg qualifies on price alone when combined_edge is +0.015 or better.
+2. Rule B. A leg with combined_edge between -0.05 and +0.015 qualifies only if the card states an own estimate above
+   DK's implied probability AND that estimate is within 6 points of Pinnacle's fair probability, or the card documents
+   news Pinnacle has not priced yet (an inactive posted after the fetch, a weather change).
+3. Never bet a leg with combined_edge below -0.05. If Pinnacle says DK's number is that far off, DK is right and we are wrong.
+4. State combined_edge next to every leg on the card.
+
+### Concentration limits
+1. No leg appears in more than one ticket (a single and a parlay may not share a leg).
+2. No single game carries more than 30 percent of that day's budget across all tickets.
+3. A day's tickets share at most one correlated pair (dog plus under, favorite plus over) per game.
+
+### Placed tickets
+Tickets already in `card.json` for the current week are treated as placed (`placed: true`). A later routine
+may only (a) apply a kill switch, which sets the ticket's stake to what Luke should keep and moves the freed
+money to a new ticket, or (b) fill unplaced budget. It never silently rewrites a placed ticket. When a kill
+switch trips, the card says what to do if the original ticket was already placed.
+
+### Closing line value (CLV)
+`draftkings/clv.py` runs at close time (Sunday 12:55 PM, 4:20 PM, 8:15 PM ET; Monday and Thursday 8:10 PM ET,
+one routine each), fetches the current DK and Pinnacle numbers, and for every leg kicking off in the window
+records the close and computes point_clv, price_clv, clv (price_clv + 0.04 x point_clv) and pin_clv (against
+Pinnacle's no-vig close). Ticket CLV is the mean of its legs; `season.clv_week` and `season.clv_season` roll up.
+Every graded leg is appended to `draftkings/clv-log.json`. The dashboard shows CLV per ticket and per week.
+Reading it: a season average above zero means the picks beat the market; above +1.0 percent is strong.
+A negative season average after 6 weeks means the method, not the luck, needs fixing.
+`python3 draftkings/clv.py --all` grades every ungraded leg regardless of kickoff; `--dry-run` writes nothing.
+
+### Inactives alert
+A routine fires at 11:35 AM ET Sunday and 6:50 PM ET Monday and Thursday, reads the kill switches and watch
+list in `card.json`, checks the posted inactives and DK's current numbers, and notifies Luke only with the
+tickets that changed and the exact action (keep, cut to $X, swap to Y).
+
+## Routine git flow
+Every routine starts with `git fetch origin claude/draftkings-nfl-picks-4aiuoj && git checkout -B
+claude/draftkings-nfl-picks-4aiuoj FETCH_HEAD` so it works on the picks branch with the latest scripts, and ends
+with `sh draftkings/push.sh`, which pushes HEAD to the picks branch using GITHUB_TOKEN. The dashboard reads
+`card.json` from that branch, so nothing has to reach `main` for the phone view to update; `main` only hosts
+`dashboard/index.html` through GitHub Pages and needs a PR when the page itself changes.
