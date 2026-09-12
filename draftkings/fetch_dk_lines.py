@@ -6,7 +6,11 @@ no-vig Pinnacle fair probability minus DraftKings' implied probability, and any 
 Writes draftkings/lines/latest.json with both books and the computed edges.
 
 Requires ODDS_API_KEY in the environment and api.the-odds-api.com allowed by the network policy.
-Usage: python3 draftkings/fetch_dk_lines.py [--book fanduel]   (the named book replaces DraftKings)
+Usage: python3 draftkings/fetch_dk_lines.py [--book fanduel] [--days N] [--all] [--snapshot NAME]
+  --book      the named book replaces DraftKings
+  --days N    only games kicking off within N days (default 8; the feed carries the whole season)
+  --all       no date filter
+  --snapshot NAME   also write draftkings/lines/NAME.json (e.g. open-week-02 on Tuesday, for moves.py)
 """
 import json, os, sys, urllib.request, urllib.parse, datetime, pathlib
 from zoneinfo import ZoneInfo
@@ -14,6 +18,12 @@ from zoneinfo import ZoneInfo
 book = "draftkings"
 if "--book" in sys.argv:
     book = sys.argv[sys.argv.index("--book") + 1]
+days = 8.0
+if "--days" in sys.argv:
+    days = float(sys.argv[sys.argv.index("--days") + 1])
+if "--all" in sys.argv:
+    days = None
+snapshot = sys.argv[sys.argv.index("--snapshot") + 1] if "--snapshot" in sys.argv else None
 key = os.environ.get("ODDS_API_KEY", "").strip()
 if not key:
     print("UNVERIFIED: ODDS_API_KEY is not set. Fall back to screenshot protocol.")
@@ -42,6 +52,8 @@ games, edges = [], []
 for ev in data:
     home, away = ev["home_team"], ev["away_team"]
     ko = datetime.datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
+    if days is not None and (ko - fetched).total_seconds() > days * 86400:
+        continue
     books = {bm["key"]: {m["key"]: {o["name"]: o for o in m["outcomes"]} for m in bm["markets"]} for bm in ev.get("bookmakers", [])}
     dk, pin = books.get(book, {}), books.get("pinnacle", {})
     g = {"id": ev["id"], "commence_time": ev["commence_time"], "kickoff_et": ko.astimezone(et).strftime("%a %m/%d %I:%M %p"),
@@ -71,9 +83,12 @@ for ev in data:
     games.append(g)
 
 out = pathlib.Path(__file__).parent / "lines"; out.mkdir(exist_ok=True)
-(out / "latest.json").write_text(json.dumps({"fetched_utc": fetched.strftime("%Y-%m-%d %H:%M UTC"), "book": book, "games": games}, indent=1))
+payload = json.dumps({"fetched_utc": fetched.strftime("%Y-%m-%d %H:%M UTC"), "book": book, "games": games}, indent=1)
+(out / "latest.json").write_text(payload)
+if snapshot:
+    (out / f"{snapshot}.json").write_text(payload)
 
-print(f"VERIFIED {book.upper()} NFL lines via The Odds API, fetched {fetched.strftime('%Y-%m-%d %H:%M UTC')}. Requests remaining this month: {remaining}\n")
+print(f"VERIFIED {book.upper()} NFL lines via The Odds API, fetched {fetched.strftime('%Y-%m-%d %H:%M UTC')}. {len(games)} games within {'all dates' if days is None else '%g days' % days}{' (snapshot saved to lines/%s.json)' % snapshot if snapshot else ''}. Requests remaining this month: {remaining}\n")
 print("| Kickoff (ET) | Game | Spread | Total | Moneyline |\n|---|---|---|---|---|")
 for g in games:
     d = g["dk"]; a, h = g["away"], g["home"]

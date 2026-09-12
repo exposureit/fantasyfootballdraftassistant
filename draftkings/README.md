@@ -6,11 +6,13 @@ and a **Results** section filled in after the games.
 
 ## Cadence (America/New_York)
 
-| Update   | When              | Covers                                   |
-|----------|-------------------|------------------------------------------|
-| Sunday   | 11:00 AM ET       | Final Sunday card after Saturday news    |
-| Monday   | 5:00 PM ET        | Monday Night Football                    |
-| Thursday | 5:00 PM ET        | Thursday Night Football (next week)      |
+| Update   | When              | Covers                                                        |
+|----------|-------------------|---------------------------------------------------------------|
+| Tuesday  | 5:00 PM ET        | Early card: grades Monday, opens the new week, early tickets  |
+| Thursday | 5:00 PM ET        | Thursday Night Football                                       |
+| Sunday   | 11:00 AM ET       | Final Sunday card after Saturday news                         |
+| Monday   | 5:00 PM ET        | Monday Night Football                                         |
+| Sun/Mon/Thu | inactives and close times | Inactives alerts and closing line value (Level 1)  |
 
 Each update is produced by a scheduled Claude routine that researches lines, injuries,
 weather, and betting splits, then rewrites the week's file and pushes it here.
@@ -87,6 +89,7 @@ verification_note, budget {total, sunday, monday, thursday}, tickets [ {id, type
 name, game, kickoff, stake, price, payout, estimate, breakeven, placed (bool), legs [...], why, kill_switch,
 result (null|win|loss|push), net, clv} ], watch [strings], board [{kickoff, game, spread, total, ml, read}],
 season {record, net, weeks [{week, net}], clv_week, clv_season}, clv_updated_at. Stakes must sum to the day's budget.
+Optional ticket flags: early (bool, Tuesday ticket), promo (string: "Profit Boost", "No Sweat", "Odds boost").
 
 Every leg is structured so `clv.py` can grade it: {label, pick, game, away, home, commence_time, market
 (spreads|totals|h2h), side (the team name exactly as The Odds API prints it, or Over|Under for totals), point
@@ -132,6 +135,41 @@ A negative season average after 6 weeks means the method, not the luck, needs fi
 A routine fires at 11:35 AM ET Sunday and 6:50 PM ET Monday and Thursday, reads the kill switches and watch
 list in `card.json`, checks the posted inactives and DK's current numbers, and notifies Luke only with the
 tickets that changed and the exact action (keep, cut to $X, swap to Y).
+
+## Level 2 rules (added Sep 12, 2026)
+
+### Tuesday early card
+Lines are softest when they open. The Tuesday 5:00 PM ET routine grades Monday, closes last week, opens the new
+week's file and `card.json`, saves the opening snapshot (`fetch_dk_lines.py --snapshot open-week-NN`), and picks
+the numbers most likely to move against us by Sunday.
+1. At most 2 early tickets, singles only, $10 each, $20 total. Early money comes out of that day's budget
+   (Sunday $70 or Thursday $15), so the Sunday card fills only what is left.
+2. An early ticket needs Rule A (combined_edge +0.015 or better against Pinnacle now) AND a stated reason the
+   number moves by Sunday: our side of a key number (3, 7, 10), an injury or quarterback question on the other
+   side, or expected public money on the other side. "Good number" alone is not enough; that can wait for Sunday.
+3. Early tickets are marked `early: true` and `placed: true` in `card.json` and get kill switches like any ticket.
+4. Everything else on Tuesday is a watch list: the two or three numbers to take if they move our way, with the
+   trigger price.
+5. `draftkings/moves.py` prints every DraftKings and Pinnacle move since the opening snapshot. Every later routine
+   uses it instead of searching for "line movement".
+
+### Promos
+DraftKings' promo page cannot be fetched from the environment, so promo work is math plus a rule, and every
+boost is UNVERIFIED until Luke sees it in the Promos tab. `draftkings/promo.py` does the math; fair probability
+always comes from Pinnacle's no-vig number.
+1. Tokens cost nothing, so they are always used. Profit Boost goes on the qualifying single with the longest price
+   the token allows (boost value scales with profit). No Sweat goes on the longest parlay (the refund is worth most
+   where the loss probability is highest). Bonus-bet refunds are valued at 70 cents on the dollar.
+2. Daily odds boosts cost stake. One is played only when `promo.py oddsboost` shows EV of +3 percent or better
+   against Pinnacle's fair probability, capped at $5 of that day's budget, game markets only. It appears on the card
+   as its own ticket with `promo: "Odds boost"` and the UNVERIFIED label plus "confirm in the Promos tab".
+3. Each card names the token placement on the ticket itself (`promo: "Profit Boost"` or `"No Sweat"`), and the
+   dashboard shows it as a tag.
+
+### Odds API budget
+Each fetch costs 6 requests (2 regions x 3 markets) against the free tier's 500 per month. The plan is about
+66 per week: cards 3, CLV 4, inactives 3, Tuesday 1. Routines fetch DraftKings once (no FanDuel call; Pinnacle is
+the reference). Every fetch prints requests remaining; below 60 with a week left, the CLV routines skip.
 
 ## Routine git flow
 Every routine starts with `git fetch origin claude/draftkings-nfl-picks-4aiuoj && git checkout -B

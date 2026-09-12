@@ -45,6 +45,7 @@ section{display:grid;gap:10px}
 .tag.res-win{background:var(--core-bg);color:var(--win)}
 .tag.res-loss{background:var(--warn-bg);color:var(--loss)}
 .tag.res-push{background:var(--surface2);color:var(--muted)}
+.tag.early{background:var(--surface2);color:var(--accent)}.tag.promo{background:var(--warn-bg);color:var(--warn)}
 .tag.clv{background:var(--surface2);color:var(--muted)}.tag.clv.pos{color:var(--win)}.tag.clv.neg{color:var(--loss)}
 .legs .clv{grid-column:2;font-size:12px;color:var(--muted)}
 .stake{font-size:26px;font-weight:700;line-height:1}
@@ -93,11 +94,13 @@ function ticket(t){
   const type=t.type||"single";
   const typeLabel=type==="single"?"Single":type==="parlay"?"Parlay":"Same game parlay";
   const res=t.result?`<span class="tag res-${esc(t.result)}">${esc(t.result)}${t.net!=null?" "+money(t.net):""}</span>`:"";
+  const earlyTag=t.early?`<span class="tag early">Early</span>`:"";
+  const promoTag=t.promo?`<span class="tag promo">${esc(t.promo)}</span>`:"";
   const clvTag=t.clv!=null?`<span class="tag clv ${t.clv>0?"pos":t.clv<0?"neg":""}">CLV ${pct(t.clv)}</span>`:"";
   const legs=(t.legs||[]).map((l,i)=>`<li><span class="n mono">${i+1}</span><span class="pick">${esc(l.pick)}</span><span class="why">${esc(l.game?l.game+". ":"")}${esc(l.why||"")}</span>${l.clv!=null?`<span class="clv mono">Closed ${esc(closeStr(l))} · CLV ${pct(l.clv)}${l.pin_clv!=null?" · vs Pinnacle "+pct(l.pin_clv):""}</span>`:""}</li>`).join("");
   const edgePct=Math.max(0,Math.min(100,t.estimate||0)), bePct=Math.max(0,Math.min(100,t.breakeven||0));
   return `<div class="slip">
-    <div class="slip-h"><div class="l"><div><span class="tag ${type}">${typeLabel}</span> ${res} ${clvTag}</div><h3>${esc(t.name)}</h3>${t.game?`<div class="game">${esc(t.game)}${t.kickoff?" · "+esc(t.kickoff):""}</div>`:""}</div>
+    <div class="slip-h"><div class="l"><div><span class="tag ${type}">${typeLabel}</span> ${earlyTag}${promoTag} ${res} ${clvTag}</div><h3>${esc(t.name)}</h3>${t.game?`<div class="game">${esc(t.game)}${t.kickoff?" · "+esc(t.kickoff):""}</div>`:""}</div>
     <div class="r"><div class="stake mono">${money(t.stake)}</div><div class="price mono">${esc(t.price)} · wins ${money(t.payout)}</div></div></div>
     ${legs?`<ol class="legs">${legs}</ol>`:""}
     ${t.why?`<div class="why-block">${esc(t.why)}</div>`:""}
