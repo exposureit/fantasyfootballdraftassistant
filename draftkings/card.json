@@ -2,10 +2,10 @@
  "week": 1,
  "title": "Week 1",
  "year": "2026",
- "built_at": "2026-09-12T18:50:00Z",
- "lines_verified_at": "2026-09-12T18:43:00Z",
+ "built_at": "2026-09-13T15:06:41Z",
+ "lines_verified_at": "2026-09-13T15:01:00Z",
  "verification": "verified",
- "verification_note": "Every line is DraftKings' own number, pulled through The Odds API.",
+ "verification_note": "Every line is DraftKings' own number, pulled through The Odds API. Sunday final check at 11:06 AM ET: the full $100 was already placed by Saturday's update, so no new stakes were added today. Best combined_edge anywhere on the board is -0.002 (nothing clears Rule A). Jeremiyah Love's inactive/active call is still pending the 11:30 AM ET post.",
  "budget": {
   "total": 100,
   "sunday": 90,
@@ -232,7 +232,8 @@
    "kill_switch": "Standard cross-game parlay. Do not toggle Same Game Parlay. If the slip is more than 10% below +618, a leg moved.",
    "result": null,
    "net": null,
-   "placed": true
+   "placed": true,
+   "promo": "No Sweat"
   },
   {
    "id": "P2",
@@ -344,7 +345,8 @@
    "kill_switch": "Highest-edge ticket. Put a Profit Boost token here if DK offers one.",
    "result": null,
    "net": null,
-   "placed": true
+   "placed": true,
+   "promo": "Profit Boost"
   },
   {
    "id": "P4",
@@ -393,123 +395,126 @@
   }
  ],
  "watch": [
+  "PENDING 11:30 AM ET: Jeremiyah Love (ARI, questionable, ankle) inactive/active call. If inactive, Cardinals stake drops to $7.50 and the freed $7.50 goes to Under 41.5 (already live, correlated).",
+  "Tua Tagovailoa and Michael Penix Jr. both out for Atlanta; Cooper Rush confirmed starting, not a game-time question. Rain forecast at Acrisure. Strengthens the already-placed Under 41.5 (we hold 41.5 vs. today's market 40.5).",
+  "Teven Jenkins (CLE) confirmed out at RG. Adds confidence to the already-placed Browns +8.5 (P1) and Under 39.5 (P2) legs, no ticket change.",
+  "Cowboys are carrying about 84% of today's ATS money as a road favorite (loud-crowd, road-favorite profile). Already placed at $10, rides as is; flag for future weeks before placing a similar spot.",
+  "Chris Jones (KC, questionable, calf) for Monday. No free budget to add to Broncos ML today; Monday's own 5:00 PM update decides.",
   "Vikings line moved to -2.5: the Vikings -1.5 single is off. Its $10 goes to Cowboys -3 (-105). If you placed Vikings -1.5 before the move, keep it and skip Cowboys.",
-  "Jeremiyah Love (ARI). Inactive means the Cardinals stake drops to $7.50.",
-  "Chris Jones (KC). Out on Monday means add $5 to Broncos ML.",
-  "Line checks: Steelers total 41.5+, Cardinals +9.5, Dolphins +3, Panthers +3, Saints +7, Browns +8.5, Broncos +2.5, Cowboys -3."
+  "Line checks (informational, all already placed): Steelers total now 40.5, Cardinals +9.5 (-110), Dolphins +3 (-110), Panthers +3 (-105), Saints +7, Browns +8.5, Broncos +2.5, Cowboys -3 (-112, pass at -3.5)."
  ],
  "board": [
   {
    "kickoff": "Sun 1:00",
    "game": "Falcons at Steelers",
-   "spread": "PIT -6 (-110)",
-   "total": "41.5",
-   "ml": "PIT -270",
-   "read": "Under 41.5, $20"
+   "spread": "PIT -6.5 (-112)",
+   "total": "40.5",
+   "ml": "PIT -298",
+   "read": "Under 41.5, $20 (already have the better number vs today's 40.5). Tua and Penix both out for Atlanta, Cooper Rush confirmed starting, rain forecast."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Ravens at Colts",
-   "spread": "BAL -3.5 (-105)",
-   "total": "47.5",
+   "spread": "BAL -3.5 (+102)",
+   "total": "48.5",
    "ml": "BAL -175",
-   "read": "Pass"
+   "read": "Pass. Both teams relatively healthy, no edge."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Bills at Texans",
    "spread": "BUF -1.5 (-108)",
    "total": "44.5",
-   "ml": "HOU -102",
-   "read": "Under in P2"
+   "ml": "HOU -108",
+   "read": "Under in P2. Dome game (Reliant Stadium), no weather factor; Houston D is the thesis."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Bears at Panthers",
-   "spread": "CAR +3 (-102)",
+   "spread": "CAR +3 (-105)",
    "total": "47.5",
-   "ml": "CAR +140",
-   "read": "Panthers +3, $5"
+   "ml": "CAR +142",
+   "read": "Panthers +3, $5. Charlotte heat index near 94 hits both sides equally."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Buccaneers at Bengals",
-   "spread": "CIN -3.5 (-112)",
+   "spread": "CIN -3.5 (-118)",
    "total": "50.5",
    "ml": "CIN -205",
-   "read": "Pass"
+   "read": "Pass. Light 30% rain chance in Cincinnati, not enough to move a total this high."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Browns at Jaguars",
    "spread": "CLE +8.5 (-108)",
-   "total": "39.5",
-   "ml": "JAX -455",
-   "read": "P1 and P2 legs"
+   "total": "40.5",
+   "ml": "JAX -470",
+   "read": "P1 and P2 legs. Browns confirmed without starting RG Teven Jenkins; 34-35% storm chance and 100-degree heat index in Jacksonville."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Saints at Lions",
    "spread": "NO +7 (-110)",
    "total": "49.5",
-   "ml": "DET -340",
-   "read": "P1 leg"
+   "ml": "DET -325",
+   "read": "P1 leg. Cameron Jordan out for New Orleans, Kamara trending to play; Lions relatively healthy. No change to the thesis."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Jets at Titans",
-   "spread": "TEN -1.5 (-110)",
+   "spread": "TEN -1.5 (-105)",
    "total": "38.5",
-   "ml": "TEN -122",
-   "read": "Pass"
+   "ml": "TEN -118",
+   "read": "Pass. Heat index low 100s in Nashville, Titans down a starting LB (concussion), not enough for a ticket."
   },
   {
    "kickoff": "Sun 4:25",
    "game": "Cardinals at Chargers",
-   "spread": "ARI +9.5 (-105)",
+   "spread": "ARI +9.5 (-110)",
    "total": "47.5",
    "ml": "LAC -500",
-   "read": "Cardinals +9.5, $15"
+   "read": "Cardinals +9.5, $15. Jeremiyah Love questionable (ankle), trending to play, official call pending 11:30 AM ET inactives."
   },
   {
    "kickoff": "Sun 4:25",
    "game": "Packers at Vikings",
-   "spread": "MIN -2.5 (-105)",
+   "spread": "MIN -1.5 (-118)",
    "total": "46.5",
    "ml": "MIN -130",
-   "read": "Vikings -1.5 killed (moved to -2.5). MIN ML stays in P3."
+   "read": "Vikings -1.5 killed (moved to -2.5 Saturday, Cowboys -3 replaced it). MIN ML stays in P3; Vikings carry no injury designations at all."
   },
   {
    "kickoff": "Sun 4:25",
    "game": "Dolphins at Raiders",
-   "spread": "MIA +3 (-108)",
+   "spread": "MIA +3 (-110)",
    "total": "40.5",
    "ml": "MIA +142",
-   "read": "Dolphins +3, $10"
+   "read": "Dolphins +3, $10. Raiders carrying 68% of tickets, we're already fading that crowd."
   },
   {
    "kickoff": "Sun 4:25",
    "game": "Commanders at Eagles",
-   "spread": "PHI -6 (-108)",
+   "spread": "PHI -6 (-112)",
    "total": "44.5",
-   "ml": "PHI -250",
-   "read": "Pass at -6"
+   "ml": "PHI -265",
+   "read": "Pass at -6. Eagles down an edge rusher (pectoral, out); wet weather forecast in Philadelphia, not enough separation for a ticket."
   },
   {
    "kickoff": "Sun 8:20",
    "game": "Cowboys at Giants",
-   "spread": "DAL -3 (-105)",
-   "total": "48.5",
-   "ml": "DAL -162",
-   "read": "Cowboys -3, $10 (Pinnacle edge)"
+   "spread": "DAL -3 (-112)",
+   "total": "47.5",
+   "ml": "DAL -166",
+   "read": "Cowboys -3, $10 (Pinnacle edge). Dallas now carrying ~84% of the day's ATS money as a road favorite; already placed, rides as is."
   },
   {
    "kickoff": "Mon 8:15",
    "game": "Broncos at Chiefs",
-   "spread": "DEN +2.5 (-105)",
+   "spread": "DEN +2.5 (-110)",
    "total": "43.5",
-   "ml": "DEN +120",
-   "read": "P4 and P3 leg"
+   "ml": "DEN +114",
+   "read": "P4 and P3 leg. Chris Jones (KC) questionable with calf, could be limited even if active."
   }
  ],
  "season": {
