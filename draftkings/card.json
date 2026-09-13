@@ -74,10 +74,21 @@
      "side": "Under",
      "point": 41.5,
      "price": -115,
-     "why": ""
+     "why": "",
+     "close": {
+      "point": 40.5,
+      "price": -108,
+      "pin_fair_prob": 0.5023,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0157,
+     "clv": 0.0243,
+     "pin_clv": -0.0326
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0243
   },
   {
    "id": "C3",
@@ -173,10 +184,21 @@
      "side": "Carolina Panthers",
      "point": 3,
      "price": -102,
-     "why": ""
+     "why": "",
+     "close": {
+      "point": 3.0,
+      "price": -108,
+      "pin_fair_prob": 0.5173,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0143,
+     "clv": 0.0143,
+     "pin_clv": 0.0123
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0143
   },
   {
    "id": "P1",
@@ -213,7 +235,17 @@
      "side": "Cleveland Browns",
      "point": 8.5,
      "price": -108,
-     "why": "35% storm chance, Watson's first start since the Achilles, and a 39.5 total where 8.5 points is a lot of room."
+     "why": "35% storm chance, Watson's first start since the Achilles, and a 39.5 total where 8.5 points is a lot of room.",
+     "close": {
+      "point": 8.5,
+      "price": -105,
+      "pin_fair_prob": 0.5208,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.007,
+     "clv": -0.007,
+     "pin_clv": 0.0016
     },
     {
      "label": "Saints +7 (-110)",
@@ -226,7 +258,17 @@
      "side": "New Orleans Saints",
      "point": 7,
      "price": -110,
-     "why": "Seven is the number. If DK shows +6.5, swap to Falcons +6."
+     "why": "Seven is the number. If DK shows +6.5, swap to Falcons +6.",
+     "close": {
+      "point": 7.0,
+      "price": -110,
+      "pin_fair_prob": 0.5262,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.0024
     }
    ],
    "kill_switch": "Standard cross-game parlay. Do not toggle Same Game Parlay. If the slip is more than 10% below +618, a leg moved.",
@@ -257,7 +299,17 @@
      "side": "Under",
      "point": 41.5,
      "price": -115,
-     "why": "Core play."
+     "why": "Core play.",
+     "close": {
+      "point": 40.5,
+      "price": -108,
+      "pin_fair_prob": 0.5023,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0157,
+     "clv": 0.0243,
+     "pin_clv": -0.0326
     },
     {
      "label": "Under 39.5 (-102)",
@@ -270,7 +322,17 @@
      "side": "Under",
      "point": 39.5,
      "price": -102,
-     "why": "Run-first Cleveland into the top run defense, weather in the forecast."
+     "why": "Run-first Cleveland into the top run defense, weather in the forecast.",
+     "close": {
+      "point": 40.5,
+      "price": -118,
+      "pin_fair_prob": 0.5069,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": -1.0,
+     "price_clv": 0.0363,
+     "clv": -0.0037,
+     "pin_clv": 0.0019
     },
     {
      "label": "Under 44.5 (-110)",
@@ -283,13 +345,24 @@
      "side": "Under",
      "point": 44.5,
      "price": -110,
-     "why": "Houston finished second in EPA allowed and sacked Allen eight times in November."
+     "why": "Houston finished second in EPA allowed and sacked Allen eight times in November.",
+     "close": {
+      "point": 44.5,
+      "price": -110,
+      "pin_fair_prob": 0.5183,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0055
     }
    ],
    "kill_switch": "Standard cross-game parlay.",
    "result": null,
    "net": null,
-   "placed": true
+   "placed": true,
+   "clv": 0.0069
   },
   {
    "id": "P3",
@@ -339,7 +412,17 @@
      "side": "Carolina Panthers",
      "point": null,
      "price": 140,
-     "why": "My 45% against 41.7."
+     "why": "My 45% against 41.7.",
+     "close": {
+      "point": null,
+      "price": 140,
+      "pin_fair_prob": 0.4077,
+      "at": "2026-09-13T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.009
     }
    ],
    "kill_switch": "Highest-edge ticket. Put a Profit Boost token here if DK offers one.",
@@ -520,6 +603,9 @@
  "season": {
   "record": "0-0",
   "net": 0,
-  "weeks": []
- }
+  "weeks": [],
+  "clv_week": 0.0152,
+  "clv_season": 0.0065
+ },
+ "clv_updated_at": "2026-09-13T16:56Z"
 }
