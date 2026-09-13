@@ -41,10 +41,21 @@
      "side": "Arizona Cardinals",
      "point": 9.5,
      "price": -105,
-     "why": ""
+     "why": "",
+     "close": {
+      "point": 8.5,
+      "price": -102,
+      "pin_fair_prob": 0.5218,
+      "at": "2026-09-13T20:20Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0072,
+     "clv": 0.0328,
+     "pin_clv": 0.0096
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0328
   },
   {
    "id": "C2",
@@ -151,10 +162,21 @@
      "side": "Miami Dolphins",
      "point": 3,
      "price": -108,
-     "why": ""
+     "why": "",
+     "close": {
+      "point": 3.0,
+      "price": -110,
+      "pin_fair_prob": 0.4954,
+      "at": "2026-09-13T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0046,
+     "clv": 0.0046,
+     "pin_clv": -0.0238
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0046
   },
   {
    "id": "C5",
@@ -222,7 +244,17 @@
      "side": "Arizona Cardinals",
      "point": 9.5,
      "price": -105,
-     "why": "Core play."
+     "why": "Core play.",
+     "close": {
+      "point": 8.5,
+      "price": -102,
+      "pin_fair_prob": 0.5218,
+      "at": "2026-09-13T20:20Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0072,
+     "clv": 0.0328,
+     "pin_clv": 0.0096
     },
     {
      "label": "Browns +8.5 (-108)",
@@ -275,7 +307,8 @@
    "result": null,
    "net": null,
    "placed": true,
-   "promo": "No Sweat"
+   "promo": "No Sweat",
+   "clv": 0.0086
   },
   {
    "id": "P2",
@@ -386,7 +419,17 @@
      "side": "Minnesota Vikings",
      "point": null,
      "price": -130,
-     "why": "Now -130 (was -125). My 58% against a 56.5 breakeven, thinner but still positive."
+     "why": "Now -130 (was -125). My 58% against a 56.5 breakeven, thinner but still positive.",
+     "close": {
+      "point": null,
+      "price": -142,
+      "pin_fair_prob": 0.5697,
+      "at": "2026-09-13T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0216,
+     "clv": 0.0216,
+     "pin_clv": 0.0045
     },
     {
      "label": "Broncos ML (+120)",
@@ -605,7 +648,7 @@
   "net": 0,
   "weeks": [],
   "clv_week": 0.0152,
-  "clv_season": 0.0065
+  "clv_season": 0.012
  },
- "clv_updated_at": "2026-09-13T16:56Z"
+ "clv_updated_at": "2026-09-13T20:20Z"
 }
