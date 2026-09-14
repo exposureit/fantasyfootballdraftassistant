@@ -129,10 +129,21 @@
      "side": "Dallas Cowboys",
      "point": -3,
      "price": -105,
-     "why": ""
+     "why": "",
+     "close": {
+      "point": -3.0,
+      "price": -112,
+      "pin_fair_prob": 0.5116,
+      "at": "2026-09-14T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0161,
+     "clv": 0.0161,
+     "pin_clv": -0.0006
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0161
   },
   {
    "id": "C4",
@@ -647,8 +658,8 @@
   "record": "0-0",
   "net": 0,
   "weeks": [],
-  "clv_week": 0.0152,
-  "clv_season": 0.012
+  "clv_week": 0.0154,
+  "clv_season": 0.0123
  },
- "clv_updated_at": "2026-09-13T20:20Z"
+ "clv_updated_at": "2026-09-14T00:12Z"
 }

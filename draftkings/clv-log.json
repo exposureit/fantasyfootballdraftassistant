@@ -190,5 +190,21 @@
   "clv": 0.0216,
   "pin_clv": 0.0045,
   "at": "2026-09-13T20:20Z"
+ },
+ {
+  "week": 1,
+  "ticket": "C3",
+  "label": "Cowboys -3 (-105)",
+  "market": "spreads",
+  "side": "Dallas Cowboys",
+  "bet_point": -3,
+  "bet_price": -105,
+  "close_point": -3.0,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0161,
+  "clv": 0.0161,
+  "pin_clv": -0.0006,
+  "at": "2026-09-14T00:12Z"
  }
 ]
