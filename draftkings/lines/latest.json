@@ -1,164 +1,7 @@
 {
- "fetched_utc": "2026-09-14 00:12 UTC",
+ "fetched_utc": "2026-09-14 22:51 UTC",
  "book": "draftkings",
  "games": [
-  {
-   "id": "3e646c7479c57f5d9752d8c7dfe7059b",
-   "commence_time": "2026-09-14T00:20:00Z",
-   "kickoff_et": "Sun 09/13 08:20 PM",
-   "home": "New York Giants",
-   "away": "Dallas Cowboys",
-   "dk": {
-    "spreads": {
-     "Dallas Cowboys": {
-      "point": -3.0,
-      "price": -112
-     },
-     "New York Giants": {
-      "point": 3.0,
-      "price": -108
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 47.5,
-      "price": -115
-     },
-     "Under": {
-      "point": 47.5,
-      "price": -105
-     }
-    },
-    "h2h": {
-     "Dallas Cowboys": {
-      "point": null,
-      "price": -166
-     },
-     "New York Giants": {
-      "point": null,
-      "price": 140
-     }
-    }
-   },
-   "pinnacle": {
-    "spreads": {
-     "Dallas Cowboys": {
-      "point": -3.0,
-      "price": -110,
-      "fair_prob": 0.5116
-     },
-     "New York Giants": {
-      "point": 3.0,
-      "price": 100,
-      "fair_prob": 0.4884
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 47.5,
-      "price": -111,
-      "fair_prob": 0.5115
-     },
-     "Under": {
-      "point": 47.5,
-      "price": -101,
-      "fair_prob": 0.4885
-     }
-    },
-    "h2h": {
-     "Dallas Cowboys": {
-      "point": null,
-      "price": -168,
-      "fair_prob": 0.6114
-     },
-     "New York Giants": {
-      "point": null,
-      "price": 151,
-      "fair_prob": 0.3886
-     }
-    }
-   },
-   "edges": [
-    {
-     "market": "spreads",
-     "side": "Dallas Cowboys",
-     "dk_point": -3.0,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": -3.0,
-     "pin_fair_price": -105,
-     "pin_fair_prob": 0.5116,
-     "prob_edge": -0.0167,
-     "point_gap": 0.0,
-     "combined_edge": -0.0167
-    },
-    {
-     "market": "spreads",
-     "side": "New York Giants",
-     "dk_point": 3.0,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": 3.0,
-     "pin_fair_price": 105,
-     "pin_fair_prob": 0.4884,
-     "prob_edge": -0.0308,
-     "point_gap": 0.0,
-     "combined_edge": -0.0308
-    },
-    {
-     "market": "totals",
-     "side": "Over",
-     "dk_point": 47.5,
-     "dk_price": -115,
-     "dk_implied": 0.5349,
-     "pin_point": 47.5,
-     "pin_fair_price": -105,
-     "pin_fair_prob": 0.5115,
-     "prob_edge": -0.0234,
-     "point_gap": 0.0,
-     "combined_edge": -0.0234
-    },
-    {
-     "market": "totals",
-     "side": "Under",
-     "dk_point": 47.5,
-     "dk_price": -105,
-     "dk_implied": 0.5122,
-     "pin_point": 47.5,
-     "pin_fair_price": 105,
-     "pin_fair_prob": 0.4885,
-     "prob_edge": -0.0237,
-     "point_gap": 0.0,
-     "combined_edge": -0.0237
-    },
-    {
-     "market": "h2h",
-     "side": "Dallas Cowboys",
-     "dk_point": null,
-     "dk_price": -166,
-     "dk_implied": 0.6241,
-     "pin_point": null,
-     "pin_fair_price": -157,
-     "pin_fair_prob": 0.6114,
-     "prob_edge": -0.0127,
-     "point_gap": null,
-     "combined_edge": -0.0127
-    },
-    {
-     "market": "h2h",
-     "side": "New York Giants",
-     "dk_point": null,
-     "dk_price": 140,
-     "dk_implied": 0.4167,
-     "pin_point": null,
-     "pin_fair_price": 157,
-     "pin_fair_prob": 0.3886,
-     "prob_edge": -0.0281,
-     "point_gap": null,
-     "combined_edge": -0.0281
-    }
-   ]
-  },
   {
    "id": "5ad8135dc2b5f27de0b777acd317855a",
    "commence_time": "2026-09-15T00:15:00Z",
@@ -169,69 +12,69 @@
     "spreads": {
      "Denver Broncos": {
       "point": 2.5,
-      "price": -110
+      "price": -112
      },
      "Kansas City Chiefs": {
       "point": -2.5,
-      "price": -110
+      "price": -108
      }
     },
     "totals": {
      "Over": {
-      "point": 43.5,
-      "price": -108
+      "point": 42.5,
+      "price": -110
      },
      "Under": {
-      "point": 43.5,
-      "price": -112
+      "point": 42.5,
+      "price": -110
      }
     },
     "h2h": {
      "Denver Broncos": {
       "point": null,
-      "price": 114
+      "price": 110
      },
      "Kansas City Chiefs": {
       "point": null,
-      "price": -135
+      "price": -130
      }
     }
    },
    "pinnacle": {
     "spreads": {
      "Denver Broncos": {
-      "point": 2.5,
-      "price": -106,
-      "fair_prob": 0.5
+      "point": 2.0,
+      "price": -109,
+      "fair_prob": 0.5081
      },
      "Kansas City Chiefs": {
-      "point": -2.5,
-      "price": -106,
-      "fair_prob": 0.5
+      "point": -2.0,
+      "price": -102,
+      "fair_prob": 0.4919
      }
     },
     "totals": {
      "Over": {
-      "point": 44.0,
-      "price": 102,
-      "fair_prob": 0.4758
+      "point": 43.0,
+      "price": 100,
+      "fair_prob": 0.4862
      },
      "Under": {
-      "point": 44.0,
-      "price": -120,
-      "fair_prob": 0.5242
+      "point": 43.0,
+      "price": -112,
+      "fair_prob": 0.5138
      }
     },
     "h2h": {
      "Denver Broncos": {
       "point": null,
-      "price": 122,
-      "fair_prob": 0.4372
+      "price": 112,
+      "fair_prob": 0.4601
      },
      "Kansas City Chiefs": {
       "point": null,
-      "price": -138,
-      "fair_prob": 0.5628
+      "price": -124,
+      "fair_prob": 0.5399
      }
     }
    },
@@ -240,79 +83,79 @@
      "market": "spreads",
      "side": "Denver Broncos",
      "dk_point": 2.5,
-     "dk_price": -110,
-     "dk_implied": 0.5238,
-     "pin_point": 2.5,
-     "pin_fair_price": -100,
-     "pin_fair_prob": 0.5,
-     "prob_edge": -0.0238,
-     "point_gap": 0.0,
-     "combined_edge": -0.0238
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 2.0,
+     "pin_fair_price": -103,
+     "pin_fair_prob": 0.5081,
+     "prob_edge": -0.0202,
+     "point_gap": 0.5,
+     "combined_edge": -0.0002
     },
     {
      "market": "spreads",
      "side": "Kansas City Chiefs",
      "dk_point": -2.5,
-     "dk_price": -110,
-     "dk_implied": 0.5238,
-     "pin_point": -2.5,
-     "pin_fair_price": -100,
-     "pin_fair_prob": 0.5,
-     "prob_edge": -0.0238,
-     "point_gap": 0.0,
-     "combined_edge": -0.0238
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": -2.0,
+     "pin_fair_price": 103,
+     "pin_fair_prob": 0.4919,
+     "prob_edge": -0.0273,
+     "point_gap": -0.5,
+     "combined_edge": -0.0473
     },
     {
      "market": "totals",
      "side": "Over",
-     "dk_point": 43.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": 44.0,
-     "pin_fair_price": 110,
-     "pin_fair_prob": 0.4758,
-     "prob_edge": -0.0434,
+     "dk_point": 42.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 43.0,
+     "pin_fair_price": 106,
+     "pin_fair_prob": 0.4862,
+     "prob_edge": -0.0376,
      "point_gap": 0.5,
-     "combined_edge": -0.0234
+     "combined_edge": -0.0176
     },
     {
      "market": "totals",
      "side": "Under",
-     "dk_point": 43.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": 44.0,
-     "pin_fair_price": -110,
-     "pin_fair_prob": 0.5242,
-     "prob_edge": -0.0041,
+     "dk_point": 42.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 43.0,
+     "pin_fair_price": -106,
+     "pin_fair_prob": 0.5138,
+     "prob_edge": -0.01,
      "point_gap": -0.5,
-     "combined_edge": -0.0241
+     "combined_edge": -0.03
     },
     {
      "market": "h2h",
      "side": "Denver Broncos",
      "dk_point": null,
-     "dk_price": 114,
-     "dk_implied": 0.4673,
+     "dk_price": 110,
+     "dk_implied": 0.4762,
      "pin_point": null,
-     "pin_fair_price": 129,
-     "pin_fair_prob": 0.4372,
-     "prob_edge": -0.0301,
+     "pin_fair_price": 117,
+     "pin_fair_prob": 0.4601,
+     "prob_edge": -0.0161,
      "point_gap": null,
-     "combined_edge": -0.0301
+     "combined_edge": -0.0161
     },
     {
      "market": "h2h",
      "side": "Kansas City Chiefs",
      "dk_point": null,
-     "dk_price": -135,
-     "dk_implied": 0.5745,
+     "dk_price": -130,
+     "dk_implied": 0.5652,
      "pin_point": null,
-     "pin_fair_price": -129,
-     "pin_fair_prob": 0.5628,
-     "prob_edge": -0.0117,
+     "pin_fair_price": -117,
+     "pin_fair_prob": 0.5399,
+     "prob_edge": -0.0253,
      "point_gap": null,
-     "combined_edge": -0.0117
+     "combined_edge": -0.0253
     }
    ]
   },
@@ -325,37 +168,153 @@
    "dk": {
     "spreads": {
      "Detroit Lions": {
-      "point": 3.0,
-      "price": 100
+      "point": 4.5,
+      "price": -112
      },
      "Buffalo Bills": {
-      "point": -3.0,
-      "price": -120
+      "point": -4.5,
+      "price": -108
      }
     },
     "totals": {
      "Over": {
       "point": 53.5,
-      "price": -110
+      "price": -115
      },
      "Under": {
       "point": 53.5,
-      "price": -110
+      "price": -105
      }
     },
     "h2h": {
      "Detroit Lions": {
       "point": null,
-      "price": 140
+      "price": 170
      },
      "Buffalo Bills": {
       "point": null,
-      "price": -166
+      "price": -205
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Detroit Lions": {
+      "point": 4.5,
+      "price": -108,
+      "fair_prob": 0.5046
+     },
+     "Buffalo Bills": {
+      "point": -4.5,
+      "price": -104,
+      "fair_prob": 0.4954
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 54.0,
+      "price": 102,
+      "fair_prob": 0.4767
+     },
+     "Under": {
+      "point": 54.0,
+      "price": -119,
+      "fair_prob": 0.5233
+     }
+    },
+    "h2h": {
+     "Detroit Lions": {
+      "point": null,
+      "price": 179,
+      "fair_prob": 0.3474
+     },
+     "Buffalo Bills": {
+      "point": null,
+      "price": -206,
+      "fair_prob": 0.6526
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Detroit Lions",
+     "dk_point": 4.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 4.5,
+     "pin_fair_price": -102,
+     "pin_fair_prob": 0.5046,
+     "prob_edge": -0.0237,
+     "point_gap": 0.0,
+     "combined_edge": -0.0237
+    },
+    {
+     "market": "spreads",
+     "side": "Buffalo Bills",
+     "dk_point": -4.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": -4.5,
+     "pin_fair_price": 102,
+     "pin_fair_prob": 0.4954,
+     "prob_edge": -0.0238,
+     "point_gap": 0.0,
+     "combined_edge": -0.0238
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 53.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 54.0,
+     "pin_fair_price": 110,
+     "pin_fair_prob": 0.4767,
+     "prob_edge": -0.0582,
+     "point_gap": 0.5,
+     "combined_edge": -0.0382
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 53.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 54.0,
+     "pin_fair_price": -110,
+     "pin_fair_prob": 0.5233,
+     "prob_edge": 0.0111,
+     "point_gap": -0.5,
+     "combined_edge": -0.0089
+    },
+    {
+     "market": "h2h",
+     "side": "Detroit Lions",
+     "dk_point": null,
+     "dk_price": 170,
+     "dk_implied": 0.3704,
+     "pin_point": null,
+     "pin_fair_price": 188,
+     "pin_fair_prob": 0.3474,
+     "prob_edge": -0.023,
+     "point_gap": null,
+     "combined_edge": -0.023
+    },
+    {
+     "market": "h2h",
+     "side": "Buffalo Bills",
+     "dk_point": null,
+     "dk_price": -205,
+     "dk_implied": 0.6721,
+     "pin_point": null,
+     "pin_fair_price": -188,
+     "pin_fair_prob": 0.6526,
+     "prob_edge": -0.0195,
+     "point_gap": null,
+     "combined_edge": -0.0195
+    }
+   ]
   },
   {
    "id": "aee7eae1849ebb103b9bf233e9741392",
@@ -366,37 +325,153 @@
    "dk": {
     "spreads": {
      "Carolina Panthers": {
-      "point": 1.5,
-      "price": -110
+      "point": -1.5,
+      "price": -108
      },
      "Atlanta Falcons": {
-      "point": -1.5,
-      "price": -110
+      "point": 1.5,
+      "price": -112
      }
     },
     "totals": {
      "Over": {
       "point": 44.5,
-      "price": -110
+      "price": -105
      },
      "Under": {
       "point": 44.5,
-      "price": -110
+      "price": -115
      }
     },
     "h2h": {
      "Carolina Panthers": {
       "point": null,
-      "price": -102
+      "price": -125
      },
      "Atlanta Falcons": {
       "point": null,
-      "price": -118
+      "price": 105
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Carolina Panthers": {
+      "point": -1.0,
+      "price": -110,
+      "fair_prob": 0.5092
+     },
+     "Atlanta Falcons": {
+      "point": 1.0,
+      "price": -102,
+      "fair_prob": 0.4908
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.5,
+      "price": -104,
+      "fair_prob": 0.4911
+     },
+     "Under": {
+      "point": 44.5,
+      "price": -112,
+      "fair_prob": 0.5089
+     }
+    },
+    "h2h": {
+     "Carolina Panthers": {
+      "point": null,
+      "price": -117,
+      "fair_prob": 0.5238
+     },
+     "Atlanta Falcons": {
+      "point": null,
+      "price": 104,
+      "fair_prob": 0.4762
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Carolina Panthers",
+     "dk_point": -1.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": -1.0,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5092,
+     "prob_edge": -0.01,
+     "point_gap": -0.5,
+     "combined_edge": -0.03
+    },
+    {
+     "market": "spreads",
+     "side": "Atlanta Falcons",
+     "dk_point": 1.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 1.0,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4908,
+     "prob_edge": -0.0375,
+     "point_gap": 0.5,
+     "combined_edge": -0.0175
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 44.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 44.5,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4911,
+     "prob_edge": -0.0211,
+     "point_gap": 0.0,
+     "combined_edge": -0.0211
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 44.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 44.5,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5089,
+     "prob_edge": -0.026,
+     "point_gap": 0.0,
+     "combined_edge": -0.026
+    },
+    {
+     "market": "h2h",
+     "side": "Carolina Panthers",
+     "dk_point": null,
+     "dk_price": -125,
+     "dk_implied": 0.5556,
+     "pin_point": null,
+     "pin_fair_price": -110,
+     "pin_fair_prob": 0.5238,
+     "prob_edge": -0.0318,
+     "point_gap": null,
+     "combined_edge": -0.0318
+    },
+    {
+     "market": "h2h",
+     "side": "Atlanta Falcons",
+     "dk_point": null,
+     "dk_price": 105,
+     "dk_implied": 0.4878,
+     "pin_point": null,
+     "pin_fair_price": 110,
+     "pin_fair_prob": 0.4762,
+     "prob_edge": -0.0116,
+     "point_gap": null,
+     "combined_edge": -0.0116
+    }
+   ]
   },
   {
    "id": "2143ade9684fd876b68a4e8cbf451f05",
@@ -417,27 +492,143 @@
     },
     "totals": {
      "Over": {
-      "point": 48.5,
-      "price": -110
+      "point": 47.5,
+      "price": -102
      },
      "Under": {
-      "point": 48.5,
-      "price": -110
+      "point": 47.5,
+      "price": -118
      }
     },
     "h2h": {
      "New Orleans Saints": {
       "point": null,
-      "price": 310
+      "price": 285
      },
      "Baltimore Ravens": {
       "point": null,
-      "price": -395
+      "price": -360
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "New Orleans Saints": {
+      "point": 9.0,
+      "price": -114,
+      "fair_prob": 0.5183
+     },
+     "Baltimore Ravens": {
+      "point": -9.0,
+      "price": 102,
+      "fair_prob": 0.4817
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 47.5,
+      "price": 100,
+      "fair_prob": 0.4812
+     },
+     "Under": {
+      "point": 47.5,
+      "price": -117,
+      "fair_prob": 0.5188
+     }
+    },
+    "h2h": {
+     "New Orleans Saints": {
+      "point": null,
+      "price": 331,
+      "fair_prob": 0.2238
+     },
+     "Baltimore Ravens": {
+      "point": null,
+      "price": -412,
+      "fair_prob": 0.7762
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "New Orleans Saints",
+     "dk_point": 8.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 9.0,
+     "pin_fair_price": -108,
+     "pin_fair_prob": 0.5183,
+     "prob_edge": -0.0055,
+     "point_gap": -0.5,
+     "combined_edge": -0.0255
+    },
+    {
+     "market": "spreads",
+     "side": "Baltimore Ravens",
+     "dk_point": -8.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": -9.0,
+     "pin_fair_price": 108,
+     "pin_fair_prob": 0.4817,
+     "prob_edge": -0.0421,
+     "point_gap": 0.5,
+     "combined_edge": -0.0221
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 47.5,
+     "dk_price": -102,
+     "dk_implied": 0.505,
+     "pin_point": 47.5,
+     "pin_fair_price": 108,
+     "pin_fair_prob": 0.4812,
+     "prob_edge": -0.0238,
+     "point_gap": 0.0,
+     "combined_edge": -0.0238
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 47.5,
+     "dk_price": -118,
+     "dk_implied": 0.5413,
+     "pin_point": 47.5,
+     "pin_fair_price": -108,
+     "pin_fair_prob": 0.5188,
+     "prob_edge": -0.0225,
+     "point_gap": 0.0,
+     "combined_edge": -0.0225
+    },
+    {
+     "market": "h2h",
+     "side": "New Orleans Saints",
+     "dk_point": null,
+     "dk_price": 285,
+     "dk_implied": 0.2597,
+     "pin_point": null,
+     "pin_fair_price": 347,
+     "pin_fair_prob": 0.2238,
+     "prob_edge": -0.0359,
+     "point_gap": null,
+     "combined_edge": -0.0359
+    },
+    {
+     "market": "h2h",
+     "side": "Baltimore Ravens",
+     "dk_point": null,
+     "dk_price": -360,
+     "dk_implied": 0.7826,
+     "pin_point": null,
+     "pin_fair_price": -347,
+     "pin_fair_prob": 0.7762,
+     "prob_edge": -0.0064,
+     "point_gap": null,
+     "combined_edge": -0.0064
+    }
+   ]
   },
   {
    "id": "0283a29e1b38ef78b29b904fd56a16dd",
@@ -458,27 +649,143 @@
     },
     "totals": {
      "Over": {
-      "point": 48.5,
-      "price": -110
+      "point": 49.5,
+      "price": -108
      },
      "Under": {
-      "point": 48.5,
-      "price": -110
+      "point": 49.5,
+      "price": -112
      }
     },
     "h2h": {
      "Minnesota Vikings": {
       "point": null,
-      "price": 215
+      "price": 180
      },
      "Chicago Bears": {
       "point": null,
-      "price": -265
+      "price": -218
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Minnesota Vikings": {
+      "point": 5.5,
+      "price": -105,
+      "fair_prob": 0.4977
+     },
+     "Chicago Bears": {
+      "point": -5.5,
+      "price": -107,
+      "fair_prob": 0.5023
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 49.5,
+      "price": -105,
+      "fair_prob": 0.4933
+     },
+     "Under": {
+      "point": 49.5,
+      "price": -111,
+      "fair_prob": 0.5067
+     }
+    },
+    "h2h": {
+     "Minnesota Vikings": {
+      "point": null,
+      "price": 208,
+      "fair_prob": 0.314
+     },
+     "Chicago Bears": {
+      "point": null,
+      "price": -244,
+      "fair_prob": 0.686
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Minnesota Vikings",
+     "dk_point": 5.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 5.5,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4977,
+     "prob_edge": -0.0261,
+     "point_gap": 0.0,
+     "combined_edge": -0.0261
+    },
+    {
+     "market": "spreads",
+     "side": "Chicago Bears",
+     "dk_point": -5.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": -5.5,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5023,
+     "prob_edge": -0.0215,
+     "point_gap": 0.0,
+     "combined_edge": -0.0215
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 49.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 49.5,
+     "pin_fair_price": 103,
+     "pin_fair_prob": 0.4933,
+     "prob_edge": -0.0259,
+     "point_gap": 0.0,
+     "combined_edge": -0.0259
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 49.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 49.5,
+     "pin_fair_price": -103,
+     "pin_fair_prob": 0.5067,
+     "prob_edge": -0.0216,
+     "point_gap": 0.0,
+     "combined_edge": -0.0216
+    },
+    {
+     "market": "h2h",
+     "side": "Minnesota Vikings",
+     "dk_point": null,
+     "dk_price": 180,
+     "dk_implied": 0.3571,
+     "pin_point": null,
+     "pin_fair_price": 218,
+     "pin_fair_prob": 0.314,
+     "prob_edge": -0.0431,
+     "point_gap": null,
+     "combined_edge": -0.0431
+    },
+    {
+     "market": "h2h",
+     "side": "Chicago Bears",
+     "dk_point": null,
+     "dk_price": -218,
+     "dk_implied": 0.6855,
+     "pin_point": null,
+     "pin_fair_price": -218,
+     "pin_fair_prob": 0.686,
+     "prob_edge": 0.0005,
+     "point_gap": null,
+     "combined_edge": 0.0005
+    }
+   ]
   },
   {
    "id": "36ad2fa722f4915ef23d2c81351261de",
@@ -489,37 +796,153 @@
    "dk": {
     "spreads": {
      "Cincinnati Bengals": {
-      "point": 2.5,
-      "price": -105
+      "point": 3.0,
+      "price": -112
      },
      "Houston Texans": {
-      "point": -2.5,
-      "price": -115
+      "point": -3.0,
+      "price": -108
      }
     },
     "totals": {
      "Over": {
-      "point": 47.5,
-      "price": -110
+      "point": 46.5,
+      "price": -108
      },
      "Under": {
-      "point": 47.5,
-      "price": -110
+      "point": 46.5,
+      "price": -112
      }
     },
     "h2h": {
      "Cincinnati Bengals": {
       "point": null,
-      "price": 120
+      "price": 130
      },
      "Houston Texans": {
       "point": null,
-      "price": -142
+      "price": -155
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Cincinnati Bengals": {
+      "point": 3.0,
+      "price": -109,
+      "fair_prob": 0.5069
+     },
+     "Houston Texans": {
+      "point": -3.0,
+      "price": -103,
+      "fair_prob": 0.4931
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 46.5,
+      "price": -107,
+      "fair_prob": 0.4978
+     },
+     "Under": {
+      "point": 46.5,
+      "price": -109,
+      "fair_prob": 0.5022
+     }
+    },
+    "h2h": {
+     "Cincinnati Bengals": {
+      "point": null,
+      "price": 145,
+      "fair_prob": 0.3965
+     },
+     "Houston Texans": {
+      "point": null,
+      "price": -164,
+      "fair_prob": 0.6035
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Cincinnati Bengals",
+     "dk_point": 3.0,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 3.0,
+     "pin_fair_price": -103,
+     "pin_fair_prob": 0.5069,
+     "prob_edge": -0.0214,
+     "point_gap": 0.0,
+     "combined_edge": -0.0214
+    },
+    {
+     "market": "spreads",
+     "side": "Houston Texans",
+     "dk_point": -3.0,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": -3.0,
+     "pin_fair_price": 103,
+     "pin_fair_prob": 0.4931,
+     "prob_edge": -0.0261,
+     "point_gap": 0.0,
+     "combined_edge": -0.0261
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 46.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 46.5,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4978,
+     "prob_edge": -0.0214,
+     "point_gap": 0.0,
+     "combined_edge": -0.0214
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 46.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 46.5,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5022,
+     "prob_edge": -0.0261,
+     "point_gap": 0.0,
+     "combined_edge": -0.0261
+    },
+    {
+     "market": "h2h",
+     "side": "Cincinnati Bengals",
+     "dk_point": null,
+     "dk_price": 130,
+     "dk_implied": 0.4348,
+     "pin_point": null,
+     "pin_fair_price": 152,
+     "pin_fair_prob": 0.3965,
+     "prob_edge": -0.0383,
+     "point_gap": null,
+     "combined_edge": -0.0383
+    },
+    {
+     "market": "h2h",
+     "side": "Houston Texans",
+     "dk_point": null,
+     "dk_price": -155,
+     "dk_implied": 0.6078,
+     "pin_point": null,
+     "pin_fair_price": -152,
+     "pin_fair_prob": 0.6035,
+     "prob_edge": -0.0043,
+     "point_gap": null,
+     "combined_edge": -0.0043
+    }
+   ]
   },
   {
    "id": "0636ebff776d43f8c829a36713c80b22",
@@ -541,11 +964,11 @@
     "totals": {
      "Over": {
       "point": 40.5,
-      "price": -110
+      "price": -115
      },
      "Under": {
       "point": 40.5,
-      "price": -110
+      "price": -105
      }
     },
     "h2h": {
@@ -559,8 +982,124 @@
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Cleveland Browns": {
+      "point": 9.0,
+      "price": -116,
+      "fair_prob": 0.5216
+     },
+     "Tampa Bay Buccaneers": {
+      "point": -9.0,
+      "price": 103,
+      "fair_prob": 0.4784
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 41.0,
+      "price": -116,
+      "fair_prob": 0.5179
+     },
+     "Under": {
+      "point": 41.0,
+      "price": 100,
+      "fair_prob": 0.4821
+     }
+    },
+    "h2h": {
+     "Cleveland Browns": {
+      "point": null,
+      "price": 330,
+      "fair_prob": 0.2243
+     },
+     "Tampa Bay Buccaneers": {
+      "point": null,
+      "price": -411,
+      "fair_prob": 0.7757
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Cleveland Browns",
+     "dk_point": 8.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 9.0,
+     "pin_fair_price": -109,
+     "pin_fair_prob": 0.5216,
+     "prob_edge": -0.0022,
+     "point_gap": -0.5,
+     "combined_edge": -0.0222
+    },
+    {
+     "market": "spreads",
+     "side": "Tampa Bay Buccaneers",
+     "dk_point": -8.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": -9.0,
+     "pin_fair_price": 109,
+     "pin_fair_prob": 0.4784,
+     "prob_edge": -0.0454,
+     "point_gap": 0.5,
+     "combined_edge": -0.0254
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 40.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 41.0,
+     "pin_fair_price": -107,
+     "pin_fair_prob": 0.5179,
+     "prob_edge": -0.017,
+     "point_gap": 0.5,
+     "combined_edge": 0.003
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 40.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 41.0,
+     "pin_fair_price": 107,
+     "pin_fair_prob": 0.4821,
+     "prob_edge": -0.0301,
+     "point_gap": -0.5,
+     "combined_edge": -0.0501
+    },
+    {
+     "market": "h2h",
+     "side": "Cleveland Browns",
+     "dk_point": null,
+     "dk_price": 295,
+     "dk_implied": 0.2532,
+     "pin_point": null,
+     "pin_fair_price": 346,
+     "pin_fair_prob": 0.2243,
+     "prob_edge": -0.0289,
+     "point_gap": null,
+     "combined_edge": -0.0289
+    },
+    {
+     "market": "h2h",
+     "side": "Tampa Bay Buccaneers",
+     "dk_point": null,
+     "dk_price": -375,
+     "dk_implied": 0.7895,
+     "pin_point": null,
+     "pin_fair_price": -346,
+     "pin_fair_prob": 0.7757,
+     "prob_edge": -0.0138,
+     "point_gap": null,
+     "combined_edge": -0.0138
+    }
+   ]
   },
   {
    "id": "4aeee070bb6ec60bdfae4dede61b9014",
@@ -572,21 +1111,21 @@
     "spreads": {
      "Green Bay Packers": {
       "point": -4.5,
-      "price": -110
+      "price": -108
      },
      "New York Jets": {
       "point": 4.5,
-      "price": -110
+      "price": -112
      }
     },
     "totals": {
      "Over": {
-      "point": 43.5,
-      "price": -110
+      "point": 44.5,
+      "price": -112
      },
      "Under": {
-      "point": 43.5,
-      "price": -110
+      "point": 44.5,
+      "price": -108
      }
     },
     "h2h": {
@@ -600,8 +1139,124 @@
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Green Bay Packers": {
+      "point": -4.0,
+      "price": 103,
+      "fair_prob": 0.4794
+     },
+     "New York Jets": {
+      "point": 4.0,
+      "price": -115,
+      "fair_prob": 0.5206
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 45.0,
+      "price": -109,
+      "fair_prob": 0.5022
+     },
+     "Under": {
+      "point": 45.0,
+      "price": -107,
+      "fair_prob": 0.4978
+     }
+    },
+    "h2h": {
+     "Green Bay Packers": {
+      "point": null,
+      "price": -191,
+      "fair_prob": 0.6358
+     },
+     "New York Jets": {
+      "point": null,
+      "price": 166,
+      "fair_prob": 0.3642
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Green Bay Packers",
+     "dk_point": -4.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": -4.0,
+     "pin_fair_price": 109,
+     "pin_fair_prob": 0.4794,
+     "prob_edge": -0.0398,
+     "point_gap": -0.5,
+     "combined_edge": -0.0598
+    },
+    {
+     "market": "spreads",
+     "side": "New York Jets",
+     "dk_point": 4.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 4.0,
+     "pin_fair_price": -109,
+     "pin_fair_prob": 0.5206,
+     "prob_edge": -0.0077,
+     "point_gap": 0.5,
+     "combined_edge": 0.0123
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 44.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 45.0,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5022,
+     "prob_edge": -0.0261,
+     "point_gap": 0.5,
+     "combined_edge": -0.0061
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 44.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 45.0,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4978,
+     "prob_edge": -0.0214,
+     "point_gap": -0.5,
+     "combined_edge": -0.0414
+    },
+    {
+     "market": "h2h",
+     "side": "Green Bay Packers",
+     "dk_point": null,
+     "dk_price": -218,
+     "dk_implied": 0.6855,
+     "pin_point": null,
+     "pin_fair_price": -175,
+     "pin_fair_prob": 0.6358,
+     "prob_edge": -0.0497,
+     "point_gap": null,
+     "combined_edge": -0.0497
+    },
+    {
+     "market": "h2h",
+     "side": "New York Jets",
+     "dk_point": null,
+     "dk_price": 180,
+     "dk_implied": 0.3571,
+     "pin_point": null,
+     "pin_fair_price": 175,
+     "pin_fair_prob": 0.3642,
+     "prob_edge": 0.0071,
+     "point_gap": null,
+     "combined_edge": 0.0071
+    }
+   ]
   },
   {
    "id": "9d14f87600f6edc74dbcb5c74edf6246",
@@ -622,27 +1277,143 @@
     },
     "totals": {
      "Over": {
-      "point": 43.5,
-      "price": -110
+      "point": 41.5,
+      "price": -115
      },
      "Under": {
-      "point": 43.5,
-      "price": -110
+      "point": 41.5,
+      "price": -105
      }
     },
     "h2h": {
      "Pittsburgh Steelers": {
       "point": null,
-      "price": 200
+      "price": 195
      },
      "New England Patriots": {
       "point": null,
-      "price": -245
+      "price": -238
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Pittsburgh Steelers": {
+      "point": 5.5,
+      "price": -110,
+      "fair_prob": 0.5092
+     },
+     "New England Patriots": {
+      "point": -5.5,
+      "price": -102,
+      "fair_prob": 0.4908
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 42.0,
+      "price": -108,
+      "fair_prob": 0.5
+     },
+     "Under": {
+      "point": 42.0,
+      "price": -108,
+      "fair_prob": 0.5
+     }
+    },
+    "h2h": {
+     "Pittsburgh Steelers": {
+      "point": null,
+      "price": 203,
+      "fair_prob": 0.3197
+     },
+     "New England Patriots": {
+      "point": null,
+      "price": -236,
+      "fair_prob": 0.6803
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Pittsburgh Steelers",
+     "dk_point": 5.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 5.5,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5092,
+     "prob_edge": -0.0146,
+     "point_gap": 0.0,
+     "combined_edge": -0.0146
+    },
+    {
+     "market": "spreads",
+     "side": "New England Patriots",
+     "dk_point": -5.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": -5.5,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4908,
+     "prob_edge": -0.033,
+     "point_gap": 0.0,
+     "combined_edge": -0.033
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 41.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 42.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0349,
+     "point_gap": 0.5,
+     "combined_edge": -0.0149
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 41.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 42.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0122,
+     "point_gap": -0.5,
+     "combined_edge": -0.0322
+    },
+    {
+     "market": "h2h",
+     "side": "Pittsburgh Steelers",
+     "dk_point": null,
+     "dk_price": 195,
+     "dk_implied": 0.339,
+     "pin_point": null,
+     "pin_fair_price": 213,
+     "pin_fair_prob": 0.3197,
+     "prob_edge": -0.0193,
+     "point_gap": null,
+     "combined_edge": -0.0193
+    },
+    {
+     "market": "h2h",
+     "side": "New England Patriots",
+     "dk_point": null,
+     "dk_price": -238,
+     "dk_implied": 0.7041,
+     "pin_point": null,
+     "pin_fair_price": -213,
+     "pin_fair_prob": 0.6803,
+     "prob_edge": -0.0238,
+     "point_gap": null,
+     "combined_edge": -0.0238
+    }
+   ]
   },
   {
    "id": "fafc649c455e32a0f2ba1bd06e2039bc",
@@ -663,27 +1434,143 @@
     },
     "totals": {
      "Over": {
-      "point": 41.5,
+      "point": 39.5,
       "price": -110
      },
      "Under": {
-      "point": 41.5,
+      "point": 39.5,
       "price": -110
      }
     },
     "h2h": {
      "Philadelphia Eagles": {
       "point": null,
-      "price": -298
+      "price": -310
      },
      "Tennessee Titans": {
       "point": null,
-      "price": 240
+      "price": 250
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Philadelphia Eagles": {
+      "point": -7.5,
+      "price": 105,
+      "fair_prob": 0.474
+     },
+     "Tennessee Titans": {
+      "point": 7.5,
+      "price": -118,
+      "fair_prob": 0.526
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 39.5,
+      "price": -112,
+      "fair_prob": 0.5089
+     },
+     "Under": {
+      "point": 39.5,
+      "price": -104,
+      "fair_prob": 0.4911
+     }
+    },
+    "h2h": {
+     "Philadelphia Eagles": {
+      "point": null,
+      "price": -334,
+      "fair_prob": 0.7432
+     },
+     "Tennessee Titans": {
+      "point": null,
+      "price": 276,
+      "fair_prob": 0.2568
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Philadelphia Eagles",
+     "dk_point": -7.0,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": -7.5,
+     "pin_fair_price": 111,
+     "pin_fair_prob": 0.474,
+     "prob_edge": -0.0498,
+     "point_gap": 0.5,
+     "combined_edge": -0.0298
+    },
+    {
+     "market": "spreads",
+     "side": "Tennessee Titans",
+     "dk_point": 7.0,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 7.5,
+     "pin_fair_price": -111,
+     "pin_fair_prob": 0.526,
+     "prob_edge": 0.0022,
+     "point_gap": -0.5,
+     "combined_edge": -0.0178
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 39.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 39.5,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5089,
+     "prob_edge": -0.0149,
+     "point_gap": 0.0,
+     "combined_edge": -0.0149
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 39.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 39.5,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4911,
+     "prob_edge": -0.0327,
+     "point_gap": 0.0,
+     "combined_edge": -0.0327
+    },
+    {
+     "market": "h2h",
+     "side": "Philadelphia Eagles",
+     "dk_point": null,
+     "dk_price": -310,
+     "dk_implied": 0.7561,
+     "pin_point": null,
+     "pin_fair_price": -289,
+     "pin_fair_prob": 0.7432,
+     "prob_edge": -0.0129,
+     "point_gap": null,
+     "combined_edge": -0.0129
+    },
+    {
+     "market": "h2h",
+     "side": "Tennessee Titans",
+     "dk_point": null,
+     "dk_price": 250,
+     "dk_implied": 0.2857,
+     "pin_point": null,
+     "pin_fair_price": 289,
+     "pin_fair_prob": 0.2568,
+     "prob_edge": -0.0289,
+     "point_gap": null,
+     "combined_edge": -0.0289
+    }
+   ]
   },
   {
    "id": "1fd6628c781f556a7a19638e97d7107f",
@@ -695,21 +1582,21 @@
     "spreads": {
      "Jacksonville Jaguars": {
       "point": 2.5,
-      "price": 100
+      "price": -102
      },
      "Denver Broncos": {
       "point": -2.5,
-      "price": -120
+      "price": -118
      }
     },
     "totals": {
      "Over": {
-      "point": 43.5,
-      "price": -110
+      "point": 44.5,
+      "price": -115
      },
      "Under": {
-      "point": 43.5,
-      "price": -110
+      "point": 44.5,
+      "price": -105
      }
     },
     "h2h": {
@@ -745,27 +1632,143 @@
     },
     "totals": {
      "Over": {
-      "point": 45.5,
+      "point": 43.5,
       "price": -110
      },
      "Under": {
-      "point": 45.5,
+      "point": 43.5,
       "price": -110
      }
     },
     "h2h": {
      "Las Vegas Raiders": {
       "point": null,
-      "price": 235
+      "price": 240
      },
      "Los Angeles Chargers": {
       "point": null,
-      "price": -290
+      "price": -298
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Las Vegas Raiders": {
+      "point": 7.0,
+      "price": -115,
+      "fair_prob": 0.5193
+     },
+     "Los Angeles Chargers": {
+      "point": -7.0,
+      "price": 102,
+      "fair_prob": 0.4807
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.0,
+      "price": -101,
+      "fair_prob": 0.4844
+     },
+     "Under": {
+      "point": 44.0,
+      "price": -115,
+      "fair_prob": 0.5156
+     }
+    },
+    "h2h": {
+     "Las Vegas Raiders": {
+      "point": null,
+      "price": 256,
+      "fair_prob": 0.2713
+     },
+     "Los Angeles Chargers": {
+      "point": null,
+      "price": -307,
+      "fair_prob": 0.7287
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Las Vegas Raiders",
+     "dk_point": 7.0,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 7.0,
+     "pin_fair_price": -108,
+     "pin_fair_prob": 0.5193,
+     "prob_edge": -0.0156,
+     "point_gap": 0.0,
+     "combined_edge": -0.0156
+    },
+    {
+     "market": "spreads",
+     "side": "Los Angeles Chargers",
+     "dk_point": -7.0,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": -7.0,
+     "pin_fair_price": 108,
+     "pin_fair_prob": 0.4807,
+     "prob_edge": -0.0315,
+     "point_gap": 0.0,
+     "combined_edge": -0.0315
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 43.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 44.0,
+     "pin_fair_price": 106,
+     "pin_fair_prob": 0.4844,
+     "prob_edge": -0.0394,
+     "point_gap": 0.5,
+     "combined_edge": -0.0194
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 43.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 44.0,
+     "pin_fair_price": -106,
+     "pin_fair_prob": 0.5156,
+     "prob_edge": -0.0082,
+     "point_gap": -0.5,
+     "combined_edge": -0.0282
+    },
+    {
+     "market": "h2h",
+     "side": "Las Vegas Raiders",
+     "dk_point": null,
+     "dk_price": 240,
+     "dk_implied": 0.2941,
+     "pin_point": null,
+     "pin_fair_price": 269,
+     "pin_fair_prob": 0.2713,
+     "prob_edge": -0.0228,
+     "point_gap": null,
+     "combined_edge": -0.0228
+    },
+    {
+     "market": "h2h",
+     "side": "Los Angeles Chargers",
+     "dk_point": null,
+     "dk_price": -298,
+     "dk_implied": 0.7487,
+     "pin_point": null,
+     "pin_fair_price": -269,
+     "pin_fair_prob": 0.7287,
+     "prob_edge": -0.02,
+     "point_gap": null,
+     "combined_edge": -0.02
+    }
+   ]
   },
   {
    "id": "4dd8020192a544385db42374e5555303",
@@ -776,37 +1779,153 @@
    "dk": {
     "spreads": {
      "Seattle Seahawks": {
-      "point": -5.5,
-      "price": -110
+      "point": -4.5,
+      "price": -105
      },
      "Arizona Cardinals": {
-      "point": 5.5,
-      "price": -110
+      "point": 4.5,
+      "price": -115
      }
     },
     "totals": {
      "Over": {
-      "point": 43.5,
+      "point": 41.5,
       "price": -110
      },
      "Under": {
-      "point": 43.5,
+      "point": 41.5,
       "price": -110
      }
     },
     "h2h": {
      "Seattle Seahawks": {
       "point": null,
-      "price": -250
+      "price": -225
      },
      "Arizona Cardinals": {
       "point": null,
-      "price": 205
+      "price": 185
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Seattle Seahawks": {
+      "point": -4.0,
+      "price": -109,
+      "fair_prob": 0.5069
+     },
+     "Arizona Cardinals": {
+      "point": 4.0,
+      "price": -103,
+      "fair_prob": 0.4931
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 41.5,
+      "price": -107,
+      "fair_prob": 0.4978
+     },
+     "Under": {
+      "point": 41.5,
+      "price": -109,
+      "fair_prob": 0.5022
+     }
+    },
+    "h2h": {
+     "Seattle Seahawks": {
+      "point": null,
+      "price": -208,
+      "fair_prob": 0.6541
+     },
+     "Arizona Cardinals": {
+      "point": null,
+      "price": 180,
+      "fair_prob": 0.3459
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Seattle Seahawks",
+     "dk_point": -4.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": -4.0,
+     "pin_fair_price": -103,
+     "pin_fair_prob": 0.5069,
+     "prob_edge": -0.0053,
+     "point_gap": -0.5,
+     "combined_edge": -0.0253
+    },
+    {
+     "market": "spreads",
+     "side": "Arizona Cardinals",
+     "dk_point": 4.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 4.0,
+     "pin_fair_price": 103,
+     "pin_fair_prob": 0.4931,
+     "prob_edge": -0.0418,
+     "point_gap": 0.5,
+     "combined_edge": -0.0218
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 41.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 41.5,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4978,
+     "prob_edge": -0.026,
+     "point_gap": 0.0,
+     "combined_edge": -0.026
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 41.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 41.5,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5022,
+     "prob_edge": -0.0216,
+     "point_gap": 0.0,
+     "combined_edge": -0.0216
+    },
+    {
+     "market": "h2h",
+     "side": "Seattle Seahawks",
+     "dk_point": null,
+     "dk_price": -225,
+     "dk_implied": 0.6923,
+     "pin_point": null,
+     "pin_fair_price": -189,
+     "pin_fair_prob": 0.6541,
+     "prob_edge": -0.0382,
+     "point_gap": null,
+     "combined_edge": -0.0382
+    },
+    {
+     "market": "h2h",
+     "side": "Arizona Cardinals",
+     "dk_point": null,
+     "dk_price": 185,
+     "dk_implied": 0.3509,
+     "pin_point": null,
+     "pin_fair_price": 189,
+     "pin_fair_prob": 0.3459,
+     "prob_edge": -0.005,
+     "point_gap": null,
+     "combined_edge": -0.005
+    }
+   ]
   },
   {
    "id": "85ef85098ddd22fe4ecf45e7e3c0a9c0",
@@ -817,37 +1936,153 @@
    "dk": {
     "spreads": {
      "Washington Commanders": {
-      "point": 4.5,
-      "price": -110
+      "point": 3.5,
+      "price": -108
      },
      "Dallas Cowboys": {
-      "point": -4.5,
-      "price": -110
+      "point": -3.5,
+      "price": -112
      }
     },
     "totals": {
      "Over": {
       "point": 50.5,
-      "price": -110
+      "price": -108
      },
      "Under": {
       "point": 50.5,
-      "price": -110
+      "price": -112
      }
     },
     "h2h": {
      "Washington Commanders": {
       "point": null,
-      "price": 180
+      "price": 170
      },
      "Dallas Cowboys": {
       "point": null,
-      "price": -218
+      "price": -205
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Washington Commanders": {
+      "point": 4.0,
+      "price": -106,
+      "fair_prob": 0.5
+     },
+     "Dallas Cowboys": {
+      "point": -4.0,
+      "price": -106,
+      "fair_prob": 0.5
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 50.0,
+      "price": -108,
+      "fair_prob": 0.5
+     },
+     "Under": {
+      "point": 50.0,
+      "price": -108,
+      "fair_prob": 0.5
+     }
+    },
+    "h2h": {
+     "Washington Commanders": {
+      "point": null,
+      "price": 174,
+      "fair_prob": 0.3538
+     },
+     "Dallas Cowboys": {
+      "point": null,
+      "price": -200,
+      "fair_prob": 0.6462
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Washington Commanders",
+     "dk_point": 3.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 4.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0192,
+     "point_gap": -0.5,
+     "combined_edge": -0.0392
+    },
+    {
+     "market": "spreads",
+     "side": "Dallas Cowboys",
+     "dk_point": -3.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": -4.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0283,
+     "point_gap": 0.5,
+     "combined_edge": -0.0083
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 50.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 50.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0192,
+     "point_gap": -0.5,
+     "combined_edge": -0.0392
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 50.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 50.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0283,
+     "point_gap": 0.5,
+     "combined_edge": -0.0083
+    },
+    {
+     "market": "h2h",
+     "side": "Washington Commanders",
+     "dk_point": null,
+     "dk_price": 170,
+     "dk_implied": 0.3704,
+     "pin_point": null,
+     "pin_fair_price": 183,
+     "pin_fair_prob": 0.3538,
+     "prob_edge": -0.0166,
+     "point_gap": null,
+     "combined_edge": -0.0166
+    },
+    {
+     "market": "h2h",
+     "side": "Dallas Cowboys",
+     "dk_point": null,
+     "dk_price": -205,
+     "dk_implied": 0.6721,
+     "pin_point": null,
+     "pin_fair_price": -183,
+     "pin_fair_prob": 0.6462,
+     "prob_edge": -0.0259,
+     "point_gap": null,
+     "combined_edge": -0.0259
+    }
+   ]
   },
   {
    "id": "68bc55903f50af4af4766adcc89fcc61",
@@ -858,37 +2093,153 @@
    "dk": {
     "spreads": {
      "Miami Dolphins": {
-      "point": 12.5,
-      "price": -110
+      "point": 13.5,
+      "price": -115
      },
      "San Francisco 49ers": {
-      "point": -12.5,
-      "price": -110
+      "point": -13.5,
+      "price": -105
      }
     },
     "totals": {
      "Over": {
-      "point": 46.5,
-      "price": -110
+      "point": 45.5,
+      "price": -108
      },
      "Under": {
-      "point": 46.5,
-      "price": -110
+      "point": 45.5,
+      "price": -112
      }
     },
     "h2h": {
      "Miami Dolphins": {
       "point": null,
-      "price": 625
+      "price": 650
      },
      "San Francisco 49ers": {
       "point": null,
-      "price": -950
+      "price": -1000
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
+   "pinnacle": {
+    "spreads": {
+     "Miami Dolphins": {
+      "point": 13.0,
+      "price": -106,
+      "fair_prob": 0.5
+     },
+     "San Francisco 49ers": {
+      "point": -13.0,
+      "price": -106,
+      "fair_prob": 0.5
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 45.5,
+      "price": -108,
+      "fair_prob": 0.5
+     },
+     "Under": {
+      "point": 45.5,
+      "price": -108,
+      "fair_prob": 0.5
+     }
+    },
+    "h2h": {
+     "Miami Dolphins": {
+      "point": null,
+      "price": 677,
+      "fair_prob": 0.124
+     },
+     "San Francisco 49ers": {
+      "point": null,
+      "price": -1000,
+      "fair_prob": 0.876
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Miami Dolphins",
+     "dk_point": 13.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 13.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0349,
+     "point_gap": 0.5,
+     "combined_edge": -0.0149
+    },
+    {
+     "market": "spreads",
+     "side": "San Francisco 49ers",
+     "dk_point": -13.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": -13.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0122,
+     "point_gap": -0.5,
+     "combined_edge": -0.0322
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 45.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 45.5,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0192,
+     "point_gap": 0.0,
+     "combined_edge": -0.0192
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 45.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 45.5,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0283,
+     "point_gap": 0.0,
+     "combined_edge": -0.0283
+    },
+    {
+     "market": "h2h",
+     "side": "Miami Dolphins",
+     "dk_point": null,
+     "dk_price": 650,
+     "dk_implied": 0.1333,
+     "pin_point": null,
+     "pin_fair_price": 706,
+     "pin_fair_prob": 0.124,
+     "prob_edge": -0.0093,
+     "point_gap": null,
+     "combined_edge": -0.0093
+    },
+    {
+     "market": "h2h",
+     "side": "San Francisco 49ers",
+     "dk_point": null,
+     "dk_price": -1000,
+     "dk_implied": 0.9091,
+     "pin_point": null,
+     "pin_fair_price": -706,
+     "pin_fair_prob": 0.876,
+     "prob_edge": -0.0331,
+     "point_gap": null,
+     "combined_edge": -0.0331
+    }
+   ]
   },
   {
    "id": "50bc247030707d823b9c3581d7eb5760",
@@ -930,6 +2281,163 @@
    },
    "pinnacle": {},
    "edges": []
+  },
+  {
+   "id": "32367f882fac1a0c20a6335619922025",
+   "commence_time": "2026-09-22T00:15:00Z",
+   "kickoff_et": "Mon 09/21 08:15 PM",
+   "home": "Los Angeles Rams",
+   "away": "New York Giants",
+   "dk": {
+    "spreads": {
+     "New York Giants": {
+      "point": 7.0,
+      "price": -105
+     },
+     "Los Angeles Rams": {
+      "point": -7.0,
+      "price": -115
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 48.5,
+      "price": -108
+     },
+     "Under": {
+      "point": 48.5,
+      "price": -112
+     }
+    },
+    "h2h": {
+     "New York Giants": {
+      "point": null,
+      "price": 285
+     },
+     "Los Angeles Rams": {
+      "point": null,
+      "price": -360
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "New York Giants": {
+      "point": 7.0,
+      "price": -105,
+      "fair_prob": 0.5
+     },
+     "Los Angeles Rams": {
+      "point": -7.0,
+      "price": -105,
+      "fair_prob": 0.5
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 48.5,
+      "price": 100,
+      "fair_prob": 0.4862
+     },
+     "Under": {
+      "point": 48.5,
+      "price": -112,
+      "fair_prob": 0.5138
+     }
+    },
+    "h2h": {
+     "New York Giants": {
+      "point": null,
+      "price": 273,
+      "fair_prob": 0.2603
+     },
+     "Los Angeles Rams": {
+      "point": null,
+      "price": -320,
+      "fair_prob": 0.7397
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "New York Giants",
+     "dk_point": 7.0,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 7.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0122,
+     "point_gap": 0.0,
+     "combined_edge": -0.0122
+    },
+    {
+     "market": "spreads",
+     "side": "Los Angeles Rams",
+     "dk_point": -7.0,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": -7.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0349,
+     "point_gap": 0.0,
+     "combined_edge": -0.0349
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 48.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 48.5,
+     "pin_fair_price": 106,
+     "pin_fair_prob": 0.4862,
+     "prob_edge": -0.033,
+     "point_gap": 0.0,
+     "combined_edge": -0.033
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 48.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 48.5,
+     "pin_fair_price": -106,
+     "pin_fair_prob": 0.5138,
+     "prob_edge": -0.0145,
+     "point_gap": 0.0,
+     "combined_edge": -0.0145
+    },
+    {
+     "market": "h2h",
+     "side": "New York Giants",
+     "dk_point": null,
+     "dk_price": 285,
+     "dk_implied": 0.2597,
+     "pin_point": null,
+     "pin_fair_price": 284,
+     "pin_fair_prob": 0.2603,
+     "prob_edge": 0.0006,
+     "point_gap": null,
+     "combined_edge": 0.0006
+    },
+    {
+     "market": "h2h",
+     "side": "Los Angeles Rams",
+     "dk_point": null,
+     "dk_price": -360,
+     "dk_implied": 0.7826,
+     "pin_point": null,
+     "pin_fair_price": -284,
+     "pin_fair_prob": 0.7397,
+     "prob_edge": -0.0429,
+     "point_gap": null,
+     "combined_edge": -0.0429
+    }
+   ]
   }
  ]
 }
