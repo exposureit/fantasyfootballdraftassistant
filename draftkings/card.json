@@ -1,695 +1,162 @@
 {
- "week": 1,
- "title": "Week 1",
+ "week": 2,
+ "title": "Week 2",
  "year": "2026",
- "built_at": "2026-09-13T15:06:41Z",
- "lines_verified_at": "2026-09-13T15:01:00Z",
+ "built_at": "2026-09-15T21:20:00Z",
+ "lines_verified_at": "2026-09-15T21:10:00Z",
  "verification": "verified",
- "verification_note": "Every line is DraftKings' own number, pulled through The Odds API. Sunday final check at 11:06 AM ET: the full $100 was already placed by Saturday's update, so no new stakes were added today. Best combined_edge anywhere on the board is -0.002 (nothing clears Rule A). Jeremiyah Love's inactive/active call is still pending the 11:30 AM ET post.",
+ "verification_note": "Every line is DraftKings' own number, pulled through The Odds API (opening snapshot for Week 2, saved to lines/open-week-02.json). Best combined_edge anywhere on the 16-game board is +0.005 (Over 44.5, Jaguars at Broncos) -- nothing clears Rule A's +0.015 bar, so no early tickets this week. Watch list has the numbers to take if they move our way.",
  "budget": {
   "total": 100,
-  "sunday": 90,
-  "monday": 10,
-  "thursday": 0
+  "sunday": 70,
+  "monday": 15,
+  "thursday": 15
  },
- "tickets": [
-  {
-   "id": "C1",
-   "type": "single",
-   "day": "sunday",
-   "name": "Cardinals +9.5",
-   "game": "Cardinals at Chargers",
-   "kickoff": "Sun 4:25 PM",
-   "stake": 15,
-   "price": "-105",
-   "payout": 14.29,
-   "estimate": 54,
-   "breakeven": 51.2,
-   "why": "Sharp money on Arizona (36% of tickets, 62% of handle). My number LAC -8.5. Week 1 dogs of 6.5+ are 32-13-1 ATS since 2013.",
-   "kill_switch": "At +9 or lower, or if Jeremiyah Love is inactive, cut to $7.50 and move the rest to Under 41.5.",
-   "result": null,
-   "net": null,
-   "legs": [
-    {
-     "label": "Cardinals +9.5 (-105)",
-     "pick": "Cardinals +9.5 (-105)",
-     "game": "Arizona Cardinals at Los Angeles Chargers",
-     "away": "Arizona Cardinals",
-     "home": "Los Angeles Chargers",
-     "commence_time": "2026-09-13T20:25:00Z",
-     "market": "spreads",
-     "side": "Arizona Cardinals",
-     "point": 9.5,
-     "price": -105,
-     "why": "",
-     "close": {
-      "point": 8.5,
-      "price": -102,
-      "pin_fair_prob": 0.5218,
-      "at": "2026-09-13T20:20Z"
-     },
-     "point_clv": 1.0,
-     "price_clv": -0.0072,
-     "clv": 0.0328,
-     "pin_clv": 0.0096
-    }
-   ],
-   "placed": true,
-   "clv": 0.0328
-  },
-  {
-   "id": "C2",
-   "type": "single",
-   "day": "sunday",
-   "name": "Under 41.5",
-   "game": "Falcons at Steelers",
-   "kickoff": "Sun 1:00 PM",
-   "stake": 20,
-   "price": "-115",
-   "payout": 17.39,
-   "estimate": 56,
-   "breakeven": 53.5,
-   "why": "Spread moved two points to Pittsburgh, total did not move. A third-string QB lowers both team totals. My number 39.5.",
-   "kill_switch": "Pass at 40.5 or lower.",
-   "result": null,
-   "net": null,
-   "legs": [
-    {
-     "label": "Under 41.5 (-115)",
-     "pick": "Under 41.5 (-115)",
-     "game": "Atlanta Falcons at Pittsburgh Steelers",
-     "away": "Atlanta Falcons",
-     "home": "Pittsburgh Steelers",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 41.5,
-     "price": -115,
-     "why": "",
-     "close": {
-      "point": 40.5,
-      "price": -108,
-      "pin_fair_prob": 0.5023,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 1.0,
-     "price_clv": -0.0157,
-     "clv": 0.0243,
-     "pin_clv": -0.0326
-    }
-   ],
-   "placed": true,
-   "clv": 0.0243
-  },
-  {
-   "id": "C3",
-   "type": "single",
-   "day": "sunday",
-   "name": "Cowboys -3",
-   "game": "Cowboys at Giants",
-   "kickoff": "Sun 8:20 PM",
-   "stake": 10,
-   "price": "-105",
-   "payout": 9.52,
-   "estimate": 55,
-   "breakeven": 51.2,
-   "why": "Replaces Vikings -1.5 after its kill switch tripped (DK moved to -2.5 while Pinnacle sits at -1). Cowboys -3 at -105 is the one side on the board DraftKings prices better than Pinnacle's fair line (-122 at -2.5). Sharpest money of the week is on Dallas.",
-   "kill_switch": "Pass at -3.5. If you already placed Vikings -1.5 at -1.5 before the move, keep it and skip this.",
-   "result": null,
-   "net": null,
-   "legs": [
-    {
-     "label": "Cowboys -3 (-105)",
-     "pick": "Cowboys -3 (-105)",
-     "game": "Dallas Cowboys at New York Giants",
-     "away": "Dallas Cowboys",
-     "home": "New York Giants",
-     "commence_time": "2026-09-14T00:20:00Z",
-     "market": "spreads",
-     "side": "Dallas Cowboys",
-     "point": -3,
-     "price": -105,
-     "why": "",
-     "close": {
-      "point": -3.0,
-      "price": -112,
-      "pin_fair_prob": 0.5116,
-      "at": "2026-09-14T00:12Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0161,
-     "clv": 0.0161,
-     "pin_clv": -0.0006
-    }
-   ],
-   "placed": true,
-   "clv": 0.0161
-  },
-  {
-   "id": "C4",
-   "type": "single",
-   "day": "sunday",
-   "name": "Dolphins +3",
-   "game": "Dolphins at Raiders",
-   "kickoff": "Sun 4:25 PM",
-   "stake": 10,
-   "price": "-108",
-   "payout": 9.26,
-   "estimate": 55,
-   "breakeven": 51.9,
-   "why": "On the key number. My number LV -2. Brock Bowers out for Las Vegas, Miami has no designations.",
-   "kill_switch": "Pass at +2.5.",
-   "result": null,
-   "net": null,
-   "legs": [
-    {
-     "label": "Dolphins +3 (-108)",
-     "pick": "Dolphins +3 (-108)",
-     "game": "Miami Dolphins at Las Vegas Raiders",
-     "away": "Miami Dolphins",
-     "home": "Las Vegas Raiders",
-     "commence_time": "2026-09-13T20:25:00Z",
-     "market": "spreads",
-     "side": "Miami Dolphins",
-     "point": 3,
-     "price": -108,
-     "why": "",
-     "close": {
-      "point": 3.0,
-      "price": -110,
-      "pin_fair_prob": 0.4954,
-      "at": "2026-09-13T20:20Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0046,
-     "clv": 0.0046,
-     "pin_clv": -0.0238
-    }
-   ],
-   "placed": true,
-   "clv": 0.0046
-  },
-  {
-   "id": "C5",
-   "type": "single",
-   "day": "sunday",
-   "name": "Panthers +3",
-   "game": "Bears at Panthers",
-   "kickoff": "Sun 1:00 PM",
-   "stake": 5,
-   "price": "-102",
-   "payout": 4.9,
-   "estimate": 56,
-   "breakeven": 50.5,
-   "why": "93% of tickets on a road favorite in its first road game of a second-year system. My number CHI -1.5. Carolina's line is banged up, hence $5.",
-   "kill_switch": "Pass if the price is worse than -110.",
-   "result": null,
-   "net": null,
-   "legs": [
-    {
-     "label": "Panthers +3 (-102)",
-     "pick": "Panthers +3 (-102)",
-     "game": "Chicago Bears at Carolina Panthers",
-     "away": "Chicago Bears",
-     "home": "Carolina Panthers",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "spreads",
-     "side": "Carolina Panthers",
-     "point": 3,
-     "price": -102,
-     "why": "",
-     "close": {
-      "point": 3.0,
-      "price": -108,
-      "pin_fair_prob": 0.5173,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0143,
-     "clv": 0.0143,
-     "pin_clv": 0.0123
-    }
-   ],
-   "placed": true,
-   "clv": 0.0143
-  },
-  {
-   "id": "P1",
-   "type": "parlay",
-   "day": "sunday",
-   "name": "Week 1 dog stack",
-   "stake": 10,
-   "price": "+618",
-   "payout": 61.8,
-   "estimate": 18,
-   "breakeven": 13.9,
-   "legs": [
-    {
-     "label": "Cardinals +9.5 (-105)",
-     "pick": "Cardinals +9.5 (-105)",
-     "game": "Arizona Cardinals at Los Angeles Chargers",
-     "away": "Arizona Cardinals",
-     "home": "Los Angeles Chargers",
-     "commence_time": "2026-09-13T20:25:00Z",
-     "market": "spreads",
-     "side": "Arizona Cardinals",
-     "point": 9.5,
-     "price": -105,
-     "why": "Core play.",
-     "close": {
-      "point": 8.5,
-      "price": -102,
-      "pin_fair_prob": 0.5218,
-      "at": "2026-09-13T20:20Z"
-     },
-     "point_clv": 1.0,
-     "price_clv": -0.0072,
-     "clv": 0.0328,
-     "pin_clv": 0.0096
-    },
-    {
-     "label": "Browns +8.5 (-108)",
-     "pick": "Browns +8.5 (-108)",
-     "game": "Cleveland Browns at Jacksonville Jaguars",
-     "away": "Cleveland Browns",
-     "home": "Jacksonville Jaguars",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "spreads",
-     "side": "Cleveland Browns",
-     "point": 8.5,
-     "price": -108,
-     "why": "35% storm chance, Watson's first start since the Achilles, and a 39.5 total where 8.5 points is a lot of room.",
-     "close": {
-      "point": 8.5,
-      "price": -105,
-      "pin_fair_prob": 0.5208,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": -0.007,
-     "clv": -0.007,
-     "pin_clv": 0.0016
-    },
-    {
-     "label": "Saints +7 (-110)",
-     "pick": "Saints +7 (-110)",
-     "game": "New Orleans Saints at Detroit Lions",
-     "away": "New Orleans Saints",
-     "home": "Detroit Lions",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "spreads",
-     "side": "New Orleans Saints",
-     "point": 7,
-     "price": -110,
-     "why": "Seven is the number. If DK shows +6.5, swap to Falcons +6.",
-     "close": {
-      "point": 7.0,
-      "price": -110,
-      "pin_fair_prob": 0.5262,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": 0.0024
-    }
-   ],
-   "kill_switch": "Standard cross-game parlay. Do not toggle Same Game Parlay. If the slip is more than 10% below +618, a leg moved.",
-   "result": null,
-   "net": null,
-   "placed": true,
-   "promo": "No Sweat",
-   "clv": 0.0086
-  },
-  {
-   "id": "P2",
-   "type": "parlay",
-   "day": "sunday",
-   "name": "Slow-start unders",
-   "stake": 10,
-   "price": "+607",
-   "payout": 60.7,
-   "estimate": 17,
-   "breakeven": 14.1,
-   "legs": [
-    {
-     "label": "Under 41.5 (-115)",
-     "pick": "Under 41.5 (-115)",
-     "game": "Atlanta Falcons at Pittsburgh Steelers",
-     "away": "Atlanta Falcons",
-     "home": "Pittsburgh Steelers",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 41.5,
-     "price": -115,
-     "why": "Core play.",
-     "close": {
-      "point": 40.5,
-      "price": -108,
-      "pin_fair_prob": 0.5023,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 1.0,
-     "price_clv": -0.0157,
-     "clv": 0.0243,
-     "pin_clv": -0.0326
-    },
-    {
-     "label": "Under 39.5 (-102)",
-     "pick": "Under 39.5 (-102)",
-     "game": "Cleveland Browns at Jacksonville Jaguars",
-     "away": "Cleveland Browns",
-     "home": "Jacksonville Jaguars",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 39.5,
-     "price": -102,
-     "why": "Run-first Cleveland into the top run defense, weather in the forecast.",
-     "close": {
-      "point": 40.5,
-      "price": -118,
-      "pin_fair_prob": 0.5069,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": -1.0,
-     "price_clv": 0.0363,
-     "clv": -0.0037,
-     "pin_clv": 0.0019
-    },
-    {
-     "label": "Under 44.5 (-110)",
-     "pick": "Under 44.5 (-110)",
-     "game": "Buffalo Bills at Houston Texans",
-     "away": "Buffalo Bills",
-     "home": "Houston Texans",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 44.5,
-     "price": -110,
-     "why": "Houston finished second in EPA allowed and sacked Allen eight times in November.",
-     "close": {
-      "point": 44.5,
-      "price": -110,
-      "pin_fair_prob": 0.5183,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": -0.0055
-    }
-   ],
-   "kill_switch": "Standard cross-game parlay.",
-   "result": null,
-   "net": null,
-   "placed": true,
-   "clv": 0.0069
-  },
-  {
-   "id": "P3",
-   "type": "parlay",
-   "day": "sunday",
-   "name": "Value moneylines",
-   "stake": 10,
-   "price": "+830",
-   "payout": 83.0,
-   "estimate": 14,
-   "breakeven": 10.5,
-   "legs": [
-    {
-     "label": "Vikings ML (-130)",
-     "pick": "Vikings ML (-130)",
-     "game": "Green Bay Packers at Minnesota Vikings",
-     "away": "Green Bay Packers",
-     "home": "Minnesota Vikings",
-     "commence_time": "2026-09-13T20:25:00Z",
-     "market": "h2h",
-     "side": "Minnesota Vikings",
-     "point": null,
-     "price": -130,
-     "why": "Now -130 (was -125). My 58% against a 56.5 breakeven, thinner but still positive.",
-     "close": {
-      "point": null,
-      "price": -142,
-      "pin_fair_prob": 0.5697,
-      "at": "2026-09-13T20:20Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0216,
-     "clv": 0.0216,
-     "pin_clv": 0.0045
-    },
-    {
-     "label": "Broncos ML (+120)",
-     "pick": "Broncos ML (+120)",
-     "game": "Denver Broncos at Kansas City Chiefs",
-     "away": "Denver Broncos",
-     "home": "Kansas City Chiefs",
-     "commence_time": "2026-09-15T00:15:00Z",
-     "market": "h2h",
-     "side": "Denver Broncos",
-     "point": null,
-     "price": 120,
-     "why": "Healthy 14-3 team against a Chiefs team missing its left tackle and starting safety, Mahomes off an ACL. My 55% against 45.5.",
-     "close": {
-      "point": null,
-      "price": 110,
-      "pin_fair_prob": 0.4652,
-      "at": "2026-09-15T00:12Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0216,
-     "clv": 0.0216,
-     "pin_clv": 0.0107
-    },
-    {
-     "label": "Panthers ML (+140)",
-     "pick": "Panthers ML (+140)",
-     "game": "Chicago Bears at Carolina Panthers",
-     "away": "Chicago Bears",
-     "home": "Carolina Panthers",
-     "commence_time": "2026-09-13T17:00:00Z",
-     "market": "h2h",
-     "side": "Carolina Panthers",
-     "point": null,
-     "price": 140,
-     "why": "My 45% against 41.7.",
-     "close": {
-      "point": null,
-      "price": 140,
-      "pin_fair_prob": 0.4077,
-      "at": "2026-09-13T16:56Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": -0.009
-    }
-   ],
-   "kill_switch": "Highest-edge ticket. Put a Profit Boost token here if DK offers one.",
-   "result": null,
-   "net": null,
-   "placed": true,
-   "promo": "Profit Boost",
-   "clv": 0.0144
-  },
-  {
-   "id": "P4",
-   "type": "sgp",
-   "day": "monday",
-   "name": "Broncos +2.5 and Under 43.5",
-   "game": "Broncos at Chiefs",
-   "kickoff": "Mon 8:15 PM",
-   "stake": 10,
-   "price": "+200 min",
-   "payout": 20.0,
-   "estimate": 34,
-   "breakeven": 33.3,
-   "legs": [
-    {
-     "label": "Broncos +2.5 (-105)",
-     "pick": "Broncos +2.5 (-105)",
-     "game": "Denver Broncos at Kansas City Chiefs",
-     "away": "Denver Broncos",
-     "home": "Kansas City Chiefs",
-     "commence_time": "2026-09-15T00:15:00Z",
-     "market": "spreads",
-     "side": "Denver Broncos",
-     "point": 2.5,
-     "price": -105,
-     "why": "Take +3 if it appears.",
-     "close": {
-      "point": 2.5,
-      "price": -112,
-      "pin_fair_prob": 0.5139,
-      "at": "2026-09-15T00:12Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0161,
-     "clv": 0.0161,
-     "pin_clv": 0.0017
-    },
-    {
-     "label": "Under 43.5 (-105)",
-     "pick": "Under 43.5 (-105)",
-     "game": "Denver Broncos at Kansas City Chiefs",
-     "away": "Denver Broncos",
-     "home": "Kansas City Chiefs",
-     "commence_time": "2026-09-15T00:15:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 43.5,
-     "price": -105,
-     "why": "Dog plus under, positively correlated.",
-     "close": {
-      "point": 42.5,
-      "price": -110,
-      "pin_fair_prob": 0.5092,
-      "at": "2026-09-15T00:12Z"
-     },
-     "point_clv": 1.0,
-     "price_clv": 0.0116,
-     "clv": 0.0516,
-     "pin_clv": -0.003
-    }
-   ],
-   "kill_switch": "DK converts this to a Same Game Parlay. Accept at +200 or better. Below that, two $5 straight bets. Re-checked at the Monday 5:00 PM update.",
-   "result": null,
-   "net": null,
-   "placed": true,
-   "clv": 0.0338
-  }
- ],
+ "tickets": [],
  "watch": [
-  "PENDING 11:30 AM ET: Jeremiyah Love (ARI, questionable, ankle) inactive/active call. If inactive, Cardinals stake drops to $7.50 and the freed $7.50 goes to Under 41.5 (already live, correlated).",
-  "Tua Tagovailoa and Michael Penix Jr. both out for Atlanta; Cooper Rush confirmed starting, not a game-time question. Rain forecast at Acrisure. Strengthens the already-placed Under 41.5 (we hold 41.5 vs. today's market 40.5).",
-  "Teven Jenkins (CLE) confirmed out at RG. Adds confidence to the already-placed Browns +8.5 (P1) and Under 39.5 (P2) legs, no ticket change.",
-  "Cowboys are carrying about 84% of today's ATS money as a road favorite (loud-crowd, road-favorite profile). Already placed at $10, rides as is; flag for future weeks before placing a similar spot.",
-  "Chris Jones (KC, questionable, calf) for Monday. No free budget to add to Broncos ML today; Monday's own 5:00 PM update decides.",
-  "Vikings line moved to -2.5: the Vikings -1.5 single is off. Its $10 goes to Cowboys -3 (-105). If you placed Vikings -1.5 before the move, keep it and skip Cowboys.",
-  "Line checks (informational, all already placed): Steelers total now 40.5, Cardinals +9.5 (-110), Dolphins +3 (-110), Panthers +3 (-105), Saints +7, Browns +8.5, Broncos +2.5, Cowboys -3 (-112, pass at -3.5)."
+  "Falcons +2.5 (now) -> take at +3.5 or better. Atlanta has not named a Week 2 starter (Tua Tagovailoa oblique, Michael Penix Jr. also banged up). If the public piles onto Carolina/Bryce Young off his big Week 1 and pushes this line further, the bigger number on Atlanta is the side worth a look.",
+  "Giants +7 (now) -> take at +7.5 or better. Rams DE Myles Garrett is headed to IR for knee surgery (minimum four games) and Aaron Donald's Week 2 availability is unresolved -- real pass-rush attrition for the Rams front heading into Monday night.",
+  "Vikings +5.5 (now) -> take at +6.5 or better. Carson Wentz replaces Kyler Murray (concussion protocol) on the road at Chicago, one week after the Bears put up 59 points in a shootout. If the market keeps pushing this number on the QB change, the bigger one is the side to grab."
  ],
  "board": [
   {
-   "kickoff": "Sun 1:00",
-   "game": "Falcons at Steelers",
-   "spread": "PIT -6.5 (-112)",
-   "total": "40.5",
-   "ml": "PIT -298",
-   "read": "Under 41.5, $20 (already have the better number vs today's 40.5). Tua and Penix both out for Atlanta, Cooper Rush confirmed starting, rain forecast."
+   "kickoff": "Thu 8:15 PM",
+   "game": "Lions at Bills",
+   "spread": "BUF -4.5 (-112)",
+   "total": "53.5",
+   "ml": "BUF -218",
+   "read": "Pass. Pinnacle agrees with DK's -4.5; both teams have some banged-up depth, no separation."
   },
   {
    "kickoff": "Sun 1:00",
-   "game": "Ravens at Colts",
-   "spread": "BAL -3.5 (+102)",
-   "total": "48.5",
-   "ml": "BAL -175",
-   "read": "Pass. Both teams relatively healthy, no edge."
+   "game": "Panthers at Falcons",
+   "spread": "CAR -2.5 (-108)",
+   "total": "43.5",
+   "ml": "CAR -155",
+   "read": "See watch list: Falcons +2.5, take bigger if it drifts to +3.5 once Atlanta's QB news settles."
   },
   {
    "kickoff": "Sun 1:00",
-   "game": "Bills at Texans",
-   "spread": "BUF -1.5 (-108)",
-   "total": "44.5",
-   "ml": "HOU -108",
-   "read": "Under in P2. Dome game (Reliant Stadium), no weather factor; Houston D is the thesis."
-  },
-  {
-   "kickoff": "Sun 1:00",
-   "game": "Bears at Panthers",
-   "spread": "CAR +3 (-105)",
-   "total": "47.5",
-   "ml": "CAR +142",
-   "read": "Panthers +3, $5. Charlotte heat index near 94 hits both sides equally."
-  },
-  {
-   "kickoff": "Sun 1:00",
-   "game": "Buccaneers at Bengals",
-   "spread": "CIN -3.5 (-118)",
-   "total": "50.5",
-   "ml": "CIN -205",
-   "read": "Pass. Light 30% rain chance in Cincinnati, not enough to move a total this high."
-  },
-  {
-   "kickoff": "Sun 1:00",
-   "game": "Browns at Jaguars",
-   "spread": "CLE +8.5 (-108)",
-   "total": "40.5",
-   "ml": "JAX -470",
-   "read": "P1 and P2 legs. Browns confirmed without starting RG Teven Jenkins; 34-35% storm chance and 100-degree heat index in Jacksonville."
-  },
-  {
-   "kickoff": "Sun 1:00",
-   "game": "Saints at Lions",
-   "spread": "NO +7 (-110)",
-   "total": "49.5",
-   "ml": "DET -325",
-   "read": "P1 leg. Cameron Jordan out for New Orleans, Kamara trending to play; Lions relatively healthy. No change to the thesis."
-  },
-  {
-   "kickoff": "Sun 1:00",
-   "game": "Jets at Titans",
-   "spread": "TEN -1.5 (-105)",
-   "total": "38.5",
-   "ml": "TEN -118",
-   "read": "Pass. Heat index low 100s in Nashville, Titans down a starting LB (concussion), not enough for a ticket."
-  },
-  {
-   "kickoff": "Sun 4:25",
-   "game": "Cardinals at Chargers",
-   "spread": "ARI +9.5 (-110)",
-   "total": "47.5",
-   "ml": "LAC -500",
-   "read": "Cardinals +9.5, $15. Jeremiyah Love questionable (ankle), trending to play, official call pending 11:30 AM ET inactives."
-  },
-  {
-   "kickoff": "Sun 4:25",
-   "game": "Packers at Vikings",
-   "spread": "MIN -1.5 (-118)",
+   "game": "Saints at Ravens",
+   "spread": "BAL -8.5 (-110)",
    "total": "46.5",
-   "ml": "MIN -130",
-   "read": "Vikings -1.5 killed (moved to -2.5 Saturday, Cowboys -3 replaced it). MIN ML stays in P3; Vikings carry no injury designations at all."
+   "ml": "BAL -410",
+   "read": "Pass. Lamar Jackson looked excellent Week 1; Ravens' WR injuries (Lane, Flowers) not enough to flip this."
   },
   {
-   "kickoff": "Sun 4:25",
-   "game": "Dolphins at Raiders",
-   "spread": "MIA +3 (-110)",
+   "kickoff": "Sun 1:00",
+   "game": "Vikings at Bears",
+   "spread": "CHI -5.5 (-112)",
+   "total": "48.5",
+   "ml": "CHI -230",
+   "read": "See watch list: Vikings +5.5, take bigger at +6.5 on the Wentz-for-Murray change."
+  },
+  {
+   "kickoff": "Sun 1:00",
+   "game": "Bengals at Texans",
+   "spread": "HOU -2.5 (-115)",
+   "total": "46.5",
+   "ml": "HOU -142",
+   "read": "Small Pinnacle tilt to Cincinnati (fair +3 vs DK +2.5) but nothing clears Rule A. Burrow sharp, no Houston news found."
+  },
+  {
+   "kickoff": "Sun 1:00",
+   "game": "Browns at Buccaneers",
+   "spread": "TB -8.5 (-112)",
    "total": "40.5",
-   "ml": "MIA +142",
-   "read": "Dolphins +3, $10. Raiders carrying 68% of tickets, we're already fading that crowd."
+   "ml": "TB -395",
+   "read": "Pass on the spread. The total (Over 40.5) has the board's third-best combined_edge (+0.003) but still short of Rule A."
+  },
+  {
+   "kickoff": "Sun 1:00",
+   "game": "Packers at Jets",
+   "spread": "GB -4.5 (+100)",
+   "total": "44.5",
+   "ml": "GB -205",
+   "read": "Packers' injury list is long (Jacobs, Musgrave, Parsons, Riley out, more questionable). Worth another look if it grows before Sunday."
+  },
+  {
+   "kickoff": "Sun 1:00",
+   "game": "Steelers at Patriots",
+   "spread": "NE -5.5 (-105)",
+   "total": "41.5",
+   "ml": "NE -218",
+   "read": "Small lean Pittsburgh after Drake Maye's 3-INT debut vs. a clean Rodgers game, not enough separation to act."
+  },
+  {
+   "kickoff": "Sun 1:00",
+   "game": "Eagles at Titans",
+   "spread": "PHI -7 (-112)",
+   "total": "39.5",
+   "ml": "PHI -310",
+   "read": "Mixed: Titans' offense was dreadful in Week 1, but Eagles just lost G Landon Dickerson to IR. Rounds to pick 'em vs. Pinnacle; pass."
+  },
+  {
+   "kickoff": "Sun 4:05",
+   "game": "Jaguars at Broncos",
+   "spread": "DEN -2.5 (-115)",
+   "total": "44.5",
+   "ml": "DEN -142",
+   "read": "Board's best combined_edge (+0.005) is Over 44.5 here, still well short of Rule A. Trevor Lawrence looks excellent, no weather flag in Denver."
+  },
+  {
+   "kickoff": "Sun 4:05",
+   "game": "Raiders at Chargers",
+   "spread": "LAC -7 (-105)",
+   "total": "43.5",
+   "ml": "LAC -310",
+   "read": "No injury signal either way. Chargers coming off a home upset loss to Arizona could cut either way; pass."
   },
   {
    "kickoff": "Sun 4:25",
-   "game": "Commanders at Eagles",
-   "spread": "PHI -6 (-112)",
-   "total": "44.5",
-   "ml": "PHI -265",
-   "read": "Pass at -6. Eagles down an edge rusher (pectoral, out); wet weather forecast in Philadelphia, not enough separation for a ticket."
+   "game": "Seahawks at Cardinals",
+   "spread": "SEA -4.5 (-105)",
+   "total": "41.5",
+   "ml": "SEA -225",
+   "read": "Drew Lock replaces an injured Sam Darnold; Pinnacle already shaved half a point off DK's number, so some of this is priced. Small lean Cardinals, not enough for Rule A."
+  },
+  {
+   "kickoff": "Sun 4:25",
+   "game": "Commanders at Cowboys",
+   "spread": "DAL -4.5 (-105)",
+   "total": "50.5",
+   "ml": "DAL -218",
+   "read": "No confirmed injury news for either QB (Daniels, Prescott both reported healthy). Recheck closer to kickoff."
+  },
+  {
+   "kickoff": "Sun 4:25",
+   "game": "Dolphins at 49ers",
+   "spread": "SF -13.5 (-105)",
+   "total": "45.5",
+   "ml": "SF -950",
+   "read": "Purdy is out, Mac Jones starts -- likely already priced (Pinnacle trimmed half a point). If the number holds, the total may be the better side."
   },
   {
    "kickoff": "Sun 8:20",
-   "game": "Cowboys at Giants",
-   "spread": "DAL -3 (-112)",
+   "game": "Colts at Chiefs",
+   "spread": "KC -6.5 (-120)",
    "total": "47.5",
-   "ml": "DAL -166",
-   "read": "Cowboys -3, $10 (Pinnacle edge). Dallas now carrying ~84% of the day's ATS money as a road favorite; already placed, rides as is."
+   "ml": "KC -305",
+   "read": "Board's second-best combined_edge (+0.004) is on Colts +6.5, still short of Rule A. Mahomes looks fully healthy off the ACL."
   },
   {
    "kickoff": "Mon 8:15",
-   "game": "Broncos at Chiefs",
-   "spread": "DEN +2.5 (-110)",
-   "total": "43.5",
-   "ml": "DEN +114",
-   "read": "P4 and P3 leg. Chris Jones (KC) questionable with calf, could be limited even if active."
+   "game": "Giants at Rams",
+   "spread": "LAR -7 (-115)",
+   "total": "48.5",
+   "ml": "LAR -355",
+   "read": "See watch list: Giants +7, take bigger at +7.5 on the Myles Garrett IR move and Aaron Donald's unresolved status."
   }
  ],
  "season": {
-  "record": "0-0",
-  "net": 0,
-  "weeks": [],
+  "record": "2-7",
+  "net": -33.32,
+  "weeks": [
+   {
+    "week": 1,
+    "net": -33.32
+   }
+  ],
   "clv_week": 0.0173,
   "clv_season": 0.0156
  },
