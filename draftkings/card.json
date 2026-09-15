@@ -453,7 +453,17 @@
      "side": "Denver Broncos",
      "point": null,
      "price": 120,
-     "why": "Healthy 14-3 team against a Chiefs team missing its left tackle and starting safety, Mahomes off an ACL. My 55% against 45.5."
+     "why": "Healthy 14-3 team against a Chiefs team missing its left tackle and starting safety, Mahomes off an ACL. My 55% against 45.5.",
+     "close": {
+      "point": null,
+      "price": 110,
+      "pin_fair_prob": 0.4652,
+      "at": "2026-09-15T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0216,
+     "clv": 0.0216,
+     "pin_clv": 0.0107
     },
     {
      "label": "Panthers ML (+140)",
@@ -483,7 +493,8 @@
    "result": null,
    "net": null,
    "placed": true,
-   "promo": "Profit Boost"
+   "promo": "Profit Boost",
+   "clv": 0.0144
   },
   {
    "id": "P4",
@@ -509,7 +520,17 @@
      "side": "Denver Broncos",
      "point": 2.5,
      "price": -105,
-     "why": "Take +3 if it appears."
+     "why": "Take +3 if it appears.",
+     "close": {
+      "point": 2.5,
+      "price": -112,
+      "pin_fair_prob": 0.5139,
+      "at": "2026-09-15T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0161,
+     "clv": 0.0161,
+     "pin_clv": 0.0017
     },
     {
      "label": "Under 43.5 (-105)",
@@ -522,13 +543,24 @@
      "side": "Under",
      "point": 43.5,
      "price": -105,
-     "why": "Dog plus under, positively correlated."
+     "why": "Dog plus under, positively correlated.",
+     "close": {
+      "point": 42.5,
+      "price": -110,
+      "pin_fair_prob": 0.5092,
+      "at": "2026-09-15T00:12Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": 0.0116,
+     "clv": 0.0516,
+     "pin_clv": -0.003
     }
    ],
    "kill_switch": "DK converts this to a Same Game Parlay. Accept at +200 or better. Below that, two $5 straight bets. Re-checked at the Monday 5:00 PM update.",
    "result": null,
    "net": null,
-   "placed": true
+   "placed": true,
+   "clv": 0.0338
   }
  ],
  "watch": [
@@ -658,8 +690,8 @@
   "record": "0-0",
   "net": 0,
   "weeks": [],
-  "clv_week": 0.0154,
-  "clv_season": 0.0123
+  "clv_week": 0.0173,
+  "clv_season": 0.0156
  },
- "clv_updated_at": "2026-09-14T00:12Z"
+ "clv_updated_at": "2026-09-15T00:12Z"
 }
