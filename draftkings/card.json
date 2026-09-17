@@ -2,78 +2,159 @@
  "week": 2,
  "title": "Week 2",
  "year": "2026",
- "built_at": "2026-09-15T21:20:00Z",
- "lines_verified_at": "2026-09-15T21:10:00Z",
+ "built_at": "2026-09-17T21:15:00Z",
+ "lines_verified_at": "2026-09-17T21:02:00Z",
  "verification": "verified",
- "verification_note": "Every line is DraftKings' own number, pulled through The Odds API (opening snapshot for Week 2, saved to lines/open-week-02.json). Best combined_edge anywhere on the 16-game board is +0.005 (Over 44.5, Jaguars at Broncos) -- nothing clears Rule A's +0.015 bar, so no early tickets this week. Watch list has the numbers to take if they move our way.",
+ "verification_note": "Every line is DraftKings' own number, pulled through The Odds API at 21:02 UTC. Thursday's Lions-Bills board: nothing clears Rule A (+0.015) outright -- closest are Under 54.5 and Lions ML at -0.015. Both Thursday tickets qualify under Rule B (own estimate + stated reason). Board-wide: Indianapolis Colts +6.5 (+100) clears Rule A on its own (+0.015), the week's best price outside Thursday -- flagged for Sunday's own routine, not part of tonight's card.",
  "budget": {
   "total": 100,
   "sunday": 70,
   "monday": 15,
   "thursday": 15
  },
- "tickets": [],
+ "tickets": [
+  {
+   "id": "wk2-thu-core",
+   "type": "single",
+   "day": "thursday",
+   "name": "Bills -5.5",
+   "game": "Lions at Bills",
+   "kickoff": "Thu 8:15 PM",
+   "stake": 10,
+   "price": "-110",
+   "payout": 9.09,
+   "estimate": 54,
+   "breakeven": 52.4,
+   "why": "Detroit down 2 O-line starters and both starting safeties; Buffalo has nobody ruled out. Pinnacle has this as a pick'em (50%) but the health gap supports 54% vs. DK's -110 (52.4% breakeven).",
+   "kill_switch": "If D.J. Reed (Lions CB, foot) is downgraded to OUT at 6:45 PM ET inactives and the price moves worse than -125, pull this ticket and move the $10 into Ticket 2 (making the SGP stake $15 total).",
+   "result": null,
+   "net": null,
+   "legs": [
+    {
+     "label": "Bills -5.5",
+     "pick": "Buffalo Bills -5.5",
+     "game": "Detroit Lions at Buffalo Bills",
+     "away": "Detroit Lions",
+     "home": "Buffalo Bills",
+     "commence_time": "2026-09-18T00:15:00Z",
+     "market": "spreads",
+     "side": "Buffalo Bills",
+     "point": -5.5,
+     "price": -110,
+     "why": "Lions are missing 2 O-line starters (Mahogany hip, Miller knee) and both starting safeties (Branch, Joseph); Bills have nobody ruled out. combined_edge -0.024, but own estimate 54% clears DK's 52.4% breakeven and sits inside Pinnacle's band (fair 50%)."
+    }
+   ],
+   "placed": true
+  },
+  {
+   "id": "wk2-thu-sgp",
+   "type": "sgp",
+   "day": "thursday",
+   "name": "Lions ML + Under 54.5",
+   "game": "Lions at Bills",
+   "kickoff": "Thu 8:15 PM",
+   "stake": 5,
+   "price": "+400 min",
+   "payout": 20.0,
+   "estimate": 21,
+   "breakeven": 20.0,
+   "why": "Dog plus under, correlated on purpose: an upset is more likely a low-scoring, controlled game given Detroit's O-line attrition. Also fades the 96%-of-tickets public pile onto Over. Joint estimate ~21% (higher than the naive 18% product since the legs are positively correlated) vs. a 20% breakeven at +400.",
+   "kill_switch": "DK's SGP builder price is not fetchable via API -- verify in app. Minimum acceptable price +400; below that, skip the SGP and take $5 straight on Under 54.5 (+100, VERIFIED) instead. If a late Detroit skill-position scratch hits beyond what's already priced, drop the Lions ML leg and take Under 54.5 alone for the $5.",
+   "result": null,
+   "net": null,
+   "legs": [
+    {
+     "label": "Lions ML (SGP leg)",
+     "pick": "Detroit Lions moneyline",
+     "game": "Detroit Lions at Buffalo Bills",
+     "away": "Detroit Lions",
+     "home": "Buffalo Bills",
+     "commence_time": "2026-09-18T00:15:00Z",
+     "market": "h2h",
+     "side": "Detroit Lions",
+     "point": null,
+     "price": 205,
+     "why": "Dog+under correlation: an upset is more likely a tight, low-scoring script given Detroit's O-line attrition. combined_edge -0.015; own estimate 34% clears DK's 32.8% breakeven, within Pinnacle's band (fair 31.3%)."
+    },
+    {
+     "label": "Under 54.5 (SGP leg)",
+     "pick": "Under 54.5",
+     "game": "Detroit Lions at Buffalo Bills",
+     "away": "Detroit Lions",
+     "home": "Buffalo Bills",
+     "commence_time": "2026-09-18T00:15:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 54.5,
+     "price": 100,
+     "why": "Fades the public's 96%-of-tickets/93.8%-of-handle pile onto Over (Rule 6); short-week-under trend regressed against both offenses' hot Week 1s. combined_edge -0.015; own estimate 53% clears DK's 50% breakeven, within Pinnacle's band (fair 50.5%)."
+    }
+   ],
+   "placed": true
+  }
+ ],
  "watch": [
-  "Falcons +2.5 (now) -> take at +3.5 or better. Atlanta has not named a Week 2 starter (Tua Tagovailoa oblique, Michael Penix Jr. also banged up). If the public piles onto Carolina/Bryce Young off his big Week 1 and pushes this line further, the bigger number on Atlanta is the side worth a look.",
-  "Giants +7 (now) -> take at +7.5 or better. Rams DE Myles Garrett is headed to IR for knee surgery (minimum four games) and Aaron Donald's Week 2 availability is unresolved -- real pass-rush attrition for the Rams front heading into Monday night.",
-  "Vikings +5.5 (now) -> take at +6.5 or better. Carson Wentz replaces Kyler Murray (concussion protocol) on the road at Chicago, one week after the Bears put up 59 points in a shootout. If the market keeps pushing this number on the QB change, the bigger one is the side to grab."
+  "Falcons +2.5 (now) -> take at +3.5 or better. Still not triggered; Atlanta has not named a Week 2 starter.",
+  "Giants +7 (now) -> take at +7.5 or better. Still not triggered; Garrett/Donald situation unchanged.",
+  "Colts +6.5 (+100) already clears Rule A on its own (combined_edge +0.015) -- top Sunday candidate.",
+  "Bengals +2.5 (-102) one tick from Rule A (combined_edge +0.013) -- recheck Saturday for a price tick or news."
  ],
  "board": [
   {
    "kickoff": "Thu 8:15 PM",
    "game": "Lions at Bills",
-   "spread": "BUF -4.5 (-112)",
-   "total": "53.5",
-   "ml": "BUF -218",
-   "read": "Pass. Pinnacle agrees with DK's -4.5; both teams have some banged-up depth, no separation."
+   "spread": "BUF -5.5 (-110)",
+   "total": "54.5",
+   "ml": "BUF -250",
+   "read": "Spread +1 pt to Lions, total +1 to 54.5 since Tue open. Thursday card: Bills -5.5 single + Lions ML/Under 54.5 SGP (placed)."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Panthers at Falcons",
-   "spread": "CAR -2.5 (-108)",
+   "spread": "CAR -2.5 (-118)",
    "total": "43.5",
    "ml": "CAR -155",
-   "read": "See watch list: Falcons +2.5, take bigger if it drifts to +3.5 once Atlanta's QB news settles."
+   "read": "(preliminary) Price-only move toward Falcons/Under. Watch list #1 (Falcons +3.5) not triggered. No play."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Saints at Ravens",
-   "spread": "BAL -8.5 (-110)",
+   "spread": "BAL -8.5 (-105)",
    "total": "46.5",
-   "ml": "BAL -410",
-   "read": "Pass. Lamar Jackson looked excellent Week 1; Ravens' WR injuries (Lane, Flowers) not enough to flip this."
+   "ml": "BAL -380",
+   "read": "(preliminary) Ravens price improved, total lean nudged toward Over. No fresh news found. Pass."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Vikings at Bears",
-   "spread": "CHI -5.5 (-112)",
+   "spread": "CHI -4.5 (-108)",
    "total": "48.5",
-   "ml": "CHI -230",
-   "read": "See watch list: Vikings +5.5, take bigger at +6.5 on the Wentz-for-Murray change."
+   "ml": "CHI -198",
+   "read": "(preliminary) Spread moved a full point away from Minnesota even as Vikings' ML improved -- mixed signal. Watch list #3 trigger missed, dropped."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Bengals at Texans",
-   "spread": "HOU -2.5 (-115)",
+   "spread": "HOU -2.5 (-118)",
    "total": "46.5",
    "ml": "HOU -142",
-   "read": "Small Pinnacle tilt to Cincinnati (fair +3 vs DK +2.5) but nothing clears Rule A. Burrow sharp, no Houston news found."
+   "read": "(preliminary) Bengals +2.5 one tick from Rule A (combined_edge +0.013). No fresh Houston news. Recheck Saturday."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Browns at Buccaneers",
-   "spread": "TB -8.5 (-112)",
-   "total": "40.5",
-   "ml": "TB -395",
-   "read": "Pass on the spread. The total (Over 40.5) has the board's third-best combined_edge (+0.003) but still short of Rule A."
+   "spread": "TB -8.5 (-108)",
+   "total": "41.5",
+   "ml": "TB -455",
+   "read": "(preliminary) Total up a full point to 41.5, market leaning Over; Buccaneers ML shortened notably. No fresh injury news. Pass."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Packers at Jets",
-   "spread": "GB -4.5 (+100)",
+   "spread": "GB -3.5 (-112)",
    "total": "44.5",
-   "ml": "GB -205",
-   "read": "Packers' injury list is long (Jacobs, Musgrave, Parsons, Riley out, more questionable). Worth another look if it grows before Sunday."
+   "ml": "GB -192",
+   "read": "(preliminary) Spread moved a full point toward the Jets (GB -4.5 -> -3.5), likely GB's injury list getting priced. Jets +3.5 edge -0.013, still short. Watch."
   },
   {
    "kickoff": "Sun 1:00",
@@ -81,39 +162,39 @@
    "spread": "NE -5.5 (-105)",
    "total": "41.5",
    "ml": "NE -218",
-   "read": "Small lean Pittsburgh after Drake Maye's 3-INT debut vs. a clean Rodgers game, not enough separation to act."
+   "read": "(preliminary) No move, no new signal. Pass."
   },
   {
    "kickoff": "Sun 1:00",
    "game": "Eagles at Titans",
-   "spread": "PHI -7 (-112)",
+   "spread": "PHI -7 (-110)",
    "total": "39.5",
    "ml": "PHI -310",
-   "read": "Mixed: Titans' offense was dreadful in Week 1, but Eagles just lost G Landon Dickerson to IR. Rounds to pick 'em vs. Pinnacle; pass."
+   "read": "(preliminary) No move. Same mixed read as Tuesday. Pass."
   },
   {
    "kickoff": "Sun 4:05",
    "game": "Jaguars at Broncos",
-   "spread": "DEN -2.5 (-115)",
-   "total": "44.5",
-   "ml": "DEN -142",
-   "read": "Board's best combined_edge (+0.005) is Over 44.5 here, still well short of Rule A. Trevor Lawrence looks excellent, no weather flag in Denver."
+   "spread": "DEN -2.5 (-118)",
+   "total": "45.5",
+   "ml": "DEN -148",
+   "read": "(preliminary) Total up a full point to 45.5. Previous best Over lean moved further from Rule A. Pass."
   },
   {
    "kickoff": "Sun 4:05",
    "game": "Raiders at Chargers",
-   "spread": "LAC -7 (-105)",
+   "spread": "LAC -6.5 (-118)",
    "total": "43.5",
-   "ml": "LAC -310",
-   "read": "No injury signal either way. Chargers coming off a home upset loss to Arizona could cut either way; pass."
+   "ml": "LAC -305",
+   "read": "(preliminary) Spread moved half a point toward the Raiders (+7 -> +6.5). Mild signal, not enough yet. Watch."
   },
   {
    "kickoff": "Sun 4:25",
    "game": "Seahawks at Cardinals",
-   "spread": "SEA -4.5 (-105)",
+   "spread": "SEA -3.5 (-120)",
    "total": "41.5",
    "ml": "SEA -225",
-   "read": "Drew Lock replaces an injured Sam Darnold; Pinnacle already shaved half a point off DK's number, so some of this is priced. Small lean Cardinals, not enough for Rule A."
+   "read": "(preliminary) Spread moved a full point toward Arizona (SEA -4.5 -> -3.5), Drew Lock news still getting priced. Arizona ML edge +0.005, next-closest live number outside Thursday. Watch."
   },
   {
    "kickoff": "Sun 4:25",
@@ -121,31 +202,31 @@
    "spread": "DAL -4.5 (-105)",
    "total": "50.5",
    "ml": "DAL -218",
-   "read": "No confirmed injury news for either QB (Daniels, Prescott both reported healthy). Recheck closer to kickoff."
+   "read": "(preliminary) No move, no confirmed QB news either side. Pass, recheck Saturday."
   },
   {
    "kickoff": "Sun 4:25",
    "game": "Dolphins at 49ers",
    "spread": "SF -13.5 (-105)",
-   "total": "45.5",
-   "ml": "SF -950",
-   "read": "Purdy is out, Mac Jones starts -- likely already priced (Pinnacle trimmed half a point). If the number holds, the total may be the better side."
+   "total": "44.5",
+   "ml": "SF -900",
+   "read": "(preliminary) Total down a full point to 44.5, leaning Under -- consistent with Mac Jones starting. Nothing clears Rule A. Pass."
   },
   {
    "kickoff": "Sun 8:20",
    "game": "Colts at Chiefs",
    "spread": "KC -6.5 (-120)",
-   "total": "47.5",
-   "ml": "KC -305",
-   "read": "Board's second-best combined_edge (+0.004) is on Colts +6.5, still short of Rule A. Mahomes looks fully healthy off the ACL."
+   "total": "46.5",
+   "ml": "KC -290",
+   "read": "(preliminary) Colts +6.5 (+100) clears Rule A outright (combined_edge +0.015) -- board's best price outside Thursday. Top Sunday candidate."
   },
   {
    "kickoff": "Mon 8:15",
    "game": "Giants at Rams",
-   "spread": "LAR -7 (-115)",
+   "spread": "LAR -7 (-118)",
    "total": "48.5",
-   "ml": "LAR -355",
-   "read": "See watch list: Giants +7, take bigger at +7.5 on the Myles Garrett IR move and Aaron Donald's unresolved status."
+   "ml": "LAR -360",
+   "read": "(preliminary) Small price moves only. Watch list #2 not triggered, Garrett/Donald situation unchanged."
   }
  ],
  "season": {
