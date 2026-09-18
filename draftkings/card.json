@@ -41,10 +41,21 @@
      "side": "Buffalo Bills",
      "point": -5.5,
      "price": -110,
-     "why": "Lions are missing 2 O-line starters (Mahogany hip, Miller knee) and both starting safeties (Branch, Joseph); Bills have nobody ruled out. combined_edge -0.024, but own estimate 54% clears DK's 52.4% breakeven and sits inside Pinnacle's band (fair 50%)."
+     "why": "Lions are missing 2 O-line starters (Mahogany hip, Miller knee) and both starting safeties (Branch, Joseph); Bills have nobody ruled out. combined_edge -0.024, but own estimate 54% clears DK's 52.4% breakeven and sits inside Pinnacle's band (fair 50%).",
+     "close": {
+      "point": -5.5,
+      "price": -105,
+      "pin_fair_prob": 0.5116,
+      "at": "2026-09-18T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0116,
+     "clv": -0.0116,
+     "pin_clv": -0.0122
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": -0.0116
   },
   {
    "id": "wk2-thu-sgp",
@@ -74,7 +85,17 @@
      "side": "Detroit Lions",
      "point": null,
      "price": 205,
-     "why": "Dog+under correlation: an upset is more likely a tight, low-scoring script given Detroit's O-line attrition. combined_edge -0.015; own estimate 34% clears DK's 32.8% breakeven, within Pinnacle's band (fair 31.3%)."
+     "why": "Dog+under correlation: an upset is more likely a tight, low-scoring script given Detroit's O-line attrition. combined_edge -0.015; own estimate 34% clears DK's 32.8% breakeven, within Pinnacle's band (fair 31.3%).",
+     "close": {
+      "point": null,
+      "price": 195,
+      "pin_fair_prob": 0.3059,
+      "at": "2026-09-18T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0111,
+     "clv": 0.0111,
+     "pin_clv": -0.022
     },
     {
      "label": "Under 54.5 (SGP leg)",
@@ -87,10 +108,21 @@
      "side": "Under",
      "point": 54.5,
      "price": 100,
-     "why": "Fades the public's 96%-of-tickets/93.8%-of-handle pile onto Over (Rule 6); short-week-under trend regressed against both offenses' hot Week 1s. combined_edge -0.015; own estimate 53% clears DK's 50% breakeven, within Pinnacle's band (fair 50.5%)."
+     "why": "Fades the public's 96%-of-tickets/93.8%-of-handle pile onto Over (Rule 6); short-week-under trend regressed against both offenses' hot Week 1s. combined_edge -0.015; own estimate 53% clears DK's 50% breakeven, within Pinnacle's band (fair 50.5%).",
+     "close": {
+      "point": 54.5,
+      "price": -102,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-09-18T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.005,
+     "clv": 0.005,
+     "pin_clv": 0.0046
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.008
   }
  ],
  "watch": [
@@ -238,8 +270,8 @@
     "net": -33.32
    }
   ],
-  "clv_week": 0.0173,
-  "clv_season": 0.0156
+  "clv_week": -0.0018,
+  "clv_season": 0.0134
  },
- "clv_updated_at": "2026-09-15T00:12Z"
+ "clv_updated_at": "2026-09-18T00:12Z"
 }

@@ -254,5 +254,53 @@
   "clv": 0.0516,
   "pin_clv": -0.003,
   "at": "2026-09-15T00:12Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-thu-core",
+  "label": "Bills -5.5",
+  "market": "spreads",
+  "side": "Buffalo Bills",
+  "bet_point": -5.5,
+  "bet_price": -110,
+  "close_point": -5.5,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": -0.0116,
+  "clv": -0.0116,
+  "pin_clv": -0.0122,
+  "at": "2026-09-18T00:12Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-thu-sgp",
+  "label": "Lions ML (SGP leg)",
+  "market": "h2h",
+  "side": "Detroit Lions",
+  "bet_point": null,
+  "bet_price": 205,
+  "close_point": null,
+  "close_price": 195,
+  "point_clv": 0.0,
+  "price_clv": 0.0111,
+  "clv": 0.0111,
+  "pin_clv": -0.022,
+  "at": "2026-09-18T00:12Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-thu-sgp",
+  "label": "Under 54.5 (SGP leg)",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 54.5,
+  "bet_price": 100,
+  "close_point": 54.5,
+  "close_price": -102,
+  "point_clv": 0.0,
+  "price_clv": 0.005,
+  "clv": 0.005,
+  "pin_clv": 0.0046,
+  "at": "2026-09-18T00:12Z"
  }
 ]
