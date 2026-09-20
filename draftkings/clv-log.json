@@ -414,5 +414,37 @@
   "clv": 0.0,
   "pin_clv": -0.0215,
   "at": "2026-09-20T16:55Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-sun-single-2",
+  "label": "Cardinals +3.5",
+  "market": "spreads",
+  "side": "Arizona Cardinals",
+  "bet_point": 3.5,
+  "bet_price": 100,
+  "close_point": 3.5,
+  "close_price": 100,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": 0.007,
+  "at": "2026-09-20T20:21Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-sun-parlay-3",
+  "label": "Over 44.5 (MIA/SF)",
+  "market": "totals",
+  "side": "Over",
+  "bet_point": 44.5,
+  "bet_price": -115,
+  "close_point": 44.5,
+  "close_price": -115,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0418,
+  "at": "2026-09-20T20:21Z"
  }
 ]

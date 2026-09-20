@@ -197,10 +197,21 @@
      "side": "Arizona Cardinals",
      "point": 3.5,
      "price": 100,
-     "why": "combined_edge -0.006; own estimate 53% clears DK's 50.0% breakeven, within Pinnacle's band (fair 51.4%). Darnold out, Drew Lock's first start only partly priced."
+     "why": "combined_edge -0.006; own estimate 53% clears DK's 50.0% breakeven, within Pinnacle's band (fair 51.4%). Darnold out, Drew Lock's first start only partly priced.",
+     "close": {
+      "point": 3.5,
+      "price": 100,
+      "pin_fair_prob": 0.507,
+      "at": "2026-09-20T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.007
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0
   },
   {
    "id": "wk2-sun-single-3",
@@ -490,10 +501,21 @@
      "side": "Over",
      "point": 44.5,
      "price": -115,
-     "why": "combined_edge -0.012; own estimate 54% clears DK's 53.5% breakeven, tight against Pinnacle's band (fair 48.3%). Miami's top pass rusher Chop Robinson out; 49ers offense (Bosa/Kittle/Juszczyk) trending to play at full strength."
+     "why": "combined_edge -0.012; own estimate 54% clears DK's 53.5% breakeven, tight against Pinnacle's band (fair 48.3%). Miami's top pass rusher Chop Robinson out; 49ers offense (Bosa/Kittle/Juszczyk) trending to play at full strength.",
+     "close": {
+      "point": 44.5,
+      "price": -115,
+      "pin_fair_prob": 0.4931,
+      "at": "2026-09-20T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0418
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0
   }
  ],
  "watch": [
@@ -645,8 +667,8 @@
     "net": -33.32
    }
   ],
-  "clv_week": 0.0063,
-  "clv_season": 0.0117
+  "clv_week": 0.0045,
+  "clv_season": 0.0109
  },
- "clv_updated_at": "2026-09-20T16:55Z"
+ "clv_updated_at": "2026-09-20T20:21Z"
 }
