@@ -152,10 +152,21 @@
      "side": "Pittsburgh Steelers",
      "point": 5.5,
      "price": -108,
-     "why": "combined_edge -0.010; own estimate 53% clears DK's 51.9% breakeven, within Pinnacle's band (fair 50.9%). AJ Brown (NE) on IR; fading 63-85% public money on New England."
+     "why": "combined_edge -0.010; own estimate 53% clears DK's 51.9% breakeven, within Pinnacle's band (fair 50.9%). AJ Brown (NE) on IR; fading 63-85% public money on New England.",
+     "close": {
+      "point": 4.5,
+      "price": -102,
+      "pin_fair_prob": 0.5399,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0143,
+     "clv": 0.0257,
+     "pin_clv": 0.0207
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0257
   },
   {
    "id": "wk2-sun-single-2",
@@ -252,7 +263,17 @@
      "side": "Tennessee Titans",
      "point": 7.0,
      "price": -102,
-     "why": "combined_edge +0.006, best on the board; own estimate 53% clears DK's 50.5% breakeven, within Pinnacle's band (fair 53.1%). Fades 90-97% public money on Eagles, a road favorite in extreme heat."
+     "why": "combined_edge +0.006, best on the board; own estimate 53% clears DK's 50.5% breakeven, within Pinnacle's band (fair 53.1%). Fades 90-97% public money on Eagles, a road favorite in extreme heat.",
+     "close": {
+      "point": 7.0,
+      "price": -105,
+      "pin_fair_prob": 0.5196,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0072,
+     "clv": 0.0072,
+     "pin_clv": 0.0146
     },
     {
      "label": "Under 39.5 (SGP leg)",
@@ -265,10 +286,21 @@
      "side": "Under",
      "point": 39.5,
      "price": -108,
-     "why": "combined_edge -0.022; own estimate 53% clears DK's 51.9% breakeven, within Pinnacle's band (fair 51.7%). Extreme heat and Titans' struggling offense support a low-scoring script."
+     "why": "combined_edge -0.022; own estimate 53% clears DK's 51.9% breakeven, within Pinnacle's band (fair 51.7%). Extreme heat and Titans' struggling offense support a low-scoring script.",
+     "close": {
+      "point": 39.5,
+      "price": -108,
+      "pin_fair_prob": 0.5193,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.0001
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0036
   },
   {
    "id": "wk2-sun-parlay-1",
@@ -299,7 +331,17 @@
      "side": "Under",
      "point": 47.5,
      "price": -115,
-     "why": "combined_edge -0.008; own estimate 55% clears DK's 53.5% breakeven, within Pinnacle's band (fair 50.7%). Backup QB Carson Wentz (Kyler Murray in concussion protocol) plus 25-35mph wind gusts and rain forecast in Chicago."
+     "why": "combined_edge -0.008; own estimate 55% clears DK's 53.5% breakeven, within Pinnacle's band (fair 50.7%). Backup QB Carson Wentz (Kyler Murray in concussion protocol) plus 25-35mph wind gusts and rain forecast in Chicago.",
+     "close": {
+      "point": 46.5,
+      "price": -105,
+      "pin_fair_prob": 0.5238,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0227,
+     "clv": 0.0173,
+     "pin_clv": -0.0111
     },
     {
      "label": "Under 43.5 (CAR/ATL)",
@@ -312,7 +354,17 @@
      "side": "Under",
      "point": 43.5,
      "price": -110,
-     "why": "combined_edge -0.021; own estimate 54% clears DK's 52.4% breakeven, within Pinnacle's band (fair 50.2%). Backup QB Cooper Rush starting for Atlanta (Michael Penix Jr. out); dome game."
+     "why": "combined_edge -0.021; own estimate 54% clears DK's 52.4% breakeven, within Pinnacle's band (fair 50.2%). Backup QB Cooper Rush starting for Atlanta (Michael Penix Jr. out); dome game.",
+     "close": {
+      "point": 43.5,
+      "price": -110,
+      "pin_fair_prob": 0.5125,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0113
     },
     {
      "label": "Under 45.5 (CIN/HOU)",
@@ -325,10 +377,21 @@
      "side": "Under",
      "point": 45.5,
      "price": -110,
-     "why": "combined_edge -0.021; own estimate 54% clears DK's 52.4% breakeven, within Pinnacle's band (fair 50.2%). Texans WR1 Nico Collins is out; dome/closed roof."
+     "why": "combined_edge -0.021; own estimate 54% clears DK's 52.4% breakeven, within Pinnacle's band (fair 50.2%). Texans WR1 Nico Collins is out; dome/closed roof.",
+     "close": {
+      "point": 45.5,
+      "price": -110,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0192
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0058
   },
   {
    "id": "wk2-sun-parlay-2",
@@ -404,7 +467,17 @@
      "side": "Over",
      "point": 44.5,
      "price": -110,
-     "why": "combined_edge -0.044 (thin, above the -0.05 floor); own estimate 53% clears DK's 52.4% breakeven, within Pinnacle's band (fair 50.0%). Both defenses down a starter (GB DTs, NYJ S Fitzpatrick)."
+     "why": "combined_edge -0.044 (thin, above the -0.05 floor); own estimate 53% clears DK's 52.4% breakeven, within Pinnacle's band (fair 50.0%). Both defenses down a starter (GB DTs, NYJ S Fitzpatrick).",
+     "close": {
+      "point": 44.5,
+      "price": -110,
+      "pin_fair_prob": 0.5023,
+      "at": "2026-09-20T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0215
     },
     {
      "label": "Over 44.5 (MIA/SF)",
@@ -572,8 +645,8 @@
     "net": -33.32
    }
   ],
-  "clv_week": -0.0018,
-  "clv_season": 0.0134
+  "clv_week": 0.0063,
+  "clv_season": 0.0117
  },
- "clv_updated_at": "2026-09-18T00:12Z"
+ "clv_updated_at": "2026-09-20T16:55Z"
 }
