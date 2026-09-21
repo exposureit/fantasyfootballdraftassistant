@@ -2,10 +2,10 @@
  "week": 2,
  "title": "Week 2",
  "year": "2026",
- "built_at": "2026-09-20T15:15:00Z",
- "lines_verified_at": "2026-09-20T15:02:00Z",
+ "built_at": "2026-09-21T21:15:00Z",
+ "lines_verified_at": "2026-09-21T21:06:00Z",
  "verification": "verified",
- "verification_note": "Sunday card built on DraftKings' own numbers, pulled through The Odds API at 15:02 UTC 2026-09-20, ahead of the 11:30 AM ET inactives post. Best combined_edge anywhere on the 14-game Sunday board is +0.006 (Titans +7) -- nothing clears Rule A (+0.015) outright. Every Sunday leg qualifies under Rule B (own estimate above DK implied, within 6 points of Pinnacle fair, backed by Sunday-morning injury/weather/public-betting research). Thursday's two tickets (placed) are unchanged and still grade in the normal Tuesday cadence.",
+ "verification_note": "Monday card built on DraftKings' own numbers, pulled through The Odds API at 21:06 UTC 2026-09-21, ahead of the 6:45 PM ET inactives post. Best combined_edge on tonight's one-game board is -0.0104 (Giants +6.5) -- nothing clears Rule A (+0.015). Both Monday legs qualify under Rule B (own estimate above DK implied, within 6 points of Pinnacle fair, backed by tonight's injury/betting-split research). Sunday's 7 tickets are graded below from final scores (WebSearch); Thursday's 2 tickets still grade in the normal Tuesday cadence.",
  "budget": {
   "total": 100,
   "sunday": 70,
@@ -138,8 +138,8 @@
    "breakeven": 51.9,
    "why": "combined_edge -0.010. Patriots WR A.J. Brown is on IR (high-ankle sprain); Steelers won Week 1 behind Aaron Rodgers while New England lost with 3 INTs from Drake Maye. Public money (63-85%) is stacked on New England anyway -- fading the loud side on a team missing its best receiver. Rain forecast in Foxborough.",
    "kill_switch": "If the number moves to +4.5 or price worse than -125 at the 11:30 AM inactives check, pull this ticket and move the $15 to Ticket wk2-sun-single-3 (Colts +6, making it $25) if that's still -120 or better; otherwise add it as a straight $15 bet on Under 47.5 (Vikings/Bears).",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -15.0,
    "legs": [
     {
      "label": "Steelers +5.5",
@@ -182,8 +182,8 @@
    "breakeven": 50.0,
    "why": "combined_edge -0.006. Sam Darnold (SEA) is out (glute); Drew Lock making his first start is a real downgrade the market has only partly priced (line moved just one point, SEA -4.5 to -3.5). Dome game, no weather factor.",
    "kill_switch": "If Lock is a surprise late scratch or price worse than -120, pull this ticket and move the $10 to Ticket wk2-sun-parlay-2 legs as an added straight bet on Jaguars +2.5 alone.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -10.0,
    "promo": "Profit Boost",
    "legs": [
     {
@@ -227,8 +227,8 @@
    "breakeven": 52.8,
    "why": "combined_edge -0.006. Chiefs are missing starting LT Josh Simmons and S Chamarri Conner for a second straight week. Public is 83% tickets / 96% moneyline on Kansas City -- an extremely loud, mostly-square side to fade on a team down its blindside protector.",
    "kill_switch": "If Chris Jones is a surprise inactive or the number drops to +5 / price worse than -125, pull this ticket and move the $10 to Ticket wk2-sun-parlay-1 legs as an added straight bet on Under 45.5 (Bengals/Texans) alone.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 8.93,
    "legs": [
     {
      "label": "Colts +6",
@@ -271,8 +271,8 @@
    "breakeven": 28.6,
    "why": "Dog + under, correlated on purpose. Titans +7 has the best combined_edge on the entire board (+0.006); this also fades the 90-97%-of-tickets pile onto Eagles -7, a big road favorite in extreme Nashville heat (~90F, feels-like 94F). Joint estimate ~30% (naive product 28.1%, bumped for correlation) vs. a 28.6% breakeven at +250.",
    "kill_switch": "Spread leg dies at Titans +6.5 or worse than -120; total leg dies at 41+. If the SGP builder can't clear +250, skip it and take $5 straight on Titans +7 alone (the better-supported leg).",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -5.0,
    "legs": [
     {
      "label": "Titans +7 (SGP leg)",
@@ -338,8 +338,8 @@
    "breakeven": 14.7,
    "why": "Three legs, each backed by a backup-QB or key-injury story the market has only partly absorbed: Carson Wentz starting for Minnesota plus 25-35mph Chicago wind, Cooper Rush starting for Atlanta, and Texans WR1 Nico Collins out. Naive joint 16.0%, rounded to ~17% (not statistically correlated across different games).",
    "kill_switch": "If Carson Wentz is somehow not starting, or Chicago wind drops under 10mph, drop that leg. Any single leg worse than -125 gets dropped individually; keep the rest as a smaller parlay.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 58.2,
    "promo": "No Sweat",
    "legs": [
     {
@@ -429,8 +429,8 @@
    "breakeven": 25.4,
    "why": "Two dogs at plus-money value: Denver is missing WR Marvin Mims Jr. (out) and may be without RB RJ Harvey; Raiders +6.5 is priced at Pinnacle's exact fair number (combined_edge 0.000) with both offenses' skill spots banged up. Joint estimate 53% x 52% = 27.6% vs. a 25.4% breakeven at +294.",
    "kill_switch": "If the Jaguars number moves to +2 or price worse than -115, or the Raiders number drops to +5.5, drop the affected leg and keep the other as a straight bet at a reduced (recalculated) price.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -10.0,
    "legs": [
     {
      "label": "Jaguars +2.5",
@@ -475,8 +475,8 @@
    "breakeven": 28.0,
    "why": "Green Bay is missing both starting interior DTs (Hargrave, Brinson); Jets are missing starting S Minkah Fitzpatrick. Miami's top pass rusher Chop Robinson is out (concussion) against a healthy 49ers offense. Joint estimate 53% x 54% = 28.6% vs. a 28.0% breakeven at +257 -- the thinnest ticket on the card.",
    "kill_switch": "If either price worsens past -120, or Green Bay's DTs are activated, or SF K Eddy Pineiro (questionable, illness) is out with no clear backup plan, drop the affected leg. If both trip before placing, redirect the $10 to Ticket wk2-sun-parlay-2 instead.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -10.0,
    "legs": [
     {
      "label": "Over 44.5 (GB/NYJ)",
@@ -527,17 +527,90 @@
    ],
    "placed": true,
    "clv": 0.0
+  },
+  {
+   "id": "wk2-mon-single",
+   "type": "single",
+   "day": "monday",
+   "name": "Giants +6.5",
+   "game": "New York Giants at Los Angeles Rams",
+   "kickoff": "Mon 8:15 PM",
+   "stake": 10,
+   "price": "-105",
+   "payout": 9.52,
+   "estimate": 53,
+   "breakeven": 51.2,
+   "why": "combined_edge -0.0104, best price on the board. Myles Garrett (Rams DE, reigning DPOY, acquired from Cleveland in June) is out on IR after knee surgery, at least 4 games -- a real dent in the Rams' pass rush. Sharp money is taking a disproportionate share of the Giants handle despite Rams dominating ticket count.",
+   "kill_switch": "Dies at +5.5 or worse than -120 before kickoff, or if Adebo's replacement corner is also downgraded at 6:45 PM ET inactives. If tripped and not yet placed, redirect the $10 into a standalone Over 47.5 (-110) straight bet. If already placed, keep it as-is.",
+   "result": null,
+   "net": null,
+   "legs": [
+    {
+     "label": "Giants +6.5",
+     "pick": "New York Giants +6.5",
+     "game": "New York Giants at Los Angeles Rams",
+     "away": "New York Giants",
+     "home": "Los Angeles Rams",
+     "commence_time": "2026-09-22T00:15:00Z",
+     "market": "spreads",
+     "side": "New York Giants",
+     "point": 6.5,
+     "price": -105,
+     "why": "combined_edge -0.0104; own estimate 53% clears DK's 51.2% breakeven, within Pinnacle's band (fair 52.2% @ +7). Myles Garrett (Rams DE) out on IR at least 4 games; Giants CB Paulson Adebo on IR since Friday offsets some of that, but sharp money still favors the Giants number."
+    }
+   ],
+   "placed": true
+  },
+  {
+   "id": "wk2-mon-sgp",
+   "type": "sgp",
+   "day": "monday",
+   "name": "Rams ML + Over 47.5",
+   "game": "New York Giants at Los Angeles Rams",
+   "kickoff": "Mon 8:15 PM",
+   "stake": 5,
+   "price": "+130 min",
+   "payout": 6.5,
+   "estimate": 43,
+   "breakeven": 43.5,
+   "why": "Favorite plus over, correlated on purpose: Aaron Donald's return generating pressure plus a Giants secondary down its top corner (Adebo, IR) points to a comfortable Rams win in a game that also clears the total -- matching tonight's sharp total money, which is on the Over despite ticket count leaning Under. Naive independent joint ~40% (0.75 x 0.535), bumped for positive correlation to ~42-44%.",
+   "kill_switch": "Dies if Puka Nacua is ruled OUT at 6:45 PM ET (cuts the Over leg's case) or Aaron Donald is downgraded to OUT/inactive despite tonight's 'that's the plan' report (cuts the Rams ML leg's case). If either trips, or the SGP builder won't clear +130, skip the parlay and split the $5 into two $2.50 straights (Rams ML and Over 47.5) instead. If already placed, keep it as-is.",
+   "result": null,
+   "net": null,
+   "legs": [
+    {
+     "label": "Rams ML (SGP leg)",
+     "pick": "Los Angeles Rams moneyline",
+     "game": "New York Giants at Los Angeles Rams",
+     "away": "New York Giants",
+     "home": "Los Angeles Rams",
+     "commence_time": "2026-09-22T00:15:00Z",
+     "market": "h2h",
+     "side": "Los Angeles Rams",
+     "point": null,
+     "price": -298,
+     "why": "combined_edge -0.0148; own estimate 75% vs. DK implied 74.9% breakeven, within Pinnacle's band (fair 73.4%). Aaron Donald set to play ('that's the plan'); Giants CB Paulson Adebo (top corner) on IR since Friday."
+    },
+    {
+     "label": "Over 47.5 (SGP leg)",
+     "pick": "Over 47.5",
+     "game": "New York Giants at Los Angeles Rams",
+     "away": "New York Giants",
+     "home": "Los Angeles Rams",
+     "commence_time": "2026-09-22T00:15:00Z",
+     "market": "totals",
+     "side": "Over",
+     "point": 47.5,
+     "price": -110,
+     "why": "combined_edge -0.0215, best-priced total side; own estimate 53.5% vs. DK implied 52.4% breakeven, within Pinnacle's band (fair 50.2%). Sharp total money is on the Over despite ticket count leaning Under; Pinnacle's own fair number also favors Over."
+    }
+   ],
+   "placed": true
   }
  ],
  "watch": [
-  "Steelers +5.5 (single, $15) -- kill switch at +4.5 or worse than -125. If tripped and not yet placed, move to Colts +6 (making it $25) or Under 47.5 (MIN/CHI) as an added straight bet.",
-  "Cardinals +3.5 (single, $10, Profit Boost) -- kill switch only on a surprise Drew Lock scratch or worse than -120. Not expected to trip.",
-  "Colts +6 (single, $10) -- kill switch at +5 or worse than -125. If tripped, move to Under 45.5 (CIN/HOU) as an added straight bet.",
-  "Titans +7 / Under 39.5 SGP ($5) -- spread leg dies at +6.5 or worse than -120; total leg dies at 41+. If SGP price can't clear +250, take $5 straight on Titans +7 alone.",
-  "Parlay 5 (weak-offense unders) -- Minnesota leg needs Carson Wentz confirmed starting and Chicago wind holding; any leg worse than -125 drops individually.",
-  "Parlay 6 (fade-the-public dogs) -- Jaguars leg dies at +2 or worse than -115; Raiders leg dies below +5.5.",
-  "Parlay 7 (shorthanded-defense overs, thinnest ticket) -- dies if either price worsens past -120, Green Bay's DTs are activated, or SF K Eddy Pineiro is ruled out with no clear plan.",
-  "Monday: Giants +7 -> take at +7.5 or better. Not yet triggered; Myles Garrett/Aaron Donald situation for the Rams unchanged since Tuesday. Full $15 Monday budget untouched, pending Monday's own update."
+  "Monday: Giants +6.5 (single, $10) -- kill switch at +5.5 or worse than -120, or Adebo's replacement corner downgraded at 6:45 PM ET. If tripped pre-placement, redirect to Over 47.5 straight.",
+  "Monday: Rams ML + Over 47.5 SGP ($5) -- kill switch on Puka Nacua OUT, or Aaron Donald downgraded to OUT/inactive, or SGP price under +130. If tripped, split into two $2.50 straights."
  ],
  "board": [
   {
@@ -663,19 +736,23 @@
   {
    "kickoff": "Mon 8:15",
    "game": "Giants at Rams",
-   "spread": "LAR -7 (-108)",
+   "spread": "LAR -6.5 (-115)",
    "total": "47.5",
-   "ml": "LAR -305",
-   "read": "Pending Monday's own $15 update. Watch list carries Giants +7 -> take at +7.5 or better; not yet triggered, Garrett/Donald situation unchanged."
+   "ml": "LAR -298",
+   "read": "Ticket Mon-1: Giants +6.5 single ($10). Myles Garrett (Rams DE) out on IR at least 4 games. Ticket Mon-2: Rams ML + Over 47.5 SGP ($5). Aaron Donald returning, Giants CB Adebo on IR, sharp money on the Over."
   }
  ],
  "season": {
-  "record": "2-7",
-  "net": -33.32,
+  "record": "4-12",
+  "net": -16.19,
   "weeks": [
    {
     "week": 1,
     "net": -33.32
+   },
+   {
+    "week": 2,
+    "net": 17.13
    }
   ],
   "clv_week": 0.0039,
