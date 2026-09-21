@@ -446,5 +446,21 @@
   "clv": 0.0,
   "pin_clv": -0.0418,
   "at": "2026-09-20T20:21Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-sun-single-3",
+  "label": "Colts +6",
+  "market": "spreads",
+  "side": "Indianapolis Colts",
+  "bet_point": 6.0,
+  "bet_price": -112,
+  "close_point": 6.0,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.011,
+  "at": "2026-09-21T00:13Z"
  }
 ]

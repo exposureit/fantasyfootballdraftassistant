@@ -241,10 +241,21 @@
      "side": "Indianapolis Colts",
      "point": 6.0,
      "price": -112,
-     "why": "combined_edge -0.006; own estimate 54% clears DK's 52.8% breakeven, within Pinnacle's band (fair 52.2%). KC missing starting LT 2nd straight week; fading 83-96% public money on Chiefs."
+     "why": "combined_edge -0.006; own estimate 54% clears DK's 52.8% breakeven, within Pinnacle's band (fair 52.2%). KC missing starting LT 2nd straight week; fading 83-96% public money on Chiefs.",
+     "close": {
+      "point": 6.0,
+      "price": -112,
+      "pin_fair_prob": 0.5173,
+      "at": "2026-09-21T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.011
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0
   },
   {
    "id": "wk2-sun-sgp",
@@ -667,8 +678,8 @@
     "net": -33.32
    }
   ],
-  "clv_week": 0.0045,
-  "clv_season": 0.0109
+  "clv_week": 0.0039,
+  "clv_season": 0.0105
  },
- "clv_updated_at": "2026-09-20T20:21Z"
+ "clv_updated_at": "2026-09-21T00:13Z"
 }
