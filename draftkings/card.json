@@ -556,10 +556,21 @@
      "side": "New York Giants",
      "point": 6.5,
      "price": -105,
-     "why": "combined_edge -0.0104; own estimate 53% clears DK's 51.2% breakeven, within Pinnacle's band (fair 52.2% @ +7). Myles Garrett (Rams DE) out on IR at least 4 games; Giants CB Paulson Adebo on IR since Friday offsets some of that, but sharp money still favors the Giants number."
+     "why": "combined_edge -0.0104; own estimate 53% clears DK's 51.2% breakeven, within Pinnacle's band (fair 52.2% @ +7). Myles Garrett (Rams DE) out on IR at least 4 games; Giants CB Paulson Adebo on IR since Friday offsets some of that, but sharp money still favors the Giants number.",
+     "close": {
+      "point": 6.5,
+      "price": -105,
+      "pin_fair_prob": 0.4782,
+      "at": "2026-09-22T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.034
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0
   },
   {
    "id": "wk2-mon-sgp",
@@ -589,7 +600,17 @@
      "side": "Los Angeles Rams",
      "point": null,
      "price": -298,
-     "why": "combined_edge -0.0148; own estimate 75% vs. DK implied 74.9% breakeven, within Pinnacle's band (fair 73.4%). Aaron Donald set to play ('that's the plan'); Giants CB Paulson Adebo (top corner) on IR since Friday."
+     "why": "combined_edge -0.0148; own estimate 75% vs. DK implied 74.9% breakeven, within Pinnacle's band (fair 73.4%). Aaron Donald set to play ('that's the plan'); Giants CB Paulson Adebo (top corner) on IR since Friday.",
+     "close": {
+      "point": null,
+      "price": -298,
+      "pin_fair_prob": 0.7215,
+      "at": "2026-09-22T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0272
     },
     {
      "label": "Over 47.5 (SGP leg)",
@@ -602,10 +623,21 @@
      "side": "Over",
      "point": 47.5,
      "price": -110,
-     "why": "combined_edge -0.0215, best-priced total side; own estimate 53.5% vs. DK implied 52.4% breakeven, within Pinnacle's band (fair 50.2%). Sharp total money is on the Over despite ticket count leaning Under; Pinnacle's own fair number also favors Over."
+     "why": "combined_edge -0.0215, best-priced total side; own estimate 53.5% vs. DK implied 52.4% breakeven, within Pinnacle's band (fair 50.2%). Sharp total money is on the Over despite ticket count leaning Under; Pinnacle's own fair number also favors Over.",
+     "close": {
+      "point": 47.5,
+      "price": -110,
+      "pin_fair_prob": 0.4885,
+      "at": "2026-09-22T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0353
     }
    ],
-   "placed": true
+   "placed": true,
+   "clv": 0.0
   }
  ],
  "watch": [
@@ -755,8 +787,8 @@
     "net": 17.13
    }
   ],
-  "clv_week": 0.0039,
-  "clv_season": 0.0105
+  "clv_week": 0.0032,
+  "clv_season": 0.0095
  },
- "clv_updated_at": "2026-09-21T00:13Z"
+ "clv_updated_at": "2026-09-22T00:13Z"
 }

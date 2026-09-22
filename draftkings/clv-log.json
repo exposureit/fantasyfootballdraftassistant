@@ -462,5 +462,53 @@
   "clv": 0.0,
   "pin_clv": -0.011,
   "at": "2026-09-21T00:13Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-mon-single",
+  "label": "Giants +6.5",
+  "market": "spreads",
+  "side": "New York Giants",
+  "bet_point": 6.5,
+  "bet_price": -105,
+  "close_point": 6.5,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.034,
+  "at": "2026-09-22T00:13Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-mon-sgp",
+  "label": "Rams ML (SGP leg)",
+  "market": "h2h",
+  "side": "Los Angeles Rams",
+  "bet_point": null,
+  "bet_price": -298,
+  "close_point": null,
+  "close_price": -298,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0272,
+  "at": "2026-09-22T00:13Z"
+ },
+ {
+  "week": 2,
+  "ticket": "wk2-mon-sgp",
+  "label": "Over 47.5 (SGP leg)",
+  "market": "totals",
+  "side": "Over",
+  "bet_point": 47.5,
+  "bet_price": -110,
+  "close_point": 47.5,
+  "close_price": -110,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0353,
+  "at": "2026-09-22T00:13Z"
  }
 ]
