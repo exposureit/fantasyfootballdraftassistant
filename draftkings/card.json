@@ -2,10 +2,10 @@
  "week": 3,
  "title": "Week 3",
  "year": "2026",
- "built_at": "2026-09-22T21:15:00Z",
- "lines_verified_at": "2026-09-22T21:08:00Z",
+ "built_at": "2026-09-24T21:09:00Z",
+ "lines_verified_at": "2026-09-24T21:02:00Z",
  "verification": "verified",
- "verification_note": "Tuesday early card built on DraftKings' own numbers, pulled through The Odds API at 21:08 UTC 2026-09-22 (383 requests remaining this month). Three sides clear Rule A (+0.015 combined_edge): Arizona Cardinals ML +370 (+0.022), Las Vegas Raiders +3 (+0.015), and Miami Dolphins ML +575 (+0.015). Only the first two also carry a stated Rule 2 reason the number moves before Sunday; Dolphins ML is on the watch list, not a ticket, until Tua Tagovailoa's status and Kansas City's injury report firm up. Week 2's Thursday and Monday tickets are graded below from final scores (WebSearch); season carried forward.",
+ "verification_note": "Thursday routine built on DraftKings' own numbers, pulled through The Odds API at 21:02 UTC 2026-09-24 (377 requests remaining this month). No leg on tonight's Falcons-Packers game clears Rule A (+0.015 combined_edge); both Thursday tickets qualify under Rule B (own estimate above DK implied, within 6 points of Pinnacle fair, stated and flagged as thin). Green Bay -4.5 single ($10) and a Green Bay ML + Under 42.5 Same Game Parlay ($5) spend Thursday's $15 in full. Sunday and Monday boards refreshed with tonight's verified lines and preliminary reads; no new Sunday/Monday tickets added yet (final Sunday card builds Sunday morning).",
  "budget": {
   "total": 100,
   "sunday": 70,
@@ -80,141 +80,220 @@
      "why": "combined_edge +0.015; own estimate 52% clears DK's 49.5% breakeven, within Pinnacle's 53.0% fair band. Sits on the key number 3; Saints LT Banks Jr. injury (possible IR) not fully priced; Saints drawing public money as home favorite."
     }
    ]
+  },
+  {
+   "id": "wk3-thu-1",
+   "type": "single",
+   "day": "thursday",
+   "name": "Packers -4.5",
+   "game": "Falcons at Packers",
+   "kickoff": "Thu 8:15 PM",
+   "stake": 10,
+   "price": "-115",
+   "payout": 18.7,
+   "estimate": 54,
+   "breakeven": 53.5,
+   "why": "combined_edge -0.015, the best price on tonight's board (thin Rule B qualifier). Green Bay's O-line losses (RT Bako-Bewele out for the year, LG Banks out) are real, but Atlanta is down starting CB A.J. Terrell (IR) and DK's own price is defending against the reverse-line-movement Atlanta money (Falcons +4.5 at -105 vs Pinnacle's fair +108, the worst leg on the board) -- the tell that Green Bay is still slightly live at this number.",
+   "kill_switch": "If the 6:45 PM ET inactives add a Packers starter beyond Bako-Bewele/Banks/Reed (another O-line piece or a DB), or the number moves to GB -6 or worse before kickoff, pull this ticket. Move the freed $10 into the Under 42.5 leg of Ticket 2 as an added straight so Thursday still spends its full $15.",
+   "result": null,
+   "net": null,
+   "placed": true,
+   "legs": [
+    {
+     "label": "Packers -4.5",
+     "pick": "Green Bay Packers -4.5",
+     "game": "Atlanta Falcons at Green Bay Packers",
+     "away": "Atlanta Falcons",
+     "home": "Green Bay Packers",
+     "commence_time": "2026-09-25T00:15:00Z",
+     "market": "spreads",
+     "side": "Green Bay Packers",
+     "point": -4.5,
+     "price": -115,
+     "why": "combined_edge -0.015; own estimate 54% clears DK's 53.5% breakeven and sits inside Pinnacle's 52.0% fair band. Packers O-line down two starters, but Falcons down starting CB Terrell (IR); DK pricing defends against Atlanta's reverse-line-movement money more than Green Bay's."
+    }
+   ]
+  },
+  {
+   "id": "wk3-thu-2",
+   "type": "sgp",
+   "day": "thursday",
+   "name": "Packers ML + Under 42.5 SGP",
+   "game": "Falcons at Packers",
+   "kickoff": "Thu 8:15 PM",
+   "stake": 5,
+   "price": "+130 min",
+   "payout": 11.5,
+   "estimate": 37,
+   "breakeven": 43.5,
+   "why": "Favorite + under correlation. Green Bay ML (combined_edge -0.020, own estimate 72% vs 71.0% breakeven, Pinnacle fair 69.0%) plus Under 42.5 (combined_edge -0.027, own estimate 52% vs 50.5% breakeven, Pinnacle fair 49.8%) -- if Green Bay wins it's more likely a controlled, lower-scoring game given the O-line attrition and short week than a shootout. Thinnest leg on the card, flagged as such. Naive reference price ~+179; minimum acceptable price +130, else fall back to $2.50/$2.50 straights.",
+   "kill_switch": "If Green Bay loses another O-line starter on the 6:45 PM inactives beyond what's priced, drop the ML leg and put the full $5 on Under 42.5 alone. If the total moves to 44.5+ before kickoff, drop the Under leg and take $5 straight on Green Bay ML at -245 or better. If the SGP builder won't clear +130, split into $2.50 on Green Bay ML and $2.50 on Under 42.5.",
+   "result": null,
+   "net": null,
+   "placed": true,
+   "legs": [
+    {
+     "label": "Packers ML",
+     "pick": "Green Bay Packers moneyline",
+     "game": "Atlanta Falcons at Green Bay Packers",
+     "away": "Atlanta Falcons",
+     "home": "Green Bay Packers",
+     "commence_time": "2026-09-25T00:15:00Z",
+     "market": "h2h",
+     "side": "Green Bay Packers",
+     "point": null,
+     "price": -245,
+     "why": "combined_edge -0.020; own estimate 72% vs DK's 71.0% breakeven, Pinnacle fair 69.0% (within 6 pts). Favorite leg of the favorite+under SGP."
+    },
+    {
+     "label": "Under 42.5",
+     "pick": "Under 42.5",
+     "game": "Atlanta Falcons at Green Bay Packers",
+     "away": "Atlanta Falcons",
+     "home": "Green Bay Packers",
+     "commence_time": "2026-09-25T00:15:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 42.5,
+     "price": -102,
+     "why": "combined_edge -0.027; own estimate 52% vs DK's 50.5% breakeven, Pinnacle fair 49.8% at its own 43 point (within 6 pts). Total already fell 2 points since Tuesday's open on real O-line/WR attrition; short-week-under trend regressed."
+    }
+   ]
   }
  ],
  "watch": [
-  "Miami Dolphins ML, currently +575 (combined_edge +0.015, passed on this week) -- take if it lengthens to +650 or better on a confirmed Tua Tagovailoa downgrade to OUT/doubtful; Chiefs' full injury report was unavailable Tuesday, recheck Thursday.",
-  "Cleveland Browns +2.5, currently -0.004 short of Rule A -- take at Browns +3 or better (-110 or better) if Panthers injury news breaks Wednesday/Thursday.",
-  "Falcons Over 44.5 (Thu night), closest total to Rule A on the board (+0.001) -- take at -105 or better if the number holds; Michael Penix Jr. returns as a full-go starter from ACL surgery, an offensive-stability story the market may not have fully absorbed."
+  "Miami Dolphins ML, now +470 (combined_edge -0.005, down from +0.015 Tuesday) -- value already moved, off the list unless it lengthens back past +575 on a confirmed Tua downgrade.",
+  "Cleveland Browns +2.5, now combined_edge -0.022 (down from -0.004 Tuesday) -- moved away from Rule A, not toward it. Off the list unless the number returns to +3 or better.",
+  "Jacksonville Jaguars -3, combined_edge 0.000 -- the fairest number on the whole board. Not a ticket, but worth a second look Sunday morning on any Patriots injury news."
  ],
  "board": [
   {
    "kickoff": "Thu 8:15 PM",
    "game": "Falcons at Packers",
-   "spread": "GB -6 (-112)",
-   "total": "44.5",
-   "ml": "GB -290",
-   "read": "Penix Jr. back as full-go starter for ATL; GB missing Watson/Jones (hamstring, both questionable). Over 44.5 on the watch list."
+   "spread": "GB -4.5 (-115)",
+   "total": "42.5",
+   "ml": "GB -245",
+   "read": "Thursday card placed: Packers -4.5 single $10, Packers ML + Under 42.5 SGP $5."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Chargers at Bills",
-   "spread": "BUF -7 (-112)",
+   "spread": "BUF -7 (-115)",
    "total": "50.5",
-   "ml": "BUF -325",
-   "read": "No fresh edge found either side yet. Pass."
+   "ml": "BUF -345",
+   "read": "Preliminary -- no edge clears Rule A. Recheck Saturday/Sunday."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Panthers at Browns",
-   "spread": "CAR -2.5 (-120)",
+   "spread": "CAR -2.5 (-118)",
    "total": "42.5",
    "ml": "CAR -148",
-   "read": "Browns +2.5 close to Rule A (-0.004 short). On the watch list pending Panthers injury news."
+   "read": "Preliminary -- Browns +2.5 moved away from Rule A since Tuesday. Pass unless news breaks."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Bengals at Steelers",
    "spread": "CIN -3.5 (-115)",
    "total": "42.5",
-   "ml": "CIN -192",
-   "read": "DK and Pinnacle agree almost exactly. No lean. Pass."
+   "ml": "CIN -185",
+   "read": "Preliminary -- nothing clears Rule A. Pass."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Jets at Lions",
    "spread": "DET -6.5 (-110)",
    "total": "47.5",
-   "ml": "DET -305",
-   "read": "No injury news found yet this week for either side. Pass."
+   "ml": "DET -298",
+   "read": "Preliminary -- no fresh edge either side. Pass."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Texans at Colts",
-   "spread": "HOU -2.5 (-115)",
-   "total": "43.5",
-   "ml": "HOU -142",
-   "read": "No fresh edge found either side. Pass."
+   "spread": "HOU -1.5 (-118)",
+   "total": "42.5",
+   "ml": "HOU -125",
+   "read": "Preliminary -- line moved a full point toward Houston since Tuesday. Recheck Saturday."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Patriots at Jaguars",
-   "spread": "JAX -3 (-108)",
+   "spread": "JAX -3 (-105)",
    "total": "45.5",
-   "ml": "JAX -166",
-   "read": "DK and Pinnacle agree. No lean. Pass."
+   "ml": "JAX -155",
+   "read": "Preliminary -- Jaguars -3 is the fairest number on the board (edge 0.000). Recheck for NE injury news."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Chiefs at Dolphins",
-   "spread": "KC -11.5 (-108)",
-   "total": "46.5",
-   "ml": "KC -850",
-   "read": "Tua (oblique) questionable, trending to play but unconfirmed; Chiefs' full injury report unavailable. Dolphins ML on the watch list, not a ticket."
+   "spread": "KC -10.5 (-112)",
+   "total": "45.5",
+   "ml": "KC -650",
+   "read": "Preliminary -- Dolphins ML value already moved (+0.015 to -0.005). Recheck Tua's final status."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Titans at Giants",
-   "spread": "NYG -3 (-108)",
-   "total": "39.5",
-   "ml": "NYG -155",
-   "read": "Jaxson Dart's knee injury reportedly worse than first believed (possible season-ending surgery); his Sunday status is unresolved. Recheck before placing anything here."
+   "spread": "NYG -2.5 (-118)",
+   "total": "38.5",
+   "ml": "NYG -130",
+   "read": "Preliminary -- Jaxson Dart's knee (possible season-ending surgery) unresolved. Recheck before placing."
   },
   {
    "kickoff": "Sun 1:00 PM",
    "game": "Seahawks at Commanders",
-   "spread": "SEA -7 (-108)",
+   "spread": "SEA -7.5 (-108)",
    "total": "40.5",
-   "ml": "SEA -305",
-   "read": "Jayden Daniels (WAS) out indefinitely, Marcus Mariota starts -- but DK's number already matches Pinnacle. Pass."
+   "ml": "SEA -375",
+   "read": "Preliminary -- nothing clears Rule A. Pass."
   },
   {
    "kickoff": "Sun 4:05 PM",
    "game": "Cardinals at 49ers",
-   "spread": "SF -8.5 (-105)",
+   "spread": "SF -8.5 (-108)",
    "total": "47.5",
-   "ml": "SF -485",
-   "read": "Early ticket: Cardinals ML, $10. Purdy out again for SF; Murray fully healthy for ARI; public money still lopsided on SF despite the line's move."
+   "ml": "SF -455",
+   "read": "Early ticket placed: Cardinals ML, $10 (combined_edge +0.011 today)."
   },
   {
    "kickoff": "Sun 4:05 PM",
    "game": "Vikings at Buccaneers",
-   "spread": "MIN -1.5 (-110)",
+   "spread": "MIN -1.5 (-108)",
    "total": "42.5",
-   "ml": "MIN -120",
-   "read": "No fresh edge found either side. Pass."
+   "ml": "MIN -122",
+   "read": "Preliminary -- no edge either side. Pass."
   },
   {
    "kickoff": "Sun 4:25 PM",
    "game": "Ravens at Cowboys",
-   "spread": "BAL -3 (-110)",
+   "spread": "BAL -3.5 (-105)",
    "total": "52.5",
-   "ml": "BAL -155",
-   "read": "DK and Pinnacle agree. No lean. Pass."
+   "ml": "BAL -175",
+   "read": "Preliminary -- no edge either side. Pass."
   },
   {
    "kickoff": "Sun 4:25 PM",
    "game": "Raiders at Saints",
-   "spread": "NO -3 (-122)",
+   "spread": "LV +3 (+102)",
    "total": "43.5",
-   "ml": "NO -192",
-   "read": "Early ticket: Raiders +3, $10. Sits on the key number 3; Saints LT Banks Jr. (high-ankle, possible IR) not fully priced; Saints drawing public money as home favorite."
+   "ml": "NO -185",
+   "read": "Early ticket placed: Raiders +3, $10 (combined_edge +0.013 today; Saints spread is -0.058, worst on the board, confirming the Raiders side)."
   },
   {
    "kickoff": "Sun 8:20 PM",
    "game": "Rams at Broncos",
-   "spread": "LAR -2.5 (-115)",
-   "total": "45.5",
+   "spread": "LAR -2.5 (-110)",
+   "total": "44.5",
    "ml": "LAR -135",
-   "read": "No fresh edge found either side. Pass."
+   "read": "Preliminary -- no edge either side. Pass."
   },
   {
    "kickoff": "Mon 8:15 PM",
    "game": "Eagles at Bears",
-   "spread": "PHI -4.5 (-110)",
+   "spread": "PHI -4.5 (-115)",
    "total": "41.5",
    "ml": "PHI -225",
-   "read": "Caleb Williams (CHI) week-to-week with a hamstring injury -- game status uncertain, recheck Friday/Saturday. No ticket yet."
+   "read": "Preliminary -- Caleb Williams (hamstring) still week-to-week. Recheck Friday/Saturday."
   }
  ],
  "season": {
