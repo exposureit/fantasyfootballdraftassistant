@@ -110,9 +110,20 @@
      "side": "Green Bay Packers",
      "point": -4.5,
      "price": -115,
-     "why": "combined_edge -0.015; own estimate 54% clears DK's 53.5% breakeven and sits inside Pinnacle's 52.0% fair band. Packers O-line down two starters, but Falcons down starting CB Terrell (IR); DK pricing defends against Atlanta's reverse-line-movement money more than Green Bay's."
+     "why": "combined_edge -0.015; own estimate 54% clears DK's 53.5% breakeven and sits inside Pinnacle's 52.0% fair band. Packers O-line down two starters, but Falcons down starting CB Terrell (IR); DK pricing defends against Atlanta's reverse-line-movement money more than Green Bay's.",
+     "close": {
+      "point": -4.5,
+      "price": -112,
+      "pin_fair_prob": 0.507,
+      "at": "2026-09-25T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0066,
+     "clv": -0.0066,
+     "pin_clv": -0.0279
     }
-   ]
+   ],
+   "clv": -0.0066
   },
   {
    "id": "wk3-thu-2",
@@ -143,7 +154,17 @@
      "side": "Green Bay Packers",
      "point": null,
      "price": -245,
-     "why": "combined_edge -0.020; own estimate 72% vs DK's 71.0% breakeven, Pinnacle fair 69.0% (within 6 pts). Favorite leg of the favorite+under SGP."
+     "why": "combined_edge -0.020; own estimate 72% vs DK's 71.0% breakeven, Pinnacle fair 69.0% (within 6 pts). Favorite leg of the favorite+under SGP.",
+     "close": {
+      "point": null,
+      "price": -230,
+      "pin_fair_prob": 0.6779,
+      "at": "2026-09-25T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0132,
+     "clv": -0.0132,
+     "pin_clv": -0.0322
     },
     {
      "label": "Under 42.5",
@@ -156,9 +177,20 @@
      "side": "Under",
      "point": 42.5,
      "price": -102,
-     "why": "combined_edge -0.027; own estimate 52% vs DK's 50.5% breakeven, Pinnacle fair 49.8% at its own 43 point (within 6 pts). Total already fell 2 points since Tuesday's open on real O-line/WR attrition; short-week-under trend regressed."
+     "why": "combined_edge -0.027; own estimate 52% vs DK's 50.5% breakeven, Pinnacle fair 49.8% at its own 43 point (within 6 pts). Total already fell 2 points since Tuesday's open on real O-line/WR attrition; short-week-under trend regressed.",
+     "close": {
+      "point": 42.5,
+      "price": -105,
+      "pin_fair_prob": 0.5171,
+      "at": "2026-09-25T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0072,
+     "clv": 0.0072,
+     "pin_clv": 0.0121
     }
-   ]
+   ],
+   "clv": -0.003
   }
  ],
  "watch": [
@@ -309,8 +341,8 @@
     "net": 6.22
    }
   ],
-  "clv_week": null,
-  "clv_season": 0.0095
+  "clv_week": -0.0048,
+  "clv_season": 0.0083
  },
- "clv_updated_at": "2026-09-22T00:13Z"
+ "clv_updated_at": "2026-09-25T00:13Z"
 }

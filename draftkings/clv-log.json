@@ -510,5 +510,53 @@
   "clv": 0.0,
   "pin_clv": -0.0353,
   "at": "2026-09-22T00:13Z"
+ },
+ {
+  "week": 3,
+  "ticket": "wk3-thu-1",
+  "label": "Packers -4.5",
+  "market": "spreads",
+  "side": "Green Bay Packers",
+  "bet_point": -4.5,
+  "bet_price": -115,
+  "close_point": -4.5,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": -0.0066,
+  "clv": -0.0066,
+  "pin_clv": -0.0279,
+  "at": "2026-09-25T00:13Z"
+ },
+ {
+  "week": 3,
+  "ticket": "wk3-thu-2",
+  "label": "Packers ML",
+  "market": "h2h",
+  "side": "Green Bay Packers",
+  "bet_point": null,
+  "bet_price": -245,
+  "close_point": null,
+  "close_price": -230,
+  "point_clv": 0.0,
+  "price_clv": -0.0132,
+  "clv": -0.0132,
+  "pin_clv": -0.0322,
+  "at": "2026-09-25T00:13Z"
+ },
+ {
+  "week": 3,
+  "ticket": "wk3-thu-2",
+  "label": "Under 42.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 42.5,
+  "bet_price": -102,
+  "close_point": 42.5,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": 0.0072,
+  "clv": 0.0072,
+  "pin_clv": 0.0121,
+  "at": "2026-09-25T00:13Z"
  }
 ]
