@@ -222,9 +222,20 @@
      "side": "Cleveland Browns",
      "point": null,
      "price": 124,
-     "why": "combined_edge +0.012 vs Pinnacle; own estimate 46.5% clears DK's 44.6% breakeven and sits inside Pinnacle's 45.8% fair band. Deshaun Watson playing efficient football; near-coinflip game priced at plus money."
+     "why": "combined_edge +0.012 vs Pinnacle; own estimate 46.5% clears DK's 44.6% breakeven and sits inside Pinnacle's 45.8% fair band. Deshaun Watson playing efficient football; near-coinflip game priced at plus money.",
+     "close": {
+      "point": null,
+      "price": 114,
+      "pin_fair_prob": 0.4601,
+      "at": "2026-09-27T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0209,
+     "clv": 0.0209,
+     "pin_clv": 0.0137
     }
-   ]
+   ],
+   "clv": 0.0209
   },
   {
    "id": "wk3-sun-2",
@@ -255,9 +266,20 @@
      "side": "Seattle Seahawks",
      "point": -8.5,
      "price": -105,
-     "why": "combined_edge +0.006; own estimate 52% clears DK's 51.2% breakeven, within Pinnacle's 47.8% fair band (at Pinnacle's own -9.5 line). Washington starting Mariota and missing four other regulars -- documented, fresh injury list."
+     "why": "combined_edge +0.006; own estimate 52% clears DK's 51.2% breakeven, within Pinnacle's 47.8% fair band (at Pinnacle's own -9.5 line). Washington starting Mariota and missing four other regulars -- documented, fresh injury list.",
+     "close": {
+      "point": -8.5,
+      "price": -105,
+      "pin_fair_prob": 0.4673,
+      "at": "2026-09-27T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0449
     }
-   ]
+   ],
+   "clv": 0.0
   },
   {
    "id": "wk3-sun-3",
@@ -289,7 +311,17 @@
      "side": "Pittsburgh Steelers",
      "point": null,
      "price": 160,
-     "why": "combined_edge +0.0049; own estimate 40% vs DK's 38.5% breakeven, Pinnacle fair 39.0% (within 6 pts). Home dog getting plus money, mild weather, two flawed offenses."
+     "why": "combined_edge +0.0049; own estimate 40% vs DK's 38.5% breakeven, Pinnacle fair 39.0% (within 6 pts). Home dog getting plus money, mild weather, two flawed offenses.",
+     "close": {
+      "point": null,
+      "price": 150,
+      "pin_fair_prob": 0.4013,
+      "at": "2026-09-27T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0154,
+     "clv": 0.0154,
+     "pin_clv": 0.0167
     },
     {
      "label": "Jaguars -3",
@@ -302,9 +334,20 @@
      "side": "Jacksonville Jaguars",
      "point": -3.0,
      "price": -102,
-     "why": "combined_edge +0.0034; own estimate 51.5% vs DK's 50.5% breakeven, Pinnacle fair 52.8% at its own -2.5 line (within 6 pts). Fairest number on the board two weeks running; Patriots offense inconsistent."
+     "why": "combined_edge +0.0034; own estimate 51.5% vs DK's 50.5% breakeven, Pinnacle fair 52.8% at its own -2.5 line (within 6 pts). Fairest number on the board two weeks running; Patriots offense inconsistent.",
+     "close": {
+      "point": -3.0,
+      "price": -105,
+      "pin_fair_prob": 0.4954,
+      "at": "2026-09-27T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0072,
+     "clv": 0.0072,
+     "pin_clv": -0.0096
     }
-   ]
+   ],
+   "clv": 0.0113
   },
   {
    "id": "wk3-sun-4",
@@ -348,7 +391,17 @@
      "side": "Under",
      "point": 45.5,
      "price": -115,
-     "why": "combined_edge -0.022 (Rule B on documented news, not price). Own estimate 54% vs DK's 53.5% breakeven, Pinnacle fair 49.3% at its own 45.0 point (within 6 pts). Tua Tagovailoa placed on IR this week (concussion); Skylar Thompson confirmed starting for Miami; Chiefs a 94%-of-money public favorite likely to run clock rather than pile on points. Thinnest leg on the card, flagged."
+     "why": "combined_edge -0.022 (Rule B on documented news, not price). Own estimate 54% vs DK's 53.5% breakeven, Pinnacle fair 49.3% at its own 45.0 point (within 6 pts). Tua Tagovailoa placed on IR this week (concussion); Skylar Thompson confirmed starting for Miami; Chiefs a 94%-of-money public favorite likely to run clock rather than pile on points. Thinnest leg on the card, flagged.",
+     "close": {
+      "point": 45.5,
+      "price": -115,
+      "pin_fair_prob": 0.5092,
+      "at": "2026-09-27T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0257
     }
    ]
   }
@@ -494,8 +547,8 @@
     "net": 6.22
    }
   ],
-  "clv_week": -0.0048,
-  "clv_season": 0.0083
+  "clv_week": 0.0045,
+  "clv_season": 0.0084
  },
- "clv_updated_at": "2026-09-25T00:13Z"
+ "clv_updated_at": "2026-09-27T16:55Z"
 }
