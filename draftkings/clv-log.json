@@ -638,5 +638,37 @@
   "clv": 0.0,
   "pin_clv": -0.0257,
   "at": "2026-09-27T16:55Z"
+ },
+ {
+  "week": 3,
+  "ticket": "wk3-early-2",
+  "label": "Raiders +3",
+  "market": "spreads",
+  "side": "Las Vegas Raiders",
+  "bet_point": 3.0,
+  "bet_price": 102,
+  "close_point": 3.5,
+  "close_price": -105,
+  "point_clv": -0.5,
+  "price_clv": 0.0171,
+  "clv": -0.0029,
+  "pin_clv": -0.0043,
+  "at": "2026-09-27T20:20Z"
+ },
+ {
+  "week": 3,
+  "ticket": "wk3-sun-4",
+  "label": "Cowboys +3",
+  "market": "spreads",
+  "side": "Dallas Cowboys",
+  "bet_point": 3.0,
+  "bet_price": -102,
+  "close_point": 3.0,
+  "close_price": 100,
+  "point_clv": 0.0,
+  "price_clv": -0.005,
+  "clv": -0.005,
+  "pin_clv": 0.019,
+  "at": "2026-09-27T20:20Z"
  }
 ]

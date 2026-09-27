@@ -77,9 +77,20 @@
      "side": "Las Vegas Raiders",
      "point": 3.0,
      "price": 102,
-     "why": "combined_edge +0.015; own estimate 52% clears DK's 49.5% breakeven, within Pinnacle's 53.0% fair band. Sits on the key number 3; Saints LT Banks Jr. injury (possible IR) not fully priced; Saints drawing public money as home favorite."
+     "why": "combined_edge +0.015; own estimate 52% clears DK's 49.5% breakeven, within Pinnacle's 53.0% fair band. Sits on the key number 3; Saints LT Banks Jr. injury (possible IR) not fully priced; Saints drawing public money as home favorite.",
+     "close": {
+      "point": 3.5,
+      "price": -105,
+      "pin_fair_prob": 0.4907,
+      "at": "2026-09-27T20:20Z"
+     },
+     "point_clv": -0.5,
+     "price_clv": 0.0171,
+     "clv": -0.0029,
+     "pin_clv": -0.0043
     }
-   ]
+   ],
+   "clv": -0.0029
   },
   {
    "id": "wk3-thu-1",
@@ -378,7 +389,17 @@
      "side": "Dallas Cowboys",
      "point": 3.0,
      "price": -102,
-     "why": "combined_edge +0.0012; own estimate 51.5% vs DK's 50.5% breakeven, Pinnacle fair 52.6% at its own +3.5 line (within 6 pts). Ravens LT Ronnie Stanley OUT, a documented, fresh O-line hit; neutral-site international game."
+     "why": "combined_edge +0.0012; own estimate 51.5% vs DK's 50.5% breakeven, Pinnacle fair 52.6% at its own +3.5 line (within 6 pts). Ravens LT Ronnie Stanley OUT, a documented, fresh O-line hit; neutral-site international game.",
+     "close": {
+      "point": 3.0,
+      "price": 100,
+      "pin_fair_prob": 0.524,
+      "at": "2026-09-27T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.005,
+     "clv": -0.005,
+     "pin_clv": 0.019
     },
     {
      "label": "Dolphins Under 45.5",
@@ -403,7 +424,8 @@
      "clv": 0.0,
      "pin_clv": -0.0257
     }
-   ]
+   ],
+   "clv": -0.0025
   }
  ],
  "watch": [
@@ -547,8 +569,8 @@
     "net": 6.22
    }
   ],
-  "clv_week": 0.0045,
-  "clv_season": 0.0084
+  "clv_week": 0.0025,
+  "clv_season": 0.0078
  },
- "clv_updated_at": "2026-09-27T16:55Z"
+ "clv_updated_at": "2026-09-27T20:20Z"
 }
