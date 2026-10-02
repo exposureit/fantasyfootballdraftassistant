@@ -79,9 +79,20 @@
      "side": "Cleveland Browns",
      "point": 2.5,
      "price": 100,
-     "why": "combined_edge +0.011 vs Pinnacle (DK +100 = 50.0%, Pinnacle fair 53.1% at +3). Rule B."
+     "why": "combined_edge +0.011 vs Pinnacle (DK +100 = 50.0%, Pinnacle fair 53.1% at +3). Rule B.",
+     "close": {
+      "point": 2.5,
+      "price": 100,
+      "pin_fair_prob": 0.5093,
+      "at": "2026-10-02T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.0093
     }
-   ]
+   ],
+   "clv": 0.0
   },
   {
    "id": "wk4-thu-2",
@@ -114,9 +125,20 @@
      "side": "Under",
      "point": 38.5,
      "price": -115,
-     "why": "combined_edge -0.004 vs Pinnacle (DK -115 = 53.5%; Pinnacle Under 37.5 fair 49.1%, one point lower). Rule B with own estimate 54.0%."
+     "why": "combined_edge -0.004 vs Pinnacle (DK -115 = 53.5%; Pinnacle Under 37.5 fair 49.1%, one point lower). Rule B with own estimate 54.0%.",
+     "close": {
+      "point": 38.5,
+      "price": -115,
+      "pin_fair_prob": 0.4908,
+      "at": "2026-10-02T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0441
     }
-   ]
+   ],
+   "clv": 0.0
   }
  ],
  "watch": [
@@ -272,8 +294,8 @@
     "net": 52.84
    }
   ],
-  "clv_week": null,
-  "clv_season": 0.0068
+  "clv_week": 0.0,
+  "clv_season": 0.0065
  },
- "clv_updated_at": "2026-09-29T00:13Z"
+ "clv_updated_at": "2026-10-02T00:13Z"
 }

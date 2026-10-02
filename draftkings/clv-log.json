@@ -702,5 +702,37 @@
   "clv": -0.0239,
   "pin_clv": -0.0168,
   "at": "2026-09-29T00:13Z"
+ },
+ {
+  "week": 4,
+  "ticket": "wk4-thu-1",
+  "label": "Browns +2.5",
+  "market": "spreads",
+  "side": "Cleveland Browns",
+  "bet_point": 2.5,
+  "bet_price": 100,
+  "close_point": 2.5,
+  "close_price": 100,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": 0.0093,
+  "at": "2026-10-02T00:13Z"
+ },
+ {
+  "week": 4,
+  "ticket": "wk4-thu-2",
+  "label": "Under 38.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 38.5,
+  "bet_price": -115,
+  "close_point": 38.5,
+  "close_price": -115,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0441,
+  "at": "2026-10-02T00:13Z"
  }
 ]
