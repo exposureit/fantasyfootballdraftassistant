@@ -814,5 +814,53 @@
   "clv": -0.0111,
   "pin_clv": -0.0153,
   "at": "2026-10-04T16:55Z"
+ },
+ {
+  "week": 4,
+  "ticket": "wk4-sun-1",
+  "label": "49ers -3",
+  "market": "spreads",
+  "side": "San Francisco 49ers",
+  "bet_point": -3.0,
+  "bet_price": -105,
+  "close_point": -3.0,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0076,
+  "at": "2026-10-04T20:21Z"
+ },
+ {
+  "week": 4,
+  "ticket": "wk4-sun-3",
+  "label": "Chargers +7",
+  "market": "spreads",
+  "side": "Los Angeles Chargers",
+  "bet_point": 7.0,
+  "bet_price": -108,
+  "close_point": 7.0,
+  "close_price": -115,
+  "point_clv": 0.0,
+  "price_clv": 0.0157,
+  "clv": 0.0157,
+  "pin_clv": 0.0248,
+  "at": "2026-10-04T20:21Z"
+ },
+ {
+  "week": 4,
+  "ticket": "wk4-sun-4",
+  "label": "Chiefs-Raiders Under 47.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 47.5,
+  "bet_price": -105,
+  "close_point": 46.5,
+  "close_price": -102,
+  "point_clv": 1.0,
+  "price_clv": -0.0072,
+  "clv": 0.0328,
+  "pin_clv": -0.0191,
+  "at": "2026-10-04T20:21Z"
  }
 ]

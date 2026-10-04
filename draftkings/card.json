@@ -171,9 +171,20 @@
      "side": "San Francisco 49ers",
      "point": -3.0,
      "price": -105,
-     "why": "combined_edge +0.006 vs Pinnacle (DK -105 = 51.2%, Pin -2.5 fair 53.8%). Rule B."
+     "why": "combined_edge +0.006 vs Pinnacle (DK -105 = 51.2%, Pin -2.5 fair 53.8%). Rule B.",
+     "close": {
+      "point": -3.0,
+      "price": -105,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-10-04T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0076
     }
-   ]
+   ],
+   "clv": 0.0
   },
   {
    "id": "wk4-sun-2",
@@ -252,7 +263,17 @@
      "side": "Los Angeles Chargers",
      "point": 7.0,
      "price": -108,
-     "why": "combined_edge -0.009 vs Pinnacle (Pin +7.5). Rule B, own estimate 52.5%."
+     "why": "combined_edge -0.009 vs Pinnacle (Pin +7.5). Rule B, own estimate 52.5%.",
+     "close": {
+      "point": 7.0,
+      "price": -115,
+      "pin_fair_prob": 0.544,
+      "at": "2026-10-04T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0157,
+     "clv": 0.0157,
+     "pin_clv": 0.0248
     },
     {
      "label": "Eagles +3.5",
@@ -277,7 +298,8 @@
      "clv": 0.0,
      "pin_clv": -0.0052
     }
-   ]
+   ],
+   "clv": 0.0078
   },
   {
    "id": "wk4-sun-4",
@@ -333,9 +355,20 @@
      "side": "Under",
      "point": 47.5,
      "price": -105,
-     "why": "combined_edge -0.018 vs Pinnacle (48, fair 51.4%). Rule B, own estimate 52.0%."
+     "why": "combined_edge -0.018 vs Pinnacle (48, fair 51.4%). Rule B, own estimate 52.0%.",
+     "close": {
+      "point": 46.5,
+      "price": -102,
+      "pin_fair_prob": 0.4931,
+      "at": "2026-10-04T20:21Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0072,
+     "clv": 0.0328,
+     "pin_clv": -0.0191
     }
-   ]
+   ],
+   "clv": 0.0197
   },
   {
    "id": "wk4-sun-5",
@@ -551,8 +584,8 @@
     "net": 5.0
    }
   ],
-  "clv_week": 0.0049,
-  "clv_season": 0.0063
+  "clv_week": 0.0067,
+  "clv_season": 0.0069
  },
- "clv_updated_at": "2026-10-04T16:55Z"
+ "clv_updated_at": "2026-10-04T20:21Z"
 }
