@@ -206,9 +206,20 @@
      "side": "Tampa Bay Buccaneers",
      "point": 3.0,
      "price": -105,
-     "why": "combined_edge +0.005 vs Pinnacle (DK -105 = 51.2%, Pin +3 fair 51.7%). Rule B."
+     "why": "combined_edge +0.005 vs Pinnacle (DK -105 = 51.2%, Pin +3 fair 51.7%). Rule B.",
+     "close": {
+      "point": 3.0,
+      "price": -115,
+      "pin_fair_prob": 0.5379,
+      "at": "2026-10-04T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0227,
+     "clv": 0.0227,
+     "pin_clv": 0.0257
     }
-   ]
+   ],
+   "clv": 0.0227
   },
   {
    "id": "wk4-sun-3",
@@ -254,7 +265,17 @@
      "side": "Philadelphia Eagles",
      "point": 3.5,
      "price": -105,
-     "why": "combined_edge -0.003 vs Pinnacle (Pin +3.5 -104). Rule B, own estimate 52.0%, rain."
+     "why": "combined_edge -0.003 vs Pinnacle (Pin +3.5 -104). Rule B, own estimate 52.0%, rain.",
+     "close": {
+      "point": 3.5,
+      "price": -105,
+      "pin_fair_prob": 0.507,
+      "at": "2026-10-04T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0052
     }
    ]
   },
@@ -289,7 +310,17 @@
      "side": "Under",
      "point": 44.5,
      "price": -112,
-     "why": "combined_edge -0.011 vs Pinnacle (44.5 -114, fair 51.7%). Rule B, own estimate 53.5%."
+     "why": "combined_edge -0.011 vs Pinnacle (44.5 -114, fair 51.7%). Rule B, own estimate 53.5%.",
+     "close": {
+      "point": 44.5,
+      "price": -115,
+      "pin_fair_prob": 0.5138,
+      "at": "2026-10-04T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0066,
+     "clv": 0.0066,
+     "pin_clv": -0.0145
     },
     {
      "label": "Chiefs-Raiders Under 47.5",
@@ -337,7 +368,17 @@
      "side": "Under",
      "point": 42.5,
      "price": 102,
-     "why": "combined_edge -0.017 vs Pinnacle (43, fair 49.8%). Rule B, news not priced: rain building 56-66% from Q2. Own estimate 51.0%."
+     "why": "combined_edge -0.017 vs Pinnacle (43, fair 49.8%). Rule B, news not priced: rain building 56-66% from Q2. Own estimate 51.0%.",
+     "close": {
+      "point": 42.5,
+      "price": 100,
+      "pin_fair_prob": 0.5092,
+      "at": "2026-10-04T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.005,
+     "clv": 0.005,
+     "pin_clv": 0.0142
     },
     {
      "label": "Patriots +7",
@@ -350,9 +391,20 @@
      "side": "New England Patriots",
      "point": 7.0,
      "price": -115,
-     "why": "combined_edge -0.009 vs Pinnacle (Pin +7 -111, fair 52.6%). Rule B, own estimate 54.0%."
+     "why": "combined_edge -0.009 vs Pinnacle (Pin +7 -111, fair 52.6%). Rule B, own estimate 54.0%.",
+     "close": {
+      "point": 7.0,
+      "price": -110,
+      "pin_fair_prob": 0.5196,
+      "at": "2026-10-04T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0111,
+     "clv": -0.0111,
+     "pin_clv": -0.0153
     }
-   ]
+   ],
+   "clv": -0.0031
   }
  ],
  "watch": [
@@ -499,8 +551,8 @@
     "net": 5.0
    }
   ],
-  "clv_week": 0.0,
-  "clv_season": 0.0065
+  "clv_week": 0.0049,
+  "clv_season": 0.0063
  },
- "clv_updated_at": "2026-10-02T00:13Z"
+ "clv_updated_at": "2026-10-04T16:55Z"
 }
