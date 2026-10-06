@@ -1,517 +1,150 @@
 {
- "week": 4,
- "title": "Week 4",
+ "week": 5,
+ "title": "Week 5",
  "year": "2026",
- "built_at": "2026-10-05T21:05:00Z",
- "lines_verified_at": "2026-10-05T21:05:00Z",
+ "built_at": "2026-10-06T21:04:58Z",
+ "lines_verified_at": "2026-10-06T21:04:58Z",
  "verification": "verified",
- "verification_note": "Monday card on DraftKings' own numbers via The Odds API at 21:03 UTC 2026-10-05 (461 requests left). Sunday graded: 1 win, 4 losses, 1 push (Bucs +3 landed on 3). Monday $15 is one Falcons ML single; nothing else on the game clears Rule B.",
+ "verification_note": "Tuesday early card on DraftKings' own numbers via The Odds API at 21:03 UTC 2026-10-06 (449 requests left). Opening snapshot saved as lines/open-week-05.json. Week 4 graded: +$15.30 on Falcons ML (Falcons 45-24). Only Rule A side is Bucs +8.5, held back by the 30 percent per-game cap, so no early ticket.",
  "budget": {
   "total": 100,
   "thursday": 15,
   "sunday": 70,
   "monday": 15
  },
- "tickets": [
-  {
-   "id": "wk4-early-1",
-   "type": "single",
-   "day": "sunday",
-   "name": "Dolphins ML",
-   "game": "Dolphins at Vikings",
-   "kickoff": "Sun 4:05 PM",
-   "stake": 10,
-   "price": "+500",
-   "payout": 60.0,
-   "estimate": 17.5,
-   "breakeven": 16.7,
-   "why": "Rule A: combined_edge +0.019, the only side on the 16-game board that clears +0.015. Why now: Justin Jefferson (ankle) is listed questionable for Minnesota and search reports are mixed, so the injury question is on the Vikings side. If he is ruled out, or Miami money-line buyers show up, the +500 shortens toward Pinnacle's +416. Miami (Malik Willis, Achane out for the year, 0-3, no more than 13 points in any game) is the weakest team on the board, so my estimate is 17.5%, 1 point under Pinnacle's 18.5% and 0.8 over the 16.7% breakeven. Thin, and I am saying so. This is a price play, not a story play.",
-   "kill_switch": "Do not place if DK's Dolphins ML is shorter than +450 (breakeven 18.2% is above my 17.5% estimate). If already placed, keep it; the ticket is a $10 lottery-priced single and nothing news-wise turns it into a sure loser except Willis being ruled out for a worse QB, in which case there is no way to cancel and Sunday's card should not add more Miami exposure.",
-   "result": "loss",
-   "net": -10.0,
-   "placed": true,
-   "early": true,
-   "promo": null,
-   "legs": [
-    {
-     "label": "Dolphins ML",
-     "pick": "Miami Dolphins ML",
-     "game": "Miami Dolphins at Minnesota Vikings",
-     "away": "Miami Dolphins",
-     "home": "Minnesota Vikings",
-     "commence_time": "2026-10-04T20:05:00Z",
-     "market": "h2h",
-     "side": "Miami Dolphins",
-     "point": null,
-     "price": 500,
-     "why": "combined_edge +0.019 vs Pinnacle (DK +500 = 16.7% vs Pinnacle fair 18.5%, +439). Rule A."
-    }
-   ]
-  },
-  {
-   "id": "wk4-thu-1",
-   "type": "single",
-   "day": "thursday",
-   "name": "Browns +2.5",
-   "game": "Steelers at Browns",
-   "kickoff": "Thu 8:15 PM",
-   "stake": 10,
-   "price": "+100",
-   "payout": 20.0,
-   "estimate": 51.5,
-   "breakeven": 50.0,
-   "placed": true,
-   "early": false,
-   "promo": "Profit Boost",
-   "result": "win",
-   "net": 10.0,
-   "why": "Rule B: combined_edge +0.011 (Pinnacle Browns +3 -113, fair 53.1%; DK gives +2.5 at +100). My estimate 51.5%, above DK's 50.0% and within 6 points of Pinnacle. Browns lose two starting linemen (Elgton Jenkins, Teven Jenkins out), so this is thin; Steelers lose Dowdle and Porter Jr. Short-week road favorite laying -2.5 at -120 is the worst-priced side on the card (Steelers -2.5 combined_edge -0.056), which makes the dog the better side of the market's own number.",
-   "kill_switch": "Do not place if DK's Browns number is +2 or worse, or +2.5 shorter than -110 (breakeven 52.4% is above my 51.5%). If already placed, keep it. If the 6:45 PM inactives show the Browns QB out, treat as a loss-risk but there is no cancel, so keep the $10 and do not add. Freed money, if skipped: the $10 goes to Browns +3 at -115 or better, otherwise to the Under 38.5 ticket.",
-   "legs": [
-    {
-     "label": "Browns +2.5",
-     "pick": "Cleveland Browns +2.5",
-     "game": "Pittsburgh Steelers at Cleveland Browns",
-     "away": "Pittsburgh Steelers",
-     "home": "Cleveland Browns",
-     "commence_time": "2026-10-02T00:15:00Z",
-     "market": "spreads",
-     "side": "Cleveland Browns",
-     "point": 2.5,
-     "price": 100,
-     "why": "combined_edge +0.011 vs Pinnacle (DK +100 = 50.0%, Pinnacle fair 53.1% at +3). Rule B.",
-     "close": {
-      "point": 2.5,
-      "price": 100,
-      "pin_fair_prob": 0.5093,
-      "at": "2026-10-02T00:13Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": 0.0093
-    }
-   ],
-   "clv": 0.0
-  },
-  {
-   "id": "wk4-thu-2",
-   "type": "single",
-   "day": "thursday",
-   "name": "Under 38.5",
-   "game": "Steelers at Browns",
-   "kickoff": "Thu 8:15 PM",
-   "stake": 5,
-   "price": "-115",
-   "payout": 9.35,
-   "estimate": 54.0,
-   "breakeven": 53.5,
-   "placed": true,
-   "early": false,
-   "promo": null,
-   "result": "loss",
-   "net": -5.0,
-   "why": "Rule B: combined_edge -0.004 (Pinnacle total 37.5, Under fair 49.1% there; DK's 38.5 is a point higher, worth about 4 points). My estimate 54.0% vs 53.5% breakeven, 0.5 over, thin. Short-week unders, both offenses missing starters (Browns OL, Steelers RB), 38.5 is already the lowest total on the board. Dog plus under pairing with the Browns ticket; kept as two straights because no leg may sit in two tickets and a DK SGP reprice would eat the thin edge.",
-   "kill_switch": "Do not place if DK's total is 37.5 or lower, or Under 38.5 is worse than -120 (breakeven 54.5% is above my 54.0%). If already placed, keep it. Freed $5 goes to Browns +2.5 only if still +100 or better, otherwise Under 38 at -110 or better.",
-   "legs": [
-    {
-     "label": "Under 38.5",
-     "pick": "Under 38.5",
-     "game": "Pittsburgh Steelers at Cleveland Browns",
-     "away": "Pittsburgh Steelers",
-     "home": "Cleveland Browns",
-     "commence_time": "2026-10-02T00:15:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 38.5,
-     "price": -115,
-     "why": "combined_edge -0.004 vs Pinnacle (DK -115 = 53.5%; Pinnacle Under 37.5 fair 49.1%, one point lower). Rule B with own estimate 54.0%.",
-     "close": {
-      "point": 38.5,
-      "price": -115,
-      "pin_fair_prob": 0.4908,
-      "at": "2026-10-02T00:13Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": -0.0441
-    }
-   ],
-   "clv": 0.0
-  },
-  {
-   "id": "wk4-sun-1",
-   "type": "single",
-   "day": "sunday",
-   "name": "49ers -3",
-   "game": "Broncos at 49ers",
-   "kickoff": "Sun 4:25 PM",
-   "stake": 15,
-   "price": "-105",
-   "payout": 29.29,
-   "estimate": 53.0,
-   "breakeven": 51.2,
-   "why": "Rule B: combined_edge +0.006 (Pinnacle 49ers -2.5 -116, fair 53.8%; DK gives the full -3 at -105). My estimate 53.0%, above DK's 51.2% and 0.8 under Pinnacle. Best-priced side on the whole board. Broncos lose OLB Tillman; 49ers defense is thin (3 out, Evans/Greenlaw questionable), so this is a price play, not a lock. Total moved up to 48.5, which helps the favorite's scoring path.",
-   "kill_switch": "Do not place if DK is -3.5, or -3 worse than -115 (breakeven 53.5% is above my 53.0%). If 49ers inactives show Evans AND Greenlaw out, cut to $10. Freed money goes to Chargers +7 single if -110 or better, else Bucs +3.",
-   "result": "win",
-   "net": 14.29,
-   "placed": true,
-   "early": false,
-   "promo": null,
-   "legs": [
-    {
-     "label": "49ers -3",
-     "pick": "San Francisco 49ers -3",
-     "game": "Denver Broncos at San Francisco 49ers",
-     "away": "Denver Broncos",
-     "home": "San Francisco 49ers",
-     "commence_time": "2026-10-04T20:25:00Z",
-     "market": "spreads",
-     "side": "San Francisco 49ers",
-     "point": -3.0,
-     "price": -105,
-     "why": "combined_edge +0.006 vs Pinnacle (DK -105 = 51.2%, Pin -2.5 fair 53.8%). Rule B.",
-     "close": {
-      "point": -3.0,
-      "price": -105,
-      "pin_fair_prob": 0.5046,
-      "at": "2026-10-04T20:21Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": -0.0076
-    }
-   ],
-   "clv": 0.0
-  },
-  {
-   "id": "wk4-sun-2",
-   "type": "single",
-   "day": "sunday",
-   "name": "Buccaneers +3",
-   "game": "Packers at Buccaneers",
-   "kickoff": "Sun 1:00 PM",
-   "stake": 15,
-   "price": "-105",
-   "payout": 29.29,
-   "estimate": 52.5,
-   "breakeven": 51.2,
-   "why": "Rule B: combined_edge +0.005 (Pinnacle Bucs +3 -107, fair 51.7%). My estimate 52.5%, above DK's 51.2%. Mayfield (thumb) is out and rookie Jalon Daniels makes his first start, but that is already in the number (spread moved from 3.5 to 3, Pinnacle +4 to +3 is the market overreacting the other way). A 38.5 total, 89F heat, and a Packers team missing two guards means few possessions, and a dog +3 in a low-total game keeps the key number. Public leans on the road favorite. Thin, and I am saying so.",
-   "kill_switch": "Do not place if DK is +2.5 or worse, or +3 worse than -115. If 1:00 PM inactives show Daniels out too, skip and move the $15 to 49ers -3 (if still -105/-110) or Chargers +7. Profit Boost goes here.",
-   "result": "push",
-   "net": 0.0,
-   "placed": true,
-   "early": false,
-   "promo": "Profit Boost",
-   "legs": [
-    {
-     "label": "Buccaneers +3",
-     "pick": "Tampa Bay Buccaneers +3",
-     "game": "Green Bay Packers at Tampa Bay Buccaneers",
-     "away": "Green Bay Packers",
-     "home": "Tampa Bay Buccaneers",
-     "commence_time": "2026-10-04T17:00:00Z",
-     "market": "spreads",
-     "side": "Tampa Bay Buccaneers",
-     "point": 3.0,
-     "price": -105,
-     "why": "combined_edge +0.005 vs Pinnacle (DK -105 = 51.2%, Pin +3 fair 51.7%). Rule B.",
-     "close": {
-      "point": 3.0,
-      "price": -115,
-      "pin_fair_prob": 0.5379,
-      "at": "2026-10-04T16:55Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0227,
-     "clv": 0.0227,
-     "pin_clv": 0.0257
-    }
-   ],
-   "clv": 0.0227
-  },
-  {
-   "id": "wk4-sun-3",
-   "type": "parlay",
-   "day": "sunday",
-   "name": "Dogs: Chargers +7 / Eagles +3.5",
-   "game": "Chargers at Seahawks + Rams at Eagles",
-   "kickoff": "Sun 1:00 PM + 4:25 PM",
-   "stake": 10,
-   "price": "+276",
-   "payout": 37.6,
-   "estimate": 27.3,
-   "breakeven": 26.6,
-   "why": "Two dog legs, both Rule B. Chargers +7 (-108): combined_edge -0.009, Pin fair 53.1% at +7.5, my estimate 52.5% vs 51.9% implied; the key number 7 is ours. Eagles +3.5 (-105): combined_edge -0.003, Pin fair 50.9%, my estimate 52.0% vs 51.2% implied; hook on 3, home dog, steady rain building to 56-66% in the second half compresses the favorite's margin. Joint 27.3% vs 26.6% breakeven. Thin.",
-   "kill_switch": "Kill a leg if Chargers +6.5 or worse, or Eagles +3 or worse. A killed leg is replaced by Cowboys +3 (-115 or better) or Jets +3.5 (-110 or better); if neither is there, move the $10 to Chargers +7 single.",
-   "result": "loss",
-   "net": -10.0,
-   "placed": true,
-   "early": false,
-   "promo": null,
-   "legs": [
-    {
-     "label": "Chargers +7",
-     "pick": "Los Angeles Chargers +7",
-     "game": "Los Angeles Chargers at Seattle Seahawks",
-     "away": "Los Angeles Chargers",
-     "home": "Seattle Seahawks",
-     "commence_time": "2026-10-04T20:25:00Z",
-     "market": "spreads",
-     "side": "Los Angeles Chargers",
-     "point": 7.0,
-     "price": -108,
-     "why": "combined_edge -0.009 vs Pinnacle (Pin +7.5). Rule B, own estimate 52.5%.",
-     "close": {
-      "point": 7.0,
-      "price": -115,
-      "pin_fair_prob": 0.544,
-      "at": "2026-10-04T20:21Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0157,
-     "clv": 0.0157,
-     "pin_clv": 0.0248
-    },
-    {
-     "label": "Eagles +3.5",
-     "pick": "Philadelphia Eagles +3.5",
-     "game": "Los Angeles Rams at Philadelphia Eagles",
-     "away": "Los Angeles Rams",
-     "home": "Philadelphia Eagles",
-     "commence_time": "2026-10-04T17:00:00Z",
-     "market": "spreads",
-     "side": "Philadelphia Eagles",
-     "point": 3.5,
-     "price": -105,
-     "why": "combined_edge -0.003 vs Pinnacle (Pin +3.5 -104). Rule B, own estimate 52.0%, rain.",
-     "close": {
-      "point": 3.5,
-      "price": -105,
-      "pin_fair_prob": 0.507,
-      "at": "2026-10-04T16:55Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0,
-     "clv": 0.0,
-     "pin_clv": -0.0052
-    }
-   ],
-   "clv": 0.0078
-  },
-  {
-   "id": "wk4-sun-4",
-   "type": "parlay",
-   "day": "sunday",
-   "name": "Unders: Cardinals-Giants / Chiefs-Raiders",
-   "game": "Cardinals at Giants + Chiefs at Raiders",
-   "kickoff": "Sun 1:00 PM + 4:25 PM",
-   "stake": 10,
-   "price": "+270",
-   "payout": 36.96,
-   "estimate": 27.8,
-   "breakeven": 27.1,
-   "why": "Two unders, both Rule B. Cardinals at Giants Under 44.5 (-112): combined_edge -0.011; Giants on Winston after Dart's season-ending injury, my estimate 53.5% vs 52.8% implied, Pin fair 51.7%. Chiefs at Raiders Under 47.5 (-105): combined_edge -0.018; domed so no weather help, my estimate 52.0% vs 51.2% implied, Pin fair 51.4% at 48. Joint 27.8% vs 27.1% breakeven. The thinnest ticket on the card.",
-   "kill_switch": "Kill a leg if Giants total goes 43.5 or lower, or Raiders total 46.5 or lower (we would be buying the number after it already fell). Freed $10 goes to 49ers -3 single if still -105/-110, else Chargers +7 single.",
-   "result": "loss",
-   "net": -10.0,
-   "placed": true,
-   "early": false,
-   "promo": null,
-   "legs": [
-    {
-     "label": "Cardinals-Giants Under 44.5",
-     "pick": "Under 44.5",
-     "game": "Arizona Cardinals at New York Giants",
-     "away": "Arizona Cardinals",
-     "home": "New York Giants",
-     "commence_time": "2026-10-04T17:00:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 44.5,
-     "price": -112,
-     "why": "combined_edge -0.011 vs Pinnacle (44.5 -114, fair 51.7%). Rule B, own estimate 53.5%.",
-     "close": {
-      "point": 44.5,
-      "price": -115,
-      "pin_fair_prob": 0.5138,
-      "at": "2026-10-04T16:55Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0066,
-     "clv": 0.0066,
-     "pin_clv": -0.0145
-    },
-    {
-     "label": "Chiefs-Raiders Under 47.5",
-     "pick": "Under 47.5",
-     "game": "Kansas City Chiefs at Las Vegas Raiders",
-     "away": "Kansas City Chiefs",
-     "home": "Las Vegas Raiders",
-     "commence_time": "2026-10-04T20:25:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 47.5,
-     "price": -105,
-     "why": "combined_edge -0.018 vs Pinnacle (48, fair 51.4%). Rule B, own estimate 52.0%.",
-     "close": {
-      "point": 46.5,
-      "price": -102,
-      "pin_fair_prob": 0.4931,
-      "at": "2026-10-04T20:21Z"
-     },
-     "point_clv": 1.0,
-     "price_clv": -0.0072,
-     "clv": 0.0328,
-     "pin_clv": -0.0191
-    }
-   ],
-   "clv": 0.0197
-  },
-  {
-   "id": "wk4-sun-5",
-   "type": "parlay",
-   "day": "sunday",
-   "name": "Rain Under + Patriots +7",
-   "game": "Rams at Eagles + Patriots at Bills",
-   "kickoff": "Sun 1:00 PM",
-   "stake": 10,
-   "price": "+278",
-   "payout": 37.77,
-   "estimate": 27.5,
-   "breakeven": 26.7,
-   "why": "Rule B on both. Rams at Eagles Under 42.5 (+102): combined_edge -0.017, Pin 43 fair 49.8%; Philadelphia rain starts at 32% at kickoff and builds to 56-66% from the second quarter, wind under 5 mph, and DK's 42.5 is 0.5 under Pin so I am not claiming an edge on the number, only that rain is the half-point Pinnacle's snapshot may under-weight; my estimate 51.0% vs 49.5% implied. Patriots +7 (-115): combined_edge -0.009, Pin +7 fair 52.6%, my estimate 54.0% vs 53.5% implied; Allen (knee) is not on the injury report so I am not fading him, I am taking the key number 7 on the side the public avoids. Joint 27.5% vs 26.7% breakeven. This pairs with the Eagles +3.5 leg in the dogs parlay: one dog plus under pair in the Rams game, nothing more. No Sweat token goes here (longest parlay).",
-   "kill_switch": "Kill the Under if DK moves to 41.5 or the rain forecast clears at kickoff; kill Patriots if +6.5 or worse. Replace with Jets +3.5 (-110 or better) or Dolphins +10 (-110 or better). If neither, move the $10 to Chargers +7 single.",
-   "result": "loss",
-   "net": -10.0,
-   "placed": true,
-   "early": false,
-   "promo": "No Sweat",
-   "legs": [
-    {
-     "label": "Rams-Eagles Under 42.5",
-     "pick": "Under 42.5",
-     "game": "Los Angeles Rams at Philadelphia Eagles",
-     "away": "Los Angeles Rams",
-     "home": "Philadelphia Eagles",
-     "commence_time": "2026-10-04T17:00:00Z",
-     "market": "totals",
-     "side": "Under",
-     "point": 42.5,
-     "price": 102,
-     "why": "combined_edge -0.017 vs Pinnacle (43, fair 49.8%). Rule B, news not priced: rain building 56-66% from Q2. Own estimate 51.0%.",
-     "close": {
-      "point": 42.5,
-      "price": 100,
-      "pin_fair_prob": 0.5092,
-      "at": "2026-10-04T16:55Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.005,
-     "clv": 0.005,
-     "pin_clv": 0.0142
-    },
-    {
-     "label": "Patriots +7",
-     "pick": "New England Patriots +7",
-     "game": "New England Patriots at Buffalo Bills",
-     "away": "New England Patriots",
-     "home": "Buffalo Bills",
-     "commence_time": "2026-10-04T17:00:00Z",
-     "market": "spreads",
-     "side": "New England Patriots",
-     "point": 7.0,
-     "price": -115,
-     "why": "combined_edge -0.009 vs Pinnacle (Pin +7 -111, fair 52.6%). Rule B, own estimate 54.0%.",
-     "close": {
-      "point": 7.0,
-      "price": -110,
-      "pin_fair_prob": 0.5196,
-      "at": "2026-10-04T16:55Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": -0.0111,
-     "clv": -0.0111,
-     "pin_clv": -0.0153
-    }
-   ],
-   "clv": -0.0031
-  },
-  {
-   "id": "wk4-mon-1",
-   "type": "single",
-   "day": "monday",
-   "name": "Falcons ML",
-   "game": "Falcons at Saints",
-   "kickoff": "Mon 8:15 PM",
-   "stake": 15,
-   "price": "+102",
-   "payout": 30.3,
-   "estimate": 50.0,
-   "breakeven": 49.5,
-   "why": "Rule B: combined_edge -0.021 (DK +102 = 49.5%; Pinnacle fair 47.4% at +106). My estimate 50.0%, 0.5 over DK's breakeven and 2.6 over Pinnacle, inside the 6-point band. Reason Pinnacle may be slow: the market already moved Saints -3 to -1.5 and Pinnacle's ML sits at +106, but Saints are missing three linebackers (Elliss, Granderson, Jennings out) and Atlanta has extra rest with Penix back. Moneyline carries less hold than the -112 spread and has no hook risk. The Falcons spread and both totals fail Rule B (Under 47.5 is half a point worse than Pinnacle 48; Over -118 is -0.028). Honest read: a coin flip with a sliver of edge. Only leg on the board that qualifies, so the full $15 goes here instead of a $10/$5 split.",
-   "kill_switch": "Do not place if DK's Falcons ML is +95 or shorter (breakeven 51.3% is above my 50.0%), or if the 6:45 PM inactives show Penix out. If already placed and Penix is a late scratch, there is no cancel: keep the $15 and add nothing. Freed money, if skipped: keep it unspent rather than force a negative-edge leg, and tell Luke.",
-   "placed": false,
-   "early": false,
-   "promo": "Profit Boost",
-   "result": null,
-   "net": null,
-   "legs": [
-    {
-     "label": "Falcons ML",
-     "pick": "Atlanta Falcons ML",
-     "game": "Atlanta Falcons at New Orleans Saints",
-     "away": "Atlanta Falcons",
-     "home": "New Orleans Saints",
-     "commence_time": "2026-10-06T00:15:00Z",
-     "market": "h2h",
-     "side": "Atlanta Falcons",
-     "point": null,
-     "price": 102,
-     "why": "combined_edge -0.021 vs Pinnacle (DK +102 = 49.5%, Pin fair 47.4%). Rule B, own estimate 50.0%.",
-     "close": {
-      "point": null,
-      "price": -102,
-      "pin_fair_prob": 0.4884,
-      "at": "2026-10-06T00:15Z"
-     },
-     "point_clv": 0.0,
-     "price_clv": 0.0099,
-     "clv": 0.0099,
-     "pin_clv": -0.0066
-    }
-   ],
-   "clv": 0.0099
-  }
- ],
+ "tickets": [],
  "watch": [
-  "Inactives post 6:45 PM ET. Check Penix (Falcons QB), Saints LBs Werner (questionable), Fant (TE questionable), Falcons Deablo, Ebukam, Abdullah.",
-  "Falcons ML +102: skip at +95 or shorter. Profit Boost and Odds boost status UNVERIFIED, confirm in the Promos tab.",
-  "No game-market odds boost found for tonight, none added."
+  "Packers +3.5 at -115 or better (DK now Bears -3 -102 / Packers +3 -118). Pin Bears -2.5. Take only if DK moves to 3.5 on Bears QB news or Bears money. Check the Bears' QB (Williams out, Bagent headline unverified).",
+  "Lions -4.5 at -110 or better, take only if it holds there Sunday (now -105, Rule B, combined +0.008). Pin is -5, so skip if DK goes to -5.5 on Lions money.",
+  "Vikings-Saints Under 43.5 at -110 or better (now Under 42.5, combined +0.003, Pin 42). Take only if the total rises a point on public Over action.",
+  "Bucs +9.5 at -110 or better for Thursday, if the Cowboys move through 9 (a reported 9.5 elsewhere is UNVERIFIED, DK is 8.5). Bucs +8.5 -108 is Rule A (+0.017) but $10 breaks the 30 percent cap on Thursday's $15.",
+  "News that creates a Sunday edge: a posted Bears QB change, Chase/Bengals WR status, Lamar Jackson status for Ravens at Falcons, Mayfield thumb timeline, wind at the 1 PM outdoor games (forecast not found, check Saturday)."
  ],
  "board": [
   {
-   "kickoff": "Mon 10/05 08:15 PM",
-   "game": "Falcons at Saints",
-   "spread": "Saints -1.5 (-108)",
-   "total": "47.5 (O -118 / U -102)",
-   "ml": "Falcons +102 / Saints -122",
-   "read": "Pin Saints -1.5, total 48. Every side is combined_edge -0.018 to -0.028. Falcons ML +102 only on Rule B with a 50.0% estimate."
-  },
-  {
    "kickoff": "Thu 10/08 08:15 PM",
    "game": "Buccaneers at Cowboys",
-   "spread": "Cowboys -9.5 (-115)",
-   "total": "47.5 (O -110 / U -110)",
-   "ml": "Buccaneers +380 / Cowboys -500",
-   "read": "PRELIMINARY. Bucs +9.5 -0.014 vs Pin +10."
+   "spread": "Cowboys -8.5 (-112)",
+   "total": "47.5 (O -115 / U -105)",
+   "ml": "Buccaneers +350 / Cowboys -455",
+   "read": "Pin Cowboys -8, total 47.5. TB +8.5 is Rule A (+0.017). Mayfield (thumb) reported out 3+ games with a backup starting, but Pinnacle's -8 already prices it. My number: Cowboys -8.5 / 47.5. Held back by the 30 percent cap."
+  },
+  {
+   "kickoff": "Sun 10/11 09:30 AM",
+   "game": "Eagles at Jaguars",
+   "spread": "Jaguars -7 (-110)",
+   "total": "42.5 (O -105 / U -115)",
+   "ml": "Eagles +260 / Jaguars -325",
+   "read": "Pin Jags -7.5, DK -7. Under 42.5 -0.009. My number: Jags -7.5. Jags -7 is a half point better than Pin but the edge is -0.004. Pass for now."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Bears at Packers",
+   "spread": "Bears -3 (-102)",
+   "total": "45.5 (O -108 / U -112)",
+   "ml": "Bears -148 / Packers +124",
+   "read": "Pin Bears -2.5 / 46, DK Bears -3 (-102). Caleb Williams out with a hamstring (reported), Bagent headline unverified. My number: Bears -2.5. Watch Packers +3.5."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Bengals at Dolphins",
+   "spread": "Bengals -7 (-115)",
+   "total": "42.5 (O -110 / U -110)",
+   "ml": "Bengals -355 / Dolphins +280",
+   "read": "Pin Bengals -7 / 42.5, same as DK. Nothing here, no edge either side."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Browns at Jets",
+   "spread": "Jets -2.5 (-108)",
+   "total": "39.5 (O -118 / U -102)",
+   "ml": "Browns +110 / Jets -130",
+   "read": "Pin Jets -1.5 / 40, DK Jets -2.5. Browns +2.5 is a point better than Pin but -0.004 on price. My number: Jets -2 / 39.5. Pass."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Texans at Titans",
+   "spread": "Texans -7.5 (-105)",
+   "total": "38.5 (O -110 / U -110)",
+   "ml": "Texans -375 / Titans +295",
+   "read": "Pin Texans -7 / 38.5, DK -7.5. Titans +7.5 is thin (-0.000 on ML, spread side fails). My number: Texans -7.5. Pass."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Colts at Steelers",
+   "spread": "Steelers -2.5 (-115)",
+   "total": "44.5 (O -112 / U -108)",
+   "ml": "Colts +120 / Steelers -142",
+   "read": "Pin and DK agree, Steelers -2.5 / 44.5. No edge."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Raiders at Patriots",
+   "spread": "Patriots -3.5 (-110)",
+   "total": "45.5 (O -105 / U -115)",
+   "ml": "Raiders +160 / Patriots -192",
+   "read": "Pin Pats -3.5 / 45, DK 45.5. Under 45.5 -0.017. My number: Pats -3.5 / 45. Pass."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Vikings at Saints",
+   "spread": "Vikings -1.5 (-115)",
+   "total": "42.5 (O -110 / U -110)",
+   "ml": "Vikings -130 / Saints +110",
+   "read": "Pin Vikings -2 / 42, DK -1.5 / 42.5. Under 42.5 is +0.003, the best total on the board but Rule B only. My number: Vikings -2 / 42. Watch 43.5."
+  },
+  {
+   "kickoff": "Sun 10/11 01:00 PM",
+   "game": "Giants at Commanders",
+   "spread": "Commanders -3.5 (-105)",
+   "total": "43.5 (O -108 / U -112)",
+   "ml": "Giants +145 / Commanders -175",
+   "read": "Pin Commanders -3.5 / 44, DK 43.5. Over 43.5 not graded as edge. My number: Commanders -3.5 / 43.5. No edge."
+  },
+  {
+   "kickoff": "Sun 10/11 04:05 PM",
+   "game": "Broncos at Chargers",
+   "spread": "Broncos -3.5 (-110)",
+   "total": "42.5 (O -110 / U -110)",
+   "ml": "Broncos -185 / Chargers +154",
+   "read": "Pin and DK agree, Broncos -3.5 / 42.5. On the 3.5, not a key number. No edge."
+  },
+  {
+   "kickoff": "Sun 10/11 04:25 PM",
+   "game": "Lions at Cardinals",
+   "spread": "Lions -4.5 (-105)",
+   "total": "54.5 (O -112 / U -108)",
+   "ml": "Lions -218 / Cardinals +180",
+   "read": "Pin Lions -5 / 54.5, DK -4.5 (-105). Lions -4.5 is +0.008 (Rule B). Expect public on Lions, line likely to -5.5 by Sunday. My number: Lions -5. Watch."
+  },
+  {
+   "kickoff": "Sun 10/11 04:25 PM",
+   "game": "49ers at Seahawks",
+   "spread": "Seahawks -2.5 (-120)",
+   "total": "46.5 (O -115 / U -105)",
+   "ml": "49ers +130 / Seahawks -155",
+   "read": "Pin Seahawks -3 / 47, DK -2.5 (+100 49ers). 49ers +2.5 is -0.005 and misses the 3. My number: Seahawks -3. Pass."
+  },
+  {
+   "kickoff": "Sun 10/11 08:20 PM",
+   "game": "Ravens at Falcons",
+   "spread": "Falcons -3.5 (-105)",
+   "total": "43.5 (O -115 / U -105)",
+   "ml": "Ravens +154 / Falcons -185",
+   "read": "Pin Falcons -3 / 44, DK -3.5. Falcons are the public side after a 45-24 Monday win. My number: Falcons -3.5 / 43.5. Ravens +3.5 -0.009. Pass."
+  },
+  {
+   "kickoff": "Mon 10/12 08:15 PM",
+   "game": "Bills at Rams",
+   "spread": "Rams -2.5 (-120)",
+   "total": "54.5 (O -115 / U -105)",
+   "ml": "Bills +130 / Rams -155",
+   "read": "Pin Rams -3 / 54.5, DK -2.5 (-120). Bills +2.5 (+100) -0.005 and sits off the 3. My number: Rams -3 / 54.5. Under 54.5 is +0.001. Pass."
   }
  ],
  "season": {
-  "record": "13-24",
-  "net": -4.97,
+  "record": "14-24",
+  "net": 20.33,
   "weeks": [
    {
     "week": 1,
@@ -527,7 +160,7 @@
    },
    {
     "week": 4,
-    "net": -30.71
+    "net": -5.41
    }
   ],
   "clv_week": 0.0071,
