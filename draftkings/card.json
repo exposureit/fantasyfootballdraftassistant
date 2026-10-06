@@ -470,9 +470,20 @@
      "side": "Atlanta Falcons",
      "point": null,
      "price": 102,
-     "why": "combined_edge -0.021 vs Pinnacle (DK +102 = 49.5%, Pin fair 47.4%). Rule B, own estimate 50.0%."
+     "why": "combined_edge -0.021 vs Pinnacle (DK +102 = 49.5%, Pin fair 47.4%). Rule B, own estimate 50.0%.",
+     "close": {
+      "point": null,
+      "price": -102,
+      "pin_fair_prob": 0.4884,
+      "at": "2026-10-06T00:15Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0099,
+     "clv": 0.0099,
+     "pin_clv": -0.0066
     }
-   ]
+   ],
+   "clv": 0.0099
   }
  ],
  "watch": [
@@ -519,8 +530,8 @@
     "net": -30.71
    }
   ],
-  "clv_week": 0.0067,
+  "clv_week": 0.0071,
   "clv_season": 0.0069
  },
- "clv_updated_at": "2026-10-04T20:21Z"
+ "clv_updated_at": "2026-10-06T00:15Z"
 }

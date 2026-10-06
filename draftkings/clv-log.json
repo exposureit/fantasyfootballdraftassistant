@@ -862,5 +862,21 @@
   "clv": 0.0328,
   "pin_clv": -0.0191,
   "at": "2026-10-04T20:21Z"
+ },
+ {
+  "week": 4,
+  "ticket": "wk4-mon-1",
+  "label": "Falcons ML",
+  "market": "h2h",
+  "side": "Atlanta Falcons",
+  "bet_point": null,
+  "bet_price": 102,
+  "close_point": null,
+  "close_price": -102,
+  "point_clv": 0.0,
+  "price_clv": 0.0099,
+  "clv": 0.0099,
+  "pin_clv": -0.0066,
+  "at": "2026-10-06T00:15Z"
  }
 ]
