@@ -2,144 +2,223 @@
  "week": 5,
  "title": "Week 5",
  "year": "2026",
- "built_at": "2026-10-06T21:04:58Z",
- "lines_verified_at": "2026-10-06T21:04:58Z",
+ "built_at": "2026-10-08T21:30:00Z",
+ "lines_verified_at": "2026-10-08T21:30:00Z",
  "verification": "verified",
- "verification_note": "Tuesday early card on DraftKings' own numbers via The Odds API at 21:03 UTC 2026-10-06 (449 requests left). Opening snapshot saved as lines/open-week-05.json. Week 4 graded: +$15.30 on Falcons ML (Falcons 45-24). Only Rule A side is Bucs +8.5, held back by the 30 percent per-game cap, so no early ticket.",
+ "verification_note": "Thursday card on DraftKings' own numbers via The Odds API at 21:13 UTC 2026-10-08 (446 requests left). Mayfield (thumb) status and any final Thursday injury report are UNVERIFIED, search only. Thursday's single-game day cannot meet the 30 percent per-game cap, assumed waived to spend the full $15. No odds boost found.",
  "budget": {
   "total": 100,
   "thursday": 15,
   "sunday": 70,
   "monday": 15
  },
- "tickets": [],
+ "tickets": [
+  {
+   "id": "w5-thu-1",
+   "type": "single",
+   "day": "thursday",
+   "name": "Core: Bucs +9.5",
+   "game": "Buccaneers at Cowboys",
+   "kickoff": "Thu 10/08 08:15 PM",
+   "stake": 10.0,
+   "price": -112,
+   "payout": 18.93,
+   "estimate": 0.53,
+   "breakeven": 0.528,
+   "placed": true,
+   "promo": "Profit Boost",
+   "legs": [
+    {
+     "label": "Buccaneers +9.5 (-112), combined_edge +0.002",
+     "pick": "Tampa Bay Buccaneers +9.5",
+     "game": "Tampa Bay Buccaneers at Dallas Cowboys",
+     "away": "Tampa Bay Buccaneers",
+     "home": "Dallas Cowboys",
+     "commence_time": "2026-10-09T00:15:00Z",
+     "market": "spreads",
+     "side": "Tampa Bay Buccaneers",
+     "point": 9.5,
+     "price": -112,
+     "why": "DK gives a full point more than Pinnacle (+8.5), through 9. Road dog on a short week against a 9.5-point prime time favorite (big favorites cover under 50 percent). Rule B: own 53.0% vs DK 52.8%, Pin fair 49.1% at +8.5 (within 6)."
+    }
+   ],
+   "why": "Rule B leg, thin but real: the extra point past 8.5 is worth about 2.5 points of cover probability, and Dallas is the public prime time side. Honest read: price edge is near zero, this is mostly spending the required Thursday money on the least bad number.",
+   "kill_switch": "Kill if DK moves to +8.5 or shorter before you place, or if Prescott is a surprise inactive (then keep it, the line would move to Bucs money, check). If Mayfield is confirmed active and DK is still +9.5, cut to $5. Freed $5 goes to the parlay (ticket 2) as a straight on Under 48.5. If already placed, keep it."
+  },
+  {
+   "id": "w5-thu-2",
+   "type": "parlay",
+   "day": "thursday",
+   "name": "Parlay: Under 48.5 + Packers +2.5",
+   "game": "Buccaneers at Cowboys / Bears at Packers",
+   "kickoff": "Thu 10/08 08:15 PM",
+   "stake": 5.0,
+   "price": 270,
+   "payout": 18.51,
+   "estimate": 0.284,
+   "breakeven": 0.27,
+   "placed": true,
+   "promo": "No Sweat",
+   "legs": [
+    {
+     "label": "Under 48.5 (-102), combined_edge -0.005",
+     "pick": "Under 48.5",
+     "game": "Tampa Bay Buccaneers at Dallas Cowboys",
+     "away": "Tampa Bay Buccaneers",
+     "home": "Dallas Cowboys",
+     "commence_time": "2026-10-09T00:15:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 48.5,
+     "price": -102,
+     "why": "Short week, backup QB risk, Pinnacle total is 48.5 (+100). Rule B: own 52.5% vs DK 50.5%, Pin fair 48.6%."
+    },
+    {
+     "label": "Packers +2.5 (-115), combined_edge +0.018",
+     "pick": "Green Bay Packers +2.5",
+     "game": "Chicago Bears at Green Bay Packers",
+     "away": "Chicago Bears",
+     "home": "Green Bay Packers",
+     "commence_time": "2026-10-11T17:00:00Z",
+     "market": "spreads",
+     "side": "Green Bay Packers",
+     "point": 2.5,
+     "price": -115,
+     "why": "Rule A. Pinnacle moved to Bears -1 while DK still shows Bears -2.5, so DK is stale by 1.5 points. Sunday leg, locked tonight."
+    }
+   ],
+   "why": "Cross-game parlay (no leg shared with the single, no correlated pair). Parlay price about +270 if DK multiplies the legs; joint estimate 28.4% vs 27.0% breakeven.",
+   "kill_switch": "Minimum acceptable parlay price +260. Kill the Packers leg if DK is no longer +2.5 (below +2.5 or worse than -125): replace with Under 48.5 straight at $5. If the Under moves below 48.5, play Packers +2.5 straight at $5. If already placed, keep it. Bears QB news posted before kickoff Sunday cannot be undone, accepted risk."
+  }
+ ],
  "watch": [
-  "Packers +3.5 at -115 or better (DK now Bears -3 -102 / Packers +3 -118). Pin Bears -2.5. Take only if DK moves to 3.5 on Bears QB news or Bears money. Check the Bears' QB (Williams out, Bagent headline unverified).",
-  "Lions -4.5 at -110 or better, take only if it holds there Sunday (now -105, Rule B, combined +0.008). Pin is -5, so skip if DK goes to -5.5 on Lions money.",
-  "Vikings-Saints Under 43.5 at -110 or better (now Under 42.5, combined +0.003, Pin 42). Take only if the total rises a point on public Over action.",
-  "Bucs +9.5 at -110 or better for Thursday, if the Cowboys move through 9 (a reported 9.5 elsewhere is UNVERIFIED, DK is 8.5). Bucs +8.5 -108 is Rule A (+0.017) but $10 breaks the 30 percent cap on Thursday's $15.",
-  "News that creates a Sunday edge: a posted Bears QB change, Chase/Bengals WR status, Lamar Jackson status for Ravens at Falcons, Mayfield thumb timeline, wind at the 1 PM outdoor games (forecast not found, check Saturday)."
+  "Kill switch checks at 6:45 PM ET inactives: Mayfield active or not, Prescott, Winfield (rib).",
+  "Packers +2.5 is locked in the Thursday parlay, so Sunday should not double it.",
+  "Lions -5.5 is now the DK number (watch said skip at -5.5). Skip.",
+  "Vikings-Saints total is 41.5 now (was 42.5), the watch Under 43.5 has not triggered.",
+  "Giants-Commanders total fell 2 to 41.5 (Pin 42). Under moved ahead of the market, Over 41.5 is -0.008.",
+  "News that creates a Sunday edge: Bears QB, Chase, Lamar Jackson, wind at 1 PM outdoor games."
  ],
  "board": [
   {
    "kickoff": "Thu 10/08 08:15 PM",
    "game": "Buccaneers at Cowboys",
-   "spread": "Cowboys -8.5 (-112)",
-   "total": "47.5 (O -115 / U -105)",
-   "ml": "Buccaneers +350 / Cowboys -455",
-   "read": "Pin Cowboys -8, total 47.5. TB +8.5 is Rule A (+0.017). Mayfield (thumb) reported out 3+ games with a backup starting, but Pinnacle's -8 already prices it. My number: Cowboys -8.5 / 47.5. Held back by the 30 percent cap."
+   "spread": "Cowboys -9.5 (-108)",
+   "total": "48.5 (O -118 / U -102)",
+   "ml": "Buccaneers +380 / Cowboys -500",
+   "read": "TONIGHT: Bucs +9.5 and Under 48.5 are on the Thursday card. Pin Cowboys -8.5."
   },
   {
    "kickoff": "Sun 10/11 09:30 AM",
    "game": "Eagles at Jaguars",
-   "spread": "Jaguars -7 (-110)",
-   "total": "42.5 (O -105 / U -115)",
-   "ml": "Eagles +260 / Jaguars -325",
-   "read": "Pin Jags -7.5, DK -7. Under 42.5 -0.009. My number: Jags -7.5. Jags -7 is a half point better than Pin but the edge is -0.004. Pass for now."
+   "spread": "Jaguars -7.5 (-108)",
+   "total": "41.5 (O -112 / U -108)",
+   "ml": "Eagles +295 / Jaguars -375",
+   "read": "Jaguars -7.5 is now Pin's number, the +0.5 move to the Eagles closed the old edge. Total 41.5 down a point. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Bears at Packers",
-   "spread": "Bears -3 (-102)",
-   "total": "45.5 (O -108 / U -112)",
-   "ml": "Bears -148 / Packers +124",
-   "read": "Pin Bears -2.5 / 46, DK Bears -3 (-102). Caleb Williams out with a hamstring (reported), Bagent headline unverified. My number: Bears -2.5. Watch Packers +3.5."
+   "spread": "Bears -2.5 (-105)",
+   "total": "45.5 (O -118 / U -102)",
+   "ml": "Bears -130 / Packers +110",
+   "read": "Preliminary: Packers +2.5 used in the Thursday parlay. Pin Bears -1, my number Bears -1.5."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Bengals at Dolphins",
-   "spread": "Bengals -7 (-115)",
+   "spread": "Bengals -6.5 (-120)",
    "total": "42.5 (O -110 / U -110)",
-   "ml": "Bengals -355 / Dolphins +280",
-   "read": "Pin Bengals -7 / 42.5, same as DK. Nothing here, no edge either side."
+   "ml": "Bengals -325 / Dolphins +260",
+   "read": "Bengals -6.5 (-120), Dolphins +6.5 +100 -0.005. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Browns at Jets",
-   "spread": "Jets -2.5 (-108)",
-   "total": "39.5 (O -118 / U -102)",
-   "ml": "Browns +110 / Jets -130",
-   "read": "Pin Jets -1.5 / 40, DK Jets -2.5. Browns +2.5 is a point better than Pin but -0.004 on price. My number: Jets -2 / 39.5. Pass."
+   "spread": "Jets -2.5 (-110)",
+   "total": "39.5 (O -112 / U -108)",
+   "ml": "Browns +114 / Jets -135",
+   "read": "Pin Jets -1.5, DK Jets -2.5. Preliminary: Browns +2.5 -110 near a pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Texans at Titans",
    "spread": "Texans -7.5 (-105)",
-   "total": "38.5 (O -110 / U -110)",
-   "ml": "Texans -375 / Titans +295",
-   "read": "Pin Texans -7 / 38.5, DK -7.5. Titans +7.5 is thin (-0.000 on ML, spread side fails). My number: Texans -7.5. Pass."
+   "total": "37.5 (O -115 / U -105)",
+   "ml": "Texans -425 / Titans +330",
+   "read": "Total 37.5 down a point; Over -0.017. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Colts at Steelers",
-   "spread": "Steelers -2.5 (-115)",
-   "total": "44.5 (O -112 / U -108)",
-   "ml": "Colts +120 / Steelers -142",
-   "read": "Pin and DK agree, Steelers -2.5 / 44.5. No edge."
+   "spread": "Steelers -2.5 (-118)",
+   "total": "44.5 (O -108 / U -112)",
+   "ml": "Colts +124 / Steelers -148",
+   "read": "Steelers -2.5 (-118). Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Raiders at Patriots",
    "spread": "Patriots -3.5 (-110)",
    "total": "45.5 (O -105 / U -115)",
-   "ml": "Raiders +160 / Patriots -192",
-   "read": "Pin Pats -3.5 / 45, DK 45.5. Under 45.5 -0.017. My number: Pats -3.5 / 45. Pass."
+   "ml": "Raiders +164 / Patriots -198",
+   "read": "Pats -3.5 now Pin -4. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Vikings at Saints",
-   "spread": "Vikings -1.5 (-115)",
-   "total": "42.5 (O -110 / U -110)",
-   "ml": "Vikings -130 / Saints +110",
-   "read": "Pin Vikings -2 / 42, DK -1.5 / 42.5. Under 42.5 is +0.003, the best total on the board but Rule B only. My number: Vikings -2 / 42. Watch 43.5."
+   "spread": "Vikings -2.5 (-108)",
+   "total": "41.5 (O -112 / U -108)",
+   "ml": "Vikings -142 / Saints +120",
+   "read": "DK Vikings -2.5, total 41.5. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 01:00 PM",
    "game": "Giants at Commanders",
-   "spread": "Commanders -3.5 (-105)",
-   "total": "43.5 (O -108 / U -112)",
-   "ml": "Giants +145 / Commanders -175",
-   "read": "Pin Commanders -3.5 / 44, DK 43.5. Over 43.5 not graded as edge. My number: Commanders -3.5 / 43.5. No edge."
+   "spread": "Commanders -3.5 (-118)",
+   "total": "41.5 (O -115 / U -105)",
+   "ml": "Giants +160 / Commanders -192",
+   "read": "Total down 2 to 41.5. Giants +3.5 (-102) stale versus Pin +4: check Sunday. Preliminary: lean Giants +3.5."
   },
   {
    "kickoff": "Sun 10/11 04:05 PM",
    "game": "Broncos at Chargers",
-   "spread": "Broncos -3.5 (-110)",
-   "total": "42.5 (O -110 / U -110)",
+   "spread": "Broncos -3.5 (-108)",
+   "total": "41.5 (O -115 / U -105)",
    "ml": "Broncos -185 / Chargers +154",
-   "read": "Pin and DK agree, Broncos -3.5 / 42.5. On the 3.5, not a key number. No edge."
+   "read": "Chargers +3.5 -0.010. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 04:25 PM",
    "game": "Lions at Cardinals",
-   "spread": "Lions -4.5 (-105)",
-   "total": "54.5 (O -112 / U -108)",
-   "ml": "Lions -218 / Cardinals +180",
-   "read": "Pin Lions -5 / 54.5, DK -4.5 (-105). Lions -4.5 is +0.008 (Rule B). Expect public on Lions, line likely to -5.5 by Sunday. My number: Lions -5. Watch."
+   "spread": "Lions -5.5 (-110)",
+   "total": "54.5 (O -115 / U -105)",
+   "ml": "Lions -258 / Cardinals +210",
+   "read": "Lions -5.5 (-110) matches Pin -5.5. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 04:25 PM",
    "game": "49ers at Seahawks",
-   "spread": "Seahawks -2.5 (-120)",
-   "total": "46.5 (O -115 / U -105)",
-   "ml": "49ers +130 / Seahawks -155",
-   "read": "Pin Seahawks -3 / 47, DK -2.5 (+100 49ers). 49ers +2.5 is -0.005 and misses the 3. My number: Seahawks -3. Pass."
+   "spread": "Seahawks -3 (-110)",
+   "total": "45.5 (O -115 / U -105)",
+   "ml": "49ers +136 / Seahawks -162",
+   "read": "Seahawks -3 matches Pin. Preliminary: pass."
   },
   {
    "kickoff": "Sun 10/11 08:20 PM",
    "game": "Ravens at Falcons",
-   "spread": "Falcons -3.5 (-105)",
+   "spread": "Falcons -3 (-118)",
    "total": "43.5 (O -115 / U -105)",
-   "ml": "Ravens +154 / Falcons -185",
-   "read": "Pin Falcons -3 / 44, DK -3.5. Falcons are the public side after a 45-24 Monday win. My number: Falcons -3.5 / 43.5. Ravens +3.5 -0.009. Pass."
+   "ml": "Ravens +142 / Falcons -170",
+   "read": "Ravens +3 (-102) +0.001. Preliminary: pass unless Lamar news."
   },
   {
    "kickoff": "Mon 10/12 08:15 PM",
    "game": "Bills at Rams",
-   "spread": "Rams -2.5 (-120)",
-   "total": "54.5 (O -115 / U -105)",
-   "ml": "Bills +130 / Rams -155",
-   "read": "Pin Rams -3 / 54.5, DK -2.5 (-120). Bills +2.5 (+100) -0.005 and sits off the 3. My number: Rams -3 / 54.5. Under 54.5 is +0.001. Pass."
+   "spread": "Rams -3 (-120)",
+   "total": "54.5 (O -118 / U -102)",
+   "ml": "Bills +145 / Rams -175",
+   "read": "Rams -3 (-120), Under 54.5 -102 +0.009 (best Monday number, Rule B). Preliminary: Under watch."
   }
  ],
  "season": {
