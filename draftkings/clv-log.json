@@ -878,5 +878,37 @@
   "clv": 0.0099,
   "pin_clv": -0.0066,
   "at": "2026-10-06T00:15Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-thu-1",
+  "label": "Buccaneers +9.5 (-112), combined_edge +0.002",
+  "market": "spreads",
+  "side": "Tampa Bay Buccaneers",
+  "bet_point": 9.5,
+  "bet_price": -112,
+  "close_point": 9.5,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0376,
+  "at": "2026-10-09T00:13Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-thu-2",
+  "label": "Under 48.5 (-102), combined_edge -0.005",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 48.5,
+  "bet_price": -102,
+  "close_point": 49.5,
+  "close_price": -110,
+  "point_clv": -1.0,
+  "price_clv": 0.0189,
+  "clv": -0.0211,
+  "pin_clv": -0.0004,
+  "at": "2026-10-09T00:13Z"
  }
 ]

@@ -39,11 +39,22 @@
      "side": "Tampa Bay Buccaneers",
      "point": 9.5,
      "price": -112,
-     "why": "DK gives a full point more than Pinnacle (+8.5), through 9. Road dog on a short week against a 9.5-point prime time favorite (big favorites cover under 50 percent). Rule B: own 53.0% vs DK 52.8%, Pin fair 49.1% at +8.5 (within 6)."
+     "why": "DK gives a full point more than Pinnacle (+8.5), through 9. Road dog on a short week against a 9.5-point prime time favorite (big favorites cover under 50 percent). Rule B: own 53.0% vs DK 52.8%, Pin fair 49.1% at +8.5 (within 6).",
+     "close": {
+      "point": 9.5,
+      "price": -112,
+      "pin_fair_prob": 0.4907,
+      "at": "2026-10-09T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0376
     }
    ],
    "why": "Rule B leg, thin but real: the extra point past 8.5 is worth about 2.5 points of cover probability, and Dallas is the public prime time side. Honest read: price edge is near zero, this is mostly spending the required Thursday money on the least bad number.",
-   "kill_switch": "Kill if DK moves to +8.5 or shorter before you place, or if Prescott is a surprise inactive (then keep it, the line would move to Bucs money, check). If Mayfield is confirmed active and DK is still +9.5, cut to $5. Freed $5 goes to the parlay (ticket 2) as a straight on Under 48.5. If already placed, keep it."
+   "kill_switch": "Kill if DK moves to +8.5 or shorter before you place, or if Prescott is a surprise inactive (then keep it, the line would move to Bucs money, check). If Mayfield is confirmed active and DK is still +9.5, cut to $5. Freed $5 goes to the parlay (ticket 2) as a straight on Under 48.5. If already placed, keep it.",
+   "clv": 0.0
   },
   {
    "id": "w5-thu-2",
@@ -71,7 +82,17 @@
      "side": "Under",
      "point": 48.5,
      "price": -102,
-     "why": "Short week, backup QB risk, Pinnacle total is 48.5 (+100). Rule B: own 52.5% vs DK 50.5%, Pin fair 48.6%."
+     "why": "Short week, backup QB risk, Pinnacle total is 48.5 (+100). Rule B: own 52.5% vs DK 50.5%, Pin fair 48.6%.",
+     "close": {
+      "point": 49.5,
+      "price": -110,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-10-09T00:13Z"
+     },
+     "point_clv": -1.0,
+     "price_clv": 0.0189,
+     "clv": -0.0211,
+     "pin_clv": -0.0004
     },
     {
      "label": "Packers +2.5 (-115), combined_edge +0.018",
@@ -242,8 +263,8 @@
     "net": -5.41
    }
   ],
-  "clv_week": 0.0071,
-  "clv_season": 0.0069
+  "clv_week": 0.0,
+  "clv_season": 0.0063
  },
- "clv_updated_at": "2026-10-06T00:15Z"
+ "clv_updated_at": "2026-10-09T00:13Z"
 }
