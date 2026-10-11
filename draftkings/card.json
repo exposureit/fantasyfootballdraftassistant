@@ -107,11 +107,22 @@
      "side": "Green Bay Packers",
      "point": 2.5,
      "price": -115,
-     "why": "Rule A. Pinnacle moved to Bears -1 while DK still shows Bears -2.5, so DK is stale by 1.5 points. Sunday leg, locked tonight."
+     "why": "Rule A. Pinnacle moved to Bears -1 while DK still shows Bears -2.5, so DK is stale by 1.5 points. Sunday leg, locked tonight.",
+     "close": {
+      "point": 1.5,
+      "price": -105,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0227,
+     "clv": 0.0173,
+     "pin_clv": -0.0303
     }
    ],
    "why": "Cross-game parlay (no leg shared with the single, no correlated pair). Parlay price about +270 if DK multiplies the legs; joint estimate 28.4% vs 27.0% breakeven.",
-   "kill_switch": "Minimum acceptable parlay price +260. Kill the Packers leg if DK is no longer +2.5 (below +2.5 or worse than -125): replace with Under 48.5 straight at $5. If the Under moves below 48.5, play Packers +2.5 straight at $5. If already placed, keep it. Bears QB news posted before kickoff Sunday cannot be undone, accepted risk."
+   "kill_switch": "Minimum acceptable parlay price +260. Kill the Packers leg if DK is no longer +2.5 (below +2.5 or worse than -125): replace with Under 48.5 straight at $5. If the Under moves below 48.5, play Packers +2.5 straight at $5. If already placed, keep it. Bears QB news posted before kickoff Sunday cannot be undone, accepted risk.",
+   "clv": -0.0019
   },
   {
    "id": "w5-sun-1",
@@ -170,11 +181,22 @@
      "side": "New York Giants",
      "point": 3.5,
      "price": -105,
-     "why": "Matches Pinnacle +3.5 at a better price (-105 vs -112). Daniels is back but Diggs is out and McLaurin is questionable, so Washington is thin on weapons; Giants line plus the 3.5 hook. Rule B: own 52.5% vs DK 51.2%, Pin fair 51.2%."
+     "why": "Matches Pinnacle +3.5 at a better price (-105 vs -112). Daniels is back but Diggs is out and McLaurin is questionable, so Washington is thin on weapons; Giants line plus the 3.5 hook. Rule B: own 52.5% vs DK 51.2%, Pin fair 51.2%.",
+     "close": {
+      "point": 3.5,
+      "price": -115,
+      "pin_fair_prob": 0.524,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0227,
+     "clv": 0.0227,
+     "pin_clv": 0.0118
     }
    ],
    "why": "Dog through the 3 with the best vig on the board. Washington total dropped 2 to 41.5, a low-scoring game favors the hook.",
-   "kill_switch": "Kill if DK goes to Giants +3 or shorter, or both Thomas and Nabers are inactive at 11:30 AM ET (cut to $7, move $8 to Over 46.5 which stays under the $21 cap). If already placed, keep it."
+   "kill_switch": "Kill if DK goes to Giants +3 or shorter, or both Thomas and Nabers are inactive at 11:30 AM ET (cut to $7, move $8 to Over 46.5 which stays under the $21 cap). If already placed, keep it.",
+   "clv": 0.0227
   },
   {
    "id": "w5-sun-3",
@@ -245,7 +267,17 @@
      "side": "New Orleans Saints",
      "point": 1.5,
      "price": 100,
-     "why": "Plus money on the home dog, Pin Saints +2. Rule B: own 50.5% vs DK 50.0%, Pin fair 50.2% at +2."
+     "why": "Plus money on the home dog, Pin Saints +2. Rule B: own 50.5% vs DK 50.0%, Pin fair 50.2% at +2.",
+     "close": {
+      "point": 2.5,
+      "price": -108,
+      "pin_fair_prob": 0.4907,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": -1.0,
+     "price_clv": 0.0192,
+     "clv": -0.0208,
+     "pin_clv": -0.0093
     },
     {
      "label": "Titans +6.5 (-102), combined_edge -0.013",
@@ -258,7 +290,17 @@
      "side": "Tennessee Titans",
      "point": 6.5,
      "price": -102,
-     "why": "Pin has the same number at +103, DK -102 is close. Low total 37.5 keeps the margin short. Rule B: own 50.8% vs DK 50.5%, Pin fair 49.2%."
+     "why": "Pin has the same number at +103, DK -102 is close. Low total 37.5 keeps the margin short. Rule B: own 50.8% vs DK 50.5%, Pin fair 49.2%.",
+     "close": {
+      "point": 6.5,
+      "price": -105,
+      "pin_fair_prob": 0.493,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0072,
+     "clv": 0.0072,
+     "pin_clv": -0.012
     }
    ],
    "why": "Three points-getters, no shared game, price near +650. Joint estimate 13.6% vs breakeven about 13.3%: tiny edge, high variance.",
@@ -290,7 +332,17 @@
      "side": "New York Jets",
      "point": null,
      "price": -135,
-     "why": "Pin Jets -131. Home favorite, short number. Rule B: own 58.0% vs DK 57.5%, Pin fair 56.7%."
+     "why": "Pin Jets -131. Home favorite, short number. Rule B: own 58.0% vs DK 57.5%, Pin fair 56.7%.",
+     "close": {
+      "point": null,
+      "price": -142,
+      "pin_fair_prob": 0.5761,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0123,
+     "clv": 0.0123,
+     "pin_clv": 0.0016
     },
     {
      "label": "Bengals ML (-345), combined_edge -0.011",
@@ -303,7 +355,17 @@
      "side": "Cincinnati Bengals",
      "point": null,
      "price": -345,
-     "why": "Pin -325. Needs Chase/Burrow active. Rule B: own 78.0% vs DK 77.5%, Pin fair 76.5%."
+     "why": "Pin -325. Needs Chase/Burrow active. Rule B: own 78.0% vs DK 77.5%, Pin fair 76.5%.",
+     "close": {
+      "point": null,
+      "price": -345,
+      "pin_fair_prob": 0.7588,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0165
     },
     {
      "label": "Steelers ML (-155), combined_edge -0.015",
@@ -316,11 +378,22 @@
      "side": "Pittsburgh Steelers",
      "point": null,
      "price": -155,
-     "why": "Pin -146. Home favorite, low total 41.5. Rule B: own 61.5% vs DK 60.8%, Pin fair 59.3% (within 6)."
+     "why": "Pin -146. Home favorite, low total 41.5. Rule B: own 61.5% vs DK 60.8%, Pin fair 59.3% (within 6).",
+     "close": {
+      "point": null,
+      "price": -162,
+      "pin_fair_prob": 0.5917,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0105,
+     "clv": 0.0105,
+     "pin_clv": -0.0161
     }
    ],
    "why": "Three home or big favorites on the moneyline, price near +270. Joint 27.8% vs breakeven about 27.1%. Hold on ML is the lowest in the book.",
-   "kill_switch": "Minimum parlay price +250. Kill the Bengals leg if Chase or Burrow is inactive at 11:30 AM ET (replace with Raiders-Patriots Patriots ML only if -192 or better, else drop to a 2-leg at $10). Standard Parlay."
+   "kill_switch": "Minimum parlay price +250. Kill the Bengals leg if Chase or Burrow is inactive at 11:30 AM ET (replace with Raiders-Patriots Patriots ML only if -192 or better, else drop to a 2-leg at $10). Standard Parlay.",
+   "clv": 0.0076
   },
   {
    "id": "w5-sun-6",
@@ -360,7 +433,17 @@
      "side": "Over",
      "point": 38.5,
      "price": -108,
-     "why": "Pin 39 Over +108; DK a half point lower. Rule B: own 52.0% vs DK 51.9%, Pin fair 48.1% at 39 (within 6)."
+     "why": "Pin 39 Over +108; DK a half point lower. Rule B: own 52.0% vs DK 51.9%, Pin fair 48.1% at 39 (within 6).",
+     "close": {
+      "point": 38.5,
+      "price": -108,
+      "pin_fair_prob": 0.5069,
+      "at": "2026-10-11T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0123
     },
     {
      "label": "Under 54.5 Lions-Cardinals (-102), combined_edge -0.010",
@@ -522,8 +605,8 @@
     "net": -5.41
    }
   ],
-  "clv_week": 0.0,
+  "clv_week": 0.0071,
   "clv_season": 0.0063
  },
- "clv_updated_at": "2026-10-09T00:13Z"
+ "clv_updated_at": "2026-10-11T16:55Z"
 }
