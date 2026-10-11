@@ -223,11 +223,22 @@
      "side": "Over",
      "point": 46.5,
      "price": -105,
-     "why": "Pinnacle total is 47 (Over +103, fair 49.3%), DK sits half a point lower at the better price. Rule B: own 52.0% vs DK 51.2%, Pin fair 49.3% at 47 (within 6)."
+     "why": "Pinnacle total is 47 (Over +103, fair 49.3%), DK sits half a point lower at the better price. Rule B: own 52.0% vs DK 51.2%, Pin fair 49.3% at 47 (within 6).",
+     "close": {
+      "point": 46.5,
+      "price": -105,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-10-11T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0076
     }
    ],
    "why": "Price plus half a point. Under was the public move (DK shaded Under -115), the Over side is the cheap one.",
-   "kill_switch": "Kill if DK moves to 46 or shorter or the Over price passes -115. If killed, move the $10 to the Ravens single (cap $21 per game, so $6 there) and $4 to Giants (cap $21). If already placed, keep it."
+   "kill_switch": "Kill if DK moves to 46 or shorter or the Over price passes -115. If killed, move the $10 to the Ravens single (cap $21 per game, so $6 there) and $4 to Giants (cap $21). If already placed, keep it.",
+   "clv": 0.0
   },
   {
    "id": "w5-sun-4",
@@ -254,7 +265,17 @@
      "side": "Arizona Cardinals",
      "point": 5.5,
      "price": -112,
-     "why": "Pin +5.5 -105, DK charges a few cents more. Rule B: own 53.0% vs DK 52.8%, Pin fair 51.2%."
+     "why": "Pin +5.5 -105, DK charges a few cents more. Rule B: own 53.0% vs DK 52.8%, Pin fair 51.2%.",
+     "close": {
+      "point": 5.5,
+      "price": -112,
+      "pin_fair_prob": 0.5162,
+      "at": "2026-10-11T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0121
     },
     {
      "label": "Saints +1.5 (+100), combined_edge -0.018",
@@ -305,7 +326,8 @@
    ],
    "why": "Three points-getters, no shared game, price near +650. Joint estimate 13.6% vs breakeven about 13.3%: tiny edge, high variance.",
    "kill_switch": "Minimum parlay price +620. Kill any leg whose line moves a half point against us (Cards +5, Saints +1, Titans +6) and rebuild as a 2-leg parlay at $10. Standard Parlay, not SGP (three different games).",
-   "promo": "No Sweat"
+   "promo": "No Sweat",
+   "clv": -0.0045
   },
   {
    "id": "w5-sun-5",
@@ -456,7 +478,17 @@
      "side": "Under",
      "point": 54.5,
      "price": -102,
-     "why": "Matches Pin 54.5 at +102/-102. Rule B: own 51.5% vs DK 50.5%, Pin fair 49.5%."
+     "why": "Matches Pin 54.5 at +102/-102. Rule B: own 51.5% vs DK 50.5%, Pin fair 49.5%.",
+     "close": {
+      "point": 55.5,
+      "price": -112,
+      "pin_fair_prob": 0.4762,
+      "at": "2026-10-11T20:20Z"
+     },
+     "point_clv": -1.0,
+     "price_clv": 0.0234,
+     "clv": -0.0166,
+     "pin_clv": -0.0288
     }
    ],
    "why": "Three totals at near-even prices, no shared game with the singles. Pairs: Cardinals dog (parlay 1) with the Lions-Cardinals Under, Jets ML (parlay 2) with the Browns-Jets Over, one correlated pair per game.",
@@ -605,8 +637,8 @@
     "net": -5.41
    }
   ],
-  "clv_week": 0.0071,
-  "clv_season": 0.0063
+  "clv_week": 0.004,
+  "clv_season": 0.0058
  },
- "clv_updated_at": "2026-10-11T16:55Z"
+ "clv_updated_at": "2026-10-11T20:20Z"
 }

@@ -1038,5 +1038,53 @@
   "clv": 0.0,
   "pin_clv": -0.0123,
   "at": "2026-10-11T16:55Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-sun-3",
+  "label": "Over 46.5 (-105), combined_edge +0.001",
+  "market": "totals",
+  "side": "Over",
+  "bet_point": 46.5,
+  "bet_price": -105,
+  "close_point": 46.5,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0076,
+  "at": "2026-10-11T20:20Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-sun-4",
+  "label": "Cardinals +5.5 (-112), combined_edge -0.017",
+  "market": "spreads",
+  "side": "Arizona Cardinals",
+  "bet_point": 5.5,
+  "bet_price": -112,
+  "close_point": 5.5,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0121,
+  "at": "2026-10-11T20:20Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-sun-6",
+  "label": "Under 54.5 Lions-Cardinals (-102), combined_edge -0.010",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 54.5,
+  "bet_price": -102,
+  "close_point": 55.5,
+  "close_price": -112,
+  "point_clv": -1.0,
+  "price_clv": 0.0234,
+  "clv": -0.0166,
+  "pin_clv": -0.0288,
+  "at": "2026-10-11T20:20Z"
  }
 ]
