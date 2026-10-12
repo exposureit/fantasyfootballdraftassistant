@@ -1086,5 +1086,21 @@
   "clv": -0.0166,
   "pin_clv": -0.0288,
   "at": "2026-10-11T20:20Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-sun-1",
+  "label": "Ravens +3 (+100), combined_edge +0.002",
+  "market": "spreads",
+  "side": "Baltimore Ravens",
+  "bet_point": 3.0,
+  "bet_price": 100,
+  "close_point": 3.5,
+  "close_price": -125,
+  "point_clv": -0.5,
+  "price_clv": 0.0556,
+  "clv": 0.0356,
+  "pin_clv": 0.0173,
+  "at": "2026-10-12T00:13Z"
  }
 ]

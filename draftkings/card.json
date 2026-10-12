@@ -149,12 +149,23 @@
      "side": "Baltimore Ravens",
      "point": 3.0,
      "price": 100,
-     "why": "Lamar Jackson is out (ankle, ruled out Friday, search, UNVERIFIED in DK terms) and Huntley starts, but the market already priced it: Pinnacle Falcons -3.5, DK only -3 at +100 for the Ravens. Rule B: own 51.0% vs DK 50.0%, Pin fair 52.2% at +3.5."
+     "why": "Lamar Jackson is out (ankle, ruled out Friday, search, UNVERIFIED in DK terms) and Huntley starts, but the market already priced it: Pinnacle Falcons -3.5, DK only -3 at +100 for the Ravens. Rule B: own 51.0% vs DK 50.0%, Pin fair 52.2% at +3.5.",
+     "close": {
+      "point": 3.5,
+      "price": -125,
+      "pin_fair_prob": 0.5173,
+      "at": "2026-10-12T00:13Z"
+     },
+     "point_clv": -0.5,
+     "price_clv": 0.0556,
+     "clv": 0.0356,
+     "pin_clv": 0.0173
     }
    ],
    "why": "Best price on the board: DK gives the 3 that Pinnacle does not. Honest read: edge is about zero, a push at 3 returns the stake.",
    "kill_switch": "Place after the 6:50 PM ET SNF inactives. Kill if DK goes to Ravens +2.5 or worse. If killed, move $7.50 each to Giants +3.5 and Over 46.5 (both stay under the $21 game cap). If already placed, keep it.",
-   "promo": "Profit Boost"
+   "promo": "Profit Boost",
+   "clv": 0.0356
   },
   {
    "id": "w5-sun-2",
@@ -637,8 +648,8 @@
     "net": -5.41
    }
   ],
-  "clv_week": 0.004,
-  "clv_season": 0.0058
+  "clv_week": 0.0085,
+  "clv_season": 0.0062
  },
- "clv_updated_at": "2026-10-11T20:20Z"
+ "clv_updated_at": "2026-10-12T00:13Z"
 }
