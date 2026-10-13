@@ -1102,5 +1102,21 @@
   "clv": 0.0356,
   "pin_clv": 0.0173,
   "at": "2026-10-12T00:13Z"
+ },
+ {
+  "week": 5,
+  "ticket": "w5-mon-1",
+  "label": "Under 54.5 (-102), combined_edge -0.014",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 54.5,
+  "bet_price": -102,
+  "close_point": 55.5,
+  "close_price": -110,
+  "point_clv": -1.0,
+  "price_clv": 0.0189,
+  "clv": -0.0211,
+  "pin_clv": 0.0065,
+  "at": "2026-10-13T00:13Z"
  }
 ]
