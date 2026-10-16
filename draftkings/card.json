@@ -71,11 +71,22 @@
      "side": "Under",
      "point": 40.5,
      "price": -110,
-     "why": "Rule B: no Thursday leg reaches Rule A. Own 53.5% vs 52.4% breakeven, Pin fair 50.0% (3.5 pts away, inside the 6 point limit). Unpriced-by-Pinnacle angle is thin: possible rain and chill in Denver (Denver7, date UNVERIFIED), short week, Circa handle on Denver. Against it: Surtain and Hufanga estimated out, Seattle scored 29 last week."
+     "why": "Rule B: no Thursday leg reaches Rule A. Own 53.5% vs 52.4% breakeven, Pin fair 50.0% (3.5 pts away, inside the 6 point limit). Unpriced-by-Pinnacle angle is thin: possible rain and chill in Denver (Denver7, date UNVERIFIED), short week, Circa handle on Denver. Against it: Surtain and Hufanga estimated out, Seattle scored 29 last week.",
+     "close": {
+      "point": 40.5,
+      "price": -108,
+      "pin_fair_prob": 0.4954,
+      "at": "2026-10-16T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0046,
+     "clv": -0.0046,
+     "pin_clv": -0.0284
     }
    ],
    "why": "Thin Rule B total. Weather and short-week scoring drag, Denver secondary injuries are the risk. Profit Boost token goes here if you have one in the Promos tab (UNVERIFIED).",
-   "kill_switch": "Kill if DK total is 39.5 or lower, or juice worse than -118, when you place it. If already placed, keep it. Freed $10 goes to Broncos +2.5 straight at -112 or better, else Seahawks -2.5 at -112 or better."
+   "kill_switch": "Kill if DK total is 39.5 or lower, or juice worse than -118, when you place it. If already placed, keep it. Freed $10 goes to Broncos +2.5 straight at -112 or better, else Seahawks -2.5 at -112 or better.",
+   "clv": -0.0046
   },
   {
    "id": "w6-thu-2",
@@ -103,7 +114,17 @@
      "side": "Denver Broncos",
      "point": 2.5,
      "price": -108,
-     "why": "Rule B: own 52.5% vs 51.9% DK implied, Pin fair 49.5% (3 pts away). Circa money on Denver, secondary injuries are priced by Pin. Loses to a Seattle 3 point win."
+     "why": "Rule B: own 52.5% vs 51.9% DK implied, Pin fair 49.5% (3 pts away). Circa money on Denver, secondary injuries are priced by Pin. Loses to a Seattle 3 point win.",
+     "close": {
+      "point": 2.5,
+      "price": 100,
+      "pin_fair_prob": 0.493,
+      "at": "2026-10-16T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0192,
+     "clv": -0.0192,
+     "pin_clv": -0.0262
     },
     {
      "label": "Chargers-Chiefs Under 41.5 (-105), combined_edge +0.007 (Rule B)",
@@ -268,8 +289,8 @@
     "net": 58.19
    }
   ],
-  "clv_week": null,
-  "clv_season": 0.0058
+  "clv_week": -0.0046,
+  "clv_season": 0.0053
  },
- "clv_updated_at": "2026-10-13T00:13Z"
+ "clv_updated_at": "2026-10-16T00:13Z"
 }
