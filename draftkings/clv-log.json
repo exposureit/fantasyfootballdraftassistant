@@ -1246,5 +1246,53 @@
   "clv": 0.0,
   "pin_clv": -0.0344,
   "at": "2026-10-18T16:55Z"
+ },
+ {
+  "week": 6,
+  "ticket": "w6-sun-1",
+  "label": "Raiders ML (+220), combined_edge +0.018",
+  "market": "h2h",
+  "side": "Las Vegas Raiders",
+  "bet_point": null,
+  "bet_price": 220,
+  "close_point": null,
+  "close_price": 195,
+  "point_clv": 0.0,
+  "price_clv": 0.0265,
+  "clv": 0.0265,
+  "pin_clv": 0.0132,
+  "at": "2026-10-18T20:20Z"
+ },
+ {
+  "week": 6,
+  "ticket": "w6-thu-2",
+  "label": "Chargers-Chiefs Under 41.5 (-105), combined_edge +0.007 (Rule B)",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 41.5,
+  "bet_price": -105,
+  "close_point": 41.5,
+  "close_price": -108,
+  "point_clv": 0.0,
+  "price_clv": 0.007,
+  "clv": 0.007,
+  "pin_clv": -0.0099,
+  "at": "2026-10-18T20:20Z"
+ },
+ {
+  "week": 6,
+  "ticket": "w6-sun-6",
+  "label": "Bills-Raiders Under 53.5 (-108), combined_edge -0.015 (Rule B)",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 53.5,
+  "bet_price": -108,
+  "close_point": 53.5,
+  "close_price": -108,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0307,
+  "at": "2026-10-18T20:20Z"
  }
 ]

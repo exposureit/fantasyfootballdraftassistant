@@ -39,11 +39,22 @@
      "side": "Las Vegas Raiders",
      "point": null,
      "price": 220,
-     "why": "Rule A. Pinnacle fair 33.1% (+203) vs DK implied 31.2% (+220). Bills played Monday night in LA and travel on a short week, Spencer Brown (OT) left the game with a back injury, DJ Moore and Ed Oliver are banged up (search, UNVERIFIED). Bills are the public side. Any confirmed Bills absence shortens this price."
+     "why": "Rule A. Pinnacle fair 33.1% (+203) vs DK implied 31.2% (+220). Bills played Monday night in LA and travel on a short week, Spencer Brown (OT) left the game with a back injury, DJ Moore and Ed Oliver are banged up (search, UNVERIFIED). Bills are the public side. Any confirmed Bills absence shortens this price.",
+     "close": {
+      "point": null,
+      "price": 195,
+      "pin_fair_prob": 0.3257,
+      "at": "2026-10-18T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0265,
+     "clv": 0.0265,
+     "pin_clv": 0.0132
     }
    ],
    "why": "Rule A early ticket. Reason it moves against us: Bills injuries (Brown, Moore, Oliver) get confirmed and public money lands on Buffalo, which shortens the Raiders price from +220. Own estimate 33.3% vs 31.25% breakeven, Pin fair 33.1%.",
-   "kill_switch": "Kill if the Raiders QB is ruled out (Cousins reported as starter, UNVERIFIED) or if DK is already shorter than +200 when you go to place it. If already placed, keep it unless the QB is out, then the line moves with it."
+   "kill_switch": "Kill if the Raiders QB is ruled out (Cousins reported as starter, UNVERIFIED) or if DK is already shorter than +200 when you go to place it. If already placed, keep it unless the QB is out, then the line moves with it.",
+   "clv": 0.0265
   },
   {
    "id": "w6-thu-1",
@@ -139,11 +150,22 @@
      "side": "Under",
      "point": 41.5,
      "price": -105,
-     "why": "Rule B: own 52.0% vs 51.2% breakeven, Pin fair 51.9%. Chargers WRs Harris doubtful and McConkey out (search, UNVERIFIED), Chiefs off the bye. Total already fell 42.5 to 41.5."
+     "why": "Rule B: own 52.0% vs 51.2% breakeven, Pin fair 51.9%. Chargers WRs Harris doubtful and McConkey out (search, UNVERIFIED), Chiefs off the bye. Total already fell 42.5 to 41.5.",
+     "close": {
+      "point": 41.5,
+      "price": -108,
+      "pin_fair_prob": 0.5023,
+      "at": "2026-10-18T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.007,
+     "clv": 0.007,
+     "pin_clv": -0.0099
     }
    ],
    "why": "Cross-game two-leg parlay, uncorrelated by design (the dog plus under pairing would reuse the single's leg). Joint 27.3% vs 26.6% breakeven at about +276. Second leg settles Sunday 4:25 PM ET, so this Thursday ticket stays open to Sunday. Broncos +2.5 leg WON (Denver 17-14 OT). Waiting on Chargers-Chiefs Under 41.5 tonight 4:25 PM ET.",
-   "kill_switch": "Kill if DK parlay pays less than +265 or either leg moves (Broncos below +2, Chargers total below 40.5). Then play Broncos +2.5 straight for $5. If already placed, keep. Chargers-Chiefs leg is used, Sunday must not reuse it."
+   "kill_switch": "Kill if DK parlay pays less than +265 or either leg moves (Broncos below +2, Chargers total below 40.5). Then play Broncos +2.5 straight for $5. If already placed, keep. Chargers-Chiefs leg is used, Sunday must not reuse it.",
+   "clv": -0.0061
   },
   {
    "id": "w6-sun-2",
@@ -396,11 +418,22 @@
      "side": "Under",
      "point": 53.5,
      "price": -108,
-     "why": "Rule B: own 52.0% vs 51.9%, Pin fair 50.5%. Pairs with the placed Raiders ML (dog plus under). Short-week Bills, Moore questionable."
+     "why": "Rule B: own 52.0% vs 51.9%, Pin fair 50.5%. Pairs with the placed Raiders ML (dog plus under). Short-week Bills, Moore questionable.",
+     "close": {
+      "point": 53.5,
+      "price": -108,
+      "pin_fair_prob": 0.4885,
+      "at": "2026-10-18T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0307
     }
    ],
    "why": "Two-under cross-game parlay with both correlation pairs documented. Joint own 28.3%.",
-   "kill_switch": "Kill if Jets-Pats total is 42.5 or lower (Pin number, edge gone) or Bills-Raiders total under 52.5. Then play the surviving leg straight for $10 if still at -112 or better, else skip. If already placed, keep."
+   "kill_switch": "Kill if Jets-Pats total is 42.5 or lower (Pin number, edge gone) or Bills-Raiders total under 52.5. Then play the surviving leg straight for $10 if still at -112 or better, else skip. If already placed, keep.",
+   "clv": 0.0
   }
  ],
  "watch": [
@@ -542,9 +575,9 @@
     "net": 58.19
    }
   ],
-  "clv_week": 0.0107,
-  "clv_season": 0.0057,
+  "clv_week": 0.009,
+  "clv_season": 0.0059,
   "week6_note": "Thursday single +9.09 (win); Thursday parlay pending Chargers-Chiefs Under; Raiders ML pending."
  },
- "clv_updated_at": "2026-10-18T16:55Z"
+ "clv_updated_at": "2026-10-18T20:20Z"
 }
