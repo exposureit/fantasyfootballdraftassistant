@@ -170,11 +170,22 @@
      "side": "Under",
      "point": 38.5,
      "price": -112,
-     "why": "Rule B: own 54.0% vs 52.8% breakeven, Pin fair 51.0% (3 pts away). Mayfield (thumb) OUT, Daniels starts, Winfield out. Fantasy Alarm forecast: 17 mph wind, gusts 28 to 31 mph, outdoor stadium (search, UNVERIFIED). Total already fell 40.5 to 38.5, so part of this is priced; gusts that high hurt the deep passing game more than the market moves."
+     "why": "Rule B: own 54.0% vs 52.8% breakeven, Pin fair 51.0% (3 pts away). Mayfield (thumb) OUT, Daniels starts, Winfield out. Fantasy Alarm forecast: 17 mph wind, gusts 28 to 31 mph, outdoor stadium (search, UNVERIFIED). Total already fell 40.5 to 38.5, so part of this is priced; gusts that high hurt the deep passing game more than the market moves.",
+     "close": {
+      "point": 37.5,
+      "price": -108,
+      "pin_fair_prob": 0.5282,
+      "at": "2026-10-18T16:55Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0091,
+     "clv": 0.0309,
+     "pin_clv": -0.0001
     }
    ],
    "why": "Backup QB plus 28 to 31 mph gusts. Pin 51.0%, own 54.0%.",
-   "kill_switch": "Kill if DK total is 37.5 or lower, or juice worse than -120, or Mayfield is active at 11:30 AM ET. If already placed, keep unless Mayfield is active. Freed $15 goes to Saints-Giants Under 46.5 at -115 or better."
+   "kill_switch": "Kill if DK total is 37.5 or lower, or juice worse than -120, or Mayfield is active at 11:30 AM ET. If already placed, keep unless Mayfield is active. Freed $15 goes to Saints-Giants Under 46.5 at -115 or better.",
+   "clv": 0.0309
   },
   {
    "id": "w6-sun-3",
@@ -201,11 +212,22 @@
      "side": "Under",
      "point": 39.5,
      "price": -108,
-     "why": "Rule B: own 53.0% vs 51.9% breakeven, Pin fair 49.5% at 39 (DK has a half point more). Hurts out (blood clot), McKee starts, line moved 5 points to Panthers -3. Backup QB games run under; total already fell 40.5 to 39.5 and the number is below 40, so the key-number cushion is thin."
+     "why": "Rule B: own 53.0% vs 51.9% breakeven, Pin fair 49.5% at 39 (DK has a half point more). Hurts out (blood clot), McKee starts, line moved 5 points to Panthers -3. Backup QB games run under; total already fell 40.5 to 39.5 and the number is below 40, so the key-number cushion is thin.",
+     "close": {
+      "point": 39.5,
+      "price": -108,
+      "pin_fair_prob": 0.4898,
+      "at": "2026-10-18T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0294
     }
    ],
    "why": "Backup QB total, half point better than Pin.",
-   "kill_switch": "Kill if DK total is 38.5 or lower, or McKee is not the starter. If already placed, keep. Freed $15 goes to Cowboys-Packers Over 53.5 at -112 or better (edge -0.017, thin Rule B, own 52%) or Cowboys +1.5 at -110 or better."
+   "kill_switch": "Kill if DK total is 38.5 or lower, or McKee is not the starter. If already placed, keep. Freed $15 goes to Cowboys-Packers Over 53.5 at -112 or better (edge -0.017, thin Rule B, own 52%) or Cowboys +1.5 at -110 or better.",
+   "clv": 0.0
   },
   {
    "id": "w6-sun-4",
@@ -232,7 +254,17 @@
      "side": "New York Jets",
      "point": 7.5,
      "price": -112,
-     "why": "Rule B: own 53.0% vs 52.8% DK, Pin fair 52.6%. On the 7.5 hook, Hall and Mitchell out for NYJ but Pats CBs Davis, Prunty out."
+     "why": "Rule B: own 53.0% vs 52.8% DK, Pin fair 52.6%. On the 7.5 hook, Hall and Mitchell out for NYJ but Pats CBs Davis, Prunty out.",
+     "close": {
+      "point": 7.5,
+      "price": -120,
+      "pin_fair_prob": 0.5348,
+      "at": "2026-10-18T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0172,
+     "clv": 0.0172,
+     "pin_clv": 0.0065
     },
     {
      "label": "Titans +6.5 (-108), combined_edge -0.012 (Rule B)",
@@ -245,11 +277,22 @@
      "side": "Tennessee Titans",
      "point": 6.5,
      "price": -108,
-     "why": "Rule B: own 52.5% vs 51.9% DK, Pin fair 50.7%. Sits half a point under the 7, and big home favorites fade."
+     "why": "Rule B: own 52.5% vs 51.9% DK, Pin fair 50.7%. Sits half a point under the 7, and big home favorites fade.",
+     "close": {
+      "point": 6.5,
+      "price": -115,
+      "pin_fair_prob": 0.5093,
+      "at": "2026-10-18T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0157,
+     "clv": 0.0157,
+     "pin_clv": -0.0099
     }
    ],
    "why": "Two-dog cross-game parlay. Joint own 27.8%.",
-   "kill_switch": "Kill if Jets are +7 or lower or Titans +6 or lower, or a QB is ruled out. Then play the surviving leg straight for $10 only if still at -112 or better, else skip and move $10 to the Ravens-Browns Under single. If already placed, keep."
+   "kill_switch": "Kill if Jets are +7 or lower or Titans +6 or lower, or a QB is ruled out. Then play the surviving leg straight for $10 only if still at -112 or better, else skip and move $10 to the Ravens-Browns Under single. If already placed, keep.",
+   "clv": 0.0164
   },
   {
    "id": "w6-sun-5",
@@ -276,7 +319,17 @@
      "side": "Under",
      "point": 39.5,
      "price": -108,
-     "why": "Rule B: own 52.5% vs 51.9%, Pin fair 50.0%. Lamar Jackson OUT (Minter, Fri), Huntley starts, Browns offense weak. Total already fell 41.5 to 39.5."
+     "why": "Rule B: own 52.5% vs 51.9%, Pin fair 50.0%. Lamar Jackson OUT (Minter, Fri), Huntley starts, Browns offense weak. Total already fell 41.5 to 39.5.",
+     "close": {
+      "point": 39.5,
+      "price": -108,
+      "pin_fair_prob": 0.5,
+      "at": "2026-10-18T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0192
     },
     {
      "label": "Cardinals-Rams Under 51.5 (-105), combined_edge -0.015 (Rule B)",
@@ -320,7 +373,17 @@
      "side": "Under",
      "point": 43.5,
      "price": -118,
-     "why": "Rule B: own 54.5% vs 54.1%, Pin fair 50.7% at 42.5 (DK gives a full point). Dog plus under pair with the Jets +7.5 parlay leg."
+     "why": "Rule B: own 54.5% vs 54.1%, Pin fair 50.7% at 42.5 (DK gives a full point). Dog plus under pair with the Jets +7.5 parlay leg.",
+     "close": {
+      "point": 43.5,
+      "price": -118,
+      "pin_fair_prob": 0.5069,
+      "at": "2026-10-18T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0344
     },
     {
      "label": "Bills-Raiders Under 53.5 (-108), combined_edge -0.015 (Rule B)",
@@ -479,9 +542,9 @@
     "net": 58.19
    }
   ],
-  "clv_week": -0.0046,
-  "clv_season": 0.0053,
+  "clv_week": 0.0107,
+  "clv_season": 0.0057,
   "week6_note": "Thursday single +9.09 (win); Thursday parlay pending Chargers-Chiefs Under; Raiders ML pending."
  },
- "clv_updated_at": "2026-10-16T00:13Z"
+ "clv_updated_at": "2026-10-18T16:55Z"
 }
