@@ -1,383 +1,1572 @@
 {
- "fetched_utc": "2026-10-18 20:20 UTC",
+ "fetched_utc": "2026-10-19 21:03 UTC",
  "book": "draftkings",
  "games": [
   {
-   "id": "7c312fdf24fb35f58b0e07c2932cc997",
-   "commence_time": "2026-10-18T17:02:41Z",
-   "kickoff_et": "Sun 10/18 01:02 PM",
-   "home": "Atlanta Falcons",
-   "away": "Chicago Bears",
+   "id": "f122527f003276d3bca19efa48c902c1",
+   "commence_time": "2026-10-20T00:15:00Z",
+   "kickoff_et": "Mon 10/19 08:15 PM",
+   "home": "San Francisco 49ers",
+   "away": "Washington Commanders",
    "dk": {
     "spreads": {
-     "Chicago Bears": {
-      "point": -10.5,
-      "price": -123
+     "Washington Commanders": {
+      "point": 7.0,
+      "price": -102
      },
-     "Atlanta Falcons": {
-      "point": 10.5,
-      "price": -110
+     "San Francisco 49ers": {
+      "point": -7.0,
+      "price": -118
      }
     },
     "totals": {
      "Over": {
-      "point": 56.5,
-      "price": -185
+      "point": 51.5,
+      "price": -115
      },
      "Under": {
-      "point": 56.5,
-      "price": 139
-     }
-    }
-   },
-   "pinnacle": {},
-   "edges": []
-  },
-  {
-   "id": "0b0b582b32b09ab6ff6664ffae0c9653",
-   "commence_time": "2026-10-18T17:02:43Z",
-   "kickoff_et": "Sun 10/18 01:02 PM",
-   "home": "New England Patriots",
-   "away": "New York Jets",
-   "dk": {
-    "spreads": {
-     "New York Jets": {
-      "point": 7.5,
-      "price": -191
-     },
-     "New England Patriots": {
-      "point": -7.5,
-      "price": 143
+      "point": 51.5,
+      "price": -105
      }
     },
-    "totals": {
-     "Over": {
-      "point": 44.5,
-      "price": -195
+    "h2h": {
+     "Washington Commanders": {
+      "point": null,
+      "price": 300
      },
-     "Under": {
-      "point": 44.5,
-      "price": 146
-     }
-    }
-   },
-   "pinnacle": {},
-   "edges": []
-  },
-  {
-   "id": "caca2d752fe1a1779029082e95332fcc",
-   "commence_time": "2026-10-18T17:02:48Z",
-   "kickoff_et": "Sun 10/18 01:02 PM",
-   "home": "Philadelphia Eagles",
-   "away": "Carolina Panthers",
-   "dk": {
-    "spreads": {
-     "Carolina Panthers": {
-      "point": -13.5,
-      "price": -127
-     },
-     "Philadelphia Eagles": {
-      "point": 13.5,
-      "price": -104
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 41.5,
-      "price": -200
-     },
-     "Under": {
-      "point": 41.5,
-      "price": 149
+     "San Francisco 49ers": {
+      "point": null,
+      "price": -380
      }
     }
    },
    "pinnacle": {
     "spreads": {
-     "Carolina Panthers": {
-      "point": -7.5,
-      "price": -158,
-      "fair_prob": 0.5838
-     },
-     "Philadelphia Eagles": {
+     "Washington Commanders": {
       "point": 7.5,
-      "price": 129,
-      "fair_prob": 0.4162
+      "price": -113,
+      "fair_prob": 0.5173
+     },
+     "San Francisco 49ers": {
+      "point": -7.5,
+      "price": 102,
+      "fair_prob": 0.4827
      }
     },
     "totals": {
      "Over": {
-      "point": 40.5,
-      "price": 100,
-      "fair_prob": 0.4728
+      "point": 52.0,
+      "price": -106,
+      "fair_prob": 0.5
      },
      "Under": {
-      "point": 40.5,
-      "price": -126,
-      "fair_prob": 0.5272
+      "point": 52.0,
+      "price": -106,
+      "fair_prob": 0.5
      }
     },
     "h2h": {
-     "Carolina Panthers": {
+     "Washington Commanders": {
       "point": null,
-      "price": -1366,
-      "fair_prob": 0.8994
+      "price": 342,
+      "fair_prob": 0.2194
      },
-     "Philadelphia Eagles": {
+     "San Francisco 49ers": {
       "point": null,
-      "price": 859,
-      "fair_prob": 0.1006
+      "price": -413,
+      "fair_prob": 0.7806
      }
     }
    },
    "edges": [
     {
      "market": "spreads",
-     "side": "Carolina Panthers",
-     "dk_point": -13.5,
-     "dk_price": -127,
-     "dk_implied": 0.5595,
-     "pin_point": -7.5,
-     "pin_fair_price": -140,
-     "pin_fair_prob": 0.5838,
-     "prob_edge": 0.0243,
-     "point_gap": -6.0,
-     "combined_edge": -0.2157
+     "side": "Washington Commanders",
+     "dk_point": 7.0,
+     "dk_price": -102,
+     "dk_implied": 0.505,
+     "pin_point": 7.5,
+     "pin_fair_price": -107,
+     "pin_fair_prob": 0.5173,
+     "prob_edge": 0.0123,
+     "point_gap": -0.5,
+     "combined_edge": -0.0077
     },
     {
      "market": "spreads",
-     "side": "Philadelphia Eagles",
-     "dk_point": 13.5,
-     "dk_price": -104,
-     "dk_implied": 0.5098,
-     "pin_point": 7.5,
-     "pin_fair_price": 140,
-     "pin_fair_prob": 0.4162,
-     "prob_edge": -0.0936,
-     "point_gap": 6.0,
-     "combined_edge": 0.1464
+     "side": "San Francisco 49ers",
+     "dk_point": -7.0,
+     "dk_price": -118,
+     "dk_implied": 0.5413,
+     "pin_point": -7.5,
+     "pin_fair_price": 107,
+     "pin_fair_prob": 0.4827,
+     "prob_edge": -0.0586,
+     "point_gap": 0.5,
+     "combined_edge": -0.0386
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 51.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 52.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0349,
+     "point_gap": 0.5,
+     "combined_edge": -0.0149
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 51.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 52.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0122,
+     "point_gap": -0.5,
+     "combined_edge": -0.0322
+    },
+    {
+     "market": "h2h",
+     "side": "Washington Commanders",
+     "dk_point": null,
+     "dk_price": 300,
+     "dk_implied": 0.25,
+     "pin_point": null,
+     "pin_fair_price": 356,
+     "pin_fair_prob": 0.2194,
+     "prob_edge": -0.0306,
+     "point_gap": null,
+     "combined_edge": -0.0306
+    },
+    {
+     "market": "h2h",
+     "side": "San Francisco 49ers",
+     "dk_point": null,
+     "dk_price": -380,
+     "dk_implied": 0.7917,
+     "pin_point": null,
+     "pin_fair_price": -356,
+     "pin_fair_prob": 0.7806,
+     "prob_edge": -0.0111,
+     "point_gap": null,
+     "combined_edge": -0.0111
+    }
+   ]
+  },
+  {
+   "id": "ffebea881c1d7b2dfb85b3e590c35985",
+   "commence_time": "2026-10-23T00:15:00Z",
+   "kickoff_et": "Thu 10/22 08:15 PM",
+   "home": "Chicago Bears",
+   "away": "New England Patriots",
+   "dk": {
+    "spreads": {
+     "New England Patriots": {
+      "point": 3.0,
+      "price": -115
+     },
+     "Chicago Bears": {
+      "point": -3.0,
+      "price": -105
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 50.5,
+      "price": -115
+     },
+     "Under": {
+      "point": 50.5,
+      "price": -105
+     }
+    },
+    "h2h": {
+     "New England Patriots": {
+      "point": null,
+      "price": 130
+     },
+     "Chicago Bears": {
+      "point": null,
+      "price": -155
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "New England Patriots": {
+      "point": 3.0,
+      "price": -105,
+      "fair_prob": 0.4977
+     },
+     "Chicago Bears": {
+      "point": -3.0,
+      "price": -107,
+      "fair_prob": 0.5023
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 50.5,
+      "price": -110,
+      "fair_prob": 0.5045
+     },
+     "Under": {
+      "point": 50.5,
+      "price": -106,
+      "fair_prob": 0.4955
+     }
+    },
+    "h2h": {
+     "New England Patriots": {
+      "point": null,
+      "price": 143,
+      "fair_prob": 0.399
+     },
+     "Chicago Bears": {
+      "point": null,
+      "price": -163,
+      "fair_prob": 0.601
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "New England Patriots",
+     "dk_point": 3.0,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 3.0,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4977,
+     "prob_edge": -0.0372,
+     "point_gap": 0.0,
+     "combined_edge": -0.0372
+    },
+    {
+     "market": "spreads",
+     "side": "Chicago Bears",
+     "dk_point": -3.0,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": -3.0,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5023,
+     "prob_edge": -0.0099,
+     "point_gap": 0.0,
+     "combined_edge": -0.0099
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 50.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 50.5,
+     "pin_fair_price": -102,
+     "pin_fair_prob": 0.5045,
+     "prob_edge": -0.0304,
+     "point_gap": 0.0,
+     "combined_edge": -0.0304
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 50.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 50.5,
+     "pin_fair_price": 102,
+     "pin_fair_prob": 0.4955,
+     "prob_edge": -0.0167,
+     "point_gap": 0.0,
+     "combined_edge": -0.0167
+    },
+    {
+     "market": "h2h",
+     "side": "New England Patriots",
+     "dk_point": null,
+     "dk_price": 130,
+     "dk_implied": 0.4348,
+     "pin_point": null,
+     "pin_fair_price": 151,
+     "pin_fair_prob": 0.399,
+     "prob_edge": -0.0358,
+     "point_gap": null,
+     "combined_edge": -0.0358
+    },
+    {
+     "market": "h2h",
+     "side": "Chicago Bears",
+     "dk_point": null,
+     "dk_price": -155,
+     "dk_implied": 0.6078,
+     "pin_point": null,
+     "pin_fair_price": -151,
+     "pin_fair_prob": 0.601,
+     "prob_edge": -0.0068,
+     "point_gap": null,
+     "combined_edge": -0.0068
+    }
+   ]
+  },
+  {
+   "id": "2e710ea5a306b614f0f966e3d78732f8",
+   "commence_time": "2026-10-25T13:30:00Z",
+   "kickoff_et": "Sun 10/25 09:30 AM",
+   "home": "New Orleans Saints",
+   "away": "Pittsburgh Steelers",
+   "dk": {
+    "spreads": {
+     "Pittsburgh Steelers": {
+      "point": -3.0,
+      "price": -112
+     },
+     "New Orleans Saints": {
+      "point": 3.0,
+      "price": -108
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.5,
+      "price": -105
+     },
+     "Under": {
+      "point": 44.5,
+      "price": -115
+     }
+    },
+    "h2h": {
+     "Pittsburgh Steelers": {
+      "point": null,
+      "price": -166
+     },
+     "New Orleans Saints": {
+      "point": null,
+      "price": 140
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "Pittsburgh Steelers": {
+      "point": -2.5,
+      "price": -126,
+      "fair_prob": 0.5417
+     },
+     "New Orleans Saints": {
+      "point": 2.5,
+      "price": 112,
+      "fair_prob": 0.4583
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.0,
+      "price": -112,
+      "fair_prob": 0.5089
+     },
+     "Under": {
+      "point": 44.0,
+      "price": -104,
+      "fair_prob": 0.4911
+     }
+    },
+    "h2h": {
+     "Pittsburgh Steelers": {
+      "point": null,
+      "price": -161,
+      "fair_prob": 0.5988
+     },
+     "New Orleans Saints": {
+      "point": null,
+      "price": 142,
+      "fair_prob": 0.4012
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Pittsburgh Steelers",
+     "dk_point": -3.0,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": -2.5,
+     "pin_fair_price": -118,
+     "pin_fair_prob": 0.5417,
+     "prob_edge": 0.0134,
+     "point_gap": -0.5,
+     "combined_edge": -0.0066
+    },
+    {
+     "market": "spreads",
+     "side": "New Orleans Saints",
+     "dk_point": 3.0,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 2.5,
+     "pin_fair_price": 118,
+     "pin_fair_prob": 0.4583,
+     "prob_edge": -0.0609,
+     "point_gap": 0.5,
+     "combined_edge": -0.0409
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 44.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 44.0,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5089,
+     "prob_edge": -0.0033,
+     "point_gap": -0.5,
+     "combined_edge": -0.0233
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 44.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 44.0,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4911,
+     "prob_edge": -0.0438,
+     "point_gap": 0.5,
+     "combined_edge": -0.0238
+    },
+    {
+     "market": "h2h",
+     "side": "Pittsburgh Steelers",
+     "dk_point": null,
+     "dk_price": -166,
+     "dk_implied": 0.6241,
+     "pin_point": null,
+     "pin_fair_price": -149,
+     "pin_fair_prob": 0.5988,
+     "prob_edge": -0.0253,
+     "point_gap": null,
+     "combined_edge": -0.0253
+    },
+    {
+     "market": "h2h",
+     "side": "New Orleans Saints",
+     "dk_point": null,
+     "dk_price": 140,
+     "dk_implied": 0.4167,
+     "pin_point": null,
+     "pin_fair_price": 149,
+     "pin_fair_prob": 0.4012,
+     "prob_edge": -0.0155,
+     "point_gap": null,
+     "combined_edge": -0.0155
+    }
+   ]
+  },
+  {
+   "id": "b1be064fb52a198a62109c279e7ab24c",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "Atlanta Falcons",
+   "away": "San Francisco 49ers",
+   "dk": {
+    "spreads": {
+     "San Francisco 49ers": {
+      "point": -4.5,
+      "price": -110
+     },
+     "Atlanta Falcons": {
+      "point": 4.5,
+      "price": -110
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 50.5,
+      "price": -115
+     },
+     "Under": {
+      "point": 50.5,
+      "price": -105
+     }
+    },
+    "h2h": {
+     "San Francisco 49ers": {
+      "point": null,
+      "price": -218
+     },
+     "Atlanta Falcons": {
+      "point": null,
+      "price": 180
+     }
+    }
+   },
+   "pinnacle": {},
+   "edges": []
+  },
+  {
+   "id": "550ec5290f935d311995affbcb0b5c79",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "Baltimore Ravens",
+   "away": "Cincinnati Bengals",
+   "dk": {
+    "spreads": {
+     "Cincinnati Bengals": {
+      "point": 3.0,
+      "price": -115
+     },
+     "Baltimore Ravens": {
+      "point": -3.0,
+      "price": -105
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 51.5,
+      "price": -105
+     },
+     "Under": {
+      "point": 51.5,
+      "price": -115
+     }
+    },
+    "h2h": {
+     "Cincinnati Bengals": {
+      "point": null,
+      "price": 130
+     },
+     "Baltimore Ravens": {
+      "point": null,
+      "price": -155
+     }
+    }
+   },
+   "pinnacle": {},
+   "edges": []
+  },
+  {
+   "id": "2823e986597c449ab94126cd5ed3fae9",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "Carolina Panthers",
+   "away": "Tampa Bay Buccaneers",
+   "dk": {
+    "spreads": {
+     "Tampa Bay Buccaneers": {
+      "point": 3.0,
+      "price": -102
+     },
+     "Carolina Panthers": {
+      "point": -3.0,
+      "price": -118
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.5,
+      "price": -112
+     },
+     "Under": {
+      "point": 44.5,
+      "price": -108
+     }
+    },
+    "h2h": {
+     "Tampa Bay Buccaneers": {
+      "point": null,
+      "price": 145
+     },
+     "Carolina Panthers": {
+      "point": null,
+      "price": -175
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "Tampa Bay Buccaneers": {
+      "point": 3.5,
+      "price": -127,
+      "fair_prob": 0.5437
+     },
+     "Carolina Panthers": {
+      "point": -3.5,
+      "price": 113,
+      "fair_prob": 0.4563
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 45.0,
+      "price": -108,
+      "fair_prob": 0.5
+     },
+     "Under": {
+      "point": 45.0,
+      "price": -108,
+      "fair_prob": 0.5
+     }
+    },
+    "h2h": {
+     "Tampa Bay Buccaneers": {
+      "point": null,
+      "price": 143,
+      "fair_prob": 0.3996
+     },
+     "Carolina Panthers": {
+      "point": null,
+      "price": -162,
+      "fair_prob": 0.6004
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Tampa Bay Buccaneers",
+     "dk_point": 3.0,
+     "dk_price": -102,
+     "dk_implied": 0.505,
+     "pin_point": 3.5,
+     "pin_fair_price": -119,
+     "pin_fair_prob": 0.5437,
+     "prob_edge": 0.0387,
+     "point_gap": -0.5,
+     "combined_edge": 0.0187
+    },
+    {
+     "market": "spreads",
+     "side": "Carolina Panthers",
+     "dk_point": -3.0,
+     "dk_price": -118,
+     "dk_implied": 0.5413,
+     "pin_point": -3.5,
+     "pin_fair_price": 119,
+     "pin_fair_prob": 0.4563,
+     "prob_edge": -0.085,
+     "point_gap": 0.5,
+     "combined_edge": -0.065
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 44.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 45.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0283,
+     "point_gap": 0.5,
+     "combined_edge": -0.0083
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 44.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 45.0,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0192,
+     "point_gap": -0.5,
+     "combined_edge": -0.0392
+    },
+    {
+     "market": "h2h",
+     "side": "Tampa Bay Buccaneers",
+     "dk_point": null,
+     "dk_price": 145,
+     "dk_implied": 0.4082,
+     "pin_point": null,
+     "pin_fair_price": 150,
+     "pin_fair_prob": 0.3996,
+     "prob_edge": -0.0086,
+     "point_gap": null,
+     "combined_edge": -0.0086
+    },
+    {
+     "market": "h2h",
+     "side": "Carolina Panthers",
+     "dk_point": null,
+     "dk_price": -175,
+     "dk_implied": 0.6364,
+     "pin_point": null,
+     "pin_fair_price": -150,
+     "pin_fair_prob": 0.6004,
+     "prob_edge": -0.036,
+     "point_gap": null,
+     "combined_edge": -0.036
+    }
+   ]
+  },
+  {
+   "id": "5dce18baccec5d3ad5fb3a3ce52f7619",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "Tennessee Titans",
+   "away": "Cleveland Browns",
+   "dk": {
+    "spreads": {
+     "Cleveland Browns": {
+      "point": -1.5,
+      "price": -115
+     },
+     "Tennessee Titans": {
+      "point": 1.5,
+      "price": -105
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 38.5,
+      "price": -108
+     },
+     "Under": {
+      "point": 38.5,
+      "price": -112
+     }
+    },
+    "h2h": {
+     "Cleveland Browns": {
+      "point": null,
+      "price": -125
+     },
+     "Tennessee Titans": {
+      "point": null,
+      "price": 105
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "Cleveland Browns": {
+      "point": -1.5,
+      "price": -109,
+      "fair_prob": 0.5069
+     },
+     "Tennessee Titans": {
+      "point": 1.5,
+      "price": -103,
+      "fair_prob": 0.4931
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 38.0,
+      "price": -116,
+      "fair_prob": 0.5166
+     },
+     "Under": {
+      "point": 38.0,
+      "price": -101,
+      "fair_prob": 0.4834
+     }
+    },
+    "h2h": {
+     "Cleveland Browns": {
+      "point": null,
+      "price": -127,
+      "fair_prob": 0.5437
+     },
+     "Tennessee Titans": {
+      "point": null,
+      "price": 113,
+      "fair_prob": 0.4563
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Cleveland Browns",
+     "dk_point": -1.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": -1.5,
+     "pin_fair_price": -103,
+     "pin_fair_prob": 0.5069,
+     "prob_edge": -0.028,
+     "point_gap": 0.0,
+     "combined_edge": -0.028
+    },
+    {
+     "market": "spreads",
+     "side": "Tennessee Titans",
+     "dk_point": 1.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 1.5,
+     "pin_fair_price": 103,
+     "pin_fair_prob": 0.4931,
+     "prob_edge": -0.0191,
+     "point_gap": 0.0,
+     "combined_edge": -0.0191
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 38.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 38.0,
+     "pin_fair_price": -107,
+     "pin_fair_prob": 0.5166,
+     "prob_edge": -0.0026,
+     "point_gap": -0.5,
+     "combined_edge": -0.0226
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 38.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 38.0,
+     "pin_fair_price": 107,
+     "pin_fair_prob": 0.4834,
+     "prob_edge": -0.0449,
+     "point_gap": 0.5,
+     "combined_edge": -0.0249
+    },
+    {
+     "market": "h2h",
+     "side": "Cleveland Browns",
+     "dk_point": null,
+     "dk_price": -125,
+     "dk_implied": 0.5556,
+     "pin_point": null,
+     "pin_fair_price": -119,
+     "pin_fair_prob": 0.5437,
+     "prob_edge": -0.0119,
+     "point_gap": null,
+     "combined_edge": -0.0119
+    },
+    {
+     "market": "h2h",
+     "side": "Tennessee Titans",
+     "dk_point": null,
+     "dk_price": 105,
+     "dk_implied": 0.4878,
+     "pin_point": null,
+     "pin_fair_price": 119,
+     "pin_fair_prob": 0.4563,
+     "prob_edge": -0.0315,
+     "point_gap": null,
+     "combined_edge": -0.0315
+    }
+   ]
+  },
+  {
+   "id": "2bba7fde6f97d0e54403d53676e4ab63",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "Houston Texans",
+   "away": "New York Giants",
+   "dk": {
+    "spreads": {
+     "New York Giants": {
+      "point": 9.5,
+      "price": -108
+     },
+     "Houston Texans": {
+      "point": -9.5,
+      "price": -112
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 42.5,
+      "price": -118
+     },
+     "Under": {
+      "point": 42.5,
+      "price": -102
+     }
+    },
+    "h2h": {
+     "New York Giants": {
+      "point": null,
+      "price": 370
+     },
+     "Houston Texans": {
+      "point": null,
+      "price": -485
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "New York Giants": {
+      "point": 9.5,
+      "price": -106,
+      "fair_prob": 0.5
+     },
+     "Houston Texans": {
+      "point": -9.5,
+      "price": -106,
+      "fair_prob": 0.5
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 43.5,
+      "price": 104,
+      "fair_prob": 0.4724
+     },
+     "Under": {
+      "point": 43.5,
+      "price": -121,
+      "fair_prob": 0.5276
+     }
+    },
+    "h2h": {
+     "New York Giants": {
+      "point": null,
+      "price": 334,
+      "fair_prob": 0.2222
+     },
+     "Houston Texans": {
+      "point": null,
+      "price": -417,
+      "fair_prob": 0.7778
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "New York Giants",
+     "dk_point": 9.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 9.5,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0192,
+     "point_gap": 0.0,
+     "combined_edge": -0.0192
+    },
+    {
+     "market": "spreads",
+     "side": "Houston Texans",
+     "dk_point": -9.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": -9.5,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0283,
+     "point_gap": 0.0,
+     "combined_edge": -0.0283
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 42.5,
+     "dk_price": -118,
+     "dk_implied": 0.5413,
+     "pin_point": 43.5,
+     "pin_fair_price": 112,
+     "pin_fair_prob": 0.4724,
+     "prob_edge": -0.0689,
+     "point_gap": 1.0,
+     "combined_edge": -0.0289
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 42.5,
+     "dk_price": -102,
+     "dk_implied": 0.505,
+     "pin_point": 43.5,
+     "pin_fair_price": -112,
+     "pin_fair_prob": 0.5276,
+     "prob_edge": 0.0226,
+     "point_gap": -1.0,
+     "combined_edge": -0.0174
+    },
+    {
+     "market": "h2h",
+     "side": "New York Giants",
+     "dk_point": null,
+     "dk_price": 370,
+     "dk_implied": 0.2128,
+     "pin_point": null,
+     "pin_fair_price": 350,
+     "pin_fair_prob": 0.2222,
+     "prob_edge": 0.0094,
+     "point_gap": null,
+     "combined_edge": 0.0094
+    },
+    {
+     "market": "h2h",
+     "side": "Houston Texans",
+     "dk_point": null,
+     "dk_price": -485,
+     "dk_implied": 0.8291,
+     "pin_point": null,
+     "pin_fair_price": -350,
+     "pin_fair_prob": 0.7778,
+     "prob_edge": -0.0513,
+     "point_gap": null,
+     "combined_edge": -0.0513
+    }
+   ]
+  },
+  {
+   "id": "f3992ad4496724baf7dcd1ef58245d6b",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "Minnesota Vikings",
+   "away": "Indianapolis Colts",
+   "dk": {
+    "spreads": {
+     "Indianapolis Colts": {
+      "point": 5.5,
+      "price": -108
+     },
+     "Minnesota Vikings": {
+      "point": -5.5,
+      "price": -112
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 41.5,
+      "price": -110
+     },
+     "Under": {
+      "point": 41.5,
+      "price": -110
+     }
+    },
+    "h2h": {
+     "Indianapolis Colts": {
+      "point": null,
+      "price": 205
+     },
+     "Minnesota Vikings": {
+      "point": null,
+      "price": -250
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "Indianapolis Colts": {
+      "point": 5.5,
+      "price": -104,
+      "fair_prob": 0.4954
+     },
+     "Minnesota Vikings": {
+      "point": -5.5,
+      "price": -108,
+      "fair_prob": 0.5046
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 41.5,
+      "price": -111,
+      "fair_prob": 0.5067
+     },
+     "Under": {
+      "point": 41.5,
+      "price": -105,
+      "fair_prob": 0.4933
+     }
+    },
+    "h2h": {
+     "Indianapolis Colts": {
+      "point": null,
+      "price": 211,
+      "fair_prob": 0.3114
+     },
+     "Minnesota Vikings": {
+      "point": null,
+      "price": -246,
+      "fair_prob": 0.6886
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Indianapolis Colts",
+     "dk_point": 5.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 5.5,
+     "pin_fair_price": 102,
+     "pin_fair_prob": 0.4954,
+     "prob_edge": -0.0238,
+     "point_gap": 0.0,
+     "combined_edge": -0.0238
+    },
+    {
+     "market": "spreads",
+     "side": "Minnesota Vikings",
+     "dk_point": -5.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": -5.5,
+     "pin_fair_price": -102,
+     "pin_fair_prob": 0.5046,
+     "prob_edge": -0.0237,
+     "point_gap": 0.0,
+     "combined_edge": -0.0237
     },
     {
      "market": "totals",
      "side": "Over",
      "dk_point": 41.5,
-     "dk_price": -200,
-     "dk_implied": 0.6667,
-     "pin_point": 40.5,
-     "pin_fair_price": 112,
-     "pin_fair_prob": 0.4728,
-     "prob_edge": -0.1939,
-     "point_gap": -1.0,
-     "combined_edge": -0.2339
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 41.5,
+     "pin_fair_price": -103,
+     "pin_fair_prob": 0.5067,
+     "prob_edge": -0.0171,
+     "point_gap": 0.0,
+     "combined_edge": -0.0171
     },
     {
      "market": "totals",
      "side": "Under",
      "dk_point": 41.5,
-     "dk_price": 149,
-     "dk_implied": 0.4016,
-     "pin_point": 40.5,
-     "pin_fair_price": -112,
-     "pin_fair_prob": 0.5272,
-     "prob_edge": 0.1256,
-     "point_gap": 1.0,
-     "combined_edge": 0.1656
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 41.5,
+     "pin_fair_price": 103,
+     "pin_fair_prob": 0.4933,
+     "prob_edge": -0.0305,
+     "point_gap": 0.0,
+     "combined_edge": -0.0305
+    },
+    {
+     "market": "h2h",
+     "side": "Indianapolis Colts",
+     "dk_point": null,
+     "dk_price": 205,
+     "dk_implied": 0.3279,
+     "pin_point": null,
+     "pin_fair_price": 221,
+     "pin_fair_prob": 0.3114,
+     "prob_edge": -0.0165,
+     "point_gap": null,
+     "combined_edge": -0.0165
+    },
+    {
+     "market": "h2h",
+     "side": "Minnesota Vikings",
+     "dk_point": null,
+     "dk_price": -250,
+     "dk_implied": 0.7143,
+     "pin_point": null,
+     "pin_fair_price": -221,
+     "pin_fair_prob": 0.6886,
+     "prob_edge": -0.0257,
+     "point_gap": null,
+     "combined_edge": -0.0257
     }
    ]
   },
   {
-   "id": "27f3994841ce8081c0b7349cf3d1e3d7",
-   "commence_time": "2026-10-18T17:02:52Z",
-   "kickoff_et": "Sun 10/18 01:02 PM",
-   "home": "Tampa Bay Buccaneers",
-   "away": "Pittsburgh Steelers",
+   "id": "be5dd120ca08b43d647b6caa8953500a",
+   "commence_time": "2026-10-25T17:00:00Z",
+   "kickoff_et": "Sun 10/25 01:00 PM",
+   "home": "New York Jets",
+   "away": "Miami Dolphins",
    "dk": {
     "spreads": {
-     "Pittsburgh Steelers": {
-      "point": -1.5,
-      "price": 101
+     "Miami Dolphins": {
+      "point": 4.5,
+      "price": -102
      },
-     "Tampa Bay Buccaneers": {
-      "point": 1.5,
-      "price": -133
+     "New York Jets": {
+      "point": -4.5,
+      "price": -118
      }
     },
     "totals": {
      "Over": {
-      "point": 41.5,
-      "price": 155
+      "point": 38.5,
+      "price": -115
      },
      "Under": {
-      "point": 41.5,
-      "price": -207
+      "point": 38.5,
+      "price": -105
      }
     },
     "h2h": {
-     "Pittsburgh Steelers": {
+     "Miami Dolphins": {
       "point": null,
-      "price": -146
+      "price": 190
      },
-     "Tampa Bay Buccaneers": {
+     "New York Jets": {
       "point": null,
-      "price": 111
+      "price": -230
      }
     }
    },
-   "pinnacle": {},
-   "edges": []
-  },
-  {
-   "id": "1cf74afd313e9fd300e1462012b174cb",
-   "commence_time": "2026-10-18T17:03:01Z",
-   "kickoff_et": "Sun 10/18 01:03 PM",
-   "home": "New York Giants",
-   "away": "New Orleans Saints",
-   "dk": {
+   "pinnacle": {
     "spreads": {
-     "New Orleans Saints": {
-      "point": -6.5,
-      "price": -388
-     },
-     "New York Giants": {
-      "point": 6.5,
-      "price": 271
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 61.5,
-      "price": 237
-     },
-     "Under": {
-      "point": 61.5,
-      "price": -332
-     }
-    },
-    "h2h": {
-     "New Orleans Saints": {
-      "point": null,
-      "price": -1080
-     },
-     "New York Giants": {
-      "point": null,
-      "price": 595
-     }
-    }
-   },
-   "pinnacle": {},
-   "edges": []
-  },
-  {
-   "id": "84aa9e190e625d7e9cd67e1f157a45b4",
-   "commence_time": "2026-10-18T17:03:40Z",
-   "kickoff_et": "Sun 10/18 01:03 PM",
-   "home": "Indianapolis Colts",
-   "away": "Tennessee Titans",
-   "dk": {
-    "spreads": {
-     "Tennessee Titans": {
-      "point": -5.5,
-      "price": -10000
-     },
-     "Indianapolis Colts": {
+     "Miami Dolphins": {
       "point": 5.5,
-      "price": 1900
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 46.5,
-      "price": 1700
+      "price": -116,
+      "fair_prob": 0.5216
      },
-     "Under": {
-      "point": 46.5,
-      "price": -10000
-     }
-    },
-    "h2h": {
-     "Tennessee Titans": {
-      "point": null,
-      "price": -10000
-     },
-     "Indianapolis Colts": {
-      "point": null,
-      "price": 1900
-     }
-    }
-   },
-   "pinnacle": {},
-   "edges": []
-  },
-  {
-   "id": "3729ac6d2a66b642850caf2044cdc658",
-   "commence_time": "2026-10-18T20:05:18Z",
-   "kickoff_et": "Sun 10/18 04:05 PM",
-   "home": "Los Angeles Rams",
-   "away": "Arizona Cardinals",
-   "dk": {
-    "spreads": {
-     "Arizona Cardinals": {
-      "point": 10.5,
-      "price": -110
-     },
-     "Los Angeles Rams": {
-      "point": -10.5,
-      "price": -120
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 51.5,
-      "price": -120
-     },
-     "Under": {
-      "point": 51.5,
-      "price": -110
-     }
-    },
-    "h2h": {
-     "Arizona Cardinals": {
-      "point": null,
-      "price": 394
-     },
-     "Los Angeles Rams": {
-      "point": null,
-      "price": -610
-     }
-    }
-   },
-   "pinnacle": {},
-   "edges": []
-  },
-  {
-   "id": "45b2690b350ed45145c7a716b18e8e66",
-   "commence_time": "2026-10-18T20:30:00Z",
-   "kickoff_et": "Sun 10/18 04:30 PM",
-   "home": "Las Vegas Raiders",
-   "away": "Buffalo Bills",
-   "dk": {
-    "spreads": {
-     "Buffalo Bills": {
+     "New York Jets": {
       "point": -5.5,
+      "price": 103,
+      "fair_prob": 0.4784
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 39.5,
+      "price": -107,
+      "fair_prob": 0.4978
+     },
+     "Under": {
+      "point": 39.5,
+      "price": -109,
+      "fair_prob": 0.5022
+     }
+    },
+    "h2h": {
+     "Miami Dolphins": {
+      "point": null,
+      "price": 194,
+      "fair_prob": 0.3294
+     },
+     "New York Jets": {
+      "point": null,
+      "price": -225,
+      "fair_prob": 0.6706
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Miami Dolphins",
+     "dk_point": 4.5,
+     "dk_price": -102,
+     "dk_implied": 0.505,
+     "pin_point": 5.5,
+     "pin_fair_price": -109,
+     "pin_fair_prob": 0.5216,
+     "prob_edge": 0.0166,
+     "point_gap": -1.0,
+     "combined_edge": -0.0234
+    },
+    {
+     "market": "spreads",
+     "side": "New York Jets",
+     "dk_point": -4.5,
+     "dk_price": -118,
+     "dk_implied": 0.5413,
+     "pin_point": -5.5,
+     "pin_fair_price": 109,
+     "pin_fair_prob": 0.4784,
+     "prob_edge": -0.0629,
+     "point_gap": 1.0,
+     "combined_edge": -0.0229
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 38.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 39.5,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4978,
+     "prob_edge": -0.0371,
+     "point_gap": 1.0,
+     "combined_edge": 0.0029
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 38.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 39.5,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5022,
+     "prob_edge": -0.01,
+     "point_gap": -1.0,
+     "combined_edge": -0.05
+    },
+    {
+     "market": "h2h",
+     "side": "Miami Dolphins",
+     "dk_point": null,
+     "dk_price": 190,
+     "dk_implied": 0.3448,
+     "pin_point": null,
+     "pin_fair_price": 204,
+     "pin_fair_prob": 0.3294,
+     "prob_edge": -0.0154,
+     "point_gap": null,
+     "combined_edge": -0.0154
+    },
+    {
+     "market": "h2h",
+     "side": "New York Jets",
+     "dk_point": null,
+     "dk_price": -230,
+     "dk_implied": 0.697,
+     "pin_point": null,
+     "pin_fair_price": -204,
+     "pin_fair_prob": 0.6706,
+     "prob_edge": -0.0264,
+     "point_gap": null,
+     "combined_edge": -0.0264
+    }
+   ]
+  },
+  {
+   "id": "436119bb3ccdaa6ed7808aa3ebd82b76",
+   "commence_time": "2026-10-25T20:05:00Z",
+   "kickoff_et": "Sun 10/25 04:05 PM",
+   "home": "Arizona Cardinals",
+   "away": "Denver Broncos",
+   "dk": {
+    "spreads": {
+     "Denver Broncos": {
+      "point": -4.5,
       "price": -108
+     },
+     "Arizona Cardinals": {
+      "point": 4.5,
+      "price": -112
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 43.5,
+      "price": -112
+     },
+     "Under": {
+      "point": 43.5,
+      "price": -108
+     }
+    },
+    "h2h": {
+     "Denver Broncos": {
+      "point": null,
+      "price": -218
+     },
+     "Arizona Cardinals": {
+      "point": null,
+      "price": 180
+     }
+    }
+   },
+   "pinnacle": {
+    "spreads": {
+     "Denver Broncos": {
+      "point": -4.0,
+      "price": -105,
+      "fair_prob": 0.4977
+     },
+     "Arizona Cardinals": {
+      "point": 4.0,
+      "price": -107,
+      "fair_prob": 0.5023
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.0,
+      "price": -104,
+      "fair_prob": 0.4911
+     },
+     "Under": {
+      "point": 44.0,
+      "price": -112,
+      "fair_prob": 0.5089
+     }
+    },
+    "h2h": {
+     "Denver Broncos": {
+      "point": null,
+      "price": -204,
+      "fair_prob": 0.6502
+     },
+     "Arizona Cardinals": {
+      "point": null,
+      "price": 177,
+      "fair_prob": 0.3498
+     }
+    }
+   },
+   "edges": [
+    {
+     "market": "spreads",
+     "side": "Denver Broncos",
+     "dk_point": -4.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": -4.0,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4977,
+     "prob_edge": -0.0215,
+     "point_gap": -0.5,
+     "combined_edge": -0.0415
+    },
+    {
+     "market": "spreads",
+     "side": "Arizona Cardinals",
+     "dk_point": 4.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 4.0,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5023,
+     "prob_edge": -0.026,
+     "point_gap": 0.5,
+     "combined_edge": -0.006
+    },
+    {
+     "market": "totals",
+     "side": "Over",
+     "dk_point": 43.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 44.0,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4911,
+     "prob_edge": -0.0372,
+     "point_gap": 0.5,
+     "combined_edge": -0.0172
+    },
+    {
+     "market": "totals",
+     "side": "Under",
+     "dk_point": 43.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 44.0,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5089,
+     "prob_edge": -0.0103,
+     "point_gap": -0.5,
+     "combined_edge": -0.0303
+    },
+    {
+     "market": "h2h",
+     "side": "Denver Broncos",
+     "dk_point": null,
+     "dk_price": -218,
+     "dk_implied": 0.6855,
+     "pin_point": null,
+     "pin_fair_price": -186,
+     "pin_fair_prob": 0.6502,
+     "prob_edge": -0.0353,
+     "point_gap": null,
+     "combined_edge": -0.0353
+    },
+    {
+     "market": "h2h",
+     "side": "Arizona Cardinals",
+     "dk_point": null,
+     "dk_price": 180,
+     "dk_implied": 0.3571,
+     "pin_point": null,
+     "pin_fair_price": 186,
+     "pin_fair_prob": 0.3498,
+     "prob_edge": -0.0073,
+     "point_gap": null,
+     "combined_edge": -0.0073
+    }
+   ]
+  },
+  {
+   "id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
+   "commence_time": "2026-10-25T20:25:00Z",
+   "kickoff_et": "Sun 10/25 04:25 PM",
+   "home": "Detroit Lions",
+   "away": "Green Bay Packers",
+   "dk": {
+    "spreads": {
+     "Green Bay Packers": {
+      "point": 3.0,
+      "price": -115
+     },
+     "Detroit Lions": {
+      "point": -3.0,
+      "price": -105
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 52.5,
+      "price": -110
+     },
+     "Under": {
+      "point": 52.5,
+      "price": -110
+     }
+    },
+    "h2h": {
+     "Green Bay Packers": {
+      "point": null,
+      "price": 140
+     },
+     "Detroit Lions": {
+      "point": null,
+      "price": -166
+     }
+    }
+   },
+   "pinnacle": {},
+   "edges": []
+  },
+  {
+   "id": "f7679cf18454e4d88a8f2b990c3f08ac",
+   "commence_time": "2026-10-25T20:25:00Z",
+   "kickoff_et": "Sun 10/25 04:25 PM",
+   "home": "Las Vegas Raiders",
+   "away": "Los Angeles Rams",
+   "dk": {
+    "spreads": {
+     "Los Angeles Rams": {
+      "point": -4.5,
+      "price": -115
      },
      "Las Vegas Raiders": {
-      "point": 5.5,
-      "price": -112
+      "point": 4.5,
+      "price": -105
      }
     },
     "totals": {
      "Over": {
-      "point": 53.5,
-      "price": -112
+      "point": 47.5,
+      "price": -110
      },
      "Under": {
-      "point": 53.5,
-      "price": -108
+      "point": 47.5,
+      "price": -110
      }
     },
     "h2h": {
-     "Buffalo Bills": {
+     "Los Angeles Rams": {
       "point": null,
       "price": -238
      },
@@ -389,107 +1578,107 @@
    },
    "pinnacle": {
     "spreads": {
-     "Buffalo Bills": {
-      "point": -4.5,
-      "price": -108,
-      "fair_prob": 0.507
+     "Los Angeles Rams": {
+      "point": -5.5,
+      "price": -107,
+      "fair_prob": 0.5023
      },
      "Las Vegas Raiders": {
-      "point": 4.5,
-      "price": -102,
-      "fair_prob": 0.493
+      "point": 5.5,
+      "price": -105,
+      "fair_prob": 0.4977
      }
     },
     "totals": {
      "Over": {
-      "point": 53.5,
-      "price": -111,
-      "fair_prob": 0.5115
+      "point": 47.5,
+      "price": -113,
+      "fair_prob": 0.5111
      },
      "Under": {
-      "point": 53.5,
-      "price": -101,
-      "fair_prob": 0.4885
+      "point": 47.5,
+      "price": -103,
+      "fair_prob": 0.4889
      }
     },
     "h2h": {
-     "Buffalo Bills": {
+     "Los Angeles Rams": {
       "point": null,
-      "price": -225,
-      "fair_prob": 0.6743
+      "price": -240,
+      "fair_prob": 0.6828
      },
      "Las Vegas Raiders": {
       "point": null,
-      "price": 199,
-      "fair_prob": 0.3257
+      "price": 205,
+      "fair_prob": 0.3172
      }
     }
    },
    "edges": [
     {
      "market": "spreads",
-     "side": "Buffalo Bills",
-     "dk_point": -5.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": -4.5,
-     "pin_fair_price": -103,
-     "pin_fair_prob": 0.507,
-     "prob_edge": -0.0122,
-     "point_gap": -1.0,
-     "combined_edge": -0.0522
+     "side": "Los Angeles Rams",
+     "dk_point": -4.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": -5.5,
+     "pin_fair_price": -101,
+     "pin_fair_prob": 0.5023,
+     "prob_edge": -0.0326,
+     "point_gap": 1.0,
+     "combined_edge": 0.0074
     },
     {
      "market": "spreads",
      "side": "Las Vegas Raiders",
-     "dk_point": 5.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": 4.5,
-     "pin_fair_price": 103,
-     "pin_fair_prob": 0.493,
-     "prob_edge": -0.0353,
-     "point_gap": 1.0,
-     "combined_edge": 0.0047
+     "dk_point": 4.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": 5.5,
+     "pin_fair_price": 101,
+     "pin_fair_prob": 0.4977,
+     "prob_edge": -0.0145,
+     "point_gap": -1.0,
+     "combined_edge": -0.0545
     },
     {
      "market": "totals",
      "side": "Over",
-     "dk_point": 53.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": 53.5,
+     "dk_point": 47.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 47.5,
      "pin_fair_price": -105,
-     "pin_fair_prob": 0.5115,
-     "prob_edge": -0.0168,
+     "pin_fair_prob": 0.5111,
+     "prob_edge": -0.0127,
      "point_gap": 0.0,
-     "combined_edge": -0.0168
+     "combined_edge": -0.0127
     },
     {
      "market": "totals",
      "side": "Under",
-     "dk_point": 53.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": 53.5,
+     "dk_point": 47.5,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
+     "pin_point": 47.5,
      "pin_fair_price": 105,
-     "pin_fair_prob": 0.4885,
-     "prob_edge": -0.0307,
+     "pin_fair_prob": 0.4889,
+     "prob_edge": -0.0349,
      "point_gap": 0.0,
-     "combined_edge": -0.0307
+     "combined_edge": -0.0349
     },
     {
      "market": "h2h",
-     "side": "Buffalo Bills",
+     "side": "Los Angeles Rams",
      "dk_point": null,
      "dk_price": -238,
      "dk_implied": 0.7041,
      "pin_point": null,
-     "pin_fair_price": -207,
-     "pin_fair_prob": 0.6743,
-     "prob_edge": -0.0298,
+     "pin_fair_price": -215,
+     "pin_fair_prob": 0.6828,
+     "prob_edge": -0.0213,
      "point_gap": null,
-     "combined_edge": -0.0298
+     "combined_edge": -0.0213
     },
     {
      "market": "h2h",
@@ -498,484 +1687,211 @@
      "dk_price": 195,
      "dk_implied": 0.339,
      "pin_point": null,
-     "pin_fair_price": 207,
-     "pin_fair_prob": 0.3257,
-     "prob_edge": -0.0133,
+     "pin_fair_price": 215,
+     "pin_fair_prob": 0.3172,
+     "prob_edge": -0.0218,
      "point_gap": null,
-     "combined_edge": -0.0133
+     "combined_edge": -0.0218
     }
    ]
   },
   {
-   "id": "20fefae8c296247460ba5773caa42218",
-   "commence_time": "2026-10-18T20:30:00Z",
-   "kickoff_et": "Sun 10/18 04:30 PM",
-   "home": "Kansas City Chiefs",
-   "away": "Los Angeles Chargers",
+   "id": "176d474ed8b2bbf1eb4d7e9c56b4bf22",
+   "commence_time": "2026-10-26T00:20:00Z",
+   "kickoff_et": "Sun 10/25 08:20 PM",
+   "home": "Seattle Seahawks",
+   "away": "Kansas City Chiefs",
    "dk": {
     "spreads": {
-     "Los Angeles Chargers": {
-      "point": 7.5,
-      "price": -112
-     },
      "Kansas City Chiefs": {
-      "point": -7.5,
-      "price": -108
+      "point": 2.5,
+      "price": -115
+     },
+     "Seattle Seahawks": {
+      "point": -2.5,
+      "price": -105
      }
     },
     "totals": {
      "Over": {
-      "point": 41.5,
-      "price": -112
-     },
-     "Under": {
-      "point": 41.5,
-      "price": -108
-     }
-    },
-    "h2h": {
-     "Los Angeles Chargers": {
-      "point": null,
-      "price": 350
-     },
-     "Kansas City Chiefs": {
-      "point": null,
-      "price": -455
-     }
-    }
-   },
-   "pinnacle": {
-    "spreads": {
-     "Los Angeles Chargers": {
-      "point": 8.0,
-      "price": -121,
-      "fair_prob": 0.5336
-     },
-     "Kansas City Chiefs": {
-      "point": -8.0,
-      "price": 109,
-      "fair_prob": 0.4664
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 41.5,
-      "price": -105,
-      "fair_prob": 0.4977
-     },
-     "Under": {
-      "point": 41.5,
-      "price": -107,
-      "fair_prob": 0.5023
-     }
-    },
-    "h2h": {
-     "Los Angeles Chargers": {
-      "point": null,
-      "price": 353,
-      "fair_prob": 0.214
-     },
-     "Kansas City Chiefs": {
-      "point": null,
-      "price": -428,
-      "fair_prob": 0.786
-     }
-    }
-   },
-   "edges": [
-    {
-     "market": "spreads",
-     "side": "Los Angeles Chargers",
-     "dk_point": 7.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": 8.0,
-     "pin_fair_price": -114,
-     "pin_fair_prob": 0.5336,
-     "prob_edge": 0.0053,
-     "point_gap": -0.5,
-     "combined_edge": -0.0147
-    },
-    {
-     "market": "spreads",
-     "side": "Kansas City Chiefs",
-     "dk_point": -7.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": -8.0,
-     "pin_fair_price": 114,
-     "pin_fair_prob": 0.4664,
-     "prob_edge": -0.0528,
-     "point_gap": 0.5,
-     "combined_edge": -0.0328
-    },
-    {
-     "market": "totals",
-     "side": "Over",
-     "dk_point": 41.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": 41.5,
-     "pin_fair_price": 101,
-     "pin_fair_prob": 0.4977,
-     "prob_edge": -0.0306,
-     "point_gap": 0.0,
-     "combined_edge": -0.0306
-    },
-    {
-     "market": "totals",
-     "side": "Under",
-     "dk_point": 41.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": 41.5,
-     "pin_fair_price": -101,
-     "pin_fair_prob": 0.5023,
-     "prob_edge": -0.0169,
-     "point_gap": 0.0,
-     "combined_edge": -0.0169
-    },
-    {
-     "market": "h2h",
-     "side": "Los Angeles Chargers",
-     "dk_point": null,
-     "dk_price": 350,
-     "dk_implied": 0.2222,
-     "pin_point": null,
-     "pin_fair_price": 367,
-     "pin_fair_prob": 0.214,
-     "prob_edge": -0.0082,
-     "point_gap": null,
-     "combined_edge": -0.0082
-    },
-    {
-     "market": "h2h",
-     "side": "Kansas City Chiefs",
-     "dk_point": null,
-     "dk_price": -455,
-     "dk_implied": 0.8198,
-     "pin_point": null,
-     "pin_fair_price": -367,
-     "pin_fair_prob": 0.786,
-     "prob_edge": -0.0338,
-     "point_gap": null,
-     "combined_edge": -0.0338
-    }
-   ]
-  },
-  {
-   "id": "82fd5a159fa130e67abab93a9537f70b",
-   "commence_time": "2026-10-19T00:20:00Z",
-   "kickoff_et": "Sun 10/18 08:20 PM",
-   "home": "Green Bay Packers",
-   "away": "Dallas Cowboys",
-   "dk": {
-    "spreads": {
-     "Dallas Cowboys": {
-      "point": 1.5,
-      "price": -118
-     },
-     "Green Bay Packers": {
-      "point": -1.5,
-      "price": -102
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 53.5,
-      "price": -112
-     },
-     "Under": {
-      "point": 53.5,
-      "price": -108
-     }
-    },
-    "h2h": {
-     "Dallas Cowboys": {
-      "point": null,
-      "price": -108
-     },
-     "Green Bay Packers": {
-      "point": null,
-      "price": -112
-     }
-    }
-   },
-   "pinnacle": {
-    "spreads": {
-     "Dallas Cowboys": {
-      "point": 1.0,
-      "price": -112,
-      "fair_prob": 0.5162
-     },
-     "Green Bay Packers": {
-      "point": -1.0,
-      "price": 102,
-      "fair_prob": 0.4838
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 53.5,
-      "price": -110,
-      "fair_prob": 0.5092
-     },
-     "Under": {
-      "point": 53.5,
-      "price": -102,
-      "fair_prob": 0.4908
-     }
-    },
-    "h2h": {
-     "Dallas Cowboys": {
-      "point": null,
-      "price": -104,
-      "fair_prob": 0.4977
-     },
-     "Green Bay Packers": {
-      "point": null,
-      "price": -106,
-      "fair_prob": 0.5023
-     }
-    }
-   },
-   "edges": [
-    {
-     "market": "spreads",
-     "side": "Dallas Cowboys",
-     "dk_point": 1.5,
-     "dk_price": -118,
-     "dk_implied": 0.5413,
-     "pin_point": 1.0,
-     "pin_fair_price": -107,
-     "pin_fair_prob": 0.5162,
-     "prob_edge": -0.0251,
-     "point_gap": 0.5,
-     "combined_edge": -0.0051
-    },
-    {
-     "market": "spreads",
-     "side": "Green Bay Packers",
-     "dk_point": -1.5,
-     "dk_price": -102,
-     "dk_implied": 0.505,
-     "pin_point": -1.0,
-     "pin_fair_price": 107,
-     "pin_fair_prob": 0.4838,
-     "prob_edge": -0.0212,
-     "point_gap": -0.5,
-     "combined_edge": -0.0412
-    },
-    {
-     "market": "totals",
-     "side": "Over",
-     "dk_point": 53.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": 53.5,
-     "pin_fair_price": -104,
-     "pin_fair_prob": 0.5092,
-     "prob_edge": -0.0191,
-     "point_gap": 0.0,
-     "combined_edge": -0.0191
-    },
-    {
-     "market": "totals",
-     "side": "Under",
-     "dk_point": 53.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": 53.5,
-     "pin_fair_price": 104,
-     "pin_fair_prob": 0.4908,
-     "prob_edge": -0.0284,
-     "point_gap": 0.0,
-     "combined_edge": -0.0284
-    },
-    {
-     "market": "h2h",
-     "side": "Dallas Cowboys",
-     "dk_point": null,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
-     "pin_point": null,
-     "pin_fair_price": 101,
-     "pin_fair_prob": 0.4977,
-     "prob_edge": -0.0215,
-     "point_gap": null,
-     "combined_edge": -0.0215
-    },
-    {
-     "market": "h2h",
-     "side": "Green Bay Packers",
-     "dk_point": null,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
-     "pin_point": null,
-     "pin_fair_price": -101,
-     "pin_fair_prob": 0.5023,
-     "prob_edge": -0.026,
-     "point_gap": null,
-     "combined_edge": -0.026
-    }
-   ]
-  },
-  {
-   "id": "f122527f003276d3bca19efa48c902c1",
-   "commence_time": "2026-10-20T00:15:00Z",
-   "kickoff_et": "Mon 10/19 08:15 PM",
-   "home": "San Francisco 49ers",
-   "away": "Washington Commanders",
-   "dk": {
-    "spreads": {
-     "Washington Commanders": {
-      "point": 7.5,
-      "price": -110
-     },
-     "San Francisco 49ers": {
-      "point": -7.5,
-      "price": -110
-     }
-    },
-    "totals": {
-     "Over": {
-      "point": 52.5,
+      "point": 42.5,
       "price": -105
      },
      "Under": {
-      "point": 52.5,
+      "point": 42.5,
       "price": -115
      }
     },
     "h2h": {
-     "Washington Commanders": {
+     "Kansas City Chiefs": {
       "point": null,
-      "price": 350
+      "price": 114
      },
-     "San Francisco 49ers": {
+     "Seattle Seahawks": {
       "point": null,
-      "price": -455
+      "price": -135
      }
     }
    },
    "pinnacle": {
     "spreads": {
-     "Washington Commanders": {
-      "point": 7.5,
-      "price": -108,
-      "fair_prob": 0.5046
+     "Kansas City Chiefs": {
+      "point": 1.5,
+      "price": 102,
+      "fair_prob": 0.4807
      },
-     "San Francisco 49ers": {
-      "point": -7.5,
-      "price": -104,
-      "fair_prob": 0.4954
+     "Seattle Seahawks": {
+      "point": -1.5,
+      "price": -115,
+      "fair_prob": 0.5193
      }
     },
     "totals": {
      "Over": {
-      "point": 52.5,
-      "price": -103,
-      "fair_prob": 0.491
+      "point": 42.0,
+      "price": -113,
+      "fair_prob": 0.51
      },
      "Under": {
-      "point": 52.5,
-      "price": -111,
-      "fair_prob": 0.509
+      "point": 42.0,
+      "price": -104,
+      "fair_prob": 0.49
      }
     },
     "h2h": {
-     "Washington Commanders": {
+     "Kansas City Chiefs": {
       "point": null,
-      "price": 329,
-      "fair_prob": 0.2248
+      "price": 118,
+      "fair_prob": 0.4456
      },
-     "San Francisco 49ers": {
+     "Seattle Seahawks": {
       "point": null,
-      "price": -410,
-      "fair_prob": 0.7752
+      "price": -133,
+      "fair_prob": 0.5544
      }
     }
    },
    "edges": [
     {
      "market": "spreads",
-     "side": "Washington Commanders",
-     "dk_point": 7.5,
-     "dk_price": -110,
-     "dk_implied": 0.5238,
-     "pin_point": 7.5,
-     "pin_fair_price": -102,
-     "pin_fair_prob": 0.5046,
-     "prob_edge": -0.0192,
-     "point_gap": 0.0,
-     "combined_edge": -0.0192
+     "side": "Kansas City Chiefs",
+     "dk_point": 2.5,
+     "dk_price": -115,
+     "dk_implied": 0.5349,
+     "pin_point": 1.5,
+     "pin_fair_price": 108,
+     "pin_fair_prob": 0.4807,
+     "prob_edge": -0.0542,
+     "point_gap": 1.0,
+     "combined_edge": -0.0142
     },
     {
      "market": "spreads",
-     "side": "San Francisco 49ers",
-     "dk_point": -7.5,
-     "dk_price": -110,
-     "dk_implied": 0.5238,
-     "pin_point": -7.5,
-     "pin_fair_price": 102,
-     "pin_fair_prob": 0.4954,
-     "prob_edge": -0.0284,
-     "point_gap": 0.0,
-     "combined_edge": -0.0284
+     "side": "Seattle Seahawks",
+     "dk_point": -2.5,
+     "dk_price": -105,
+     "dk_implied": 0.5122,
+     "pin_point": -1.5,
+     "pin_fair_price": -108,
+     "pin_fair_prob": 0.5193,
+     "prob_edge": 0.0071,
+     "point_gap": -1.0,
+     "combined_edge": -0.0329
     },
     {
      "market": "totals",
      "side": "Over",
-     "dk_point": 52.5,
+     "dk_point": 42.5,
      "dk_price": -105,
      "dk_implied": 0.5122,
-     "pin_point": 52.5,
-     "pin_fair_price": 104,
-     "pin_fair_prob": 0.491,
-     "prob_edge": -0.0212,
-     "point_gap": 0.0,
-     "combined_edge": -0.0212
+     "pin_point": 42.0,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.51,
+     "prob_edge": -0.0022,
+     "point_gap": -0.5,
+     "combined_edge": -0.0222
     },
     {
      "market": "totals",
      "side": "Under",
-     "dk_point": 52.5,
+     "dk_point": 42.5,
      "dk_price": -115,
      "dk_implied": 0.5349,
-     "pin_point": 52.5,
-     "pin_fair_price": -104,
-     "pin_fair_prob": 0.509,
-     "prob_edge": -0.0259,
-     "point_gap": 0.0,
-     "combined_edge": -0.0259
+     "pin_point": 42.0,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.49,
+     "prob_edge": -0.0449,
+     "point_gap": 0.5,
+     "combined_edge": -0.0249
     },
     {
      "market": "h2h",
-     "side": "Washington Commanders",
+     "side": "Kansas City Chiefs",
      "dk_point": null,
-     "dk_price": 350,
-     "dk_implied": 0.2222,
+     "dk_price": 114,
+     "dk_implied": 0.4673,
      "pin_point": null,
-     "pin_fair_price": 345,
-     "pin_fair_prob": 0.2248,
-     "prob_edge": 0.0026,
+     "pin_fair_price": 124,
+     "pin_fair_prob": 0.4456,
+     "prob_edge": -0.0217,
      "point_gap": null,
-     "combined_edge": 0.0026
+     "combined_edge": -0.0217
     },
     {
      "market": "h2h",
-     "side": "San Francisco 49ers",
+     "side": "Seattle Seahawks",
      "dk_point": null,
-     "dk_price": -455,
-     "dk_implied": 0.8198,
+     "dk_price": -135,
+     "dk_implied": 0.5745,
      "pin_point": null,
-     "pin_fair_price": -345,
-     "pin_fair_prob": 0.7752,
-     "prob_edge": -0.0446,
+     "pin_fair_price": -124,
+     "pin_fair_prob": 0.5544,
+     "prob_edge": -0.0201,
      "point_gap": null,
-     "combined_edge": -0.0446
+     "combined_edge": -0.0201
     }
    ]
+  },
+  {
+   "id": "4853610e63c246f2027a6a248e642c9a",
+   "commence_time": "2026-10-27T00:15:00Z",
+   "kickoff_et": "Mon 10/26 08:15 PM",
+   "home": "Philadelphia Eagles",
+   "away": "Dallas Cowboys",
+   "dk": {
+    "spreads": {
+     "Dallas Cowboys": {
+      "point": -4.5,
+      "price": -112
+     },
+     "Philadelphia Eagles": {
+      "point": 4.5,
+      "price": -108
+     }
+    },
+    "totals": {
+     "Over": {
+      "point": 44.5,
+      "price": -110
+     },
+     "Under": {
+      "point": 44.5,
+      "price": -110
+     }
+    },
+    "h2h": {
+     "Dallas Cowboys": {
+      "point": null,
+      "price": -225
+     },
+     "Philadelphia Eagles": {
+      "point": null,
+      "price": 185
+     }
+    }
+   },
+   "pinnacle": {},
+   "edges": []
   }
  ]
 }

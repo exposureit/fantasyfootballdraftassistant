@@ -1,11 +1,11 @@
 {
  "week": 6,
- "title": "Week 6 Sunday",
+ "title": "Week 6 Monday",
  "year": "2026",
- "built_at": "2026-10-18T15:20:00Z",
- "lines_verified_at": "2026-10-18T15:04:00Z",
+ "built_at": "2026-10-19T21:06Z",
+ "lines_verified_at": "2026-10-19T21:03:00Z",
  "verification": "verified",
- "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 15:04 UTC 2026-10-18, Pinnacle as reference. Houston at Jacksonville (9:32 AM ET London) was already live, so its numbers are in-play and excluded. Injuries, weather and splits are search, UNVERIFIED. Inactives post 11:30 AM ET and are not in this card. No DK odds boost found.",
+ "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 21:03 UTC 2026-10-19, Pinnacle as reference. Injuries, splits, scores are search, UNVERIFIED. Inactives post 6:45 PM ET and are not in this card. No DK odds boost found (confirm in the Promos tab).",
  "budget": {
   "total": 100,
   "thursday": 15,
@@ -54,7 +54,9 @@
    ],
    "why": "Rule A early ticket. Reason it moves against us: Bills injuries (Brown, Moore, Oliver) get confirmed and public money lands on Buffalo, which shortens the Raiders price from +220. Own estimate 33.3% vs 31.25% breakeven, Pin fair 33.1%.",
    "kill_switch": "Kill if the Raiders QB is ruled out (Cousins reported as starter, UNVERIFIED) or if DK is already shorter than +200 when you go to place it. If already placed, keep it unless the QB is out, then the line moves with it.",
-   "clv": 0.0265
+   "clv": 0.0265,
+   "result": "loss",
+   "net": -10.0
   },
   {
    "id": "w6-thu-1",
@@ -165,7 +167,9 @@
    ],
    "why": "Cross-game two-leg parlay, uncorrelated by design (the dog plus under pairing would reuse the single's leg). Joint 27.3% vs 26.6% breakeven at about +276. Second leg settles Sunday 4:25 PM ET, so this Thursday ticket stays open to Sunday. Broncos +2.5 leg WON (Denver 17-14 OT). Waiting on Chargers-Chiefs Under 41.5 tonight 4:25 PM ET.",
    "kill_switch": "Kill if DK parlay pays less than +265 or either leg moves (Broncos below +2, Chargers total below 40.5). Then play Broncos +2.5 straight for $5. If already placed, keep. Chargers-Chiefs leg is used, Sunday must not reuse it.",
-   "clv": -0.0061
+   "clv": -0.0061,
+   "result": "win",
+   "net": 13.8
   },
   {
    "id": "w6-sun-2",
@@ -207,7 +211,9 @@
    ],
    "why": "Backup QB plus 28 to 31 mph gusts. Pin 51.0%, own 54.0%.",
    "kill_switch": "Kill if DK total is 37.5 or lower, or juice worse than -120, or Mayfield is active at 11:30 AM ET. If already placed, keep unless Mayfield is active. Freed $15 goes to Saints-Giants Under 46.5 at -115 or better.",
-   "clv": 0.0309
+   "clv": 0.0309,
+   "result": "loss",
+   "net": -15.0
   },
   {
    "id": "w6-sun-3",
@@ -249,7 +255,9 @@
    ],
    "why": "Backup QB total, half point better than Pin.",
    "kill_switch": "Kill if DK total is 38.5 or lower, or McKee is not the starter. If already placed, keep. Freed $15 goes to Cowboys-Packers Over 53.5 at -112 or better (edge -0.017, thin Rule B, own 52%) or Cowboys +1.5 at -110 or better.",
-   "clv": 0.0
+   "clv": 0.0,
+   "result": "win",
+   "net": 13.89
   },
   {
    "id": "w6-sun-4",
@@ -314,7 +322,9 @@
    ],
    "why": "Two-dog cross-game parlay. Joint own 27.8%.",
    "kill_switch": "Kill if Jets are +7 or lower or Titans +6 or lower, or a QB is ruled out. Then play the surviving leg straight for $10 only if still at -112 or better, else skip and move $10 to the Ravens-Browns Under single. If already placed, keep.",
-   "clv": 0.0164
+   "clv": 0.0164,
+   "result": "win",
+   "net": 26.46
   },
   {
    "id": "w6-sun-5",
@@ -368,7 +378,9 @@
     }
    ],
    "why": "Two-under cross-game parlay. Joint own 27.0%.",
-   "kill_switch": "Kill if Ravens-Browns total is 38.5 or lower or Jackson is active; Cardinals-Rams total under 50.5. Then play the surviving leg straight for $10 if still at -110 or better, else skip. If already placed, keep."
+   "kill_switch": "Kill if Ravens-Browns total is 38.5 or lower or Jackson is active; Cardinals-Rams total under 50.5. Then play the surviving leg straight for $10 if still at -110 or better, else skip. If already placed, keep.",
+   "result": "win",
+   "net": 27.6
   },
   {
    "id": "w6-sun-6",
@@ -433,16 +445,80 @@
    ],
    "why": "Two-under cross-game parlay with both correlation pairs documented. Joint own 28.3%.",
    "kill_switch": "Kill if Jets-Pats total is 42.5 or lower (Pin number, edge gone) or Bills-Raiders total under 52.5. Then play the surviving leg straight for $10 if still at -112 or better, else skip. If already placed, keep.",
-   "clv": 0.0
+   "clv": 0.0,
+   "result": "loss",
+   "net": -10.0
+  },
+  {
+   "id": "w6-mon-1",
+   "type": "single",
+   "day": "monday",
+   "name": "Commanders +7",
+   "game": "Washington Commanders at San Francisco 49ers",
+   "kickoff": "Mon 10/19 08:15 PM",
+   "stake": 10.0,
+   "price": -102,
+   "payout": 9.8,
+   "estimate": 0.515,
+   "breakeven": 0.505,
+   "placed": true,
+   "promo": "Profit Boost",
+   "legs": [
+    {
+     "label": "Commanders +7",
+     "pick": "Washington Commanders +7",
+     "market": "spreads",
+     "side": "Washington Commanders",
+     "point": 7.0,
+     "price": -102,
+     "why": "Rule B, combined_edge -0.008, Pin fair 51.7% at +7.5. Daniels back, SF missing Bosa, Greenlaw, Deebo; sharp money on Washington (search, UNVERIFIED).",
+     "away": "Washington Commanders",
+     "home": "San Francisco 49ers",
+     "commence_time": "2026-10-20T00:15:00Z",
+     "game": "Washington Commanders at San Francisco 49ers"
+    }
+   ],
+   "why": "Thin Rule B. Own 51.5% vs 50.5% breakeven, Pin 51.7% at +7.5. Half point worse than Pin, so price is the whole case. Profit Boost token goes here if you have one (UNVERIFIED).",
+   "kill_switch": "Kill if DK is +6.5 or lower, or juice worse than -110, or Daniels is inactive (6:45 PM ET). Freed $10 goes to the Under single (raise to $15) if it is still 51.5 at -110 or better. If already placed, keep unless Daniels is out."
+  },
+  {
+   "id": "w6-mon-2",
+   "type": "single",
+   "day": "monday",
+   "name": "Commanders-49ers Under 51.5",
+   "game": "Washington Commanders at San Francisco 49ers",
+   "kickoff": "Mon 10/19 08:15 PM",
+   "stake": 5.0,
+   "price": -105,
+   "payout": 4.76,
+   "estimate": 0.52,
+   "breakeven": 0.5122,
+   "placed": true,
+   "legs": [
+    {
+     "label": "Under 51.5",
+     "pick": "Under 51.5",
+     "market": "totals",
+     "side": "Under",
+     "point": 51.5,
+     "price": -105,
+     "why": "Rule B, combined_edge -0.032, Pin 52 fair 50.0%. SF receiver corps gutted (Deebo out, Kirk, Robinson, Stribling, Pearsall on IR), Commanders OL thin, Daniels run-heavy.",
+     "away": "Washington Commanders",
+     "home": "San Francisco 49ers",
+     "commence_time": "2026-10-20T00:15:00Z",
+     "game": "Washington Commanders at San Francisco 49ers"
+    }
+   ],
+   "why": "Thin Rule B, dog plus under pairing played as two straights so no leg repeats and no SGP reprice. Own 52.0% vs 51.2% breakeven, Pin 50.0% at 52 (half point worse than Pin here).",
+   "kill_switch": "Kill if DK total is 51 or lower, or juice worse than -110, or Purdy is inactive. Freed $5 goes to Commanders +7 (raise to $15) at -110 or better. If already placed, keep unless Purdy is out."
   }
  ],
  "watch": [
-  "11:30 AM ET inactives: Williams or Penix out (Bears-Falcons, no ticket, but total may drop), Mayfield active (kill Steelers-Bucs Under, $15 to Saints-Giants Under 46.5 at -115 or better), Huntley or Jackson (Jackson active kills the Ravens-Browns leg), McKee start confirmed.",
-  "Steelers-Bucs Under 38.5: place at 38.5 or higher, -120 or better. 37.5 or lower, skip.",
-  "Panthers-Eagles Under 39.5: place at 39.5 or higher, -115 or better.",
-  "Jets-Pats Under needs 43.5 or higher. Jets +7.5 needs -115 or better.",
-  "Cowboys-Packers (SNF) is the only no-ticket game worth a late look: Cowboys +2.5 at -110 or better, or Over 54, Luke decides, no budget unless a kill switch frees money.",
-  "Sunday spends exactly $70: Raiders ML $10 (early) + $15 + $15 + $10 + $10 + $10. Monday $15 reserved, pending."
+  "6:45 PM ET inactives: Daniels out kills ticket 1, Purdy out kills ticket 2.",
+  "Commanders +7 at -110 or better, skip at +6.5.",
+  "Under 51.5 at -110 or better, skip at 51 or lower.",
+  "Mike Evans (rib, Achilles) questionable: out lowers SF scoring, supports Under.",
+  "Monday spends exactly $15: $10 + $5."
  ],
  "board": [
   {
@@ -544,15 +620,15 @@
   {
    "kickoff": "Mon 10/19 08:15 PM",
    "game": "Commanders at 49ers",
-   "spread": "49ers -7.5 (-110)",
-   "total": "52.5 (O -105 / U -115)",
-   "ml": "Commanders +350 / 49ers -455",
-   "read": "Monday $15 reserved for its own update. Commanders ML +0.003. Mariota (MCL) status decides."
+   "spread": "49ers -7 (-118)",
+   "total": "51.5 (O -115 / U -105)",
+   "ml": "Commanders +300 / 49ers -380",
+   "read": "Commanders +7 -0.008, Under 51.5 -0.032, both Rule B. 49ers -7 -0.039 and Over -0.015 fail on own estimate. Pin 49ers -7.5 / 52. My number: 49ers -7.5, 51."
   }
  ],
  "season": {
-  "record": "20-27",
-  "net": 78.52,
+  "record": "25-30",
+  "net": 134.36,
   "weeks": [
    {
     "week": 1,
@@ -573,11 +649,15 @@
    {
     "week": 5,
     "net": 58.19
+   },
+   {
+    "week": 6,
+    "net": 55.84
    }
   ],
   "clv_week": 0.009,
   "clv_season": 0.0059,
-  "week6_note": "Thursday single +9.09 (win); Thursday parlay pending Chargers-Chiefs Under; Raiders ML pending."
+  "week6_note": "Thu +22.89, Sun +32.95, Monday pending. Week 6 so far +55.84."
  },
  "clv_updated_at": "2026-10-18T20:20Z"
 }
