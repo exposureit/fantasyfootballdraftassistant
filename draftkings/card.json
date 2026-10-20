@@ -475,11 +475,22 @@
      "away": "Washington Commanders",
      "home": "San Francisco 49ers",
      "commence_time": "2026-10-20T00:15:00Z",
-     "game": "Washington Commanders at San Francisco 49ers"
+     "game": "Washington Commanders at San Francisco 49ers",
+     "close": {
+      "point": 7.5,
+      "price": -118,
+      "pin_fair_prob": 0.5327,
+      "at": "2026-10-20T00:13Z"
+     },
+     "point_clv": -0.5,
+     "price_clv": 0.0363,
+     "clv": 0.0163,
+     "pin_clv": 0.0277
     }
    ],
    "why": "Thin Rule B. Own 51.5% vs 50.5% breakeven, Pin 51.7% at +7.5. Half point worse than Pin, so price is the whole case. Profit Boost token goes here if you have one (UNVERIFIED).",
-   "kill_switch": "Kill if DK is +6.5 or lower, or juice worse than -110, or Daniels is inactive (6:45 PM ET). Freed $10 goes to the Under single (raise to $15) if it is still 51.5 at -110 or better. If already placed, keep unless Daniels is out."
+   "kill_switch": "Kill if DK is +6.5 or lower, or juice worse than -110, or Daniels is inactive (6:45 PM ET). Freed $10 goes to the Under single (raise to $15) if it is still 51.5 at -110 or better. If already placed, keep unless Daniels is out.",
+   "clv": 0.0163
   },
   {
    "id": "w6-mon-2",
@@ -506,11 +517,22 @@
      "away": "Washington Commanders",
      "home": "San Francisco 49ers",
      "commence_time": "2026-10-20T00:15:00Z",
-     "game": "Washington Commanders at San Francisco 49ers"
+     "game": "Washington Commanders at San Francisco 49ers",
+     "close": {
+      "point": 51.5,
+      "price": -110,
+      "pin_fair_prob": 0.5193,
+      "at": "2026-10-20T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0116,
+     "clv": 0.0116,
+     "pin_clv": 0.0071
     }
    ],
    "why": "Thin Rule B, dog plus under pairing played as two straights so no leg repeats and no SGP reprice. Own 52.0% vs 51.2% breakeven, Pin 50.0% at 52 (half point worse than Pin here).",
-   "kill_switch": "Kill if DK total is 51 or lower, or juice worse than -110, or Purdy is inactive. Freed $5 goes to Commanders +7 (raise to $15) at -110 or better. If already placed, keep unless Purdy is out."
+   "kill_switch": "Kill if DK total is 51 or lower, or juice worse than -110, or Purdy is inactive. Freed $5 goes to Commanders +7 (raise to $15) at -110 or better. If already placed, keep unless Purdy is out.",
+   "clv": 0.0116
   }
  ],
  "watch": [
@@ -655,9 +677,9 @@
     "net": 55.84
    }
   ],
-  "clv_week": 0.009,
-  "clv_season": 0.0059,
+  "clv_week": 0.0101,
+  "clv_season": 0.0061,
   "week6_note": "Thu +22.89, Sun +32.95, Monday pending. Week 6 so far +55.84."
  },
- "clv_updated_at": "2026-10-18T20:20Z"
+ "clv_updated_at": "2026-10-20T00:13Z"
 }

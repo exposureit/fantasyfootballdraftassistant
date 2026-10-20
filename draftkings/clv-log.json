@@ -1294,5 +1294,37 @@
   "clv": 0.0,
   "pin_clv": -0.0307,
   "at": "2026-10-18T20:20Z"
+ },
+ {
+  "week": 6,
+  "ticket": "w6-mon-1",
+  "label": "Commanders +7",
+  "market": "spreads",
+  "side": "Washington Commanders",
+  "bet_point": 7.0,
+  "bet_price": -102,
+  "close_point": 7.5,
+  "close_price": -118,
+  "point_clv": -0.5,
+  "price_clv": 0.0363,
+  "clv": 0.0163,
+  "pin_clv": 0.0277,
+  "at": "2026-10-20T00:13Z"
+ },
+ {
+  "week": 6,
+  "ticket": "w6-mon-2",
+  "label": "Under 51.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 51.5,
+  "bet_price": -105,
+  "close_point": 51.5,
+  "close_price": -110,
+  "point_clv": 0.0,
+  "price_clv": 0.0116,
+  "clv": 0.0116,
+  "pin_clv": 0.0071,
+  "at": "2026-10-20T00:13Z"
  }
 ]
