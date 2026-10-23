@@ -1326,5 +1326,53 @@
   "clv": 0.0116,
   "pin_clv": 0.0071,
   "at": "2026-10-20T00:13Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-thu-1",
+  "label": "Bears -3 (-102), combined_edge -0.012",
+  "market": "spreads",
+  "side": "Chicago Bears",
+  "bet_point": -3.0,
+  "bet_price": -102,
+  "close_point": -3.0,
+  "close_price": -108,
+  "point_clv": 0.0,
+  "price_clv": 0.0143,
+  "clv": 0.0143,
+  "pin_clv": -0.0154,
+  "at": "2026-10-23T00:12Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-thu-2",
+  "label": "Bears ML -155, combined_edge -0.015",
+  "market": "h2h",
+  "side": "Chicago Bears",
+  "bet_point": null,
+  "bet_price": -155,
+  "close_point": null,
+  "close_price": -148,
+  "point_clv": 0.0,
+  "price_clv": -0.0111,
+  "clv": -0.0111,
+  "pin_clv": -0.0171,
+  "at": "2026-10-23T00:12Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-thu-2",
+  "label": "Under 50.5 (-102), combined_edge -0.017",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 50.5,
+  "bet_price": -102,
+  "close_point": 51.5,
+  "close_price": -118,
+  "point_clv": -1.0,
+  "price_clv": 0.0363,
+  "clv": -0.0037,
+  "pin_clv": -0.0175,
+  "at": "2026-10-23T00:12Z"
  }
 ]

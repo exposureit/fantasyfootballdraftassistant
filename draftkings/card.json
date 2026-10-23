@@ -71,11 +71,22 @@
      "side": "Chicago Bears",
      "point": -3.0,
      "price": -102,
-     "why": "Rule B. Pin fair on Bears -3 is 49.3%, DK implied 50.5%, my 51.5%, within 6 points of Pin. Patriots ruled out both starting guards (Vera-Tucker, Brown) and CB Davis, Canada, Prunty; Bears pass rush faces a patched line and Bears secondary is mostly intact. Pin has seen the same report, so the edge is thin and the price is only -102."
+     "why": "Rule B. Pin fair on Bears -3 is 49.3%, DK implied 50.5%, my 51.5%, within 6 points of Pin. Patriots ruled out both starting guards (Vera-Tucker, Brown) and CB Davis, Canada, Prunty; Bears pass rush faces a patched line and Bears secondary is mostly intact. Pin has seen the same report, so the edge is thin and the price is only -102.",
+     "close": {
+      "point": -3.0,
+      "price": -108,
+      "pin_fair_prob": 0.4896,
+      "at": "2026-10-23T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0143,
+     "clv": 0.0143,
+     "pin_clv": -0.0154
     }
    ],
    "why": "Core single. Own 51.5% vs 50.5% breakeven at -102. Thursday has one game, so the 30 percent game cap cannot apply; all $15 sits on Patriots-Bears by necessity. Profit Boost goes here if you hold the token (confirm in the Promos tab).",
-   "kill_switch": "Kill if DK moves to Bears -3.5 or -3 at -115 or worse, or Caleb Williams is inactive. If placed, keep unless Williams is out; if out, no hedge, take the loss risk or cash out. Freed $10 goes to Under 50.5 single only if Williams is out."
+   "kill_switch": "Kill if DK moves to Bears -3.5 or -3 at -115 or worse, or Caleb Williams is inactive. If placed, keep unless Williams is out; if out, no hedge, take the loss risk or cash out. Freed $10 goes to Under 50.5 single only if Williams is out.",
+   "clv": 0.0143
   },
   {
    "id": "w7-thu-2",
@@ -103,7 +114,17 @@
      "side": "Chicago Bears",
      "point": null,
      "price": -155,
-     "why": "Rule B. Pin fair 59.3%, DK implied 60.8%. Own 61%, within 6 of Pin. Same Bears injury edge as the spread single, so this is the same view stacked."
+     "why": "Rule B. Pin fair 59.3%, DK implied 60.8%. Own 61%, within 6 of Pin. Same Bears injury edge as the spread single, so this is the same view stacked.",
+     "close": {
+      "point": null,
+      "price": -148,
+      "pin_fair_prob": 0.5907,
+      "at": "2026-10-23T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0111,
+     "clv": -0.0111,
+     "pin_clv": -0.0171
     },
     {
      "label": "Under 50.5 (-102), combined_edge -0.017",
@@ -116,11 +137,22 @@
      "side": "Under",
      "point": 50.5,
      "price": -102,
-     "why": "Rule B. Pin fair 48.8%, DK implied 50.5%. Own 50.5%. Two guards out and three corners out slows the Patriots offense and puts Maye under pressure; short week; no wind in the forecast so weather does not help the Under."
+     "why": "Rule B. Pin fair 48.8%, DK implied 50.5%. Own 50.5%. Two guards out and three corners out slows the Patriots offense and puts Maye under pressure; short week; no wind in the forecast so weather does not help the Under.",
+     "close": {
+      "point": 51.5,
+      "price": -118,
+      "pin_fair_prob": 0.4875,
+      "at": "2026-10-23T00:12Z"
+     },
+     "point_clv": -1.0,
+     "price_clv": 0.0363,
+     "clv": -0.0037,
+     "pin_clv": -0.0175
     }
    ],
    "why": "Correlated on purpose: Bears win via pressure and defense, game stays under. Joint estimate 32% (Bears ML 61%, Under 50.5%, plus small positive correlation) vs 31.7% breakeven at +215. Thin.",
-   "kill_switch": "DK reprices SGPs. Minimum acceptable price +215 (about $10.75 profit on $5). If DK offers less than +215, split into straights: $2.50 Bears ML -155 and $2.50 Under 50.5 -102. Kill both if Williams is inactive and move the $5 to Under 50.5 alone."
+   "kill_switch": "DK reprices SGPs. Minimum acceptable price +215 (about $10.75 profit on $5). If DK offers less than +215, split into straights: $2.50 Bears ML -155 and $2.50 Under 50.5 -102. Kill both if Williams is inactive and move the $5 to Under 50.5 alone.",
+   "clv": -0.0074
   }
  ],
  "watch": [
@@ -273,9 +305,9 @@
     "net": 70.4
    }
   ],
-  "clv_week": 0.0101,
-  "clv_season": 0.0061,
+  "clv_week": 0.0034,
+  "clv_season": 0.0059,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17)."
  },
- "clv_updated_at": "2026-10-20T00:13Z"
+ "clv_updated_at": "2026-10-23T00:12Z"
 }
