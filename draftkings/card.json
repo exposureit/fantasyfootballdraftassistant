@@ -39,11 +39,22 @@
      "side": "Detroit Lions",
      "point": -3.0,
      "price": -105,
-     "why": "Rule A. Pinnacle fair 53.1% at Lions -3 (-113) vs DK implied 51.2% at -105, so DK is 8 cents cheaper on the same number. Key number 3: this is the cheap side of it. If Lions money lifts DK to -3.5 or -115, the price we hold is gone. No injury news found (search returned no 2026 Week 7 reports), so the reason is the key number and expected public money on Detroit at home."
+     "why": "Rule A. Pinnacle fair 53.1% at Lions -3 (-113) vs DK implied 51.2% at -105, so DK is 8 cents cheaper on the same number. Key number 3: this is the cheap side of it. If Lions money lifts DK to -3.5 or -115, the price we hold is gone. No injury news found (search returned no 2026 Week 7 reports), so the reason is the key number and expected public money on Detroit at home.",
+     "close": {
+      "point": -3.5,
+      "price": -112,
+      "pin_fair_prob": 0.5262,
+      "at": "2026-10-25T20:20Z"
+     },
+     "point_clv": 0.5,
+     "price_clv": 0.0161,
+     "clv": 0.0361,
+     "pin_clv": 0.014
     }
    ],
    "why": "Rule A early ticket. Reason it moves against us: Lions -3 is the cheapest price at the key number, and home-favorite money pushes DK to -110 or -3.5 by Sunday. Own 52.5% vs 51.2% breakeven, Pin fair 53.1%. Reason is thin and unverified, the price is the larger part of the case.",
-   "kill_switch": "Kill if DK is already Lions -3.5, or -3 at -115 or worse, when you go to place it. Kill if Goff is ruled out. If already placed, keep unless Goff is out."
+   "kill_switch": "Kill if DK is already Lions -3.5, or -3 at -115 or worse, when you go to place it. Kill if Goff is ruled out. If already placed, keep unless Goff is out.",
+   "clv": 0.0361
   },
   {
    "id": "w7-thu-1",
@@ -364,7 +375,17 @@
      "side": "Las Vegas Raiders",
      "point": null,
      "price": 154,
-     "why": "Rule B. Pin fair 38.5% vs DK 39.4% implied. Own 39.5%, within 6 of Pin. Dog ML on a 3.5 spread; Rams -3.5 moved to +100, so the market is not leaning on Los Angeles."
+     "why": "Rule B. Pin fair 38.5% vs DK 39.4% implied. Own 39.5%, within 6 of Pin. Dog ML on a 3.5 spread; Rams -3.5 moved to +100, so the market is not leaning on Los Angeles.",
+     "close": {
+      "point": null,
+      "price": 160,
+      "pin_fair_prob": 0.3901,
+      "at": "2026-10-25T20:20Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0091,
+     "clv": -0.0091,
+     "pin_clv": -0.0036
     },
     {
      "label": "Over 39.5 (-102), combined_edge -0.005",
@@ -392,7 +413,8 @@
    ],
    "why": "Longest parlay, so No Sweat goes here if you hold the token (refund is worth most where loss probability is highest). Own 20.0% joint vs 19.9% breakeven.",
    "kill_switch": "Kill the Raiders leg if DK ML is shorter than +140. Kill the Over if DK is 38.5 or lower or Jets or Dolphins QB is out. Dead leg: drop the ticket and move $10 to Colts +6.5.",
-   "promo": "No Sweat"
+   "promo": "No Sweat",
+   "clv": -0.0046
   },
   {
    "id": "w7-sun-7",
@@ -419,7 +441,17 @@
      "side": "Arizona Cardinals",
      "point": 4.5,
      "price": -105,
-     "why": "Rule B. Pin fair 49.8% at +4.5 (+101), DK implied 51.2%. Own 51.5% is 1.7 points above Pin, inside the 6-point band. Weakest leg on the card, which is why the ticket is $5."
+     "why": "Rule B. Pin fair 49.8% at +4.5 (+101), DK implied 51.2%. Own 51.5% is 1.7 points above Pin, inside the 6-point band. Weakest leg on the card, which is why the ticket is $5.",
+     "close": {
+      "point": 6.5,
+      "price": -113,
+      "pin_fair_prob": 0.487,
+      "at": "2026-10-25T20:20Z"
+     },
+     "point_clv": -2.0,
+     "price_clv": 0.0183,
+     "clv": -0.0617,
+     "pin_clv": -0.0252
     },
     {
      "label": "Bengals ML -148, combined_edge -0.007",
@@ -446,7 +478,8 @@
     }
    ],
    "why": "Smallest ticket: both legs sit slightly under Rule A. Own 30.7% joint vs 30.6% breakeven.",
-   "kill_switch": "Kill the Bengals leg if Jackson is active at 11:30 ET (the line will flip, DK Bengals ML will not stay near -148). Then drop the ticket and move $5 to Bucs +3, which keeps Bucs-Panthers at $20, under the 21 cap."
+   "kill_switch": "Kill the Bengals leg if Jackson is active at 11:30 ET (the line will flip, DK Bengals ML will not stay near -148). Then drop the ticket and move $5 to Bucs +3, which keeps Bucs-Panthers at $20, under the 21 cap.",
+   "clv": -0.0201
   }
  ],
  "watch": [
@@ -595,10 +628,10 @@
     "net": 4.8
    }
   ],
-  "clv_week": 0.003,
-  "clv_season": 0.0062,
+  "clv_week": 0.0033,
+  "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Thursday graded: Bears 30-24 Patriots. Bears -3 (-102) WON +9.80, Bears ML + Under 50.5 SGP LOST -5.00 (total 54). Week 7 so far +4.80; Sunday and Monday pending."
  },
- "clv_updated_at": "2026-10-25T16:56Z"
+ "clv_updated_at": "2026-10-25T20:20Z"
 }
