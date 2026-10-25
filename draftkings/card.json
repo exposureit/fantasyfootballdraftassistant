@@ -183,11 +183,22 @@
      "side": "Tampa Bay Buccaneers",
      "point": 3.0,
      "price": -110,
-     "why": "Rule B. Pin fair 52.6% at +3 (-111) vs DK implied 52.4%. Own 53.0%, within 6 of Pin. Key number 3. The Tuesday-Thursday +3 (+100) price is gone, so this is a thin edge: the market has shaded toward Carolina and the 3 still protects a field-goal loss."
+     "why": "Rule B. Pin fair 52.6% at +3 (-111) vs DK implied 52.4%. Own 53.0%, within 6 of Pin. Key number 3. The Tuesday-Thursday +3 (+100) price is gone, so this is a thin edge: the market has shaded toward Carolina and the 3 still protects a field-goal loss.",
+     "close": {
+      "point": 3.0,
+      "price": -110,
+      "pin_fair_prob": 0.5093,
+      "at": "2026-10-25T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0145
     }
    ],
    "why": "Biggest stake because the leg sits on the 3 and has the best combined_edge among spreads. Own 53.0% vs 52.4% breakeven. Thin, and no Bucs or Panthers injury news was found (search, UNVERIFIED).",
-   "kill_switch": "Kill if DK moves to Bucs +2.5 or +3 at -120 or worse, or Baker Mayfield is inactive at 11:30 ET. Freed $15 goes to Seahawks -3 single only if DK still shows +100 or better, else to Colts +6.5 (+100)."
+   "kill_switch": "Kill if DK moves to Bucs +2.5 or +3 at -120 or worse, or Baker Mayfield is inactive at 11:30 ET. Freed $15 goes to Seahawks -3 single only if DK still shows +100 or better, else to Colts +6.5 (+100).",
+   "clv": 0.0
   },
   {
    "id": "w7-sun-3",
@@ -214,12 +225,23 @@
      "side": "New York Giants",
      "point": null,
      "price": 400,
-     "why": "Rule B. Pin fair 20.8% (+380) vs DK implied 20.0%. Own 21.0%. Best combined_edge on the board; Texans -10.5 sits above the 10, so the ML is the cleanest way to own the dog price."
+     "why": "Rule B. Pin fair 20.8% (+380) vs DK implied 20.0%. Own 21.0%. Best combined_edge on the board; Texans -10.5 sits above the 10, so the ML is the cleanest way to own the dog price.",
+     "close": {
+      "point": null,
+      "price": 380,
+      "pin_fair_prob": 0.2146,
+      "at": "2026-10-25T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0083,
+     "clv": 0.0083,
+     "pin_clv": 0.0146
     }
    ],
    "why": "Price-correct long shot at the best edge on the board. Own 21.0% vs 20.0% breakeven. Loses most of the time, so it is $10 only. Profit Boost goes here if you hold the token: longest single price.",
    "kill_switch": "Kill if DK ML drops below +370 or a Giants QB change is announced. If placed, keep.",
-   "promo": "Profit Boost"
+   "promo": "Profit Boost",
+   "clv": 0.0083
   },
   {
    "id": "w7-sun-4",
@@ -246,11 +268,22 @@
      "side": "Indianapolis Colts",
      "point": 6.5,
      "price": 100,
-     "why": "Rule B. Pin fair on Colts +7.5 is 53.8%, so +6.5 at even money prices the 7 correctly. Own 50.5% vs DK 50.0%, plus money on the dog side of the 7. Thin."
+     "why": "Rule B. Pin fair on Colts +7.5 is 53.8%, so +6.5 at even money prices the 7 correctly. Own 50.5% vs DK 50.0%, plus money on the dog side of the 7. Thin.",
+     "close": {
+      "point": 6.5,
+      "price": 100,
+      "pin_fair_prob": 0.524,
+      "at": "2026-10-25T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.024
     }
    ],
    "why": "Plus-money dog just under the 7. Own 50.5% vs 50.0% breakeven.",
-   "kill_switch": "Kill if DK is +6 or worse, or +6.5 at -115 or worse. Take +7 if offered at -110. Freed $10 goes to Bucs +3 only if it stays under the 30 percent game cap."
+   "kill_switch": "Kill if DK is +6 or worse, or +6.5 at -115 or worse. Take +7 if offered at -110. Freed $10 goes to Bucs +3 only if it stays under the 30 percent game cap.",
+   "clv": 0.0
   },
   {
    "id": "w7-sun-5",
@@ -290,7 +323,17 @@
      "side": "Tennessee Titans",
      "point": 2.5,
      "price": -112,
-     "why": "Rule B. Pin has Titans +1.5, DK gives a full extra point through the 2. Own 52.8%, within 6 of the Pin-equivalent."
+     "why": "Rule B. Pin has Titans +1.5, DK gives a full extra point through the 2. Own 52.8%, within 6 of the Pin-equivalent.",
+     "close": {
+      "point": 1.5,
+      "price": -110,
+      "pin_fair_prob": 0.4954,
+      "at": "2026-10-25T16:56Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0045,
+     "clv": 0.0355,
+     "pin_clv": -0.0329
     }
    ],
    "why": "Cross-game parlay, own 26.7% joint vs 26.4% breakeven. Thin; sized at $10.",
@@ -334,7 +377,17 @@
      "side": "Over",
      "point": 39.5,
      "price": -102,
-     "why": "Rule B. Pin Over fair 50.0% at 39.5, DK -102. Own 50.6%. Low total, near even."
+     "why": "Rule B. Pin Over fair 50.0% at 39.5, DK -102. Own 50.6%. Low total, near even.",
+     "close": {
+      "point": 39.5,
+      "price": -102,
+      "pin_fair_prob": 0.5,
+      "at": "2026-10-25T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.005
     }
    ],
    "why": "Longest parlay, so No Sweat goes here if you hold the token (refund is worth most where loss probability is highest). Own 20.0% joint vs 19.9% breakeven.",
@@ -379,7 +432,17 @@
      "side": "Cincinnati Bengals",
      "point": null,
      "price": -148,
-     "why": "Rule B. Pin fair 59.0% vs DK 59.7% implied. Own 59.6%. The line flipped 6 points toward Cincinnati since Tuesday (Bengals +3 to -3, total 51.5 to 46.5), the market is pricing Lamar Jackson out or limited (UNVERIFIED, ankle, day-to-day)."
+     "why": "Rule B. Pin fair 59.0% vs DK 59.7% implied. Own 59.6%. The line flipped 6 points toward Cincinnati since Tuesday (Bengals +3 to -3, total 51.5 to 46.5), the market is pricing Lamar Jackson out or limited (UNVERIFIED, ankle, day-to-day).",
+     "close": {
+      "point": null,
+      "price": -162,
+      "pin_fair_prob": 0.6018,
+      "at": "2026-10-25T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0215,
+     "clv": 0.0215,
+     "pin_clv": 0.005
     }
    ],
    "why": "Smallest ticket: both legs sit slightly under Rule A. Own 30.7% joint vs 30.6% breakeven.",
@@ -532,10 +595,10 @@
     "net": 4.8
    }
   ],
-  "clv_week": 0.0034,
-  "clv_season": 0.0059,
+  "clv_week": 0.003,
+  "clv_season": 0.0062,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Thursday graded: Bears 30-24 Patriots. Bears -3 (-102) WON +9.80, Bears ML + Under 50.5 SGP LOST -5.00 (total 54). Week 7 so far +4.80; Sunday and Monday pending."
  },
- "clv_updated_at": "2026-10-23T00:12Z"
+ "clv_updated_at": "2026-10-25T16:56Z"
 }
