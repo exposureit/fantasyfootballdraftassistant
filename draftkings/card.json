@@ -321,7 +321,17 @@
      "side": "Seattle Seahawks",
      "point": -3.0,
      "price": 100,
-     "why": "Rule B. Pin fair 49.5% at -3 (+102), DK +100. Own 50.5%. Seattle at home on the 3 at plus money."
+     "why": "Rule B. Pin fair 49.5% at -3 (+102), DK +100. Own 50.5%. Seattle at home on the 3 at plus money.",
+     "close": {
+      "point": -3.0,
+      "price": -110,
+      "pin_fair_prob": 0.493,
+      "at": "2026-10-26T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0238,
+     "clv": 0.0238,
+     "pin_clv": -0.007
     },
     {
      "label": "Titans +2.5 (-112), combined_edge 0.000",
@@ -348,7 +358,8 @@
     }
    ],
    "why": "Cross-game parlay, own 26.7% joint vs 26.4% breakeven. Thin; sized at $10.",
-   "kill_switch": "Kill the Seahawks leg if DK is -3.5 or Seattle -3 at -115 or worse; kill the Titans leg below +2. If one leg dies, drop the parlay and put $10 on the surviving leg as a single."
+   "kill_switch": "Kill the Seahawks leg if DK is -3.5 or Seattle -3 at -115 or worse; kill the Titans leg below +2. If one leg dies, drop the parlay and put $10 on the surviving leg as a single.",
+   "clv": 0.0296
   },
   {
    "id": "w7-sun-6",
@@ -628,10 +639,10 @@
     "net": 4.8
    }
   ],
-  "clv_week": 0.0033,
-  "clv_season": 0.0057,
+  "clv_week": 0.0062,
+  "clv_season": 0.0058,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Thursday graded: Bears 30-24 Patriots. Bears -3 (-102) WON +9.80, Bears ML + Under 50.5 SGP LOST -5.00 (total 54). Week 7 so far +4.80; Sunday and Monday pending."
  },
- "clv_updated_at": "2026-10-25T20:20Z"
+ "clv_updated_at": "2026-10-26T00:13Z"
 }

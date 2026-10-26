@@ -1518,5 +1518,21 @@
   "clv": -0.0617,
   "pin_clv": -0.0252,
   "at": "2026-10-25T20:20Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-sun-5",
+  "label": "Seahawks -3 (+100), combined_edge -0.005",
+  "market": "spreads",
+  "side": "Seattle Seahawks",
+  "bet_point": -3.0,
+  "bet_price": 100,
+  "close_point": -3.0,
+  "close_price": -110,
+  "point_clv": 0.0,
+  "price_clv": 0.0238,
+  "clv": 0.0238,
+  "pin_clv": -0.007,
+  "at": "2026-10-26T00:13Z"
  }
 ]
