@@ -1,11 +1,11 @@
 {
  "week": 7,
- "title": "Week 7 Sunday card",
+ "title": "Week 7 Monday card",
  "year": "2026",
- "built_at": "2026-10-25T15:25Z",
- "lines_verified_at": "2026-10-25T15:11:00Z",
+ "built_at": "2026-10-26T21:30Z",
+ "lines_verified_at": "2026-10-26T21:14:00Z",
  "verification": "verified",
- "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 15:11 UTC 2026-10-25 (11:11 AM ET), Pinnacle as reference. Inactives post 11:30 AM ET and are NOT yet reflected. Injury and weather context is from search and mostly returned nothing for Week 7 (UNVERIFIED). No DK odds boost found (confirm in the Promos tab). Profit Boost and No Sweat placement assumes you hold the tokens.",
+ "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 21:14 UTC 2026-10-26 (5:14 PM ET), Pinnacle as reference. Inactives post 6:45 PM ET and are NOT reflected. Injury, weather and splits searches returned nothing for tonight (UNVERIFIED). No DK odds boost found (confirm in the Promos tab). Profit Boost and No Sweat placement assumes you hold the tokens.",
  "budget": {
   "total": 100,
   "thursday": 15,
@@ -54,7 +54,9 @@
    ],
    "why": "Rule A early ticket. Reason it moves against us: Lions -3 is the cheapest price at the key number, and home-favorite money pushes DK to -110 or -3.5 by Sunday. Own 52.5% vs 51.2% breakeven, Pin fair 53.1%. Reason is thin and unverified, the price is the larger part of the case.",
    "kill_switch": "Kill if DK is already Lions -3.5, or -3 at -115 or worse, when you go to place it. Kill if Goff is ruled out. If already placed, keep unless Goff is out.",
-   "clv": 0.0361
+   "clv": 0.0361,
+   "result": "push",
+   "net": 0.0
   },
   {
    "id": "w7-thu-1",
@@ -209,7 +211,9 @@
    ],
    "why": "Biggest stake because the leg sits on the 3 and has the best combined_edge among spreads. Own 53.0% vs 52.4% breakeven. Thin, and no Bucs or Panthers injury news was found (search, UNVERIFIED).",
    "kill_switch": "Kill if DK moves to Bucs +2.5 or +3 at -120 or worse, or Baker Mayfield is inactive at 11:30 ET. Freed $15 goes to Seahawks -3 single only if DK still shows +100 or better, else to Colts +6.5 (+100).",
-   "clv": 0.0
+   "clv": 0.0,
+   "result": "win",
+   "net": 13.64
   },
   {
    "id": "w7-sun-3",
@@ -252,7 +256,9 @@
    "why": "Price-correct long shot at the best edge on the board. Own 21.0% vs 20.0% breakeven. Loses most of the time, so it is $10 only. Profit Boost goes here if you hold the token: longest single price.",
    "kill_switch": "Kill if DK ML drops below +370 or a Giants QB change is announced. If placed, keep.",
    "promo": "Profit Boost",
-   "clv": 0.0083
+   "clv": 0.0083,
+   "result": "win",
+   "net": 40.0
   },
   {
    "id": "w7-sun-4",
@@ -294,7 +300,9 @@
    ],
    "why": "Plus-money dog just under the 7. Own 50.5% vs 50.0% breakeven.",
    "kill_switch": "Kill if DK is +6 or worse, or +6.5 at -115 or worse. Take +7 if offered at -110. Freed $10 goes to Bucs +3 only if it stays under the 30 percent game cap.",
-   "clv": 0.0
+   "clv": 0.0,
+   "result": "win",
+   "net": 10.0
   },
   {
    "id": "w7-sun-5",
@@ -359,7 +367,9 @@
    ],
    "why": "Cross-game parlay, own 26.7% joint vs 26.4% breakeven. Thin; sized at $10.",
    "kill_switch": "Kill the Seahawks leg if DK is -3.5 or Seattle -3 at -115 or worse; kill the Titans leg below +2. If one leg dies, drop the parlay and put $10 on the surviving leg as a single.",
-   "clv": 0.0296
+   "clv": 0.0296,
+   "result": "loss",
+   "net": -10.0
   },
   {
    "id": "w7-sun-6",
@@ -425,7 +435,9 @@
    "why": "Longest parlay, so No Sweat goes here if you hold the token (refund is worth most where loss probability is highest). Own 20.0% joint vs 19.9% breakeven.",
    "kill_switch": "Kill the Raiders leg if DK ML is shorter than +140. Kill the Over if DK is 38.5 or lower or Jets or Dolphins QB is out. Dead leg: drop the ticket and move $10 to Colts +6.5.",
    "promo": "No Sweat",
-   "clv": -0.0046
+   "clv": -0.0046,
+   "result": "loss",
+   "net": -10.0
   },
   {
    "id": "w7-sun-7",
@@ -490,15 +502,96 @@
    ],
    "why": "Smallest ticket: both legs sit slightly under Rule A. Own 30.7% joint vs 30.6% breakeven.",
    "kill_switch": "Kill the Bengals leg if Jackson is active at 11:30 ET (the line will flip, DK Bengals ML will not stay near -148). Then drop the ticket and move $5 to Bucs +3, which keeps Bucs-Panthers at $20, under the 21 cap.",
-   "clv": -0.0201
+   "clv": -0.0201,
+   "result": "loss",
+   "net": -5.0
+  },
+  {
+   "id": "w7-mon-1",
+   "type": "single",
+   "day": "monday",
+   "name": "Cowboys ML -205",
+   "game": "Cowboys at Eagles",
+   "kickoff": "Mon 10/26 08:15 PM",
+   "stake": 10.0,
+   "price": -205,
+   "payout": 4.88,
+   "estimate": 0.68,
+   "breakeven": 0.672,
+   "placed": true,
+   "promo": "Profit Boost",
+   "legs": [
+    {
+     "label": "Cowboys ML (-205), combined_edge +0.003",
+     "pick": "Dallas Cowboys ML",
+     "game": "Dallas Cowboys at Philadelphia Eagles",
+     "away": "Dallas Cowboys",
+     "home": "Philadelphia Eagles",
+     "commence_time": "2026-10-27T00:15:00Z",
+     "market": "h2h",
+     "side": "Dallas Cowboys",
+     "point": null,
+     "price": -205,
+     "why": "Rule B. Pin fair 67.5% (-207), DK implied 67.2%, own 68.0%, within 6 of Pin. Only side on the game at or above zero edge. No Dallas or Philadelphia injury or weather news found (UNVERIFIED), so this is a price call, not a story."
+    }
+   ],
+   "why": "Core single. Own 68.0% vs 67.2% breakeven; profit $4.88. Profit Boost goes here if you hold the token (longest and only single; UNVERIFIED, confirm in the Promos tab). One game on the card, so the 30 percent cap cannot apply.",
+   "kill_switch": "Kill if DK ML is shorter than -225, or Prescott is inactive (6:45 PM ET). If placed, keep unless Prescott is out; if out there is no hedge. Freed $10 goes to Eagles +4.5 single at -112 or better.",
+   "result": null,
+   "net": null
+  },
+  {
+   "id": "w7-mon-2",
+   "type": "sgp",
+   "day": "monday",
+   "name": "Eagles +4.5 + Under 43.5 SGP",
+   "game": "Cowboys at Eagles",
+   "kickoff": "Mon 10/26 08:15 PM",
+   "stake": 5.0,
+   "price": 260,
+   "payout": 18.0,
+   "estimate": 0.298,
+   "breakeven": 0.278,
+   "placed": true,
+   "promo": "No Sweat",
+   "legs": [
+    {
+     "label": "Eagles +4.5 (-112), combined_edge -0.018",
+     "pick": "Philadelphia Eagles +4.5",
+     "game": "Dallas Cowboys at Philadelphia Eagles",
+     "away": "Dallas Cowboys",
+     "home": "Philadelphia Eagles",
+     "commence_time": "2026-10-27T00:15:00Z",
+     "market": "spreads",
+     "side": "Philadelphia Eagles",
+     "point": 4.5,
+     "price": -112,
+     "why": "Rule B. Pin fair 51.0%, DK implied 52.8%, own 53.0%, within 6 of Pin. Dog on 4.5 (key number 3 and 7 both inside the cover range). Prime-time public leans Dallas favorite."
+    },
+    {
+     "label": "Under 43.5 (-105), combined_edge about -0.032",
+     "pick": "Under 43.5",
+     "game": "Dallas Cowboys at Philadelphia Eagles",
+     "away": "Dallas Cowboys",
+     "home": "Philadelphia Eagles",
+     "commence_time": "2026-10-27T00:15:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 43.5,
+     "price": -105,
+     "why": "Rule B. Pin total 44, so DK gives up half a point (-0.02) on a 50/50 line. Own 51.5% vs 51.2% implied. Prime-time public bias is toward overs; DK shaded the total down 1 point since Tuesday."
+    }
+   ],
+   "why": "Dog plus under, correlated: low-scoring games stay inside the spread. Own joint 29.8% (51.5% x 53.0% plus correlation) vs 27.8% breakeven at +260. Minimum acceptable +255. If DK shows less, split into $2.50 Eagles +4.5 and $2.50 Under 43.5. No Sweat goes here if you hold the token (UNVERIFIED). Build as a Same Game Parlay on DK.",
+   "kill_switch": "Kill if SGP price is under +245, Eagles +4 or worse, or total below 43. Dead leg: surviving leg as a $5 straight. If Prescott is out, cut to Eagles +4.5 only if the number moves to +6 or better, otherwise keep.",
+   "result": null,
+   "net": null
   }
  ],
  "watch": [
-  "11:30 AM ET inactives: Lamar Jackson (Ravens), Mayfield (Bucs), Goff (Lions, early ticket), any Giants or Colts QB change.",
-  "Bucs +3: kill at +2.5 or -120. Seahawks -3 leg: kill at -3.5 or -115. Colts +6.5 (+100): kill at +6 or -115.",
-  "Lions early ticket (placed at -3 -105): DK is now -3.5 (-108); keep unless Goff is out.",
-  "Steelers-Saints (9:32 AM ET) already kicked off; no ticket. The DK numbers shown for it are live.",
-  "Monday $15 reserved: Cowboys at Eagles, DK Cowboys -4.5 (-108) / Under 43.5 -102 now; own update decides."
+  "6:45 PM ET inactives: Prescott (Cowboys), Hurts (Eagles). A QB change kills both tickets.",
+  "Cowboys ML kill: shorter than -225. SGP kill: under +245, Eagles +4 or worse, total below 43.",
+  "No Sunday money was freed by kill switches (assumed all 7 tickets placed as written)."
  ],
  "board": [
   {
@@ -601,14 +694,14 @@
    "kickoff": "Mon 10/26 08:15 PM",
    "game": "Cowboys at Eagles",
    "spread": "Cowboys -4.5 (-108) / Eagles +4.5 (-112)",
-   "total": "43.5 (O -118 / U -102)",
+   "total": "43.5 (O -115 / U -105)",
    "ml": "Cowboys -205 / Eagles +170",
-   "read": "Monday, pending its own update ($15 reserved). Under 43.5 -102."
+   "read": "Tonight. Pin -4.5 (-101), total 44. Cowboys ML +0.003 is the only non-negative side. Tickets: Cowboys ML $10, Eagles +4.5 + Under 43.5 SGP $5."
   }
  ],
  "season": {
-  "record": "28-31",
-  "net": 153.72,
+  "record": "31-34-1",
+  "net": 192.36,
   "weeks": [
    {
     "week": 1,
@@ -636,13 +729,13 @@
    },
    {
     "week": 7,
-    "net": 4.8
+    "net": 43.44
    }
   ],
   "clv_week": 0.0062,
   "clv_season": 0.0058,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
-  "week7_note": "Thursday graded: Bears 30-24 Patriots. Bears -3 (-102) WON +9.80, Bears ML + Under 50.5 SGP LOST -5.00 (total 54). Week 7 so far +4.80; Sunday and Monday pending."
+  "week7_note": "Sunday graded: Lions -3 PUSH (20-17), Bucs +3 WON +13.64, Giants ML WON +40.00, Colts +6.5 WON +10.00, Seahawks/Titans parlay LOST -10 (Titans lost by 3), Raiders/Over parlay LOST -10, Cardinals/Bengals parlay LOST -5. Sunday +38.64. Week 7 through Sunday +43.44; Monday pending."
  },
  "clv_updated_at": "2026-10-26T00:13Z"
 }
