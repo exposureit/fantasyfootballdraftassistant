@@ -532,13 +532,24 @@
      "side": "Dallas Cowboys",
      "point": null,
      "price": -205,
-     "why": "Rule B. Pin fair 67.5% (-207), DK implied 67.2%, own 68.0%, within 6 of Pin. Only side on the game at or above zero edge. No Dallas or Philadelphia injury or weather news found (UNVERIFIED), so this is a price call, not a story."
+     "why": "Rule B. Pin fair 67.5% (-207), DK implied 67.2%, own 68.0%, within 6 of Pin. Only side on the game at or above zero edge. No Dallas or Philadelphia injury or weather news found (UNVERIFIED), so this is a price call, not a story.",
+     "close": {
+      "point": null,
+      "price": -225,
+      "pin_fair_prob": 0.6573,
+      "at": "2026-10-27T00:14Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0202,
+     "clv": 0.0202,
+     "pin_clv": -0.0148
     }
    ],
    "why": "Core single. Own 68.0% vs 67.2% breakeven; profit $4.88. Profit Boost goes here if you hold the token (longest and only single; UNVERIFIED, confirm in the Promos tab). One game on the card, so the 30 percent cap cannot apply.",
    "kill_switch": "Kill if DK ML is shorter than -225, or Prescott is inactive (6:45 PM ET). If placed, keep unless Prescott is out; if out there is no hedge. Freed $10 goes to Eagles +4.5 single at -112 or better.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0202
   },
   {
    "id": "w7-mon-2",
@@ -566,7 +577,17 @@
      "side": "Philadelphia Eagles",
      "point": 4.5,
      "price": -112,
-     "why": "Rule B. Pin fair 51.0%, DK implied 52.8%, own 53.0%, within 6 of Pin. Dog on 4.5 (key number 3 and 7 both inside the cover range). Prime-time public leans Dallas favorite."
+     "why": "Rule B. Pin fair 51.0%, DK implied 52.8%, own 53.0%, within 6 of Pin. Dog on 4.5 (key number 3 and 7 both inside the cover range). Prime-time public leans Dallas favorite.",
+     "close": {
+      "point": 4.5,
+      "price": -115,
+      "pin_fair_prob": 0.4977,
+      "at": "2026-10-27T00:14Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0066,
+     "clv": 0.0066,
+     "pin_clv": -0.0306
     },
     {
      "label": "Under 43.5 (-105), combined_edge about -0.032",
@@ -579,13 +600,24 @@
      "side": "Under",
      "point": 43.5,
      "price": -105,
-     "why": "Rule B. Pin total 44, so DK gives up half a point (-0.02) on a 50/50 line. Own 51.5% vs 51.2% implied. Prime-time public bias is toward overs; DK shaded the total down 1 point since Tuesday."
+     "why": "Rule B. Pin total 44, so DK gives up half a point (-0.02) on a 50/50 line. Own 51.5% vs 51.2% implied. Prime-time public bias is toward overs; DK shaded the total down 1 point since Tuesday.",
+     "close": {
+      "point": 43.5,
+      "price": -108,
+      "pin_fair_prob": 0.4829,
+      "at": "2026-10-27T00:14Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.007,
+     "clv": 0.007,
+     "pin_clv": -0.0293
     }
    ],
    "why": "Dog plus under, correlated: low-scoring games stay inside the spread. Own joint 29.8% (51.5% x 53.0% plus correlation) vs 27.8% breakeven at +260. Minimum acceptable +255. If DK shows less, split into $2.50 Eagles +4.5 and $2.50 Under 43.5. No Sweat goes here if you hold the token (UNVERIFIED). Build as a Same Game Parlay on DK.",
    "kill_switch": "Kill if SGP price is under +245, Eagles +4 or worse, or total below 43. Dead leg: surviving leg as a $5 straight. If Prescott is out, cut to Eagles +4.5 only if the number moves to +6 or better, otherwise keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0068
   }
  ],
  "watch": [
@@ -732,10 +764,10 @@
     "net": 43.44
    }
   ],
-  "clv_week": 0.0062,
-  "clv_season": 0.0058,
+  "clv_week": 0.0076,
+  "clv_season": 0.006,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Sunday graded: Lions -3 PUSH (20-17), Bucs +3 WON +13.64, Giants ML WON +40.00, Colts +6.5 WON +10.00, Seahawks/Titans parlay LOST -10 (Titans lost by 3), Raiders/Over parlay LOST -10, Cardinals/Bengals parlay LOST -5. Sunday +38.64. Week 7 through Sunday +43.44; Monday pending."
  },
- "clv_updated_at": "2026-10-26T00:13Z"
+ "clv_updated_at": "2026-10-27T00:14Z"
 }

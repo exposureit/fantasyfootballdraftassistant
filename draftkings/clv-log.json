@@ -1534,5 +1534,53 @@
   "clv": 0.0238,
   "pin_clv": -0.007,
   "at": "2026-10-26T00:13Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-mon-1",
+  "label": "Cowboys ML (-205), combined_edge +0.003",
+  "market": "h2h",
+  "side": "Dallas Cowboys",
+  "bet_point": null,
+  "bet_price": -205,
+  "close_point": null,
+  "close_price": -225,
+  "point_clv": 0.0,
+  "price_clv": 0.0202,
+  "clv": 0.0202,
+  "pin_clv": -0.0148,
+  "at": "2026-10-27T00:14Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-mon-2",
+  "label": "Eagles +4.5 (-112), combined_edge -0.018",
+  "market": "spreads",
+  "side": "Philadelphia Eagles",
+  "bet_point": 4.5,
+  "bet_price": -112,
+  "close_point": 4.5,
+  "close_price": -115,
+  "point_clv": 0.0,
+  "price_clv": 0.0066,
+  "clv": 0.0066,
+  "pin_clv": -0.0306,
+  "at": "2026-10-27T00:14Z"
+ },
+ {
+  "week": 7,
+  "ticket": "w7-mon-2",
+  "label": "Under 43.5 (-105), combined_edge about -0.032",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 43.5,
+  "bet_price": -105,
+  "close_point": 43.5,
+  "close_price": -108,
+  "point_clv": 0.0,
+  "price_clv": 0.007,
+  "clv": 0.007,
+  "pin_clv": -0.0293,
+  "at": "2026-10-27T00:14Z"
  }
 ]
