@@ -39,14 +39,24 @@
      "side": "Under",
      "point": 46.5,
      "price": 100,
-     "why": "combined_edge -0.009 (Rule B). Short week, thin lines both sides, Carolina pass rush out."
+     "why": "combined_edge -0.009 (Rule B). Short week, thin lines both sides, Carolina pass rush out.",
+     "close": {
+      "point": 47.5,
+      "price": -108,
+      "pin_fair_prob": 0.5092,
+      "at": "2026-10-30T00:12Z"
+     },
+     "point_clv": -1.0,
+     "price_clv": 0.0192,
+     "clv": -0.0208,
+     "pin_clv": 0.0092
     }
    ],
    "why": "Own 50.8% vs 50.0% breakeven, Pin fair 51.2% at 47. Profit Boost only if held (UNVERIFIED).",
    "kill_switch": "DK total 45.5 or lower, or Under worse than -110: move to Under at the threshold else Panthers +4 -110. Keep if already placed at 46.5 +100.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": -0.0208
   },
   {
    "id": "w8-thu-2",
@@ -73,14 +83,24 @@
      "side": "Green Bay Packers",
      "point": null,
      "price": -180,
-     "why": "combined_edge -0.005 (Rule B). Home team, Panthers without both starting guards. Thin, budget-fill."
+     "why": "combined_edge -0.005 (Rule B). Home team, Panthers without both starting guards. Thin, budget-fill.",
+     "close": {
+      "point": null,
+      "price": -185,
+      "pin_fair_prob": 0.6337,
+      "at": "2026-10-30T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0063,
+     "clv": 0.0063,
+     "pin_clv": -0.0092
     }
    ],
    "why": "Own 64.5% vs 64.3% breakeven, Pin fair 63.8%. Thin edge.",
    "kill_switch": "Packers QB inactive or ML shorter than -200: move $5 to Under only if still 46.5 +100, else Panthers +3.5 -108 or better. If placed, keep unless QB is out.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0063
   }
  ],
  "watch": [
@@ -265,10 +285,10 @@
     "net": 43.32
    }
   ],
-  "clv_week": 0.0076,
-  "clv_season": 0.006,
+  "clv_week": -0.0072,
+  "clv_season": 0.0058,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17)."
  },
- "clv_updated_at": "2026-10-27T00:14Z"
+ "clv_updated_at": "2026-10-30T00:12Z"
 }

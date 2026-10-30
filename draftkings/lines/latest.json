@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-10-29 22:50 UTC",
+ "fetched_utc": "2026-10-30 00:12 UTC",
  "book": "draftkings",
  "games": [
   {
@@ -12,21 +12,21 @@
     "spreads": {
      "Carolina Panthers": {
       "point": 3.5,
-      "price": -108
+      "price": -110
      },
      "Green Bay Packers": {
       "point": -3.5,
-      "price": -112
+      "price": -110
      }
     },
     "totals": {
      "Over": {
-      "point": 46.5,
-      "price": -122
+      "point": 47.5,
+      "price": -112
      },
      "Under": {
-      "point": 46.5,
-      "price": 102
+      "point": 47.5,
+      "price": -108
      }
     },
     "h2h": {
@@ -44,37 +44,37 @@
     "spreads": {
      "Carolina Panthers": {
       "point": 3.5,
-      "price": -102,
-      "fair_prob": 0.493
+      "price": -105,
+      "fair_prob": 0.5
      },
      "Green Bay Packers": {
       "point": -3.5,
-      "price": -108,
-      "fair_prob": 0.507
+      "price": -105,
+      "fair_prob": 0.5
      }
     },
     "totals": {
      "Over": {
-      "point": 47.0,
-      "price": 100,
-      "fair_prob": 0.4862
+      "point": 47.5,
+      "price": -102,
+      "fair_prob": 0.4908
      },
      "Under": {
-      "point": 47.0,
-      "price": -112,
-      "fair_prob": 0.5138
+      "point": 47.5,
+      "price": -110,
+      "fair_prob": 0.5092
      }
     },
     "h2h": {
      "Carolina Panthers": {
       "point": null,
-      "price": 172,
-      "fair_prob": 0.3582
+      "price": 166,
+      "fair_prob": 0.3663
      },
      "Green Bay Packers": {
       "point": null,
-      "price": -193,
-      "fair_prob": 0.6418
+      "price": -186,
+      "fair_prob": 0.6337
      }
     }
    },
@@ -83,53 +83,53 @@
      "market": "spreads",
      "side": "Carolina Panthers",
      "dk_point": 3.5,
-     "dk_price": -108,
-     "dk_implied": 0.5192,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
      "pin_point": 3.5,
-     "pin_fair_price": 103,
-     "pin_fair_prob": 0.493,
-     "prob_edge": -0.0262,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0238,
      "point_gap": 0.0,
-     "combined_edge": -0.0262
+     "combined_edge": -0.0238
     },
     {
      "market": "spreads",
      "side": "Green Bay Packers",
      "dk_point": -3.5,
-     "dk_price": -112,
-     "dk_implied": 0.5283,
+     "dk_price": -110,
+     "dk_implied": 0.5238,
      "pin_point": -3.5,
-     "pin_fair_price": -103,
-     "pin_fair_prob": 0.507,
-     "prob_edge": -0.0213,
+     "pin_fair_price": -100,
+     "pin_fair_prob": 0.5,
+     "prob_edge": -0.0238,
      "point_gap": 0.0,
-     "combined_edge": -0.0213
+     "combined_edge": -0.0238
     },
     {
      "market": "totals",
      "side": "Over",
-     "dk_point": 46.5,
-     "dk_price": -122,
-     "dk_implied": 0.5495,
-     "pin_point": 47.0,
-     "pin_fair_price": 106,
-     "pin_fair_prob": 0.4862,
-     "prob_edge": -0.0633,
-     "point_gap": 0.5,
-     "combined_edge": -0.0433
+     "dk_point": 47.5,
+     "dk_price": -112,
+     "dk_implied": 0.5283,
+     "pin_point": 47.5,
+     "pin_fair_price": 104,
+     "pin_fair_prob": 0.4908,
+     "prob_edge": -0.0375,
+     "point_gap": 0.0,
+     "combined_edge": -0.0375
     },
     {
      "market": "totals",
      "side": "Under",
-     "dk_point": 46.5,
-     "dk_price": 102,
-     "dk_implied": 0.495,
-     "pin_point": 47.0,
-     "pin_fair_price": -106,
-     "pin_fair_prob": 0.5138,
-     "prob_edge": 0.0188,
-     "point_gap": -0.5,
-     "combined_edge": -0.0012
+     "dk_point": 47.5,
+     "dk_price": -108,
+     "dk_implied": 0.5192,
+     "pin_point": 47.5,
+     "pin_fair_price": -104,
+     "pin_fair_prob": 0.5092,
+     "prob_edge": -0.01,
+     "point_gap": 0.0,
+     "combined_edge": -0.01
     },
     {
      "market": "h2h",
@@ -138,11 +138,11 @@
      "dk_price": 154,
      "dk_implied": 0.3937,
      "pin_point": null,
-     "pin_fair_price": 179,
-     "pin_fair_prob": 0.3582,
-     "prob_edge": -0.0355,
+     "pin_fair_price": 173,
+     "pin_fair_prob": 0.3663,
+     "prob_edge": -0.0274,
      "point_gap": null,
-     "combined_edge": -0.0355
+     "combined_edge": -0.0274
     },
     {
      "market": "h2h",
@@ -151,11 +151,11 @@
      "dk_price": -185,
      "dk_implied": 0.6491,
      "pin_point": null,
-     "pin_fair_price": -179,
-     "pin_fair_prob": 0.6418,
-     "prob_edge": -0.0073,
+     "pin_fair_price": -173,
+     "pin_fair_prob": 0.6337,
+     "prob_edge": -0.0154,
      "point_gap": null,
-     "combined_edge": -0.0073
+     "combined_edge": -0.0154
     }
    ]
   },
@@ -1929,12 +1929,12 @@
      "Philadelphia Eagles": {
       "point": 5.5,
       "price": 105,
-      "fair_prob": 0.474
+      "fair_prob": 0.4731
      },
      "Washington Commanders": {
       "point": -5.5,
-      "price": -118,
-      "fair_prob": 0.526
+      "price": -119,
+      "fair_prob": 0.5269
      }
     },
     "totals": {
@@ -1953,12 +1953,12 @@
      "Philadelphia Eagles": {
       "point": null,
       "price": 223,
-      "fair_prob": 0.2996
+      "fair_prob": 0.2994
      },
      "Washington Commanders": {
       "point": null,
-      "price": -262,
-      "fair_prob": 0.7004
+      "price": -263,
+      "fair_prob": 0.7006
      }
     }
    },
@@ -1971,10 +1971,10 @@
      "dk_implied": 0.5192,
      "pin_point": 5.5,
      "pin_fair_price": 111,
-     "pin_fair_prob": 0.474,
-     "prob_edge": -0.0452,
+     "pin_fair_prob": 0.4731,
+     "prob_edge": -0.0461,
      "point_gap": 0.5,
-     "combined_edge": -0.0252
+     "combined_edge": -0.0261
     },
     {
      "market": "spreads",
@@ -1984,10 +1984,10 @@
      "dk_implied": 0.5283,
      "pin_point": -5.5,
      "pin_fair_price": -111,
-     "pin_fair_prob": 0.526,
-     "prob_edge": -0.0023,
+     "pin_fair_prob": 0.5269,
+     "prob_edge": -0.0014,
      "point_gap": -0.5,
-     "combined_edge": -0.0223
+     "combined_edge": -0.0214
     },
     {
      "market": "totals",
@@ -2023,10 +2023,10 @@
      "dk_implied": 0.3279,
      "pin_point": null,
      "pin_fair_price": 234,
-     "pin_fair_prob": 0.2996,
-     "prob_edge": -0.0283,
+     "pin_fair_prob": 0.2994,
+     "prob_edge": -0.0285,
      "point_gap": null,
-     "combined_edge": -0.0283
+     "combined_edge": -0.0285
     },
     {
      "market": "h2h",
@@ -2036,10 +2036,10 @@
      "dk_implied": 0.7143,
      "pin_point": null,
      "pin_fair_price": -234,
-     "pin_fair_prob": 0.7004,
-     "prob_edge": -0.0139,
+     "pin_fair_prob": 0.7006,
+     "prob_edge": -0.0137,
      "point_gap": null,
-     "combined_edge": -0.0139
+     "combined_edge": -0.0137
     }
    ]
   },
