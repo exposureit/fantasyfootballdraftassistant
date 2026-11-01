@@ -127,14 +127,24 @@
      "side": "Minnesota Vikings",
      "point": 3.0,
      "price": 100,
-     "why": "combined_edge -0.004. Pin has Vikings +3.5 (fair 51.6%), DK +3 pays even money. Dog on the cheap side of 3."
+     "why": "combined_edge -0.004. Pin has Vikings +3.5 (fair 51.6%), DK +3 pays even money. Dog on the cheap side of 3.",
+     "close": {
+      "point": 3.0,
+      "price": 100,
+      "pin_fair_prob": 0.5262,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.0262
     }
    ],
    "why": "Own 51.5% vs 50.0% breakeven, Pin fair 51.6% at +3.5. Rule B. Profit Boost token goes here (longest single price). VERIFIED at fetch.",
    "kill_switch": "Vikings +3 below +100 (take +3 -105 or better), or Vikings QB inactive. If the ticket is not placed and it trips, move the $15 to the Titans-Bengals Under single. If already placed, keep unless the QB is out.",
    "result": null,
    "net": null,
-   "clv": null,
+   "clv": 0.0,
    "promo": "Profit Boost"
   },
   {
@@ -196,14 +206,24 @@
      "side": "Under",
      "point": 46.5,
      "price": -115,
-     "why": "combined_edge -0.006. Pin Under fair at 46 is 50.9%. Dog-heavy game with 12.5 spread, clock-chewing script. Thin."
+     "why": "combined_edge -0.006. Pin Under fair at 46 is 50.9%. Dog-heavy game with 12.5 spread, clock-chewing script. Thin.",
+     "close": {
+      "point": 45.5,
+      "price": -105,
+      "pin_fair_prob": 0.4784,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0227,
+     "clv": 0.0173,
+     "pin_clv": -0.0565
     }
    ],
    "why": "Own 54.0% vs 53.5% breakeven, Pin fair 50.9% at 46 (3.1 away, inside 6). Rule B, thin. VERIFIED at fetch.",
    "kill_switch": "DK 45.5 or lower, or worse than -120. Then move the $10 to Cardinals +7 single. If already placed, keep.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0173
   },
   {
    "id": "w8-sun-4",
@@ -256,7 +276,17 @@
      "side": "Las Vegas Raiders",
      "point": 1.5,
      "price": -105,
-     "why": "combined_edge -0.018. Pin Raiders +1 only, DK gives an extra half point through 1. Thin."
+     "why": "combined_edge -0.018. Pin Raiders +1 only, DK gives an extra half point through 1. Thin.",
+     "close": {
+      "point": 1.5,
+      "price": -108,
+      "pin_fair_prob": 0.4694,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.007,
+     "clv": 0.007,
+     "pin_clv": -0.0428
     }
    ],
    "why": "Own 51%, 50.5%, 52% gives 13.4% vs 13.2% breakeven. Thin Rule B, high variance. No Sweat token goes here (longest parlay). Standard cross-game Parlay, never toggle Same Game Parlay.",
@@ -291,7 +321,17 @@
      "side": "Tampa Bay Buccaneers",
      "point": null,
      "price": -130,
-     "why": "combined_edge -0.016. Home side, total fell 3 points to 43.5 with Pin moving the same way. Thin."
+     "why": "combined_edge -0.016. Home side, total fell 3 points to 43.5 with Pin moving the same way. Thin.",
+     "close": {
+      "point": null,
+      "price": -130,
+      "pin_fair_prob": 0.55,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0152
     },
     {
      "label": "Steelers ML",
@@ -304,7 +344,17 @@
      "side": "Pittsburgh Steelers",
      "point": null,
      "price": -185,
-     "why": "combined_edge -0.002. Pin fair 64.7% matches DK. Home field, Browns offense weak."
+     "why": "combined_edge -0.002. Pin fair 64.7% matches DK. Home field, Browns offense weak.",
+     "close": {
+      "point": null,
+      "price": -192,
+      "pin_fair_prob": 0.6483,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0084,
+     "clv": 0.0084,
+     "pin_clv": -0.0008
     },
     {
      "label": "Bills ML",
@@ -317,14 +367,24 @@
      "side": "Buffalo Bills",
      "point": null,
      "price": -166,
-     "why": "combined_edge -0.006. Pin fair 61.8%. Bills at home, Ravens health UNVERIFIED."
+     "why": "combined_edge -0.006. Pin fair 61.8%. Bills at home, Ravens health UNVERIFIED.",
+     "close": {
+      "point": null,
+      "price": -162,
+      "pin_fair_prob": 0.6084,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0057,
+     "clv": -0.0057,
+     "pin_clv": -0.0157
     }
    ],
    "why": "Own 57.5% x 65.5% x 63% = 23.7% vs 22.9% breakeven. Rule B on each leg. Standard cross-game Parlay.",
    "kill_switch": "Any leg more than 15 cents worse (Bucs -145, Steelers -200, Bills -190), or Ravens QB confirmed healthy and Bills spread falls to -2.5: drop that leg and keep the rest.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0009
   },
   {
    "id": "w8-sun-6",
@@ -351,7 +411,17 @@
      "side": "Arizona Cardinals",
      "point": 7.0,
      "price": -108,
-     "why": "combined_edge -0.017. Pin Cardinals +7.5 fair 52.2%, DK +7 slightly short. Key number 7."
+     "why": "combined_edge -0.017. Pin Cardinals +7.5 fair 52.2%, DK +7 slightly short. Key number 7.",
+     "close": {
+      "point": 7.0,
+      "price": -102,
+      "pin_fair_prob": 0.4977,
+      "at": "2026-11-01T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0143,
+     "clv": -0.0143,
+     "pin_clv": -0.0215
     },
     {
      "label": "Chiefs-Broncos Over 41.5",
@@ -546,11 +616,11 @@
     "net": 43.32
    }
   ],
-  "clv_week": -0.0072,
-  "clv_season": 0.0058,
+  "clv_week": 0.0007,
+  "clv_season": 0.0055,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 Thursday +12.78 (Packers 27-19: Under 46.5 WON +10.00, Packers ML WON +2.78). Sunday and Monday pending."
  },
- "clv_updated_at": "2026-10-30T00:12Z"
+ "clv_updated_at": "2026-11-01T16:55Z"
 }
