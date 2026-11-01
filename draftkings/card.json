@@ -250,7 +250,17 @@
      "side": "Los Angeles Chargers",
      "point": 6.5,
      "price": -102,
-     "why": "combined_edge -0.012. Pin +6.5 +103 fair 49.3%. Rams -6.5 with 7 the key number."
+     "why": "combined_edge -0.012. Pin +6.5 +103 fair 49.3%. Rams -6.5 with 7 the key number.",
+     "close": {
+      "point": 6.5,
+      "price": -105,
+      "pin_fair_prob": 0.493,
+      "at": "2026-11-01T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0072,
+     "clv": 0.0072,
+     "pin_clv": -0.012
     },
     {
      "label": "Dolphins +7",
@@ -263,7 +273,17 @@
      "side": "Miami Dolphins",
      "point": 7.0,
      "price": -105,
-     "why": "combined_edge -0.012. Pin +7 -100, exact number. Big-favorite cover rate under 50%."
+     "why": "combined_edge -0.012. Pin +7 -100, exact number. Big-favorite cover rate under 50%.",
+     "close": {
+      "point": 7.0,
+      "price": -110,
+      "pin_fair_prob": 0.4804,
+      "at": "2026-11-01T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0116,
+     "clv": 0.0116,
+     "pin_clv": -0.0318
     },
     {
      "label": "Raiders +1.5",
@@ -293,7 +313,7 @@
    "kill_switch": "Any leg worse than Chargers +6 / Dolphins +6.5 / Raiders +1: drop that leg and keep the 2-leg parlay if the price stays above +250, else cut and move the $10 to Cardinals +7 single.",
    "result": null,
    "net": null,
-   "clv": null,
+   "clv": 0.0086,
    "promo": "No Sweat"
   },
   {
@@ -434,14 +454,24 @@
      "side": "Over",
      "point": 41.5,
      "price": -102,
-     "why": "combined_edge -0.007. Pin 41.5 +101, fair 49.8%. Two good offenses, total pinned low. Coin flip price."
+     "why": "combined_edge -0.007. Pin 41.5 +101, fair 49.8%. Two good offenses, total pinned low. Coin flip price.",
+     "close": {
+      "point": 41.5,
+      "price": -112,
+      "pin_fair_prob": 0.5171,
+      "at": "2026-11-01T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0234,
+     "clv": 0.0234,
+     "pin_clv": 0.0121
     }
    ],
    "why": "Own 52.5% x 50.8% = 26.7% vs 26.2% breakeven. Rule B, near zero edge. Standard cross-game Parlay.",
    "kill_switch": "Cardinals +6.5 or worse, or Over 40.5 or lower: cut the leg and play the other as a $10 single at the same price.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0046
   }
  ],
  "watch": [
@@ -616,11 +646,11 @@
     "net": 43.32
    }
   ],
-  "clv_week": 0.0007,
-  "clv_season": 0.0055,
+  "clv_week": 0.0024,
+  "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 Thursday +12.78 (Packers 27-19: Under 46.5 WON +10.00, Packers ML WON +2.78). Sunday and Monday pending."
  },
- "clv_updated_at": "2026-11-01T16:55Z"
+ "clv_updated_at": "2026-11-01T20:21Z"
 }

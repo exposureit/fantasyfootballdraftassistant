@@ -1726,5 +1726,53 @@
   "clv": -0.0143,
   "pin_clv": -0.0215,
   "at": "2026-11-01T16:55Z"
+ },
+ {
+  "week": 8,
+  "ticket": "w8-sun-4",
+  "label": "Chargers +6.5",
+  "market": "spreads",
+  "side": "Los Angeles Chargers",
+  "bet_point": 6.5,
+  "bet_price": -102,
+  "close_point": 6.5,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": 0.0072,
+  "clv": 0.0072,
+  "pin_clv": -0.012,
+  "at": "2026-11-01T20:21Z"
+ },
+ {
+  "week": 8,
+  "ticket": "w8-sun-4",
+  "label": "Dolphins +7",
+  "market": "spreads",
+  "side": "Miami Dolphins",
+  "bet_point": 7.0,
+  "bet_price": -105,
+  "close_point": 7.0,
+  "close_price": -110,
+  "point_clv": 0.0,
+  "price_clv": 0.0116,
+  "clv": 0.0116,
+  "pin_clv": -0.0318,
+  "at": "2026-11-01T20:21Z"
+ },
+ {
+  "week": 8,
+  "ticket": "w8-sun-6",
+  "label": "Chiefs-Broncos Over 41.5",
+  "market": "totals",
+  "side": "Over",
+  "bet_point": 41.5,
+  "bet_price": -102,
+  "close_point": 41.5,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0234,
+  "clv": 0.0234,
+  "pin_clv": 0.0121,
+  "at": "2026-11-01T20:21Z"
  }
 ]
