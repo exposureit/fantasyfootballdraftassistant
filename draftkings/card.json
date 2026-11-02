@@ -1,11 +1,11 @@
 {
  "week": 8,
- "title": "Week 8 Sunday card",
+ "title": "Week 8 Monday Night card",
  "year": "2026",
- "built_at": "2026-11-01T15:40Z",
- "lines_verified_at": "2026-11-01T15:13:00Z",
+ "built_at": "2026-11-02T21:20Z",
+ "lines_verified_at": "2026-11-02T21:11:00Z",
  "verification": "verified",
- "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 15:13 UTC 2026-11-01, Pinnacle as reference. Inactives (11:30 AM ET), injuries, weather, and Eagles QB are from search and UNVERIFIED. No leg reaches Rule A; every Sunday leg is Rule B.",
+ "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 21:11 UTC 2026-11-02, Pinnacle as reference. Inactives (6:45 PM ET), weather, betting splits and promo tokens are UNVERIFIED. SGP price +340 is an assumption; confirm in app.",
  "budget": {
   "total": 100,
   "thursday": 15,
@@ -114,7 +114,7 @@
    "payout": 30.0,
    "estimate": "51.5%",
    "breakeven": "50.0%",
-   "placed": false,
+   "placed": true,
    "legs": [
     {
      "label": "Vikings +3",
@@ -142,8 +142,8 @@
    ],
    "why": "Own 51.5% vs 50.0% breakeven, Pin fair 51.6% at +3.5. Rule B. Profit Boost token goes here (longest single price). VERIFIED at fetch.",
    "kill_switch": "Vikings +3 below +100 (take +3 -105 or better), or Vikings QB inactive. If the ticket is not placed and it trips, move the $15 to the Titans-Bengals Under single. If already placed, keep unless the QB is out.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -15.0,
    "clv": 0.0,
    "promo": "Profit Boost"
   },
@@ -159,7 +159,7 @@
    "payout": 28.64,
    "estimate": "54.0%",
    "breakeven": "52.4%",
-   "placed": false,
+   "placed": true,
    "legs": [
     {
      "label": "Under 40.5",
@@ -187,8 +187,8 @@
    ],
    "why": "Own 54.0% vs 52.4% breakeven, Pin fair 50.7% at 40.5 (within 6). Rule B plus news: Eagles on Tanner McKee (search, UNVERIFIED). Lines VERIFIED at fetch.",
    "kill_switch": "DK total 39.5 or lower, or Under worse than -115. Then take Under 40 at -110 or better, else move the $15 to Cardinals +7 single. If already placed at 40.5, keep.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 13.64,
    "clv": 0.0
   },
   {
@@ -203,7 +203,7 @@
    "payout": 18.7,
    "estimate": "54.0%",
    "breakeven": "53.5%",
-   "placed": false,
+   "placed": true,
    "legs": [
     {
      "label": "Under 46.5",
@@ -231,8 +231,8 @@
    ],
    "why": "Own 54.0% vs 53.5% breakeven, Pin fair 50.9% at 46 (3.1 away, inside 6). Rule B, thin. VERIFIED at fetch.",
    "kill_switch": "DK 45.5 or lower, or worse than -120. Then move the $10 to Cardinals +7 single. If already placed, keep.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -10.0,
    "clv": 0.0173
   },
   {
@@ -247,7 +247,7 @@
    "payout": 75.49,
    "estimate": "13.4%",
    "breakeven": "13.2%",
-   "placed": false,
+   "placed": true,
    "legs": [
     {
      "label": "Chargers +6.5",
@@ -321,8 +321,8 @@
    ],
    "why": "Own 51%, 50.5%, 52% gives 13.4% vs 13.2% breakeven. Thin Rule B, high variance. No Sweat token goes here (longest parlay). Standard cross-game Parlay, never toggle Same Game Parlay.",
    "kill_switch": "Any leg worse than Chargers +6 / Dolphins +6.5 / Raiders +1: drop that leg and keep the 2-leg parlay if the price stays above +250, else cut and move the $10 to Cardinals +7 single.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -10.0,
    "clv": 0.0086,
    "promo": "No Sweat"
   },
@@ -338,7 +338,7 @@
    "payout": 43.67,
    "estimate": "23.7%",
    "breakeven": "22.9%",
-   "placed": false,
+   "placed": true,
    "legs": [
     {
      "label": "Buccaneers ML",
@@ -412,8 +412,8 @@
    ],
    "why": "Own 57.5% x 65.5% x 63% = 23.7% vs 22.9% breakeven. Rule B on each leg. Standard cross-game Parlay.",
    "kill_switch": "Any leg more than 15 cents worse (Bucs -145, Steelers -200, Bills -190), or Ravens QB confirmed healthy and Bills spread falls to -2.5: drop that leg and keep the rest.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 43.67,
    "clv": 0.0009
   },
   {
@@ -428,7 +428,7 @@
    "payout": 38.14,
    "estimate": "26.7%",
    "breakeven": "26.2%",
-   "placed": false,
+   "placed": true,
    "legs": [
     {
      "label": "Cardinals +7",
@@ -479,17 +479,97 @@
    ],
    "why": "Own 52.5% x 50.8% = 26.7% vs 26.2% breakeven. Rule B, near zero edge. Standard cross-game Parlay.",
    "kill_switch": "Cardinals +6.5 or worse, or Over 40.5 or lower: cut the leg and play the other as a $10 single at the same price.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 38.14,
    "clv": 0.0046
+  },
+  {
+   "id": "w8-mon-1",
+   "type": "single",
+   "day": "monday",
+   "name": "Bears +3.5 -118",
+   "game": "Bears at Seahawks",
+   "kickoff": "Mon 11/02 08:20 PM",
+   "stake": 10,
+   "price": "-118",
+   "payout": 18.47,
+   "estimate": "54.5%",
+   "breakeven": "54.1%",
+   "placed": false,
+   "promo": "Profit Boost",
+   "legs": [
+    {
+     "label": "Bears +3.5",
+     "pick": "Chicago Bears +3.5 -118",
+     "market": "spreads",
+     "side": "Chicago Bears",
+     "point": 3.5,
+     "price": -118,
+     "why": "combined_edge -0.013. Pin Bears +3.5 -118, fair 52.8%, same number. Hook over the key number 3, prime-time public leans to the champion favorite.",
+     "away": "Chicago Bears",
+     "home": "Seattle Seahawks",
+     "commence_time": "2026-11-03T01:20:00Z",
+     "game": "Bears at Seahawks"
+    }
+   ],
+   "why": "Own 54.5% vs 54.1% breakeven, Pin fair 52.8% (within 6). Rule B, thin, combined_edge -0.013. Profit Boost token goes here if held (UNVERIFIED). VERIFIED at fetch 21:11 UTC.",
+   "kill_switch": "Bears +3 (-125 or worse) or Caleb Williams inactive: do not place. Move the $10 to Under 46.5 -110 single if the total is still 46.5 or higher, else Bears ML +140 or better. If already placed, keep unless Williams is out; no cash out.",
+   "result": null,
+   "net": null
+  },
+  {
+   "id": "w8-mon-2",
+   "type": "sgp",
+   "day": "monday",
+   "name": "Dog plus under SGP: Bears ML, Under 46.5",
+   "game": "Bears at Seahawks",
+   "kickoff": "Mon 11/02 08:20 PM",
+   "stake": 5,
+   "price": "+340",
+   "payout": 22.0,
+   "estimate": "23.0%",
+   "breakeven": "22.7%",
+   "placed": false,
+   "promo": "No Sweat",
+   "legs": [
+    {
+     "label": "Bears ML",
+     "pick": "Chicago Bears ML +145",
+     "market": "h2h",
+     "side": "Chicago Bears",
+     "point": null,
+     "price": 145,
+     "why": "combined_edge -0.018. Pin fair 39.0% (+156). Own 41.2% vs 40.8% breakeven. Dog leg of the dog plus under pair.",
+     "away": "Chicago Bears",
+     "home": "Seattle Seahawks",
+     "commence_time": "2026-11-03T01:20:00Z",
+     "game": "Bears at Seahawks"
+    },
+    {
+     "label": "Under 46.5",
+     "pick": "Under 46.5 -110",
+     "market": "totals",
+     "side": "Under",
+     "point": 46.5,
+     "price": -110,
+     "why": "combined_edge -0.026. Pin Under 46.5 fair 49.8%. Own 52.6% vs 52.4% breakeven. Prime-time over bias, outdoor November game (weather UNVERIFIED).",
+     "away": "Chicago Bears",
+     "home": "Seattle Seahawks",
+     "commence_time": "2026-11-03T01:20:00Z",
+     "game": "Bears at Seahawks"
+    }
+   ],
+   "why": "Own 41.2% x 52.6% with positive correlation = 23.0% vs 22.7% at +340 (assumed SGP price, UNVERIFIED). Rule B on both legs. No Sweat token goes here (only parlay). Minimum acceptable +320.",
+   "kill_switch": "SGP below +320 on DK: split into straights, $5 Under 46.5 -110 only (pays $9.55), Bears ML dropped. Total 45.5 or lower or Williams inactive: skip, move $5 to Under only if total >= 46. If already placed, keep.",
+   "result": null,
+   "net": null
   }
  ],
  "watch": [
-  "Inactives 11:30 AM ET: Vikings and Lions QB, Ravens QB, Eagles QB (McKee UNVERIFIED), Commanders Daniels. Apply kill switches.",
-  "Vikings +3 below +100, Under 40.5 at 39.5, Titans Under at 45.5: see ticket kill switches.",
-  "Cardinals +7.5 -110 would be Rule A territory; take it for the Cardinals leg if offered.",
-  "Bucs-Falcons total fell 3 points, reason UNVERIFIED: recheck before 1 PM.",
-  "Monday $15 reserved, pending its own update."
+  "Inactives 6:45 PM ET: Caleb Williams, Bears RB Kyle Monangai, Seahawks Leonard Williams (all UNVERIFIED).",
+  "Bears +3.5 worse than -125, or Bears +3 on the board: see kill switch.",
+  "SGP Bears ML + Under 46.5 must pay +320 or better else split to Under single.",
+  "No odds boost found; check the Promos tab."
  ],
  "board": [
   {
@@ -615,17 +695,17 @@
   {
    "kickoff": "Mon 11/02 08:20 PM",
    "game": "Bears at Seahawks",
-   "spread": "Seahawks -3 (-115)",
+   "spread": "Bears +3.5 (-118) / Seahawks -3.5 (-102)",
    "total": "46.5 (O -110 / U -110)",
-   "ml": "Bears +140 / Seahawks -166",
+   "ml": "Bears +145 / Seahawks -175",
    "pinnacle": "Pin Seahawks -3.5 / 46.5",
    "my_number": "Seahawks -3.5",
-   "read": "Monday, $15 reserved, decided at the Monday update. Seahawks ML -0.012."
+   "read": "Spread moved Bears +3 to +3.5, Pin steady. Bears +3.5 -0.013 single, Bears ML -0.018 plus Under -0.026 in SGP. Seahawks side -0.033 pass."
   }
  ],
  "season": {
-  "record": "34-35-1",
-  "net": 205.02,
+  "record": "37-38-1",
+  "net": 265.47,
   "weeks": [
    {
     "week": 1,
@@ -654,13 +734,17 @@
    {
     "week": 7,
     "net": 43.32
+   },
+   {
+    "week": 8,
+    "net": 73.23
    }
   ],
   "clv_week": 0.0021,
   "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
-  "week8_note": "Week 8 Thursday +12.78 (Packers 27-19: Under 46.5 WON +10.00, Packers ML WON +2.78). Sunday and Monday pending."
+  "week8_note": "Week 8 so far +73.23 (Thu +12.78, Sun +60.45). Sunday: Vikings +3 L (Lions 19-15), Eagles-Commanders Under 40.5 W (27-10), Titans-Bengals Under 46.5 L (43-36 OT), dog parlay L (Chargers lost 24-9), favorites parlay W +43.67 (Bucs 16-0, Steelers 27-6, Bills 36-10), Cardinals +7 / Over 41.5 parlay W +38.14 (ARI 33-30 OT, DEN 28 KC 24). Monday pending."
  },
  "clv_updated_at": "2026-11-02T00:14Z"
 }
