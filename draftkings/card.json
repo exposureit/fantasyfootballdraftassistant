@@ -172,14 +172,24 @@
      "side": "Under",
      "point": 40.5,
      "price": -110,
-     "why": "combined_edge -0.017. Eagles on backup Tanner McKee (Hurts out, search, UNVERIFIED), 2-5 and five straight losses. Rule B with news-based reason."
+     "why": "combined_edge -0.017. Eagles on backup Tanner McKee (Hurts out, search, UNVERIFIED), 2-5 and five straight losses. Rule B with news-based reason.",
+     "close": {
+      "point": 40.5,
+      "price": -110,
+      "pin_fair_prob": 0.5102,
+      "at": "2026-11-02T00:14Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0136
     }
    ],
    "why": "Own 54.0% vs 52.4% breakeven, Pin fair 50.7% at 40.5 (within 6). Rule B plus news: Eagles on Tanner McKee (search, UNVERIFIED). Lines VERIFIED at fetch.",
    "kill_switch": "DK total 39.5 or lower, or Under worse than -115. Then take Under 40 at -110 or better, else move the $15 to Cardinals +7 single. If already placed at 40.5, keep.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0
   },
   {
    "id": "w8-sun-3",
@@ -646,11 +656,11 @@
     "net": 43.32
    }
   ],
-  "clv_week": 0.0024,
+  "clv_week": 0.0021,
   "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 Thursday +12.78 (Packers 27-19: Under 46.5 WON +10.00, Packers ML WON +2.78). Sunday and Monday pending."
  },
- "clv_updated_at": "2026-11-01T20:21Z"
+ "clv_updated_at": "2026-11-02T00:14Z"
 }
