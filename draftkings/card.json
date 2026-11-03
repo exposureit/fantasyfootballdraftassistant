@@ -509,13 +509,24 @@
      "away": "Chicago Bears",
      "home": "Seattle Seahawks",
      "commence_time": "2026-11-03T01:20:00Z",
-     "game": "Bears at Seahawks"
+     "game": "Bears at Seahawks",
+     "close": {
+      "point": 3.0,
+      "price": 100,
+      "pin_fair_prob": 0.5218,
+      "at": "2026-11-03T00:12Z"
+     },
+     "point_clv": 0.5,
+     "price_clv": -0.0413,
+     "clv": -0.0213,
+     "pin_clv": -0.0195
     }
    ],
    "why": "Own 54.5% vs 54.1% breakeven, Pin fair 52.8% (within 6). Rule B, thin, combined_edge -0.013. Profit Boost token goes here if held (UNVERIFIED). VERIFIED at fetch 21:11 UTC.",
    "kill_switch": "Bears +3 (-125 or worse) or Caleb Williams inactive: do not place. Move the $10 to Under 46.5 -110 single if the total is still 46.5 or higher, else Bears ML +140 or better. If already placed, keep unless Williams is out; no cash out.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": -0.0213
   },
   {
    "id": "w8-mon-2",
@@ -543,7 +554,17 @@
      "away": "Chicago Bears",
      "home": "Seattle Seahawks",
      "commence_time": "2026-11-03T01:20:00Z",
-     "game": "Bears at Seahawks"
+     "game": "Bears at Seahawks",
+     "close": {
+      "point": null,
+      "price": 142,
+      "pin_fair_prob": 0.3823,
+      "at": "2026-11-03T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0051,
+     "clv": 0.0051,
+     "pin_clv": -0.0259
     },
     {
      "label": "Under 46.5",
@@ -556,13 +577,24 @@
      "away": "Chicago Bears",
      "home": "Seattle Seahawks",
      "commence_time": "2026-11-03T01:20:00Z",
-     "game": "Bears at Seahawks"
+     "game": "Bears at Seahawks",
+     "close": {
+      "point": 46.5,
+      "price": -112,
+      "pin_fair_prob": 0.5,
+      "at": "2026-11-03T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0045,
+     "clv": 0.0045,
+     "pin_clv": -0.0238
     }
    ],
    "why": "Own 41.2% x 52.6% with positive correlation = 23.0% vs 22.7% at +340 (assumed SGP price, UNVERIFIED). Rule B on both legs. No Sweat token goes here (only parlay). Minimum acceptable +320.",
    "kill_switch": "SGP below +320 on DK: split into straights, $5 Under 46.5 -110 only (pays $9.55), Bears ML dropped. Total 45.5 or lower or Williams inactive: skip, move $5 to Under only if total >= 46. If already placed, keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0048
   }
  ],
  "watch": [
@@ -740,11 +772,11 @@
     "net": 73.23
    }
   ],
-  "clv_week": 0.0021,
-  "clv_season": 0.0057,
+  "clv_week": 0.0,
+  "clv_season": 0.0054,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 so far +73.23 (Thu +12.78, Sun +60.45). Sunday: Vikings +3 L (Lions 19-15), Eagles-Commanders Under 40.5 W (27-10), Titans-Bengals Under 46.5 L (43-36 OT), dog parlay L (Chargers lost 24-9), favorites parlay W +43.67 (Bucs 16-0, Steelers 27-6, Bills 36-10), Cardinals +7 / Over 41.5 parlay W +38.14 (ARI 33-30 OT, DEN 28 KC 24). Monday pending."
  },
- "clv_updated_at": "2026-11-02T00:14Z"
+ "clv_updated_at": "2026-11-03T00:12Z"
 }
