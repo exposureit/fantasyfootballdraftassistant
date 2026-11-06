@@ -1838,5 +1838,37 @@
   "clv": 0.0045,
   "pin_clv": -0.0238,
   "at": "2026-11-03T00:12Z"
+ },
+ {
+  "week": 9,
+  "ticket": "w9-thu-1",
+  "label": "Ravens +10",
+  "market": "spreads",
+  "side": "Baltimore Ravens",
+  "bet_point": 10,
+  "bet_price": -115,
+  "close_point": 9.5,
+  "close_price": -110,
+  "point_clv": 0.5,
+  "price_clv": -0.0111,
+  "clv": 0.0089,
+  "pin_clv": -0.0131,
+  "at": "2026-11-06T00:13Z"
+ },
+ {
+  "week": 9,
+  "ticket": "w9-thu-2",
+  "label": "Under 39.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 39.5,
+  "bet_price": -110,
+  "close_point": 39.5,
+  "close_price": 100,
+  "point_clv": 0.0,
+  "price_clv": -0.0238,
+  "clv": -0.0238,
+  "pin_clv": -0.0399,
+  "at": "2026-11-06T00:13Z"
  }
 ]
