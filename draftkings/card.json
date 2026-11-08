@@ -128,14 +128,24 @@
      "side": "Miami Dolphins",
      "point": null,
      "price": 295,
-     "why": "combined_edge +0.017 (Rule A). Pin fair +270 (27.0%) vs DK +295."
+     "why": "combined_edge +0.017 (Rule A). Pin fair +270 (27.0%) vs DK +295.",
+     "close": {
+      "point": null,
+      "price": 245,
+      "pin_fair_prob": 0.267,
+      "at": "2026-11-08T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0367,
+     "clv": 0.0367,
+     "pin_clv": 0.0138
     }
    ],
    "why": "Own 26.5% vs 25.3% breakeven, Pin fair 27.0%. Rule A. Why now: 7 is the key number and Lions -7 is the public side; Pin already sits at -7.5, so any Lions or Dolphins injury news or sharp Dolphins buying shortens +295 before Sunday. Lions LB Jack Campbell hospitalized with a neck injury (search, UNVERIFIED). Early number moves either way.",
    "kill_switch": "Dolphins QB ruled out or Dolphins ML shorter than +270 before placing: skip and move the $10 to Sunday card. If already placed, keep unless the QB is out. Do not chase a worse price.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0367
   },
   {
    "id": "w9-sun-2",
@@ -197,14 +207,24 @@
      "side": "New York Jets",
      "point": 9.5,
      "price": -105,
-     "why": "combined_edge +0.005 (Rule B). Pin fair 53.7% at +10, DK +9.5 is a half point worse."
+     "why": "combined_edge +0.005 (Rule B). Pin fair 53.7% at +10, DK +9.5 is a half point worse.",
+     "close": {
+      "point": 9.5,
+      "price": -110,
+      "pin_fair_prob": 0.542,
+      "at": "2026-11-08T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0116,
+     "clv": 0.0116,
+     "pin_clv": 0.0298
     }
    ],
    "why": "Own 52.5% vs 51.2% breakeven, within 1.2 points of Pin 53.7%. Rule B. Chiefs -9.5 sits just under the 10 key number; big favorites cover under 50 percent and the total rose 46.5 to 48.5 so a back door cover is live. Profit Boost token goes here if Luke holds one (longest qualifying single).",
    "kill_switch": "Jets +9 or shorter, or price worse than -115: skip and move the $10 to Eagles +3 only if Eagles money stays within the 30 percent cap, else to the favorites parlay. Chiefs QB or Jets QB out before kickoff: re-read.",
    "result": null,
    "net": null,
-   "clv": null,
+   "clv": 0.0116,
    "promo": "Profit Boost"
   },
   {
@@ -232,14 +252,24 @@
      "side": "Philadelphia Eagles",
      "point": 3,
      "price": -108,
-     "why": "combined_edge +0.003 (Rule B). Pin fair 52.2% at +3, same number."
+     "why": "combined_edge +0.003 (Rule B). Pin fair 52.2% at +3, same number.",
+     "close": {
+      "point": 3.0,
+      "price": -110,
+      "pin_fair_prob": 0.524,
+      "at": "2026-11-08T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0046,
+     "clv": 0.0046,
+     "pin_clv": 0.0048
     }
    ],
    "why": "Own 52.5% vs 51.9% breakeven, Pin fair 52.2%. Rule B. Price matches Pinnacle on the key number 3; the 38.5 total makes this a one-score game where the hook on +3 is the whole edge. Home dog in a low scoring game.",
    "kill_switch": "Eagles +2.5 or Eagles QB ruled out: skip, move the $10 to the dog parlay. Take +3.5 if offered at -115 or better (adds value).",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0046
   },
   {
    "id": "w9-sun-5",
@@ -266,7 +296,17 @@
      "side": "Washington Commanders",
      "point": 4.5,
      "price": -105,
-     "why": "combined_edge -0.003 (Rule B). Pin fair 50.9% at +4.5 after moving from +6."
+     "why": "combined_edge -0.003 (Rule B). Pin fair 50.9% at +4.5 after moving from +6.",
+     "close": {
+      "point": 4.5,
+      "price": -118,
+      "pin_fair_prob": 0.5196,
+      "at": "2026-11-08T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0291,
+     "clv": 0.0291,
+     "pin_clv": 0.0074
     },
     {
      "label": "Chargers +5.5",
@@ -313,7 +353,17 @@
      "side": "Over",
      "point": 44.5,
      "price": -108,
-     "why": "combined_edge +0.005 (Rule B). Pin fair 52.4% at 44.5."
+     "why": "combined_edge +0.005 (Rule B). Pin fair 52.4% at 44.5.",
+     "close": {
+      "point": 44.5,
+      "price": -115,
+      "pin_fair_prob": 0.5228,
+      "at": "2026-11-08T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0157,
+     "clv": 0.0157,
+     "pin_clv": 0.0036
     },
     {
      "label": "Over 47.5",
@@ -373,7 +423,17 @@
      "side": "Denver Broncos",
      "point": null,
      "price": -142,
-     "why": "combined_edge -0.002 (Rule B). Pin fair 58.5%."
+     "why": "combined_edge -0.002 (Rule B). Pin fair 58.5%.",
+     "close": {
+      "point": null,
+      "price": -155,
+      "pin_fair_prob": 0.5867,
+      "at": "2026-11-08T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0211,
+     "clv": 0.0211,
+     "pin_clv": -0.0001
     },
     {
      "label": "Seahawks ML",
@@ -550,12 +610,12 @@
     "net": 76.7
    }
   ],
-  "clv_week": -0.0075,
-  "clv_season": 0.0052,
+  "clv_week": 0.0076,
+  "clv_season": 0.0059,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 through Thursday -15.00: Ravens +10 lost (Jaguars 33, Ravens 10), Under 39.5 lost (43 points). Season record and net are through Thursday of Week 9."
  },
- "clv_updated_at": "2026-11-06T00:13Z"
+ "clv_updated_at": "2026-11-08T16:55Z"
 }
