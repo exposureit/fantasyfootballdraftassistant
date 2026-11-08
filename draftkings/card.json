@@ -173,14 +173,24 @@
      "side": "Las Vegas Raiders",
      "point": null,
      "price": 410,
-     "why": "combined_edge +0.016 (Rule A). Pin fair +372 (21.2%) vs DK +410."
+     "why": "combined_edge +0.016 (Rule A). Pin fair +372 (21.2%) vs DK +410.",
+     "close": {
+      "point": null,
+      "price": 340,
+      "pin_fair_prob": 0.2016,
+      "at": "2026-11-08T20:22Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0312,
+     "clv": 0.0312,
+     "pin_clv": 0.0055
     }
    ],
    "why": "Own 20.5% vs 19.6% breakeven, Pin fair 21.2%. Rule A. Why now: injury question on the other side. 49ers are off the bye with McCaffrey (hamstring), Bosa and Evans listed questionable (search, UNVERIFIED); clean practice reports shorten +410 and the public backs the 49ers brand. 10 is the key number and DK and Pin both sit on it.",
    "kill_switch": "Raiders ML shorter than +370, or Raiders QB out: skip and move to Sunday card. If already placed, keep unless the QB is out.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0312
   },
   {
    "id": "w9-sun-3",
@@ -319,14 +329,24 @@
      "side": "Los Angeles Chargers",
      "point": 5.5,
      "price": -108,
-     "why": "combined_edge -0.008 (Rule B). Pin fair 51.2% at +5.5."
+     "why": "combined_edge -0.008 (Rule B). Pin fair 51.2% at +5.5.",
+     "close": {
+      "point": 5.5,
+      "price": -112,
+      "pin_fair_prob": 0.5139,
+      "at": "2026-11-08T20:22Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0091,
+     "clv": 0.0091,
+     "pin_clv": -0.0053
     }
    ],
    "why": "Own about 26.5% joint (51.5% and 51.5%) vs breakeven set by the DK parlay price. Rule B on both legs, each within 1 point of Pin. Honest read: no price edge, this is entertainment-sized variance with $10. Both are plus-money-equivalent dogs.",
    "kill_switch": "Commanders +4 or Chargers +5 or worse: replace that leg with Bucs +6 -108 (-0.017, Rule B). Rams or Texans QB out: re-read.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0191
   },
   {
    "id": "w9-sun-6",
@@ -410,7 +430,17 @@
      "side": "New England Patriots",
      "point": -3,
      "price": -112,
-     "why": "combined_edge +0.002 (Rule B). Pin fair 53.1% at -3."
+     "why": "combined_edge +0.002 (Rule B). Pin fair 53.1% at -3.",
+     "close": {
+      "point": -3.0,
+      "price": -120,
+      "pin_fair_prob": 0.5369,
+      "at": "2026-11-08T20:22Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0172,
+     "clv": 0.0172,
+     "pin_clv": 0.0086
     },
     {
      "label": "Broncos ML",
@@ -446,14 +476,24 @@
      "side": "Seattle Seahawks",
      "point": null,
      "price": -440,
-     "why": "Pin ML -395 vs DK -440 is a small price cost; price is shorter than fair, Rule B only for the parlay leg. Own 81.5% vs breakeven 81.5%."
+     "why": "Pin ML -395 vs DK -440 is a small price cost; price is shorter than fair, Rule B only for the parlay leg. Own 81.5% vs breakeven 81.5%.",
+     "close": {
+      "point": null,
+      "price": -455,
+      "pin_fair_prob": 0.7766,
+      "at": "2026-11-08T20:22Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.005,
+     "clv": 0.005,
+     "pin_clv": -0.0382
     }
    ],
    "why": "Own 53.5% x 58.5% x 80% joint 25.0% vs breakeven from the DK price. Rule B. Longest parlay so the No Sweat token goes here if Luke holds one. Broncos ML shares a game with the Over leg in the Overs parlay (the one allowed correlated pair).",
    "kill_switch": "Patriots -3.5 (move through 3): skip that leg and use Patriots ML only if -170 or better. Seahawks ML worse than -500: swap to Texans ML -230 only if the dog pair loses the Chargers leg. QB out for any leg: drop to the 2-leg parlay.",
    "result": null,
    "net": null,
-   "clv": null,
+   "clv": 0.0144,
    "promo": "No Sweat"
   }
  ],
@@ -610,12 +650,12 @@
     "net": 76.7
    }
   ],
-  "clv_week": 0.0076,
-  "clv_season": 0.0059,
+  "clv_week": 0.0128,
+  "clv_season": 0.0062,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 through Thursday -15.00: Ravens +10 lost (Jaguars 33, Ravens 10), Under 39.5 lost (43 points). Season record and net are through Thursday of Week 9."
  },
- "clv_updated_at": "2026-11-08T16:55Z"
+ "clv_updated_at": "2026-11-08T20:22Z"
 }
