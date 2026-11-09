@@ -2030,5 +2030,21 @@
   "clv": 0.005,
   "pin_clv": -0.0382,
   "at": "2026-11-08T20:22Z"
+ },
+ {
+  "week": 9,
+  "ticket": "w9-sun-6",
+  "label": "Over 47.5",
+  "market": "totals",
+  "side": "Over",
+  "bet_point": 47.5,
+  "bet_price": -108,
+  "close_point": 47.5,
+  "close_price": -102,
+  "point_clv": 0.0,
+  "price_clv": -0.0143,
+  "clv": -0.0143,
+  "pin_clv": -0.0284,
+  "at": "2026-11-09T00:12Z"
  }
 ]

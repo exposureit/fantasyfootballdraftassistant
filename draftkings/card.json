@@ -396,14 +396,24 @@
      "side": "Over",
      "point": 47.5,
      "price": -108,
-     "why": "combined_edge -0.008 (Rule B). Pin fair 51.1% at 47.5. Total moved up from 46.5 on Pin too."
+     "why": "combined_edge -0.008 (Rule B). Pin fair 51.1% at 47.5. Total moved up from 46.5 on Pin too.",
+     "close": {
+      "point": 47.5,
+      "price": -102,
+      "pin_fair_prob": 0.4908,
+      "at": "2026-11-09T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0143,
+     "clv": -0.0143,
+     "pin_clv": -0.0284
     }
    ],
    "why": "Own 52.5% and 52.0% vs breakevens 51.9%, joint about 27.3% vs about 27.1% at DK price. Rule B. Both totals drifted up with Pinnacle, so the number has already priced the over interest; this is a small bet on pace and Chicago/Tampa offenses.",
    "kill_switch": "Broncos total 45.5 or higher, or Bears-Bucs total 48.5 or higher: swap to the Under only if own number says so, else drop to the favorites parlay. Bears-Bucs weather (wind 15+ mph) kills that leg: replace with Over 47.5 Rams-Commanders -112.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0007
   },
   {
    "id": "w9-sun-7",
@@ -650,12 +660,12 @@
     "net": 76.7
    }
   ],
-  "clv_week": 0.0128,
-  "clv_season": 0.0062,
+  "clv_week": 0.0115,
+  "clv_season": 0.0061,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 through Thursday -15.00: Ravens +10 lost (Jaguars 33, Ravens 10), Under 39.5 lost (43 points). Season record and net are through Thursday of Week 9."
  },
- "clv_updated_at": "2026-11-08T20:22Z"
+ "clv_updated_at": "2026-11-09T00:12Z"
 }
