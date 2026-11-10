@@ -2046,5 +2046,37 @@
   "clv": -0.0143,
   "pin_clv": -0.0284,
   "at": "2026-11-09T00:12Z"
+ },
+ {
+  "week": 9,
+  "ticket": "w9-mon-1",
+  "label": "Bills -3.5",
+  "market": "spreads",
+  "side": "Buffalo Bills",
+  "bet_point": -3.5,
+  "bet_price": -105,
+  "close_point": -3.5,
+  "close_price": -105,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": 0.0184,
+  "at": "2026-11-10T00:13Z"
+ },
+ {
+  "week": 9,
+  "ticket": "w9-mon-2",
+  "label": "Bills ML",
+  "market": "h2h",
+  "side": "Buffalo Bills",
+  "bet_point": null,
+  "bet_price": -198,
+  "close_point": null,
+  "close_price": -192,
+  "point_clv": 0.0,
+  "price_clv": -0.0069,
+  "clv": -0.0069,
+  "pin_clv": -0.0251,
+  "at": "2026-11-10T00:13Z"
  }
 ]
