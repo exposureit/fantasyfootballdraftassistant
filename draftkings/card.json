@@ -1,6 +1,6 @@
 {
  "week": 9,
- "title": "Week 9 Monday card",
+ "title": "Week 9 final (graded)",
  "year": "2026",
  "built_at": "2026-11-09T21:25Z",
  "lines_verified_at": "2026-11-09T21:10:00Z",
@@ -547,8 +547,8 @@
    ],
    "why": "Own 52.0% vs 51.2% breakeven, 1.4 points under Pin 53.4% at -3. Vikings reported without QB Kyler Murray (hamstring, search, UNVERIFIED); Pin moved Bills ML -184 to -187 and the total down 46.5 to 45. Prime-time favorite bias is real but the hook is priced in. Profit Boost token goes here if Luke holds one.",
    "kill_switch": "Inactives 6:45 PM ET: Allen out or Bills line worse than -4 or price worse than -115: skip, move the $10 to Vikings +3.5 only at -115 or better, else Bills ML. If already placed, keep unless Allen is inactive.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 9.52,
    "clv": 0.0
   },
   {
@@ -591,8 +591,8 @@
    ],
    "why": "Own 66.5% vs 66.4% breakeven, Pin fair 63.5%. Rule B only on the QB news Pin has partly priced. Honest read: no price edge; this is the only second qualifying leg on a one-game Monday. Under 45.5 -115 (-0.019) failed Rule B (own 52% vs 53.5% breakeven) so no SGP.",
    "kill_switch": "Allen inactive or Bills ML shorter than -230: skip, move $5 to Vikings +3.5. If already placed, keep unless Allen is out.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 2.53,
    "clv": -0.0069
   }
  ],
@@ -708,8 +708,8 @@
   }
  ],
  "season": {
-  "record": "39-47-1",
-  "net": 221.03,
+  "record": "41-47-1",
+  "net": 233.08,
   "weeks": [
    {
     "week": 1,
@@ -745,7 +745,7 @@
    },
    {
     "week": 9,
-    "net": -47.91
+    "net": -35.86
    }
   ],
   "clv_week": 0.0088,
@@ -753,7 +753,7 @@
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
-  "week9_note": "Thu -15.00, Sun -32.91 (only Overs parlay won, +27.09); Monday pending."
+  "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088."
  },
  "clv_updated_at": "2026-11-10T00:13Z"
 }
