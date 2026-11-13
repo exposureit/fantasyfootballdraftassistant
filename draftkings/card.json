@@ -38,14 +38,24 @@
      "side": "Over",
      "point": 40.5,
      "price": -115,
-     "why": "combined_edge -0.016 (Rule B). Pin fair 51.9% at 40.5; own 54.0%, within 6 points of Pin."
+     "why": "combined_edge -0.016 (Rule B). Pin fair 51.9% at 40.5; own 54.0%, within 6 points of Pin.",
+     "close": {
+      "point": 40.5,
+      "price": -115,
+      "pin_fair_prob": 0.5102,
+      "at": "2026-11-13T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0247
     }
    ],
    "why": "Own 54.0% vs 53.5% breakeven, Pin fair 51.9%. Total already fell 42 to 40.5 at Pinnacle on the short-week-under story and Pinnacle now shades the Over at -115 at the same number. Every Giants skill player practiced full, Daniels healthy, Washington starts a backup center. Thin lean, best-rated side on the game.",
    "kill_switch": "Total 41.5+ or worse than -120 before placing: skip, move $10 to Commanders ML if +100 or better, else Giants -1.5 at -115 or better. McCarthy or Daniels inactive at 6:45 PM: skip, move $10 to Under 40.5 at -110 or better. If already placed, keep.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0
   },
   {
    "id": "w10-thu-2",
@@ -73,14 +83,24 @@
      "side": "Washington Commanders",
      "point": null,
      "price": 105,
-     "why": "combined_edge -0.018 (Rule B). Pin fair 46.9%; own 49.5%, within 6 points of Pin."
+     "why": "combined_edge -0.018 (Rule B). Pin fair 46.9%; own 49.5%, within 6 points of Pin.",
+     "close": {
+      "point": null,
+      "price": 105,
+      "pin_fair_prob": 0.4652,
+      "at": "2026-11-13T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0226
     }
    ],
    "why": "Own 49.5% vs 48.8% breakeven, Pin fair 46.9%. Both books moved toward Washington since Tuesday (Pin ML +120 to +108, DK spread 2.5 to 1.5) against a fully healthy Giants team. Divisional rematch of a tie at a 1.5-point line. Not an SGP: dog plus under would need the Under against the core Over, favorite plus over would reuse the Over leg. Profit Boost token here.",
    "kill_switch": "Shorter than +100 or Daniels inactive: skip, move $5 to the Over (ticket becomes $15). If already placed, keep unless Daniels is out.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0
   }
  ],
  "watch": [
@@ -275,11 +295,11 @@
    }
   ],
   "clv_week": 0.0,
-  "clv_season": 0.0059,
+  "clv_season": 0.0058,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088."
  },
- "clv_updated_at": "2026-11-10T00:13Z"
+ "clv_updated_at": "2026-11-13T00:12Z"
 }
