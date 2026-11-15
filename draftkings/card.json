@@ -128,13 +128,24 @@
      "side": "Tennessee Titans",
      "point": null,
      "price": 490,
-     "why": "combined_edge +0.014 (Rule B, 0.001 short of A). Pin fair +444 (18.4%) vs DK +490 (16.9%); own 18.5%."
+     "why": "combined_edge +0.014 (Rule B, 0.001 short of A). Pin fair +444 (18.4%) vs DK +490 (16.9%); own 18.5%.",
+     "close": {
+      "point": null,
+      "price": 470,
+      "pin_fair_prob": 0.1871,
+      "at": "2026-11-15T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0059,
+     "clv": 0.0059,
+     "pin_clv": 0.0176
     }
    ],
    "why": "Best price on the board: DK hangs +490 while Pinnacle is +427 on the dog, and DK pushed Jaguars ML from -600 to -675 while Pinnacle went the other way (-556 to -533). Divisional road favorite of 10.5 is the public side; big favorites cover and win less than the market's chalk implies. EV +8.6% before the token, about +31% with a 25% Profit Boost.",
    "kill_switch": "Shorter than +440 before placing: skip. Titans starting QB inactive at 11:30: skip. Freed money goes, in order, to Jets +8.5 at -118 or better, then Dolphins ML at +180 or longer (both games carry $0 today). If already placed, keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0059
   },
   {
    "id": "w10-sun-2",
@@ -161,13 +172,24 @@
      "side": "Cleveland Browns",
      "point": 4.5,
      "price": -108,
-     "why": "combined_edge +0.003 (Rule B). Pin +4 at 50.2% fair; the hook adds about 1.5 points (push at 4), so Pin-implied about 51.7%; own 53.0%."
+     "why": "combined_edge +0.003 (Rule B). Pin +4 at 50.2% fair; the hook adds about 1.5 points (push at 4), so Pin-implied about 51.7%; own 53.0%.",
+     "close": {
+      "point": 4.5,
+      "price": -120,
+      "pin_fair_prob": 0.5173,
+      "at": "2026-11-15T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0262,
+     "clv": 0.0262,
+     "pin_clv": -0.0019
     }
    ],
    "why": "DK sits a half point off Pinnacle (+4.5 vs +4) in a 40.5-total game where every point is worth more. Cleveland forecast ranges from mild to 19 mph wind and 68% rain (sources disagree, UNVERIFIED); bad weather shrinks margins and favors the dog. Small edge, so $15 not $20.",
    "kill_switch": "+4 or worse, or worse than -115 at +4.5: skip. Browns starting QB inactive: skip. Freed money goes, in order, to Jets +8.5 at -118 or better, then Dolphins ML at +180 or longer (both games carry $0 today). If already placed, keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0262
   },
   {
    "id": "w10-sun-3",
@@ -240,7 +262,17 @@
      "side": "Under",
      "point": 42.5,
      "price": -115,
-     "why": "combined_edge -0.006 (Rule B). Pin 42 (50.9% under), DK gives a half point; own 54.0%: Kirk Cousins starts five days after the trade from Las Vegas, Murray out, Vikings missing key pieces (Star Tribune)."
+     "why": "combined_edge -0.006 (Rule B). Pin 42 (50.9% under), DK gives a half point; own 54.0%: Kirk Cousins starts five days after the trade from Las Vegas, Murray out, Vikings missing key pieces (Star Tribune).",
+     "close": {
+      "point": 42.5,
+      "price": -112,
+      "pin_fair_prob": 0.5,
+      "at": "2026-11-15T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": -0.0066,
+     "clv": -0.0066,
+     "pin_clv": -0.0349
     }
    ],
    "why": "Two unders where DK gives at least Pinnacle's number. New-QB install for Minnesota caps their offense; the Dallas under rides the Cowboys-dog script.",
@@ -273,7 +305,17 @@
      "side": "Over",
      "point": 47.5,
      "price": -105,
-     "why": "combined_edge -0.004 (Rule B). Pin fair 50.8% at 47.5 with Over shaded -110; own 52.5%. Mahomes full practice all week after the clean elbow MRI (Rotoballer, KY3), dome game."
+     "why": "combined_edge -0.004 (Rule B). Pin fair 50.8% at 47.5 with Over shaded -110; own 52.5%. Mahomes full practice all week after the clean elbow MRI (Rotoballer, KY3), dome game.",
+     "close": {
+      "point": 47.5,
+      "price": -105,
+      "pin_fair_prob": 0.4908,
+      "at": "2026-11-15T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0214
     },
     {
      "label": "Raiders +6.5",
@@ -333,7 +375,17 @@
      "side": "Carolina Panthers",
      "point": 1.5,
      "price": -115,
-     "why": "combined_edge -0.008 (Rule B). Pin Panthers +1 (50.7%); the hook turns a 1-point loss into a win, about 52.4% Pin-implied; own 54.0%."
+     "why": "combined_edge -0.008 (Rule B). Pin Panthers +1 (50.7%); the hook turns a 1-point loss into a win, about 52.4% Pin-implied; own 54.0%.",
+     "close": {
+      "point": 1.5,
+      "price": -125,
+      "pin_fair_prob": 0.5218,
+      "at": "2026-11-15T16:56Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0207,
+     "clv": 0.0207,
+     "pin_clv": -0.0131
     },
     {
      "label": "Steelers ML",
@@ -528,13 +580,13 @@
     "net": -35.86
    }
   ],
-  "clv_week": 0.0,
-  "clv_season": 0.0058,
+  "clv_week": 0.008,
+  "clv_season": 0.006,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088.",
   "week10_note": "Week 10 Thursday +13.95: Commanders 24, Giants 21 (45 points). Over 40.5 WON +8.70, Commanders ML +105 WON +5.25 (graded unboosted; the Profit Boost adds to that)."
  },
- "clv_updated_at": "2026-11-13T00:12Z"
+ "clv_updated_at": "2026-11-15T16:56Z"
 }
