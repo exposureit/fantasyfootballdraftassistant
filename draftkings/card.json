@@ -216,13 +216,24 @@
      "side": "Dallas Cowboys",
      "point": 4.5,
      "price": -112,
-     "why": "combined_edge +0.002 (Rule B). Pin +4 at 51.0% fair, hook worth about 1.7 points, Pin-implied about 52.7%; own 53.5%."
+     "why": "combined_edge +0.002 (Rule B). Pin +4 at 51.0% fair, hook worth about 1.7 points, Pin-implied about 52.7%; own 53.5%.",
+     "close": {
+      "point": 4.5,
+      "price": -112,
+      "pin_fair_prob": 0.5093,
+      "at": "2026-11-15T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.019
     }
    ],
    "why": "DK moved 49ers -3.5 to -4.5 since Tuesday while Pinnacle never left -4, so DK is shading the public favorite and the dog gets a free half point. Home dog off the 4 key-ish number. Thin, so $10.",
    "kill_switch": "+4 or worse, or worse than -120: skip. Cowboys QB inactive: skip. Freed money goes, in order, to Jets +8.5 at -118 or better, then Dolphins ML at +180 or longer (both games carry $0 today). If already placed, keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0
   },
   {
    "id": "w10-sun-4",
@@ -249,7 +260,17 @@
      "side": "Under",
      "point": 55.5,
      "price": -102,
-     "why": "combined_edge -0.011 (Rule B). Pin Under 56 -112 (51.4%); 55.5 turns 56 into a loss, about 50.6% Pin-implied; own 51.5% vs 50.5% breakeven. Pairs with Cowboys +4.5 (dog plus under), the one correlated pair for this game."
+     "why": "combined_edge -0.011 (Rule B). Pin Under 56 -112 (51.4%); 55.5 turns 56 into a loss, about 50.6% Pin-implied; own 51.5% vs 50.5% breakeven. Pairs with Cowboys +4.5 (dog plus under), the one correlated pair for this game.",
+     "close": {
+      "point": 55.5,
+      "price": -102,
+      "pin_fair_prob": 0.5069,
+      "at": "2026-11-15T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.0019
     },
     {
      "label": "Under 42.5",
@@ -278,7 +299,8 @@
    "why": "Two unders where DK gives at least Pinnacle's number. New-QB install for Minnesota caps their offense; the Dallas under rides the Cowboys-dog script.",
    "kill_switch": "Vikings-Packers 41.5 or lower: swap that leg for Over 40.5 Seahawks-Raiders -108. 49ers-Cowboys 54.5 or lower: swap for Jets +8.5 -118. Cousins inactive: drop the Vikings leg and play the other as a $10 single.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": -0.0033
   },
   {
    "id": "w10-sun-5",
@@ -328,13 +350,24 @@
      "side": "Las Vegas Raiders",
      "point": 6.5,
      "price": -110,
-     "why": "combined_edge -0.013 (Rule B). Pin fair 51.0% at +6.5; own 52.5%. Seattle starts Drew Lock (oblique plus elbow, limited every week since Week 6) with Milroe behind him; Darnold out."
+     "why": "combined_edge -0.013 (Rule B). Pin fair 51.0% at +6.5; own 52.5%. Seattle starts Drew Lock (oblique plus elbow, limited every week since Week 6) with Milroe behind him; Darnold out.",
+     "close": {
+      "point": 6.5,
+      "price": -110,
+      "pin_fair_prob": 0.507,
+      "at": "2026-11-15T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0168
     }
    ],
    "why": "Total moved 45.5 to 47.5 at both books on Mahomes news and Pinnacle still leans Over. Raiders get a banged-up backup QB under the 7 key number.",
    "kill_switch": "Chiefs-Falcons total 48.5 or higher: drop that leg and play Raiders +6.5 as a $10 single. Raiders +6 or worse: swap that leg for Raiders ML at +230 or longer. Mahomes inactive: drop the Over leg. Lock inactive (Milroe starts): keep, the Raiders leg improves.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0
   },
   {
    "id": "w10-sun-6",
@@ -362,7 +395,17 @@
      "side": "Under",
      "point": 38.5,
      "price": -112,
-     "why": "combined_edge -0.011 (Rule B). Pin 38 (49.8% under); 38.5 wins on 38 too, about 50.8% Pin-implied; own 53.5%: Arizona on a rookie third-stringer (Carson Beck expected, Minshew on IR, Brissett traded) and Rams without Nacua (Arizona Sports, UNVERIFIED)."
+     "why": "combined_edge -0.011 (Rule B). Pin 38 (49.8% under); 38.5 wins on 38 too, about 50.8% Pin-implied; own 53.5%: Arizona on a rookie third-stringer (Carson Beck expected, Minshew on IR, Brissett traded) and Rams without Nacua (Arizona Sports, UNVERIFIED).",
+     "close": {
+      "point": 38.5,
+      "price": -112,
+      "pin_fair_prob": 0.4931,
+      "at": "2026-11-15T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0352
     },
     {
      "label": "Panthers +1.5",
@@ -580,13 +623,13 @@
     "net": -35.86
    }
   ],
-  "clv_week": 0.008,
-  "clv_season": 0.006,
+  "clv_week": 0.0041,
+  "clv_season": 0.0058,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088.",
   "week10_note": "Week 10 Thursday +13.95: Commanders 24, Giants 21 (45 points). Over 40.5 WON +8.70, Commanders ML +105 WON +5.25 (graded unboosted; the Profit Boost adds to that)."
  },
- "clv_updated_at": "2026-11-15T16:56Z"
+ "clv_updated_at": "2026-11-15T20:21Z"
 }
