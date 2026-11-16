@@ -441,13 +441,24 @@
      "side": "Pittsburgh Steelers",
      "point": null,
      "price": 160,
-     "why": "combined_edge -0.014 (Rule B). Pin fair 37.1% (+170); own 39.0%. Both 6-2, Pittsburgh won the Week 3 meeting 30-27 (Squawka)."
+     "why": "combined_edge -0.014 (Rule B). Pin fair 37.1% (+170); own 39.0%. Both 6-2, Pittsburgh won the Week 3 meeting 30-27 (Squawka).",
+     "close": {
+      "point": null,
+      "price": 160,
+      "pin_fair_prob": 0.3541,
+      "at": "2026-11-16T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0305
     }
    ],
    "why": "Longest ticket, so the No Sweat token goes here (EV moves from about -2.5% to +60% with the refund). Each leg is DK at or within a hair of Pinnacle.",
    "kill_switch": "Rams-Cards 37.5 or lower: swap that leg for Cardinals ML +370 or longer. Panthers +1 or worse: swap that leg for Dolphins ML +180 or longer. Steelers shorter than +150: swap for Steelers +3.5 at -110 or better. Cardinals start someone other than Beck: re-read the Under leg.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0069
   }
  ],
  "watch": [
@@ -623,13 +634,13 @@
     "net": -35.86
    }
   ],
-  "clv_week": 0.0041,
-  "clv_season": 0.0058,
+  "clv_week": 0.0045,
+  "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
   "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088.",
   "week10_note": "Week 10 Thursday +13.95: Commanders 24, Giants 21 (45 points). Over 40.5 WON +8.70, Commanders ML +105 WON +5.25 (graded unboosted; the Profit Boost adds to that)."
  },
- "clv_updated_at": "2026-11-15T20:21Z"
+ "clv_updated_at": "2026-11-16T00:13Z"
 }
