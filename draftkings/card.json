@@ -500,8 +500,8 @@
    ],
    "why": "Own 54.0% vs 52.8% breakeven. DK moved 38.5 to 39.5 and sits a half point above Pinnacle's 39 after 70%+ of tickets hit the Over. Brissett's first Baltimore start and a Chargers receiving room missing McConkey (and likely Njoku) both lean low. Clear, 43 F, light wind.",
    "kill_switch": "39 or lower, or worse than -120 before placing: skip, move $10 to Chargers +4.5 (ticket becomes $15). Herbert inactive at 6:45 PM: keep. If already placed, keep.",
-   "result": null,
-   "net": null,
+   "result": "loss",
+   "net": -10.0,
    "clv": 0.0
   },
   {
@@ -545,8 +545,8 @@
    ],
    "why": "Own 53.0% vs 51.9% breakeven. In a sub-40 total each point is worth more, and a new-to-the-team backup QB caps Baltimore's margin. Dog plus under is the game's one correlated pair, built as two straights (no SGP repricing, Under leg not reused).",
    "kill_switch": "+4 or worse, worse than -115, or Herbert inactive: skip, move $5 to the Under (ticket becomes $15). If already placed, keep.",
-   "result": null,
-   "net": null,
+   "result": "win",
+   "net": 4.63,
    "clv": 0.0
   }
  ],
