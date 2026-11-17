@@ -2270,5 +2270,37 @@
   "clv": 0.0,
   "pin_clv": -0.0305,
   "at": "2026-11-16T00:13Z"
+ },
+ {
+  "week": 10,
+  "ticket": "w10-mon-1",
+  "label": "Under 39.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 39.5,
+  "bet_price": -112,
+  "close_point": 39.5,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0398,
+  "at": "2026-11-17T00:12Z"
+ },
+ {
+  "week": 10,
+  "ticket": "w10-mon-2",
+  "label": "Chargers +4.5",
+  "market": "spreads",
+  "side": "Los Angeles Chargers",
+  "bet_point": 4.5,
+  "bet_price": -108,
+  "close_point": 4.5,
+  "close_price": -108,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0169,
+  "at": "2026-11-17T00:12Z"
  }
 ]
