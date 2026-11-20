@@ -2302,5 +2302,37 @@
   "clv": 0.0,
   "pin_clv": -0.0169,
   "at": "2026-11-17T00:12Z"
+ },
+ {
+  "week": 11,
+  "ticket": "w11-thu-1",
+  "label": "Under 44.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 44.5,
+  "bet_price": -116,
+  "close_point": 44.5,
+  "close_price": -116,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0439,
+  "at": "2026-11-20T00:12Z"
+ },
+ {
+  "week": 11,
+  "ticket": "w11-thu-2",
+  "label": "Texans -12.5",
+  "market": "spreads",
+  "side": "Houston Texans",
+  "bet_point": -12.5,
+  "bet_price": -106,
+  "close_point": -12.5,
+  "close_price": -111,
+  "point_clv": 0.0,
+  "price_clv": 0.0115,
+  "clv": 0.0115,
+  "pin_clv": -0.0386,
+  "at": "2026-11-20T00:12Z"
  }
 ]

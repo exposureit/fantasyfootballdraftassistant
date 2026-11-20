@@ -38,14 +38,24 @@
      "side": "Under",
      "point": 44.5,
      "price": -116,
-     "why": "combined_edge -0.015 (Rule B). Pin fair 50.2% at 44 (about 52.5% at 44.5); own 54.5%, within 6 points of Pin."
+     "why": "combined_edge -0.015 (Rule B). Pin fair 50.2% at 44 (about 52.5% at 44.5); own 54.5%, within 6 points of Pin.",
+     "close": {
+      "point": 44.5,
+      "price": -116,
+      "pin_fair_prob": 0.4931,
+      "at": "2026-11-20T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0439
     }
    ],
    "why": "Own 54.5% vs 53.7% breakeven. Colts play a short-week road division game without both starting tackles (Raimann, Travis OUT; swing OT Heck questionable) with Jones at 5.6 YPA and a league-high 12 INT; Texans without DE Hunter, RB Marks, TE Jordan. Market already steamed 45.5 to 44.5; DK holds the half point over Pin 44. Thin Rule B lean.",
    "kill_switch": "Total 43.5 or lower, or worse than -120 at 44.5, before placing: skip and move $10 to Texans -12.5 (ticket becomes $15) if -12.5 at -112 or better, else Colts +12.5 at -110 or better. 44 at -110 or better is fine. Stroud inactive at 6:45 PM: keep the Under. If already placed, keep.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0
   },
   {
    "id": "w11-thu-2",
@@ -73,14 +83,24 @@
      "side": "Houston Texans",
      "point": -12.5,
      "price": -106,
-     "why": "combined_edge -0.016 (Rule B). Pin fair 47.8% at -13 (about 49.6% at -12.5); own 52.5%, within 6 points of Pin."
+     "why": "combined_edge -0.016 (Rule B). Pin fair 47.8% at -13 (about 49.6% at -12.5); own 52.5%, within 6 points of Pin.",
+     "close": {
+      "point": -12.5,
+      "price": -111,
+      "pin_fair_prob": 0.476,
+      "at": "2026-11-20T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0115,
+     "clv": 0.0115,
+     "pin_clv": -0.0386
     }
    ],
    "why": "Own 52.5% vs 51.5% breakeven. DK is a half point short of Pinnacle -13 after a market move from -10. Colts start backup tackles on both sides on a short week; 71% of tickets are on Colts +12.5 (CLEATZ, UNVERIFIED), so this fades the loudest side. Regressed for big favorites covering under 50% and a 3-6 Texans team. Not an SGP with the Under (no leg in two tickets). Profit Boost token here (longest qualifying single).",
    "kill_switch": "Before placing: -13 at -110 or better is fine; -13.5 or worse, or -12.5 worse than -115: skip and move $5 to the Under (ticket becomes $15). Stroud inactive: skip, move $5 to the Under. If already placed, keep.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0115
   }
  ],
  "watch": [
@@ -281,7 +301,7 @@
     "net": -32.53
    }
   ],
-  "clv_week": 0.0,
+  "clv_week": 0.0057,
   "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
@@ -289,5 +309,5 @@
   "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088.",
   "week10_note": "Week 10 final -32.53 (Thu +13.95, Sun -41.11, Mon -5.37). Monday: Chargers 23, Ravens 20 (43 points). Under 39.5 -112 LOST -10.00, Chargers +4.5 -108 WON +4.63. Week 10 4-6, CLV +0.0036."
  },
- "clv_updated_at": "2026-11-17T00:12Z"
+ "clv_updated_at": "2026-11-20T00:12Z"
 }
