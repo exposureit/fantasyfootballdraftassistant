@@ -1,561 +1,621 @@
 {
-  "week": 11,
-  "title": "Week 11 Sunday card",
-  "year": "2026",
-  "built_at": "2026-11-22T15:45Z",
-  "lines_verified_at": "2026-11-22T15:10:00Z",
-  "verification": "verified",
-  "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 15:10 UTC 2026-11-22, Pinnacle as reference, moves since Tuesday from moves.py. No Sunday side reaches Rule A (+0.015); every leg is a Rule B lean with own estimate stated. Injuries and context from search (UNVERIFIED). Inactives post 11:30 AM ET.",
-  "budget": {
-    "total": 100,
-    "thursday": 15,
-    "sunday": 70,
-    "monday": 15
-  },
-  "tickets": [
+ "week": 11,
+ "title": "Week 11 Sunday card",
+ "year": "2026",
+ "built_at": "2026-11-22T15:45Z",
+ "lines_verified_at": "2026-11-22T15:10:00Z",
+ "verification": "verified",
+ "verification_note": "Lines are DraftKings' exact numbers via The Odds API at 15:10 UTC 2026-11-22, Pinnacle as reference, moves since Tuesday from moves.py. No Sunday side reaches Rule A (+0.015); every leg is a Rule B lean with own estimate stated. Injuries and context from search (UNVERIFIED). Inactives post 11:30 AM ET.",
+ "budget": {
+  "total": 100,
+  "thursday": 15,
+  "sunday": 70,
+  "monday": 15
+ },
+ "tickets": [
+  {
+   "id": "w11-thu-1",
+   "type": "single",
+   "day": "thursday",
+   "name": "Under 44.5 -116",
+   "game": "Colts at Texans",
+   "kickoff": "Thu 11/19 08:15 PM",
+   "stake": 10,
+   "price": "-116",
+   "payout": 18.62,
+   "estimate": "54.5%",
+   "breakeven": "53.7%",
+   "placed": true,
+   "legs": [
     {
-      "id": "w11-thu-1",
-      "type": "single",
-      "day": "thursday",
-      "name": "Under 44.5 -116",
-      "game": "Colts at Texans",
-      "kickoff": "Thu 11/19 08:15 PM",
-      "stake": 10,
-      "price": "-116",
-      "payout": 18.62,
-      "estimate": "54.5%",
-      "breakeven": "53.7%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Under 44.5",
-          "pick": "Under 44.5",
-          "game": "Indianapolis Colts at Houston Texans",
-          "away": "Indianapolis Colts",
-          "home": "Houston Texans",
-          "commence_time": "2026-11-20T01:15:00Z",
-          "market": "totals",
-          "side": "Under",
-          "point": 44.5,
-          "price": -116,
-          "why": "combined_edge -0.015 (Rule B). Pin fair 50.2% at 44 (about 52.5% at 44.5); own 54.5%, within 6 points of Pin.",
-          "close": {
-            "point": 44.5,
-            "price": -116,
-            "pin_fair_prob": 0.4931,
-            "at": "2026-11-20T00:12Z"
-          },
-          "point_clv": 0.0,
-          "price_clv": 0.0,
-          "clv": 0.0,
-          "pin_clv": -0.0439
-        }
-      ],
-      "why": "Own 54.5% vs 53.7% breakeven. Colts play a short-week road division game without both starting tackles (Raimann, Travis OUT; swing OT Heck questionable) with Jones at 5.6 YPA and a league-high 12 INT; Texans without DE Hunter, RB Marks, TE Jordan. Market already steamed 45.5 to 44.5; DK holds the half point over Pin 44. Thin Rule B lean.",
-      "kill_switch": "Total 43.5 or lower, or worse than -120 at 44.5, before placing: skip and move $10 to Texans -12.5 (ticket becomes $15) if -12.5 at -112 or better, else Colts +12.5 at -110 or better. 44 at -110 or better is fine. Stroud inactive at 6:45 PM: keep the Under. If already placed, keep.",
-      "result": "win",
-      "net": 8.62,
-      "clv": 0.0
-    },
-    {
-      "id": "w11-thu-2",
-      "type": "single",
-      "day": "thursday",
-      "name": "Texans -12.5 -106",
-      "game": "Colts at Texans",
-      "kickoff": "Thu 11/19 08:15 PM",
-      "stake": 5,
-      "price": "-106",
-      "payout": 9.72,
-      "estimate": "52.5%",
-      "breakeven": "51.5%",
-      "placed": true,
-      "promo": "Profit Boost",
-      "legs": [
-        {
-          "label": "Texans -12.5",
-          "pick": "Texans -12.5",
-          "game": "Indianapolis Colts at Houston Texans",
-          "away": "Indianapolis Colts",
-          "home": "Houston Texans",
-          "commence_time": "2026-11-20T01:15:00Z",
-          "market": "spreads",
-          "side": "Houston Texans",
-          "point": -12.5,
-          "price": -106,
-          "why": "combined_edge -0.016 (Rule B). Pin fair 47.8% at -13 (about 49.6% at -12.5); own 52.5%, within 6 points of Pin.",
-          "close": {
-            "point": -12.5,
-            "price": -111,
-            "pin_fair_prob": 0.476,
-            "at": "2026-11-20T00:12Z"
-          },
-          "point_clv": 0.0,
-          "price_clv": 0.0115,
-          "clv": 0.0115,
-          "pin_clv": -0.0386
-        }
-      ],
-      "why": "Own 52.5% vs 51.5% breakeven. DK is a half point short of Pinnacle -13 after a market move from -10. Colts start backup tackles on both sides on a short week; 71% of tickets are on Colts +12.5 (CLEATZ, UNVERIFIED), so this fades the loudest side. Regressed for big favorites covering under 50% and a 3-6 Texans team. Not an SGP with the Under (no leg in two tickets). Profit Boost token here (longest qualifying single).",
-      "kill_switch": "Before placing: -13 at -110 or better is fine; -13.5 or worse, or -12.5 worse than -115: skip and move $5 to the Under (ticket becomes $15). Stroud inactive: skip, move $5 to the Under. If already placed, keep.",
-      "result": "win",
-      "net": 4.72,
-      "clv": 0.0115
-    },
-    {
-      "id": "w11-sun-1",
-      "type": "single",
-      "day": "sunday",
-      "name": "Vikings-49ers Under 46.5 -114",
-      "game": "Vikings at 49ers (Mexico City)",
-      "kickoff": "Sun 11/22 08:20 PM",
-      "stake": 20,
-      "price": "-114",
-      "payout": 37.54,
-      "estimate": "54.0%",
-      "breakeven": "53.3%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Under 46.5",
-          "pick": "Under 46.5",
-          "game": "Minnesota Vikings at San Francisco 49ers",
-          "away": "Minnesota Vikings",
-          "home": "San Francisco 49ers",
-          "commence_time": "2026-11-23T01:20:00Z",
-          "market": "totals",
-          "side": "Under",
-          "point": 46.5,
-          "price": -114,
-          "why": "combined_edge +0.010, best on the Sunday board (Rule B). Pin fair 48.3% at 45; DK gives 1.5 points over Pin. Own 54.0%."
-        }
-      ],
-      "why": "Own 54.0% vs 53.3% breakeven. Pinnacle moved 46 to 45 while DK moved 45.5 to 46.5, so DK hangs a point and a half above the sharp number. Neutral site, dry, two top-10 defenses, Vikings without WR Addison (search, UNVERIFIED). Place now: the half points are likely to disappear. 11:35 AM ET: +$5 from the Cardinals kill switch (Beck OUT), now $20 at 46.5 -114.",
-      "kill_switch": "Before placing: 46 at -115 or better is fine. 45.5 or lower, or 46.5 worse than -120: skip, move $10 to Saints +11.5 (becomes $20) and $5 to Cardinals +15.5 (becomes $20). If already placed, keep the full $15.",
-      "result": null,
-      "net": null,
-      "clv": null
-    },
-    {
-      "id": "w11-sun-2",
-      "type": "single",
-      "day": "sunday",
-      "name": "Cardinals +15.5 -110",
-      "game": "Cardinals at Chiefs",
-      "kickoff": "Sun 11/22 01:00 PM",
-      "stake": 0,
-      "price": "-110",
-      "payout": 0,
-      "estimate": "54.0%",
-      "breakeven": "52.4%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Cardinals +15.5",
-          "pick": "Cardinals +15.5",
-          "game": "Arizona Cardinals at Kansas City Chiefs",
-          "away": "Arizona Cardinals",
-          "home": "Kansas City Chiefs",
-          "commence_time": "2026-11-22T18:00:00Z",
-          "market": "spreads",
-          "side": "Arizona Cardinals",
-          "point": 15.5,
-          "price": -110,
-          "why": "combined_edge +0.005 (Rule B). Pin +14.5 fair 48.8%; DK gives a full point over Pin. Own 54.0%."
-        }
-      ],
-      "why": "Own 54.0% vs 52.4% breakeven. DK +15.5 is a full point above Pinnacle +14.5 after both books came down from 16.5. Chiefs without RB Kenneth Walker III (search, UNVERIFIED), total 40.5 caps the margin, and favorites of 14+ cover under 50% historically (regressed). 11:35 AM ET inactives check: Carson Beck OUT (back), Josh Johnson starts; kill switch tripped. CUT to $0; $10 moved to Saints +11.5 (now $20), $5 to SNF Under 46.5 (now $20). If already placed, keep the full $15 and do not add the $15 elsewhere.",
-      "kill_switch": "Before placing: +15 at -115 or better is fine. +14.5 or lower: skip. Carson Beck (back, questionable) inactive: skip. Either way move $10 to Saints +11.5 (becomes $20) and $5 to the SNF Under (becomes $20). If already placed, keep the full $15.",
-      "result": null,
-      "net": null,
-      "clv": null
-    },
-    {
-      "id": "w11-sun-3",
-      "type": "single",
-      "day": "sunday",
-      "name": "Saints +11.5 -107",
-      "game": "Saints at Bears",
-      "kickoff": "Sun 11/22 01:00 PM",
-      "stake": 20,
-      "price": "-107",
-      "payout": 38.69,
-      "estimate": "53.0%",
-      "breakeven": "51.7%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Saints +11.5",
-          "pick": "Saints +11.5",
-          "game": "New Orleans Saints at Chicago Bears",
-          "away": "New Orleans Saints",
-          "home": "Chicago Bears",
-          "commence_time": "2026-11-22T18:00:00Z",
-          "market": "spreads",
-          "side": "New Orleans Saints",
-          "point": 11.5,
-          "price": -107,
-          "why": "combined_edge 0.000 (Rule B). Pin +11.5 -113 fair 51.7%, Pin juice moved toward the Saints since Tuesday. Own 53.0%."
-        }
-      ],
-      "why": "Own 53.0% vs 51.7% breakeven. DK matches Pinnacle on the number but charges -107 where Pinnacle charges -113 on the Saints. Double-digit home favorite with the public on Chicago; total fell 48.5 to 47.5, which helps the dog. Profit Boost token here (longest-priced single). 11:35 AM ET: +$10 from the Cardinals kill switch (Beck OUT), now $20 at +11.5 -107; Shough starting.",
-      "kill_switch": "Before placing: +11 at -110 or better is fine; +10.5 or lower: skip. Tyler Shough inactive: skip. Either way move $5 to Cardinals +15.5 (becomes $20) and $5 to the SNF Under (becomes $20). If already placed, keep the full $10.",
-      "result": null,
-      "net": null,
-      "clv": null,
-      "promo": "Profit Boost"
-    },
-    {
-      "id": "w11-sun-p1",
-      "type": "parlay",
-      "day": "sunday",
-      "name": "Eagles +3.5 / Giants +6 (2-leg)",
-      "game": "Steelers at Eagles + Jaguars at Giants",
-      "kickoff": "Sun 1:00 PM + 4:25 PM",
-      "stake": 10,
-      "price": "+273",
-      "payout": 37.27,
-      "estimate": "28.1%",
-      "breakeven": "26.8%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Eagles +3.5",
-          "pick": "Eagles +3.5",
-          "game": "Pittsburgh Steelers at Philadelphia Eagles",
-          "away": "Pittsburgh Steelers",
-          "home": "Philadelphia Eagles",
-          "commence_time": "2026-11-22T18:00:00Z",
-          "market": "spreads",
-          "side": "Philadelphia Eagles",
-          "point": 3.5,
-          "price": -105,
-          "why": "combined_edge -0.005 (Rule B). Pin fair 50.7%, own 53.0%. A 37.5 total makes the hook over 3 worth more; Steelers are the public road favorite."
-        },
-        {
-          "label": "Giants +6",
-          "pick": "Giants +6",
-          "game": "Jacksonville Jaguars at New York Giants",
-          "away": "Jacksonville Jaguars",
-          "home": "New York Giants",
-          "commence_time": "2026-11-22T21:25:00Z",
-          "market": "spreads",
-          "side": "New York Giants",
-          "point": 6,
-          "price": -110,
-          "why": "combined_edge -0.006 (Rule B). Pin fair 51.7%, own 53.0%. Home dog, McCarthy starting (search), Jaguars public road favorite."
-        }
-      ],
-      "why": "Two home dogs that the market rates at coin flips, against road favorites the public backs. Standard cross-game Parlay.",
-      "kill_switch": "Eagles leg: +3 or worse, swap to Jets ML +145 or longer. Giants leg: +5.5 or worse, or McCarthy inactive, swap to Ravens ML +123 or longer. If already placed, keep.",
-      "result": null,
-      "net": null,
-      "clv": null
-    },
-    {
-      "id": "w11-sun-p2",
-      "type": "parlay",
-      "day": "sunday",
-      "name": "Buccaneers ML / Titans-Cowboys Under 54.5 (2-leg)",
-      "game": "Buccaneers at Lions + Titans at Cowboys",
-      "kickoff": "Sun 11/22 01:00 PM",
-      "stake": 10,
-      "price": "+460",
-      "payout": 56.05,
-      "estimate": "19.2%",
-      "breakeven": "17.8%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Buccaneers ML",
-          "pick": "Buccaneers ML",
-          "game": "Tampa Bay Buccaneers at Detroit Lions",
-          "away": "Tampa Bay Buccaneers",
-          "home": "Detroit Lions",
-          "commence_time": "2026-11-22T18:00:00Z",
-          "market": "h2h",
-          "side": "Tampa Bay Buccaneers",
-          "point": null,
-          "price": 183,
-          "why": "combined_edge -0.002 (Rule B). Pin fair 35.2%, own 37.0%. Market moved Lions -6.5 to -3.5 at both books; Mayfield questionable but trending to start (Bowles, Rapoport, search)."
-        },
-        {
-          "label": "Under 54.5",
-          "pick": "Under 54.5",
-          "game": "Tennessee Titans at Dallas Cowboys",
-          "away": "Tennessee Titans",
-          "home": "Dallas Cowboys",
-          "commence_time": "2026-11-22T18:00:00Z",
-          "market": "totals",
-          "side": "Under",
-          "point": 54.5,
-          "price": -102,
-          "why": "combined_edge -0.007 (Rule B). Pin fair 49.8% at 54.5, own 52.0%. Highest total on the board; Pin juice moved to the Under (-102 to -105)."
-        }
-      ],
-      "why": "Bucs ML is the cheapest way to ride the 3-point market move; the Under is the best-priced side of the highest total. Standard cross-game Parlay.",
-      "kill_switch": "Mayfield inactive at 11:30: swap Bucs ML for Ravens ML +123 or longer. Under: 55 or higher is fine, 53.5 or lower drop the leg. If already placed, keep.",
-      "result": null,
-      "net": null,
-      "clv": null
-    },
-    {
-      "id": "w11-sun-p3",
-      "type": "parlay",
-      "day": "sunday",
-      "name": "Titans +7.5 / Jags-Giants Under 45.5 / Jets-Chargers Over 42.5 (3-leg)",
-      "game": "Titans at Cowboys + Jaguars at Giants + Jets at Chargers",
-      "kickoff": "Sun 1:00 PM, 4:25 PM, 4:05 PM",
-      "stake": 10,
-      "price": "+612",
-      "payout": 71.16,
-      "estimate": "14.7%",
-      "breakeven": "14.1%",
-      "placed": true,
-      "legs": [
-        {
-          "label": "Titans +7.5",
-          "pick": "Titans +7.5",
-          "game": "Tennessee Titans at Dallas Cowboys",
-          "away": "Tennessee Titans",
-          "home": "Dallas Cowboys",
-          "commence_time": "2026-11-22T18:00:00Z",
-          "market": "spreads",
-          "side": "Tennessee Titans",
-          "point": 7.5,
-          "price": -106,
-          "why": "combined_edge -0.008 (Rule B). Pin +8 fair 52.6%, own 52.0% at +7.5 (above 51.5% breakeven). Hook over 7; pairs with the Under in P2 (one correlated pair in this game)."
-        },
-        {
-          "label": "Under 45.5",
-          "pick": "Under 45.5",
-          "game": "Jacksonville Jaguars at New York Giants",
-          "away": "Jacksonville Jaguars",
-          "home": "New York Giants",
-          "commence_time": "2026-11-22T21:25:00Z",
-          "market": "totals",
-          "side": "Under",
-          "point": 45.5,
-          "price": -112,
-          "why": "combined_edge -0.008 (Rule B). Pin fair 50.0% at 45, own 54.0% at 45.5. Pairs with Giants +6 in P1 (dog plus under, one pair in this game)."
-        },
-        {
-          "label": "Over 42.5",
-          "pick": "Over 42.5",
-          "game": "New York Jets at Los Angeles Chargers",
-          "away": "New York Jets",
-          "home": "Los Angeles Chargers",
-          "commence_time": "2026-11-22T21:05:00Z",
-          "market": "totals",
-          "side": "Over",
-          "point": 42.5,
-          "price": -107,
-          "why": "combined_edge -0.007 (Rule B). Pin 43 fair 49.0%, own 52.5%. Geno Smith cleared (search); Pin moved 41 to 43."
-        }
-      ],
-      "why": "Longest ticket, so the No Sweat token goes here. Three games, no leg shared with any other ticket. Standard cross-game Parlay.",
-      "kill_switch": "Titans leg: +7 or worse, swap to Ravens ML +123 if unused, else drop the leg. Under leg: 44.5 or lower, drop the leg. Over leg: 43.5 or higher, drop the leg. If already placed, keep.",
-      "result": null,
-      "net": null,
-      "clv": null,
-      "promo": "No Sweat"
+     "label": "Under 44.5",
+     "pick": "Under 44.5",
+     "game": "Indianapolis Colts at Houston Texans",
+     "away": "Indianapolis Colts",
+     "home": "Houston Texans",
+     "commence_time": "2026-11-20T01:15:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 44.5,
+     "price": -116,
+     "why": "combined_edge -0.015 (Rule B). Pin fair 50.2% at 44 (about 52.5% at 44.5); own 54.5%, within 6 points of Pin.",
+     "close": {
+      "point": 44.5,
+      "price": -116,
+      "pin_fair_prob": 0.4931,
+      "at": "2026-11-20T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0439
     }
-  ],
-  "watch": [
-    "11:30 AM ET inactives: Baker Mayfield (foot/thumb, questionable) for P2, Carson Beck (back, questionable) for the Cardinals single, Tyler Shough for the Saints single, J.J. McCarthy for P1.",
-    "SNF Under 46.5: place now. 46 at -115 or better fine; 45.5 or lower skip and split $10 Saints / $5 Cardinals.",
-    "Cardinals +15 or better at -115; Saints +11 or better at -110; Eagles +3.5 (not +3); Giants +6 (not +5.5); Titans +7.5 (not +7).",
-    "Parlays with 1:00 PM legs must be placed before 1:00 PM ET even though some legs are late games.",
-    "Lions -6.5 to -3.5 market move is unexplained in search: if a Lions QB/skill-player scratch posts at 11:30, the Bucs ML leg is still fine; if Mayfield sits, swap to Ravens ML.",
-    "Monday $15 reserved: Bengals at Commanders, its own update Monday 5 PM ET."
-  ],
-  "board": [
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "Arizona Cardinals at Kansas City Chiefs",
-      "spread": "Cardinals +15.5 (-110) / Chiefs -15.5 (-110)",
-      "total": "40.5 (O -107 / U -112)",
-      "ml": "Cardinals +850 / Chiefs -1440",
-      "pinnacle": "Chiefs -14.5 / 40.5, ML fair Cardinals 9.1%",
-      "my_number": "Chiefs -14 / 40.5",
-      "move_since_tue": "spread -16.5 to -15.5, total 41.5 to 40.5",
-      "read": "SINGLE Cardinals +15.5 $15. DK a full point over Pin; Walker out for KC."
-    },
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "Baltimore Ravens at Carolina Panthers",
-      "spread": "Ravens +3 (-120) / Panthers -3 (+100)",
-      "total": "44.5 (O -106 / U -113)",
-      "ml": "Ravens +123 / Panthers -145",
-      "pinnacle": "Panthers -2.5 / 44, ML fair Ravens 43.4%",
-      "my_number": "Panthers -2.5 / 44",
-      "move_since_tue": "spread -2.5 to -3, total 43.5 to 44.5",
-      "read": "Pass. Panthers -3 +100 looks like a good price but loses the push at 3 vs Pin -2.5. Ravens ML +123 is the backup swap leg."
-    },
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "Miami Dolphins at Buffalo Bills",
-      "spread": "Dolphins +16.5 (-114) / Bills -16.5 (-105)",
-      "total": "44.5 (O -114 / U -105)",
-      "ml": "Dolphins +890 / Bills -1560",
-      "pinnacle": "Bills -17 / 44.5, ML fair Dolphins 8.6%",
-      "my_number": "Bills -17 / 44.5",
-      "move_since_tue": "flat spread, total 45.5 to 44.5",
-      "read": "Pass. DK matches Pin; Kincaid doubtful, Benford out."
-    },
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "New Orleans Saints at Chicago Bears",
-      "spread": "Saints +11.5 (-107) / Bears -11.5 (-112)",
-      "total": "47.5 (O -113 / U -106)",
-      "ml": "Saints +478 / Bears -660",
-      "pinnacle": "Bears -11.5 / 47.5, ML fair Saints 16.2%",
-      "my_number": "Bears -11 / 47.5",
-      "move_since_tue": "flat spread, total 48.5 to 47.5",
-      "read": "SINGLE Saints +11.5 $10 (Profit Boost). DK cheaper juice than Pin on the dog."
-    },
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "Tennessee Titans at Dallas Cowboys",
-      "spread": "Titans +7.5 (-106) / Cowboys -7.5 (-113)",
-      "total": "54.5 (O -117 / U -102)",
-      "ml": "Titans +308 / Cowboys -389",
-      "pinnacle": "Cowboys -8 / 54.5, ML fair Titans 23.1%",
-      "my_number": "Cowboys -7.5 / 54",
-      "move_since_tue": "spread -8.5 to -7.5, total flat",
-      "read": "P2 Under 54.5, P3 Titans +7.5 (one dog plus under pair)."
-    },
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "Tampa Bay Buccaneers at Detroit Lions",
-      "spread": "Buccaneers +3.5 (-105) / Lions -3.5 (-114)",
-      "total": "48.5 (O -108 / U -111)",
-      "ml": "Buccaneers +183 / Lions -219",
-      "pinnacle": "Lions -3.5 / 48.5, ML fair Buccaneers 35.2%",
-      "my_number": "Lions -3 / 48.5",
-      "move_since_tue": "spread -6.5 to -3.5, total 45.5 to 48.5",
-      "read": "P2 Bucs ML. Biggest move of the week at both books; Mayfield trending to play."
-    },
-    {
-      "kickoff": "Sun 11/22 01:00 PM",
-      "game": "Pittsburgh Steelers at Philadelphia Eagles",
-      "spread": "Steelers -3.5 (-114) / Eagles +3.5 (-105)",
-      "total": "37.5 (O -107 / U -112)",
-      "ml": "Steelers -201 / Eagles +168",
-      "pinnacle": "Steelers -3.5 / 37.5, ML fair Steelers 64.8%",
-      "my_number": "Steelers -3 / 37.5",
-      "move_since_tue": "spread -4.5 to -3.5, total 38.5 to 37.5",
-      "read": "P1 Eagles +3.5. Low total, home dog, Baun out for PHI."
-    },
-    {
-      "kickoff": "Sun 11/22 04:05 PM",
-      "game": "New York Jets at Los Angeles Chargers",
-      "spread": "Jets +3 (-104) / Chargers -3 (-115)",
-      "total": "42.5 (O -107 / U -112)",
-      "ml": "Jets +145 / Chargers -173",
-      "pinnacle": "Chargers -3 / 43, ML fair Jets 39.5%",
-      "my_number": "Chargers -3 / 43.5",
-      "move_since_tue": "spread -3.5 to -3, total 41.5 to 42.5",
-      "read": "P3 Over 42.5. Geno cleared; Pin moved 41 to 43."
-    },
-    {
-      "kickoff": "Sun 11/22 04:25 PM",
-      "game": "Las Vegas Raiders at Denver Broncos",
-      "spread": "Raiders +10.5 (-108) / Broncos -10.5 (-111)",
-      "total": "40.5 (O -115 / U -104)",
-      "ml": "Raiders +471 / Broncos -640",
-      "pinnacle": "Broncos -10.5 / 41, ML fair Raiders 17.2%",
-      "my_number": "Broncos -10.5 / 41",
-      "move_since_tue": "spread -10 to -10.5, total flat",
-      "read": "Pass. Raiders ML -0.004 but a 17% shot; no room under the game cap."
-    },
-    {
-      "kickoff": "Sun 11/22 04:25 PM",
-      "game": "Jacksonville Jaguars at New York Giants",
-      "spread": "Jaguars -6 (-109) / Giants +6 (-110)",
-      "total": "45.5 (O -107 / U -112)",
-      "ml": "Jaguars -266 / Giants +219",
-      "pinnacle": "Giants +6 / 45, ML fair Jaguars 71.2%",
-      "my_number": "Jaguars -5.5 / 44.5",
-      "move_since_tue": "spread flat, total 46.5 to 45.5",
-      "read": "P1 Giants +6, P3 Under 45.5 (one dog plus under pair). McCarthy starts per Giants.com."
-    },
-    {
-      "kickoff": "Sun 11/22 08:20 PM",
-      "game": "Minnesota Vikings at San Francisco 49ers",
-      "spread": "Vikings +3.5 (-114) / 49ers -3.5 (-105)",
-      "total": "46.5 (O -105 / U -114)",
-      "ml": "Vikings +147 / 49ers -175",
-      "pinnacle": "49ers -3 / 45, ML fair Vikings 38.8%",
-      "my_number": "49ers -3 / 44.5",
-      "move_since_tue": "spread -3 to -3.5, total 45.5 to 46.5 (Pin 46 to 45)",
-      "read": "SINGLE Under 46.5 $15. DK and Pin moved opposite ways on the total."
-    },
-    {
-      "kickoff": "Mon 11/23 08:15 PM",
-      "game": "Cincinnati Bengals at Washington Commanders",
-      "spread": "Bengals -6 (-112) / Commanders +6 (-107)",
-      "total": "54.5 (O -116 / U -103)",
-      "ml": "Bengals -296 / Commanders +241",
-      "pinnacle": "Commanders +6.5 / 55, ML fair Bengals 71.6%",
-      "my_number": "Bengals -6.5 / 54.5",
-      "move_since_tue": "spread -6.5 to -6, total 52.5 to 54.5",
-      "read": "Monday: $15 reserved for its own update."
-    }
-  ],
-  "season": {
-    "record": "47-53-1",
-    "net": 213.89,
-    "weeks": [
-      {
-        "week": 1,
-        "net": -33.32
-      },
-      {
-        "week": 2,
-        "net": 6.22
-      },
-      {
-        "week": 3,
-        "net": 52.84
-      },
-      {
-        "week": 4,
-        "net": -5.41
-      },
-      {
-        "week": 5,
-        "net": 58.19
-      },
-      {
-        "week": 6,
-        "net": 70.4
-      },
-      {
-        "week": 7,
-        "net": 43.32
-      },
-      {
-        "week": 8,
-        "net": 76.7
-      },
-      {
-        "week": 9,
-        "net": -35.86
-      },
-      {
-        "week": 10,
-        "net": -32.53
-      }
-    ],
-    "clv_week": 0.0057,
-    "clv_season": 0.0057,
-    "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
-    "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
-    "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
-    "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088.",
-    "week10_note": "Week 10 final -32.53 (Thu +13.95, Sun -41.11, Mon -5.37). Monday: Chargers 23, Ravens 20 (43 points). Under 39.5 -112 LOST -10.00, Chargers +4.5 -108 WON +4.63. Week 10 4-6, CLV +0.0036.",
-    "week11_note": "Week 11 to date +13.34 (Thu: Texans 26, Colts 3. Under 44.5 WON +8.62, Texans -12.5 WON +4.72 unboosted). Sunday and Monday pending."
+   ],
+   "why": "Own 54.5% vs 53.7% breakeven. Colts play a short-week road division game without both starting tackles (Raimann, Travis OUT; swing OT Heck questionable) with Jones at 5.6 YPA and a league-high 12 INT; Texans without DE Hunter, RB Marks, TE Jordan. Market already steamed 45.5 to 44.5; DK holds the half point over Pin 44. Thin Rule B lean.",
+   "kill_switch": "Total 43.5 or lower, or worse than -120 at 44.5, before placing: skip and move $10 to Texans -12.5 (ticket becomes $15) if -12.5 at -112 or better, else Colts +12.5 at -110 or better. 44 at -110 or better is fine. Stroud inactive at 6:45 PM: keep the Under. If already placed, keep.",
+   "result": "win",
+   "net": 8.62,
+   "clv": 0.0
   },
-  "clv_updated_at": "2026-11-20T00:12Z"
+  {
+   "id": "w11-thu-2",
+   "type": "single",
+   "day": "thursday",
+   "name": "Texans -12.5 -106",
+   "game": "Colts at Texans",
+   "kickoff": "Thu 11/19 08:15 PM",
+   "stake": 5,
+   "price": "-106",
+   "payout": 9.72,
+   "estimate": "52.5%",
+   "breakeven": "51.5%",
+   "placed": true,
+   "promo": "Profit Boost",
+   "legs": [
+    {
+     "label": "Texans -12.5",
+     "pick": "Texans -12.5",
+     "game": "Indianapolis Colts at Houston Texans",
+     "away": "Indianapolis Colts",
+     "home": "Houston Texans",
+     "commence_time": "2026-11-20T01:15:00Z",
+     "market": "spreads",
+     "side": "Houston Texans",
+     "point": -12.5,
+     "price": -106,
+     "why": "combined_edge -0.016 (Rule B). Pin fair 47.8% at -13 (about 49.6% at -12.5); own 52.5%, within 6 points of Pin.",
+     "close": {
+      "point": -12.5,
+      "price": -111,
+      "pin_fair_prob": 0.476,
+      "at": "2026-11-20T00:12Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0115,
+     "clv": 0.0115,
+     "pin_clv": -0.0386
+    }
+   ],
+   "why": "Own 52.5% vs 51.5% breakeven. DK is a half point short of Pinnacle -13 after a market move from -10. Colts start backup tackles on both sides on a short week; 71% of tickets are on Colts +12.5 (CLEATZ, UNVERIFIED), so this fades the loudest side. Regressed for big favorites covering under 50% and a 3-6 Texans team. Not an SGP with the Under (no leg in two tickets). Profit Boost token here (longest qualifying single).",
+   "kill_switch": "Before placing: -13 at -110 or better is fine; -13.5 or worse, or -12.5 worse than -115: skip and move $5 to the Under (ticket becomes $15). Stroud inactive: skip, move $5 to the Under. If already placed, keep.",
+   "result": "win",
+   "net": 4.72,
+   "clv": 0.0115
+  },
+  {
+   "id": "w11-sun-1",
+   "type": "single",
+   "day": "sunday",
+   "name": "Vikings-49ers Under 46.5 -114",
+   "game": "Vikings at 49ers (Mexico City)",
+   "kickoff": "Sun 11/22 08:20 PM",
+   "stake": 20,
+   "price": "-114",
+   "payout": 37.54,
+   "estimate": "54.0%",
+   "breakeven": "53.3%",
+   "placed": true,
+   "legs": [
+    {
+     "label": "Under 46.5",
+     "pick": "Under 46.5",
+     "game": "Minnesota Vikings at San Francisco 49ers",
+     "away": "Minnesota Vikings",
+     "home": "San Francisco 49ers",
+     "commence_time": "2026-11-23T01:20:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 46.5,
+     "price": -114,
+     "why": "combined_edge +0.010, best on the Sunday board (Rule B). Pin fair 48.3% at 45; DK gives 1.5 points over Pin. Own 54.0%."
+    }
+   ],
+   "why": "Own 54.0% vs 53.3% breakeven. Pinnacle moved 46 to 45 while DK moved 45.5 to 46.5, so DK hangs a point and a half above the sharp number. Neutral site, dry, two top-10 defenses, Vikings without WR Addison (search, UNVERIFIED). Place now: the half points are likely to disappear. 11:35 AM ET: +$5 from the Cardinals kill switch (Beck OUT), now $20 at 46.5 -114.",
+   "kill_switch": "Before placing: 46 at -115 or better is fine. 45.5 or lower, or 46.5 worse than -120: skip, move $10 to Saints +11.5 (becomes $20) and $5 to Cardinals +15.5 (becomes $20). If already placed, keep the full $15.",
+   "result": null,
+   "net": null,
+   "clv": null
+  },
+  {
+   "id": "w11-sun-2",
+   "type": "single",
+   "day": "sunday",
+   "name": "Cardinals +15.5 -110",
+   "game": "Cardinals at Chiefs",
+   "kickoff": "Sun 11/22 01:00 PM",
+   "stake": 0,
+   "price": "-110",
+   "payout": 0,
+   "estimate": "54.0%",
+   "breakeven": "52.4%",
+   "placed": true,
+   "legs": [
+    {
+     "label": "Cardinals +15.5",
+     "pick": "Cardinals +15.5",
+     "game": "Arizona Cardinals at Kansas City Chiefs",
+     "away": "Arizona Cardinals",
+     "home": "Kansas City Chiefs",
+     "commence_time": "2026-11-22T18:00:00Z",
+     "market": "spreads",
+     "side": "Arizona Cardinals",
+     "point": 15.5,
+     "price": -110,
+     "why": "combined_edge +0.005 (Rule B). Pin +14.5 fair 48.8%; DK gives a full point over Pin. Own 54.0%.",
+     "close": {
+      "point": 15.5,
+      "price": -110,
+      "pin_fair_prob": 0.4977,
+      "at": "2026-11-22T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0261
+    }
+   ],
+   "why": "Own 54.0% vs 52.4% breakeven. DK +15.5 is a full point above Pinnacle +14.5 after both books came down from 16.5. Chiefs without RB Kenneth Walker III (search, UNVERIFIED), total 40.5 caps the margin, and favorites of 14+ cover under 50% historically (regressed). 11:35 AM ET inactives check: Carson Beck OUT (back), Josh Johnson starts; kill switch tripped. CUT to $0; $10 moved to Saints +11.5 (now $20), $5 to SNF Under 46.5 (now $20). If already placed, keep the full $15 and do not add the $15 elsewhere.",
+   "kill_switch": "Before placing: +15 at -115 or better is fine. +14.5 or lower: skip. Carson Beck (back, questionable) inactive: skip. Either way move $10 to Saints +11.5 (becomes $20) and $5 to the SNF Under (becomes $20). If already placed, keep the full $15.",
+   "result": null,
+   "net": null,
+   "clv": 0.0
+  },
+  {
+   "id": "w11-sun-3",
+   "type": "single",
+   "day": "sunday",
+   "name": "Saints +11.5 -107",
+   "game": "Saints at Bears",
+   "kickoff": "Sun 11/22 01:00 PM",
+   "stake": 20,
+   "price": "-107",
+   "payout": 38.69,
+   "estimate": "53.0%",
+   "breakeven": "51.7%",
+   "placed": true,
+   "legs": [
+    {
+     "label": "Saints +11.5",
+     "pick": "Saints +11.5",
+     "game": "New Orleans Saints at Chicago Bears",
+     "away": "New Orleans Saints",
+     "home": "Chicago Bears",
+     "commence_time": "2026-11-22T18:00:00Z",
+     "market": "spreads",
+     "side": "New Orleans Saints",
+     "point": 11.5,
+     "price": -107,
+     "why": "combined_edge 0.000 (Rule B). Pin +11.5 -113 fair 51.7%, Pin juice moved toward the Saints since Tuesday. Own 53.0%.",
+     "close": {
+      "point": 11.5,
+      "price": -107,
+      "pin_fair_prob": 0.5116,
+      "at": "2026-11-22T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0053
+    }
+   ],
+   "why": "Own 53.0% vs 51.7% breakeven. DK matches Pinnacle on the number but charges -107 where Pinnacle charges -113 on the Saints. Double-digit home favorite with the public on Chicago; total fell 48.5 to 47.5, which helps the dog. Profit Boost token here (longest-priced single). 11:35 AM ET: +$10 from the Cardinals kill switch (Beck OUT), now $20 at +11.5 -107; Shough starting.",
+   "kill_switch": "Before placing: +11 at -110 or better is fine; +10.5 or lower: skip. Tyler Shough inactive: skip. Either way move $5 to Cardinals +15.5 (becomes $20) and $5 to the SNF Under (becomes $20). If already placed, keep the full $10.",
+   "result": null,
+   "net": null,
+   "clv": 0.0,
+   "promo": "Profit Boost"
+  },
+  {
+   "id": "w11-sun-p1",
+   "type": "parlay",
+   "day": "sunday",
+   "name": "Eagles +3.5 / Giants +6 (2-leg)",
+   "game": "Steelers at Eagles + Jaguars at Giants",
+   "kickoff": "Sun 1:00 PM + 4:25 PM",
+   "stake": 10,
+   "price": "+273",
+   "payout": 37.27,
+   "estimate": "28.1%",
+   "breakeven": "26.8%",
+   "placed": true,
+   "legs": [
+    {
+     "label": "Eagles +3.5",
+     "pick": "Eagles +3.5",
+     "game": "Pittsburgh Steelers at Philadelphia Eagles",
+     "away": "Pittsburgh Steelers",
+     "home": "Philadelphia Eagles",
+     "commence_time": "2026-11-22T18:00:00Z",
+     "market": "spreads",
+     "side": "Philadelphia Eagles",
+     "point": 3.5,
+     "price": -105,
+     "why": "combined_edge -0.005 (Rule B). Pin fair 50.7%, own 53.0%. A 37.5 total makes the hook over 3 worth more; Steelers are the public road favorite.",
+     "close": {
+      "point": 3.5,
+      "price": -105,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-11-22T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0076
+    },
+    {
+     "label": "Giants +6",
+     "pick": "Giants +6",
+     "game": "Jacksonville Jaguars at New York Giants",
+     "away": "Jacksonville Jaguars",
+     "home": "New York Giants",
+     "commence_time": "2026-11-22T21:25:00Z",
+     "market": "spreads",
+     "side": "New York Giants",
+     "point": 6,
+     "price": -110,
+     "why": "combined_edge -0.006 (Rule B). Pin fair 51.7%, own 53.0%. Home dog, McCarthy starting (search), Jaguars public road favorite."
+    }
+   ],
+   "why": "Two home dogs that the market rates at coin flips, against road favorites the public backs. Standard cross-game Parlay.",
+   "kill_switch": "Eagles leg: +3 or worse, swap to Jets ML +145 or longer. Giants leg: +5.5 or worse, or McCarthy inactive, swap to Ravens ML +123 or longer. If already placed, keep.",
+   "result": null,
+   "net": null,
+   "clv": null
+  },
+  {
+   "id": "w11-sun-p2",
+   "type": "parlay",
+   "day": "sunday",
+   "name": "Buccaneers ML / Titans-Cowboys Under 54.5 (2-leg)",
+   "game": "Buccaneers at Lions + Titans at Cowboys",
+   "kickoff": "Sun 11/22 01:00 PM",
+   "stake": 10,
+   "price": "+460",
+   "payout": 56.05,
+   "estimate": "19.2%",
+   "breakeven": "17.8%",
+   "placed": true,
+   "legs": [
+    {
+     "label": "Buccaneers ML",
+     "pick": "Buccaneers ML",
+     "game": "Tampa Bay Buccaneers at Detroit Lions",
+     "away": "Tampa Bay Buccaneers",
+     "home": "Detroit Lions",
+     "commence_time": "2026-11-22T18:00:00Z",
+     "market": "h2h",
+     "side": "Tampa Bay Buccaneers",
+     "point": null,
+     "price": 183,
+     "why": "combined_edge -0.002 (Rule B). Pin fair 35.2%, own 37.0%. Market moved Lions -6.5 to -3.5 at both books; Mayfield questionable but trending to start (Bowles, Rapoport, search).",
+     "close": {
+      "point": null,
+      "price": 182,
+      "pin_fair_prob": 0.3517,
+      "at": "2026-11-22T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0013,
+     "clv": 0.0013,
+     "pin_clv": -0.0017
+    },
+    {
+     "label": "Under 54.5",
+     "pick": "Under 54.5",
+     "game": "Tennessee Titans at Dallas Cowboys",
+     "away": "Tennessee Titans",
+     "home": "Dallas Cowboys",
+     "commence_time": "2026-11-22T18:00:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 54.5,
+     "price": -102,
+     "why": "combined_edge -0.007 (Rule B). Pin fair 49.8% at 54.5, own 52.0%. Highest total on the board; Pin juice moved to the Under (-102 to -105).",
+     "close": {
+      "point": 54.5,
+      "price": -102,
+      "pin_fair_prob": 0.5,
+      "at": "2026-11-22T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.005
+    }
+   ],
+   "why": "Bucs ML is the cheapest way to ride the 3-point market move; the Under is the best-priced side of the highest total. Standard cross-game Parlay.",
+   "kill_switch": "Mayfield inactive at 11:30: swap Bucs ML for Ravens ML +123 or longer. Under: 55 or higher is fine, 53.5 or lower drop the leg. If already placed, keep.",
+   "result": null,
+   "net": null,
+   "clv": 0.0006
+  },
+  {
+   "id": "w11-sun-p3",
+   "type": "parlay",
+   "day": "sunday",
+   "name": "Titans +7.5 / Jags-Giants Under 45.5 / Jets-Chargers Over 42.5 (3-leg)",
+   "game": "Titans at Cowboys + Jaguars at Giants + Jets at Chargers",
+   "kickoff": "Sun 1:00 PM, 4:25 PM, 4:05 PM",
+   "stake": 10,
+   "price": "+612",
+   "payout": 71.16,
+   "estimate": "14.7%",
+   "breakeven": "14.1%",
+   "placed": true,
+   "legs": [
+    {
+     "label": "Titans +7.5",
+     "pick": "Titans +7.5",
+     "game": "Tennessee Titans at Dallas Cowboys",
+     "away": "Tennessee Titans",
+     "home": "Dallas Cowboys",
+     "commence_time": "2026-11-22T18:00:00Z",
+     "market": "spreads",
+     "side": "Tennessee Titans",
+     "point": 7.5,
+     "price": -106,
+     "why": "combined_edge -0.008 (Rule B). Pin +8 fair 52.6%, own 52.0% at +7.5 (above 51.5% breakeven). Hook over 7; pairs with the Under in P2 (one correlated pair in this game).",
+     "close": {
+      "point": 7.5,
+      "price": -115,
+      "pin_fair_prob": 0.5262,
+      "at": "2026-11-22T16:55Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0203,
+     "clv": 0.0203,
+     "pin_clv": 0.0116
+    },
+    {
+     "label": "Under 45.5",
+     "pick": "Under 45.5",
+     "game": "Jacksonville Jaguars at New York Giants",
+     "away": "Jacksonville Jaguars",
+     "home": "New York Giants",
+     "commence_time": "2026-11-22T21:25:00Z",
+     "market": "totals",
+     "side": "Under",
+     "point": 45.5,
+     "price": -112,
+     "why": "combined_edge -0.008 (Rule B). Pin fair 50.0% at 45, own 54.0% at 45.5. Pairs with Giants +6 in P1 (dog plus under, one pair in this game)."
+    },
+    {
+     "label": "Over 42.5",
+     "pick": "Over 42.5",
+     "game": "New York Jets at Los Angeles Chargers",
+     "away": "New York Jets",
+     "home": "Los Angeles Chargers",
+     "commence_time": "2026-11-22T21:05:00Z",
+     "market": "totals",
+     "side": "Over",
+     "point": 42.5,
+     "price": -107,
+     "why": "combined_edge -0.007 (Rule B). Pin 43 fair 49.0%, own 52.5%. Geno Smith cleared (search); Pin moved 41 to 43."
+    }
+   ],
+   "why": "Longest ticket, so the No Sweat token goes here. Three games, no leg shared with any other ticket. Standard cross-game Parlay.",
+   "kill_switch": "Titans leg: +7 or worse, swap to Ravens ML +123 if unused, else drop the leg. Under leg: 44.5 or lower, drop the leg. Over leg: 43.5 or higher, drop the leg. If already placed, keep.",
+   "result": null,
+   "net": null,
+   "clv": null,
+   "promo": "No Sweat"
+  }
+ ],
+ "watch": [
+  "11:30 AM ET inactives: Baker Mayfield (foot/thumb, questionable) for P2, Carson Beck (back, questionable) for the Cardinals single, Tyler Shough for the Saints single, J.J. McCarthy for P1.",
+  "SNF Under 46.5: place now. 46 at -115 or better fine; 45.5 or lower skip and split $10 Saints / $5 Cardinals.",
+  "Cardinals +15 or better at -115; Saints +11 or better at -110; Eagles +3.5 (not +3); Giants +6 (not +5.5); Titans +7.5 (not +7).",
+  "Parlays with 1:00 PM legs must be placed before 1:00 PM ET even though some legs are late games.",
+  "Lions -6.5 to -3.5 market move is unexplained in search: if a Lions QB/skill-player scratch posts at 11:30, the Bucs ML leg is still fine; if Mayfield sits, swap to Ravens ML.",
+  "Monday $15 reserved: Bengals at Commanders, its own update Monday 5 PM ET."
+ ],
+ "board": [
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "Arizona Cardinals at Kansas City Chiefs",
+   "spread": "Cardinals +15.5 (-110) / Chiefs -15.5 (-110)",
+   "total": "40.5 (O -107 / U -112)",
+   "ml": "Cardinals +850 / Chiefs -1440",
+   "pinnacle": "Chiefs -14.5 / 40.5, ML fair Cardinals 9.1%",
+   "my_number": "Chiefs -14 / 40.5",
+   "move_since_tue": "spread -16.5 to -15.5, total 41.5 to 40.5",
+   "read": "SINGLE Cardinals +15.5 $15. DK a full point over Pin; Walker out for KC."
+  },
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "Baltimore Ravens at Carolina Panthers",
+   "spread": "Ravens +3 (-120) / Panthers -3 (+100)",
+   "total": "44.5 (O -106 / U -113)",
+   "ml": "Ravens +123 / Panthers -145",
+   "pinnacle": "Panthers -2.5 / 44, ML fair Ravens 43.4%",
+   "my_number": "Panthers -2.5 / 44",
+   "move_since_tue": "spread -2.5 to -3, total 43.5 to 44.5",
+   "read": "Pass. Panthers -3 +100 looks like a good price but loses the push at 3 vs Pin -2.5. Ravens ML +123 is the backup swap leg."
+  },
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "Miami Dolphins at Buffalo Bills",
+   "spread": "Dolphins +16.5 (-114) / Bills -16.5 (-105)",
+   "total": "44.5 (O -114 / U -105)",
+   "ml": "Dolphins +890 / Bills -1560",
+   "pinnacle": "Bills -17 / 44.5, ML fair Dolphins 8.6%",
+   "my_number": "Bills -17 / 44.5",
+   "move_since_tue": "flat spread, total 45.5 to 44.5",
+   "read": "Pass. DK matches Pin; Kincaid doubtful, Benford out."
+  },
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "New Orleans Saints at Chicago Bears",
+   "spread": "Saints +11.5 (-107) / Bears -11.5 (-112)",
+   "total": "47.5 (O -113 / U -106)",
+   "ml": "Saints +478 / Bears -660",
+   "pinnacle": "Bears -11.5 / 47.5, ML fair Saints 16.2%",
+   "my_number": "Bears -11 / 47.5",
+   "move_since_tue": "flat spread, total 48.5 to 47.5",
+   "read": "SINGLE Saints +11.5 $10 (Profit Boost). DK cheaper juice than Pin on the dog."
+  },
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "Tennessee Titans at Dallas Cowboys",
+   "spread": "Titans +7.5 (-106) / Cowboys -7.5 (-113)",
+   "total": "54.5 (O -117 / U -102)",
+   "ml": "Titans +308 / Cowboys -389",
+   "pinnacle": "Cowboys -8 / 54.5, ML fair Titans 23.1%",
+   "my_number": "Cowboys -7.5 / 54",
+   "move_since_tue": "spread -8.5 to -7.5, total flat",
+   "read": "P2 Under 54.5, P3 Titans +7.5 (one dog plus under pair)."
+  },
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "Tampa Bay Buccaneers at Detroit Lions",
+   "spread": "Buccaneers +3.5 (-105) / Lions -3.5 (-114)",
+   "total": "48.5 (O -108 / U -111)",
+   "ml": "Buccaneers +183 / Lions -219",
+   "pinnacle": "Lions -3.5 / 48.5, ML fair Buccaneers 35.2%",
+   "my_number": "Lions -3 / 48.5",
+   "move_since_tue": "spread -6.5 to -3.5, total 45.5 to 48.5",
+   "read": "P2 Bucs ML. Biggest move of the week at both books; Mayfield trending to play."
+  },
+  {
+   "kickoff": "Sun 11/22 01:00 PM",
+   "game": "Pittsburgh Steelers at Philadelphia Eagles",
+   "spread": "Steelers -3.5 (-114) / Eagles +3.5 (-105)",
+   "total": "37.5 (O -107 / U -112)",
+   "ml": "Steelers -201 / Eagles +168",
+   "pinnacle": "Steelers -3.5 / 37.5, ML fair Steelers 64.8%",
+   "my_number": "Steelers -3 / 37.5",
+   "move_since_tue": "spread -4.5 to -3.5, total 38.5 to 37.5",
+   "read": "P1 Eagles +3.5. Low total, home dog, Baun out for PHI."
+  },
+  {
+   "kickoff": "Sun 11/22 04:05 PM",
+   "game": "New York Jets at Los Angeles Chargers",
+   "spread": "Jets +3 (-104) / Chargers -3 (-115)",
+   "total": "42.5 (O -107 / U -112)",
+   "ml": "Jets +145 / Chargers -173",
+   "pinnacle": "Chargers -3 / 43, ML fair Jets 39.5%",
+   "my_number": "Chargers -3 / 43.5",
+   "move_since_tue": "spread -3.5 to -3, total 41.5 to 42.5",
+   "read": "P3 Over 42.5. Geno cleared; Pin moved 41 to 43."
+  },
+  {
+   "kickoff": "Sun 11/22 04:25 PM",
+   "game": "Las Vegas Raiders at Denver Broncos",
+   "spread": "Raiders +10.5 (-108) / Broncos -10.5 (-111)",
+   "total": "40.5 (O -115 / U -104)",
+   "ml": "Raiders +471 / Broncos -640",
+   "pinnacle": "Broncos -10.5 / 41, ML fair Raiders 17.2%",
+   "my_number": "Broncos -10.5 / 41",
+   "move_since_tue": "spread -10 to -10.5, total flat",
+   "read": "Pass. Raiders ML -0.004 but a 17% shot; no room under the game cap."
+  },
+  {
+   "kickoff": "Sun 11/22 04:25 PM",
+   "game": "Jacksonville Jaguars at New York Giants",
+   "spread": "Jaguars -6 (-109) / Giants +6 (-110)",
+   "total": "45.5 (O -107 / U -112)",
+   "ml": "Jaguars -266 / Giants +219",
+   "pinnacle": "Giants +6 / 45, ML fair Jaguars 71.2%",
+   "my_number": "Jaguars -5.5 / 44.5",
+   "move_since_tue": "spread flat, total 46.5 to 45.5",
+   "read": "P1 Giants +6, P3 Under 45.5 (one dog plus under pair). McCarthy starts per Giants.com."
+  },
+  {
+   "kickoff": "Sun 11/22 08:20 PM",
+   "game": "Minnesota Vikings at San Francisco 49ers",
+   "spread": "Vikings +3.5 (-114) / 49ers -3.5 (-105)",
+   "total": "46.5 (O -105 / U -114)",
+   "ml": "Vikings +147 / 49ers -175",
+   "pinnacle": "49ers -3 / 45, ML fair Vikings 38.8%",
+   "my_number": "49ers -3 / 44.5",
+   "move_since_tue": "spread -3 to -3.5, total 45.5 to 46.5 (Pin 46 to 45)",
+   "read": "SINGLE Under 46.5 $15. DK and Pin moved opposite ways on the total."
+  },
+  {
+   "kickoff": "Mon 11/23 08:15 PM",
+   "game": "Cincinnati Bengals at Washington Commanders",
+   "spread": "Bengals -6 (-112) / Commanders +6 (-107)",
+   "total": "54.5 (O -116 / U -103)",
+   "ml": "Bengals -296 / Commanders +241",
+   "pinnacle": "Commanders +6.5 / 55, ML fair Bengals 71.6%",
+   "my_number": "Bengals -6.5 / 54.5",
+   "move_since_tue": "spread -6.5 to -6, total 52.5 to 54.5",
+   "read": "Monday: $15 reserved for its own update."
+  }
+ ],
+ "season": {
+  "record": "47-53-1",
+  "net": 213.89,
+  "weeks": [
+   {
+    "week": 1,
+    "net": -33.32
+   },
+   {
+    "week": 2,
+    "net": 6.22
+   },
+   {
+    "week": 3,
+    "net": 52.84
+   },
+   {
+    "week": 4,
+    "net": -5.41
+   },
+   {
+    "week": 5,
+    "net": 58.19
+   },
+   {
+    "week": 6,
+    "net": 70.4
+   },
+   {
+    "week": 7,
+    "net": 43.32
+   },
+   {
+    "week": 8,
+    "net": 76.7
+   },
+   {
+    "week": 9,
+    "net": -35.86
+   },
+   {
+    "week": 10,
+    "net": -32.53
+   }
+  ],
+  "clv_week": 0.0024,
+  "clv_season": 0.0056,
+  "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
+  "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
+  "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
+  "week9_note": "Week 9 final -35.86 (Thu -15.00, Sun -32.91, Mon +12.05). Monday: Bills 23, Vikings 6. Bills -3.5 -105 WON +9.52, Bills ML -198 WON +2.53. Bears 27, Bucs 24 confirmed (51 points), Overs parlay won. Week 9 CLV +0.0088.",
+  "week10_note": "Week 10 final -32.53 (Thu +13.95, Sun -41.11, Mon -5.37). Monday: Chargers 23, Ravens 20 (43 points). Under 39.5 -112 LOST -10.00, Chargers +4.5 -108 WON +4.63. Week 10 4-6, CLV +0.0036.",
+  "week11_note": "Week 11 to date +13.34 (Thu: Texans 26, Colts 3. Under 44.5 WON +8.62, Texans -12.5 WON +4.72 unboosted). Sunday and Monday pending."
+ },
+ "clv_updated_at": "2026-11-22T16:55Z"
 }
