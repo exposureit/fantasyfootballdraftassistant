@@ -2430,5 +2430,53 @@
   "clv": 0.0203,
   "pin_clv": 0.0116,
   "at": "2026-11-22T16:55Z"
+ },
+ {
+  "week": 11,
+  "ticket": "w11-sun-p1",
+  "label": "Giants +6",
+  "market": "spreads",
+  "side": "New York Giants",
+  "bet_point": 6,
+  "bet_price": -110,
+  "close_point": 6.0,
+  "close_price": -110,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0331,
+  "at": "2026-11-22T20:21Z"
+ },
+ {
+  "week": 11,
+  "ticket": "w11-sun-p3",
+  "label": "Under 45.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 45.5,
+  "bet_price": -112,
+  "close_point": 45.5,
+  "close_price": -112,
+  "point_clv": 0.0,
+  "price_clv": 0.0,
+  "clv": 0.0,
+  "pin_clv": -0.0283,
+  "at": "2026-11-22T20:21Z"
+ },
+ {
+  "week": 11,
+  "ticket": "w11-sun-p3",
+  "label": "Over 42.5",
+  "market": "totals",
+  "side": "Over",
+  "bet_point": 42.5,
+  "bet_price": -107,
+  "close_point": 43.5,
+  "close_price": -103,
+  "point_clv": 1.0,
+  "price_clv": -0.0095,
+  "clv": 0.0305,
+  "pin_clv": -0.0089,
+  "at": "2026-11-22T20:21Z"
  }
 ]

@@ -273,14 +273,24 @@
      "side": "New York Giants",
      "point": 6,
      "price": -110,
-     "why": "combined_edge -0.006 (Rule B). Pin fair 51.7%, own 53.0%. Home dog, McCarthy starting (search), Jaguars public road favorite."
+     "why": "combined_edge -0.006 (Rule B). Pin fair 51.7%, own 53.0%. Home dog, McCarthy starting (search), Jaguars public road favorite.",
+     "close": {
+      "point": 6.0,
+      "price": -110,
+      "pin_fair_prob": 0.4907,
+      "at": "2026-11-22T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0331
     }
    ],
    "why": "Two home dogs that the market rates at coin flips, against road favorites the public backs. Standard cross-game Parlay.",
    "kill_switch": "Eagles leg: +3 or worse, swap to Jets ML +145 or longer. Giants leg: +5.5 or worse, or McCarthy inactive, swap to Ravens ML +123 or longer. If already placed, keep.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0
   },
   {
    "id": "w11-sun-p2",
@@ -397,7 +407,17 @@
      "side": "Under",
      "point": 45.5,
      "price": -112,
-     "why": "combined_edge -0.008 (Rule B). Pin fair 50.0% at 45, own 54.0% at 45.5. Pairs with Giants +6 in P1 (dog plus under, one pair in this game)."
+     "why": "combined_edge -0.008 (Rule B). Pin fair 50.0% at 45, own 54.0% at 45.5. Pairs with Giants +6 in P1 (dog plus under, one pair in this game).",
+     "close": {
+      "point": 45.5,
+      "price": -112,
+      "pin_fair_prob": 0.5,
+      "at": "2026-11-22T20:21Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0283
     },
     {
      "label": "Over 42.5",
@@ -410,14 +430,24 @@
      "side": "Over",
      "point": 42.5,
      "price": -107,
-     "why": "combined_edge -0.007 (Rule B). Pin 43 fair 49.0%, own 52.5%. Geno Smith cleared (search); Pin moved 41 to 43."
+     "why": "combined_edge -0.007 (Rule B). Pin 43 fair 49.0%, own 52.5%. Geno Smith cleared (search); Pin moved 41 to 43.",
+     "close": {
+      "point": 43.5,
+      "price": -103,
+      "pin_fair_prob": 0.508,
+      "at": "2026-11-22T20:21Z"
+     },
+     "point_clv": 1.0,
+     "price_clv": -0.0095,
+     "clv": 0.0305,
+     "pin_clv": -0.0089
     }
    ],
    "why": "Longest ticket, so the No Sweat token goes here. Three games, no leg shared with any other ticket. Standard cross-game Parlay.",
    "kill_switch": "Titans leg: +7 or worse, swap to Ravens ML +123 if unused, else drop the leg. Under leg: 44.5 or lower, drop the leg. Over leg: 43.5 or higher, drop the leg. If already placed, keep.",
    "result": null,
    "net": null,
-   "clv": null,
+   "clv": 0.0169,
    "promo": "No Sweat"
   }
  ],
@@ -608,8 +638,8 @@
     "net": -32.53
    }
   ],
-  "clv_week": 0.0024,
-  "clv_season": 0.0056,
+  "clv_week": 0.0041,
+  "clv_season": 0.0057,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
@@ -617,5 +647,5 @@
   "week10_note": "Week 10 final -32.53 (Thu +13.95, Sun -41.11, Mon -5.37). Monday: Chargers 23, Ravens 20 (43 points). Under 39.5 -112 LOST -10.00, Chargers +4.5 -108 WON +4.63. Week 10 4-6, CLV +0.0036.",
   "week11_note": "Week 11 to date +13.34 (Thu: Texans 26, Colts 3. Under 44.5 WON +8.62, Texans -12.5 WON +4.72 unboosted). Sunday and Monday pending."
  },
- "clv_updated_at": "2026-11-22T16:55Z"
+ "clv_updated_at": "2026-11-22T20:21Z"
 }
