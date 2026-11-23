@@ -127,14 +127,24 @@
      "side": "Under",
      "point": 46.5,
      "price": -114,
-     "why": "combined_edge +0.010, best on the Sunday board (Rule B). Pin fair 48.3% at 45; DK gives 1.5 points over Pin. Own 54.0%."
+     "why": "combined_edge +0.010, best on the Sunday board (Rule B). Pin fair 48.3% at 45; DK gives 1.5 points over Pin. Own 54.0%.",
+     "close": {
+      "point": 44.5,
+      "price": -104,
+      "pin_fair_prob": 0.5046,
+      "at": "2026-11-23T00:13Z"
+     },
+     "point_clv": 2.0,
+     "price_clv": -0.0229,
+     "clv": 0.0571,
+     "pin_clv": -0.0281
     }
    ],
    "why": "Own 54.0% vs 53.3% breakeven. Pinnacle moved 46 to 45 while DK moved 45.5 to 46.5, so DK hangs a point and a half above the sharp number. Neutral site, dry, two top-10 defenses, Vikings without WR Addison (search, UNVERIFIED). Place now: the half points are likely to disappear. 11:35 AM ET: +$5 from the Cardinals kill switch (Beck OUT), now $20 at 46.5 -114.",
    "kill_switch": "Before placing: 46 at -115 or better is fine. 45.5 or lower, or 46.5 worse than -120: skip, move $10 to Saints +11.5 (becomes $20) and $5 to Cardinals +15.5 (becomes $20). If already placed, keep the full $15.",
    "result": null,
    "net": null,
-   "clv": null
+   "clv": 0.0571
   },
   {
    "id": "w11-sun-2",
@@ -638,8 +648,8 @@
     "net": -32.53
    }
   ],
-  "clv_week": 0.0041,
-  "clv_season": 0.0057,
+  "clv_week": 0.0108,
+  "clv_season": 0.006,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
@@ -647,5 +657,5 @@
   "week10_note": "Week 10 final -32.53 (Thu +13.95, Sun -41.11, Mon -5.37). Monday: Chargers 23, Ravens 20 (43 points). Under 39.5 -112 LOST -10.00, Chargers +4.5 -108 WON +4.63. Week 10 4-6, CLV +0.0036.",
   "week11_note": "Week 11 to date +13.34 (Thu: Texans 26, Colts 3. Under 44.5 WON +8.62, Texans -12.5 WON +4.72 unboosted). Sunday and Monday pending."
  },
- "clv_updated_at": "2026-11-22T20:21Z"
+ "clv_updated_at": "2026-11-23T00:13Z"
 }

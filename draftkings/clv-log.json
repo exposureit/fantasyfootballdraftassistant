@@ -2478,5 +2478,21 @@
   "clv": 0.0305,
   "pin_clv": -0.0089,
   "at": "2026-11-22T20:21Z"
+ },
+ {
+  "week": 11,
+  "ticket": "w11-sun-1",
+  "label": "Under 46.5",
+  "market": "totals",
+  "side": "Under",
+  "bet_point": 46.5,
+  "bet_price": -114,
+  "close_point": 44.5,
+  "close_price": -104,
+  "point_clv": 2.0,
+  "price_clv": -0.0229,
+  "clv": 0.0571,
+  "pin_clv": -0.0281,
+  "at": "2026-11-23T00:13Z"
  }
 ]
