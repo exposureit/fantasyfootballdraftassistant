@@ -485,13 +485,24 @@
      "side": "Under",
      "point": 54.5,
      "price": -106,
-     "why": "combined_edge +0.003 (Rule B). Pin fair 49.8% at 54 (about 51.8% at 54.5); own 53.5%, within 6 points of Pin."
+     "why": "combined_edge +0.003 (Rule B). Pin fair 49.8% at 54 (about 51.8% at 54.5); own 53.5%, within 6 points of Pin.",
+     "close": {
+      "point": 54.5,
+      "price": -106,
+      "pin_fair_prob": 0.5034,
+      "at": "2026-11-24T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": -0.0112
     }
    ],
    "why": "Own 53.5% vs 51.5% breakeven. DK hangs the half point over Pinnacle 54 after the total climbed 52.5 to 54.5 at DK (Pin 53 to 54): prime-time Over money, regressed. Bengals lose RG Risner (OUT) with G Fairchild questionable and WR Iosivas doubtful; Washington's backfield is banged up (White, Croskey-Merritt questionable). Search-sourced injuries, UNVERIFIED. Dog plus under pair with ticket 2, built as straights so DK cannot reprice.",
    "kill_switch": "Before placing: 54.5 at -115 or better, or 54 at -110 or better, is fine. 53.5 or lower: skip and move $10 to Commanders +6 (ticket 2 becomes $15). Daniels or Burrow inactive at 6:45 PM: keep (a backup QB helps the Under). If already placed, keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0
   },
   {
    "id": "w11-mon-2",
@@ -519,13 +530,24 @@
      "side": "Washington Commanders",
      "point": 6.0,
      "price": 100,
-     "why": "combined_edge +0.001 (Rule B). Pin fair 52.1% at +6.5 (about 50.1% at +6); own 52.0%, within 6 points of Pin."
+     "why": "combined_edge +0.001 (Rule B). Pin fair 52.1% at +6.5 (about 50.1% at +6); own 52.0%, within 6 points of Pin.",
+     "close": {
+      "point": 6.0,
+      "price": 100,
+      "pin_fair_prob": 0.507,
+      "at": "2026-11-24T00:13Z"
+     },
+     "point_clv": 0.0,
+     "price_clv": 0.0,
+     "clv": 0.0,
+     "pin_clv": 0.007
     }
    ],
    "why": "Own 52.0% vs 50.0% breakeven. Home prime-time dog against a 7-2 road favorite the market pushed from about 3.5 to 6.5 after Cincinnati's blowout; DK pays even money at +6 where Pinnacle charges -114 at +6.5. Daniels full practice all week, no designation (search, UNVERIFIED). Bengals secondary thin (Hill, Dugger questionable, Davis doubtful) but their OL is too. Profit Boost token here (longest-priced single).",
    "kill_switch": "Before placing: +6 at -115 or better, or +6.5 at any price to -120, is fine. +5.5 or worse: skip and move $5 to the Under (ticket 1 becomes $15). Daniels inactive: skip, move $5 to the Under. Burrow inactive: line will collapse toward pick'em; skip, move $5 to the Under. If already placed, keep.",
    "result": null,
-   "net": null
+   "net": null,
+   "clv": 0.0
   }
  ],
  "watch": [
@@ -593,8 +615,8 @@
     "net": -32.53
    }
   ],
-  "clv_week": 0.0108,
-  "clv_season": 0.006,
+  "clv_week": 0.0086,
+  "clv_season": 0.0059,
   "week6_note": "Week 6 final +70.40 (Thu +22.89, Sun +32.95, Mon +14.56). Commanders +7 and Under 51.5 both won (49ers 23, Commanders 17).",
   "week7_note": "Week 7 final +43.32 (Thu +4.80, Sun +38.64, Mon -0.12). Monday: Cowboys 38, Eagles 21. Cowboys ML -205 WON +4.88, Eagles +4.5/Under 43.5 SGP LOST -5.00 (Eagles lost by 17). Lions -3 pushed (20-17).",
   "week8_note": "Week 8 final +76.70 (Thu +12.78, Sun +60.45, Mon +3.47). Monday: Bears 34, Seahawks 17. Bears +3.5 -118 WON +8.47. SGP Bears ML + Under 46.5 LOST -5.00 (51 points, over). Season 38-39-1.",
@@ -602,5 +624,5 @@
   "week10_note": "Week 10 final -32.53 (Thu +13.95, Sun -41.11, Mon -5.37). Monday: Chargers 23, Ravens 20 (43 points). Under 39.5 -112 LOST -10.00, Chargers +4.5 -108 WON +4.63. Week 10 4-6, CLV +0.0036.",
   "week11_note": "Week 11 to date +56.84 (Thu +13.34; Sun 3-2 +43.50: Under 46.5 WON +17.54, Saints +11.5 WON +18.69, Eagles/Giants parlay WON +27.27, Bucs/Under parlay LOST -10, Titans 3-leg LOST -10 with No Sweat bonus bet back; Cardinals killed at $0). Monday pending."
  },
- "clv_updated_at": "2026-11-23T00:13Z"
+ "clv_updated_at": "2026-11-24T00:13Z"
 }
