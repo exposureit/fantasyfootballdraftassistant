@@ -2526,5 +2526,21 @@
   "clv": 0.0,
   "pin_clv": 0.007,
   "at": "2026-11-24T00:13Z"
+ },
+ {
+  "week": 12,
+  "ticket": "w12-thu-1",
+  "label": "Bills ML",
+  "market": "h2h",
+  "side": "Buffalo Bills",
+  "bet_point": null,
+  "bet_price": -154,
+  "close_point": null,
+  "close_price": -157,
+  "point_clv": 0.0,
+  "price_clv": 0.0046,
+  "clv": 0.0046,
+  "pin_clv": -0.003,
+  "at": "2026-11-27T00:13Z"
  }
 ]
